@@ -5,7 +5,7 @@
 
             <div class="modal-header border-bottom px-4 pt-4 pb-3">
                 <div>
-                    <span class="small font-weight-bold text-primary text-uppercase letter-spacing-1 d-block mb-1">
+                    <span class="small font-weight-bold text-custom text-uppercase letter-spacing-1 d-block mb-1">
                         <i class="fas fa-filter me-1"></i> Filter by Letter Type
                     </span>
                     <h5 class="modal-title font-weight-bold text-dark mb-0" id="modalAdminChooseLetterLabel">
@@ -42,7 +42,7 @@
                     <div class="col-md-6 col-12 mb-2 adm-modal-item" data-cat="all" data-name="all letter types">
                         <a href="{{ route('admin.persuratan.index', request()->except('jenis', 'page')) }}"
                            class="adm-letter-filter-item {{ !request('jenis') ? 'active' : '' }}">
-                            <div class="rounded-circle p-2 d-flex align-items-center justify-content-center" style="width:36px;height:36px; min-width:36px; background-color:#e0f2fe; color:#0284c7;">
+                            <div class="rounded-circle p-2 d-flex align-items-center justify-content-center" style="width:36px;height:36px; min-width:36px; background-color:#e0f7f5; color:#00a79d;">
                                 <i class="fas fa-layer-group"></i>
                             </div>
                             <div class="flex-grow-1 min-width-0">
@@ -50,7 +50,7 @@
                                 <div class="text-muted small" style="font-size:0.72rem;">Show all requests from every template</div>
                             </div>
                             @if (!request('jenis'))
-                                <i class="fas fa-check text-primary"></i>
+                                <i class="fas fa-check text-custom"></i>
                             @endif
                         </a>
                     </div>
@@ -61,7 +61,7 @@
                              data-name="{{ strtolower($surat['label']) }} {{ strtolower($surat['badge'] ?? '') }}">
                             <a href="{{ route('admin.persuratan.index', array_merge(request()->except('page'), ['jenis' => $key])) }}"
                                class="adm-letter-filter-item {{ request('jenis') === $key ? 'active' : '' }}">
-                                <div class="rounded-circle p-2 d-flex align-items-center justify-content-center" style="width:36px;height:36px; min-width:36px; background-color:#e0f2fe; color:#0284c7;">
+                                <div class="rounded-circle p-2 d-flex align-items-center justify-content-center" style="width:36px;height:36px; min-width:36px; background-color:#e0f7f5; color:#00a79d;">
                                     <i class="fas {{ $surat['icon'] ?? 'fa-file-alt' }}"></i>
                                 </div>
                                 <div class="flex-grow-1 min-width-0">
@@ -72,7 +72,7 @@
                                     <div class="text-muted small text-truncate" style="font-size:0.72rem;">{{ $surat['description'] ?? 'Surat resmi' }}</div>
                                 </div>
                                 @if (request('jenis') === $key)
-                                    <i class="fas fa-check text-primary ms-1"></i>
+                                    <i class="fas fa-check text-custom ms-1"></i>
                                 @endif
                             </a>
                         </div>

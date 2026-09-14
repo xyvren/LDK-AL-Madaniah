@@ -214,14 +214,28 @@
             // 1. DEPARTMENT / FACULTY PICKER (MODERN CHOOSE MODAL)
             if (f.type === 'dept-picker') {
                 var selectedDept = deptRegistry[val] || null;
-                var labelHtml = '<label class="prs-form-label"><i class="fas fa-sitemap"></i> ' + f.label + '</label>';
+                var groupLabel = selectedDept ? (selectedDept.group === 'pusat' ? 'Pengurus Pusat' : 'LDKS Fakultas') : '';
+
+                var labelHtml = '<div class="d-flex align-items-center justify-content-between mb-1.5">' +
+                    '<label class="prs-form-label mb-0"><i class="fas fa-sitemap"></i> ' + f.label + ' <span class="text-danger">*</span></label>' +
+                    '<button type="button" class="prs-label-action-btn" data-bs-toggle="modal" data-bs-target="#modalChooseDepartment">' +
+                        '<i class="fas fa-edit me-1"></i>' +
+                        '<span id="prsDeptBtnText">' + (selectedDept ? 'Ubah Bidang' : 'Pilih Bidang') + '</span>' +
+                    '</button>' +
+                '</div>';
+
+                var tagsHtml = '<div class="d-flex align-items-center gap-1 mb-1" id="prsDeptTagsWrap"' + (selectedDept ? '' : ' style="display:none;"') + '>' +
+                    '<span class="prs-dept-code-tag" id="prsDeptPickerCode">' + (selectedDept ? escapeAttr(selectedDept.code || val) : '') + '</span>' +
+                    '<span class="prs-dept-group-tag" id="prsDeptPickerGroup">' + escapeAttr(groupLabel) + '</span>' +
+                '</div>';
 
                 var pickerHtml = '<input type="hidden" name="kode_bidang" id="field_kode_bidang" value="' + escapeAttr(val) + '" required>' +
-                    '<div class="prs-picker-card ' + (selectedDept ? 'has-value' : '') + '" id="prsDeptPickerTrigger" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#modalChooseDepartment">' +
+                    '<div class="prs-picker-card ' + (selectedDept ? 'has-value' : '') + '" id="prsDeptPickerTrigger" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#modalChooseDepartment" title="Klik untuk memilih bidang / fakultas">' +
                         '<div class="prs-picker-icon-wrap" id="prsDeptPickerIcon">' +
                             '<i class="fas ' + (selectedDept ? selectedDept.icon : 'fa-sitemap') + '"></i>' +
                         '</div>' +
                         '<div class="prs-picker-content">' +
+                            tagsHtml +
                             '<div class="prs-picker-title" id="prsDeptPickerTitle">' +
                                 (selectedDept ? escapeAttr(selectedDept.name) : 'Pilih Bidang / LDKSF Pengaju...') +
                             '</div>' +
@@ -229,11 +243,8 @@
                                 (selectedDept ? escapeAttr(selectedDept.desc) : 'Klik untuk memilih dari 13 Bidang Pusat atau 10 LDKS Fakultas') +
                             '</div>' +
                         '</div>' +
-                        '<div class="prs-picker-action">' +
-                            '<span class="prs-picker-btn">' +
-                                '<span>' + (selectedDept ? 'Ganti' : 'Pilih Bidang') + '</span>' +
-                                '<i class="fas fa-th-large ms-1"></i>' +
-                            '</span>' +
+                        '<div class="prs-picker-arrow">' +
+                            '<i class="fas fa-chevron-right"></i>' +
                         '</div>' +
                     '</div>';
 
@@ -540,6 +551,11 @@
             triggerDesc.textContent = desc;
         }
 
+        var pickerBtnText = document.getElementById('prsPickerBtnText');
+        if (pickerBtnText) {
+            pickerBtnText.textContent = 'Ganti Surat';
+        }
+
         letterCards.forEach(function (c) {
             if (c.getAttribute('data-key') === key) {
                 c.classList.add('selected');
@@ -650,19 +666,24 @@
     var activeDeptCat    = 'all';
 
     function initDepartmentPicker() {
-        var hiddenDeptInput = document.getElementById('field_kode_bidang');
-        var triggerDeptCard = document.getElementById('prsDeptPickerTrigger');
-        var triggerDeptIcon = document.getElementById('prsDeptPickerIcon');
-        var triggerDeptTitle = document.getElementById('prsDeptPickerTitle');
-        var triggerDeptDesc = document.getElementById('prsDeptPickerDesc');
+        var hiddenDeptInput    = document.getElementById('field_kode_bidang');
+        var triggerDeptCard    = document.getElementById('prsDeptPickerTrigger');
+        var triggerDeptIcon    = document.getElementById('prsDeptPickerIcon');
+        var triggerDeptTitle   = document.getElementById('prsDeptPickerTitle');
+        var triggerDeptDesc    = document.getElementById('prsDeptPickerDesc');
+        var triggerDeptBtnText = document.getElementById('prsDeptBtnText');
+        var triggerDeptTags    = document.getElementById('prsDeptTagsWrap');
+        var triggerDeptCode    = document.getElementById('prsDeptPickerCode');
+        var triggerDeptGroup   = document.getElementById('prsDeptPickerGroup');
 
         deptCards.forEach(function (card) {
             // Unbind previous to avoid duplicate listeners
             card.onclick = function () {
-                var code = this.getAttribute('data-code');
-                var name = this.getAttribute('data-name');
-                var icon = this.getAttribute('data-icon');
-                var desc = this.getAttribute('data-desc');
+                var code  = this.getAttribute('data-code');
+                var name  = this.getAttribute('data-name');
+                var icon  = this.getAttribute('data-icon');
+                var desc  = this.getAttribute('data-desc');
+                var group = this.getAttribute('data-group');
 
                 if (hiddenDeptInput) {
                     hiddenDeptInput.value = code;
@@ -680,6 +701,18 @@
                 }
                 if (triggerDeptDesc && desc) {
                     triggerDeptDesc.textContent = desc;
+                }
+                if (triggerDeptBtnText) {
+                    triggerDeptBtnText.textContent = 'Ubah Bidang';
+                }
+                if (triggerDeptTags) {
+                    triggerDeptTags.style.display = 'flex';
+                }
+                if (triggerDeptCode && code) {
+                    triggerDeptCode.textContent = code;
+                }
+                if (triggerDeptGroup && group) {
+                    triggerDeptGroup.textContent = group;
                 }
 
                 // Highlight active in modal

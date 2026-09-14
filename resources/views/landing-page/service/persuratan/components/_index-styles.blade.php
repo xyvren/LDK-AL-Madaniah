@@ -654,6 +654,41 @@ body.dark-mode .prs-alert-danger {
 }
 
 /* ── 6. Letter & Dept Picker Cards (Trigger) ───────────────── */
+.prs-label-action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 50rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--prs-primary) !important;
+    background: transparent;
+    border: 1.5px solid var(--prs-primary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none !important;
+    line-height: 1.4;
+}
+.prs-label-action-btn:hover {
+    background: var(--prs-primary);
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 167, 157, 0.3);
+    transform: translateY(-1px);
+}
+[data-theme="dark"] .prs-label-action-btn,
+html.dark-mode .prs-label-action-btn,
+body.dark-mode .prs-label-action-btn {
+    color: #2dd4bf !important;
+    border-color: #00a79d;
+}
+[data-theme="dark"] .prs-label-action-btn:hover,
+html.dark-mode .prs-label-action-btn:hover,
+body.dark-mode .prs-label-action-btn:hover {
+    background: #00a79d;
+    color: #ffffff !important;
+}
+
 .prs-picker-card {
     display: flex;
     align-items: center;
@@ -665,6 +700,7 @@ body.dark-mode .prs-alert-danger {
     cursor: pointer;
     transition: all 0.25s cubic-bezier(.4,0,.2,1);
     position: relative;
+    overflow: hidden;
 }
 
 .prs-picker-card:hover,
@@ -672,7 +708,7 @@ body.dark-mode .prs-alert-danger {
     border-color: var(--prs-primary);
     background: var(--prs-primary-light);
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(14, 165, 233, 0.15);
+    box-shadow: 0 8px 24px rgba(0, 167, 157, 0.15);
     outline: none;
 }
 
@@ -680,7 +716,7 @@ body.dark-mode .prs-alert-danger {
     border-style: solid;
     border-color: var(--prs-primary);
     background: var(--prs-card-bg);
-    box-shadow: 0 4px 16px rgba(14, 165, 233, 0.08);
+    box-shadow: 0 4px 16px rgba(0, 167, 157, 0.08);
 }
 
 [data-theme="dark"] .prs-picker-card,
@@ -694,7 +730,7 @@ body.dark-mode .prs-picker-card {
 html.dark-mode .prs-picker-card:hover,
 body.dark-mode .prs-picker-card:hover {
     background: #252b3b;
-    border-color: #38bdf8;
+    border-color: #00a79d;
     box-shadow: 0 8px 24px rgba(0,0,0,0.3);
 }
 
@@ -702,7 +738,7 @@ body.dark-mode .prs-picker-card:hover {
 html.dark-mode .prs-picker-card.has-value,
 body.dark-mode .prs-picker-card.has-value {
     background: #1e2535;
-    border-color: rgba(14, 165, 233, 0.5);
+    border-color: rgba(0, 167, 157, 0.5);
 }
 
 .prs-picker-icon-wrap {
@@ -723,14 +759,78 @@ body.dark-mode .prs-picker-card.has-value {
 .prs-picker-card.has-value .prs-picker-icon-wrap {
     background: linear-gradient(135deg, var(--prs-primary) 0%, var(--prs-primary-deep) 100%);
     color: #ffffff;
-    box-shadow: 0 4px 14px rgba(14, 165, 233, 0.3);
+    box-shadow: 0 4px 14px rgba(0, 167, 157, 0.3);
 }
 
 [data-theme="dark"] .prs-picker-icon-wrap,
 html.dark-mode .prs-picker-icon-wrap,
 body.dark-mode .prs-picker-icon-wrap {
-    background: rgba(14, 165, 233, 0.2);
-    color: #38bdf8;
+    background: rgba(0, 167, 157, 0.2);
+    color: #2dd4bf;
+}
+
+.prs-picker-arrow {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border-radius: 50%;
+    background-color: var(--prs-gray-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--prs-gray);
+    font-size: 0.8rem;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+    margin-left: auto;
+}
+.prs-picker-card:hover .prs-picker-arrow {
+    background-color: var(--prs-primary);
+    color: #ffffff;
+    transform: translateX(3px);
+}
+[data-theme="dark"] .prs-picker-arrow,
+html.dark-mode .prs-picker-arrow,
+body.dark-mode .prs-picker-arrow {
+    background-color: #252b3b;
+    color: #94a3b8;
+}
+[data-theme="dark"] .prs-picker-card:hover .prs-picker-arrow,
+html.dark-mode .prs-picker-card:hover .prs-picker-arrow,
+body.dark-mode .prs-picker-card:hover .prs-picker-arrow {
+    background-color: #00a79d;
+    color: #ffffff;
+}
+
+.prs-dept-code-tag {
+    display: inline-block;
+    padding: 0.15rem 0.45rem;
+    background-color: var(--prs-primary-light);
+    color: var(--prs-primary-dark);
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 167, 157, 0.25);
+    line-height: 1.2;
+}
+[data-theme="dark"] .prs-dept-code-tag,
+html.dark-mode .prs-dept-code-tag,
+body.dark-mode .prs-dept-code-tag {
+    background-color: rgba(0, 167, 157, 0.2);
+    color: #2dd4bf;
+    border-color: rgba(0, 167, 157, 0.4);
+}
+
+.prs-dept-group-tag {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--prs-gray);
+}
+[data-theme="dark"] .prs-dept-group-tag,
+html.dark-mode .prs-dept-group-tag,
+body.dark-mode .prs-dept-group-tag {
+    color: #94a3b8;
 }
 
 .prs-picker-content {
@@ -1663,18 +1763,18 @@ body.dark-mode .flatpickr-day.endRange,
 [data-theme="dark"] .flatpickr-day.selected,
 [data-theme="dark"] .flatpickr-day.startRange,
 [data-theme="dark"] .flatpickr-day.endRange {
-    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%) !important;
-    border-color: #0ea5e9 !important;
+    background: linear-gradient(135deg, #00a79d 0%, #008b84 100%) !important;
+    border-color: #00a79d !important;
     color: #ffffff !important;
-    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.4) !important;
+    box-shadow: 0 4px 12px rgba(0, 167, 157, 0.4) !important;
 }
 
 html.dark-mode .flatpickr-day.inRange,
 body.dark-mode .flatpickr-day.inRange,
 [data-theme="dark"] .flatpickr-day.inRange {
-    background: rgba(14, 165, 233, 0.2) !important;
+    background: rgba(0, 167, 157, 0.2) !important;
     border-color: transparent !important;
-    color: #38bdf8 !important;
+    color: #2dd4bf !important;
 }
 
 html.dark-mode .flatpickr-time,
@@ -1689,6 +1789,28 @@ body.dark-mode .flatpickr-time input,
 [data-theme="dark"] .flatpickr-time input {
     color: #f1f5f9 !important;
     background: transparent !important;
+}
+
+/* ── Soft Badges ─────────────────────────────────────────── */
+.bg-soft-primary {
+    background-color: #e0f7f5 !important;
+    color: #008b84 !important;
+}
+.bg-soft-teal {
+    background-color: #e0e7ff !important;
+    color: #4338ca !important;
+}
+[data-theme="dark"] .bg-soft-primary,
+html.dark-mode .bg-soft-primary,
+body.dark-mode .bg-soft-primary {
+    background-color: rgba(0, 167, 157, 0.25) !important;
+    color: #2dd4bf !important;
+}
+[data-theme="dark"] .bg-soft-teal,
+html.dark-mode .bg-soft-teal,
+body.dark-mode .bg-soft-teal {
+    background-color: rgba(99, 102, 241, 0.25) !important;
+    color: #a5b4fc !important;
 }
 
 @keyframes prsFadeUp {

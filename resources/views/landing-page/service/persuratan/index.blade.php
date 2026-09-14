@@ -229,11 +229,17 @@
                             <input type="hidden" name="jenis_surat" id="jenis_surat" value="{{ $selectedKey }}" required>
 
                             <div class="prs-form-group">
-                                <label class="prs-form-label">
-                                    <i class="fas fa-folder-open"></i> Jenis Surat yang Dibutuhkan
-                                </label>
+                                <div class="d-flex align-items-center justify-content-between mb-1.5">
+                                    <label class="prs-form-label mb-0">
+                                        <i class="fas fa-folder-open"></i> Jenis Surat yang Dibutuhkan <span class="text-danger">*</span>
+                                    </label>
+                                    <button type="button" class="prs-label-action-btn" data-bs-toggle="modal" data-bs-target="#modalChooseLetter">
+                                        <i class="fas fa-th-large me-1"></i>
+                                        <span id="prsPickerBtnText">{{ $selectedSurat ? 'Ganti Surat' : 'Pilih Surat' }}</span>
+                                    </button>
+                                </div>
 
-                                <div class="prs-picker-card {{ $selectedSurat ? 'has-value' : '' }}" id="prsPickerTrigger" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#modalChooseLetter">
+                                <div class="prs-picker-card {{ $selectedSurat ? 'has-value' : '' }}" id="prsPickerTrigger" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#modalChooseLetter" title="Klik untuk memilih template surat">
                                     <div class="prs-picker-icon-wrap" id="prsPickerIcon">
                                         <i class="fas {{ $selectedSurat['icon'] ?? 'fa-file-alt' }}"></i>
                                     </div>
@@ -245,11 +251,8 @@
                                             {{ $selectedSurat['description'] ?? 'Klik di sini untuk membuka katalog 18 jenis surat resmi LDK Syahid' }}
                                         </div>
                                     </div>
-                                    <div class="prs-picker-action">
-                                        <span class="prs-picker-btn">
-                                            <span>{{ $selectedSurat ? 'Ganti Surat' : 'Pilih Surat' }}</span>
-                                            <i class="fas fa-th-large ms-1"></i>
-                                        </span>
+                                    <div class="prs-picker-arrow">
+                                        <i class="fas fa-chevron-right"></i>
                                     </div>
                                 </div>
                             </div>

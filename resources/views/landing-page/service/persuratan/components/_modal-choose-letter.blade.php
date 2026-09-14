@@ -1,13 +1,23 @@
 {{-- Path: resources/views/landing-page/service/persuratan/components/_modal-choose-letter.blade.php --}}
 <div class="modal fade prs-modal" id="modalChooseLetter" tabindex="-1" aria-labelledby="modalChooseLetterLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-        <div class="modal-content prs-modal-content">
+        <div class="modal-content prs-modal-content rounded-4 border-0 shadow overflow-hidden">
+
+            {{-- Top Teal Gradient Accent Line --}}
+            <div style="height: 4px; background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);"></div>
 
             {{-- Modal Header --}}
-            <div class="modal-header prs-modal-header">
-                <div>
-                    <span class="prs-modal-eyebrow"><i class="fas fa-file-signature me-1"></i> Layanan Mandiri</span>
-                    <h5 class="modal-title prs-modal-title" id="modalChooseLetterLabel">Pilih Jenis Surat Resmi</h5>
+            <div class="modal-header prs-modal-header border-bottom">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="prs-picker-icon-wrap" style="width: 42px; height: 42px; min-width: 42px; border-radius: 12px; font-size: 1.15rem; background: var(--prs-primary-light); color: var(--prs-primary);">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <div>
+                        <span class="prs-modal-eyebrow d-block mb-1" style="font-size: 0.72rem; font-weight: 700; color: #00a79d; text-transform: uppercase; letter-spacing: 0.05em;">
+                            <i class="fas fa-file-signature me-1"></i> Layanan Mandiri
+                        </span>
+                        <h5 class="modal-title prs-modal-title mb-0" id="modalChooseLetterLabel">Pilih Jenis Surat Resmi</h5>
+                    </div>
                 </div>
                 <button type="button" class="btn-close prs-modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
