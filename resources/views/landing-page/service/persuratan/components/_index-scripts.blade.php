@@ -216,13 +216,7 @@
                 var selectedDept = deptRegistry[val] || null;
                 var groupLabel = selectedDept ? (selectedDept.group === 'pusat' ? 'Pengurus Pusat' : 'LDKS Fakultas') : '';
 
-                var labelHtml = '<div class="d-flex align-items-center justify-content-between mb-1.5">' +
-                    '<label class="prs-form-label mb-0"><i class="fas fa-sitemap"></i> ' + f.label + ' <span class="text-danger">*</span></label>' +
-                    '<button type="button" class="prs-label-action-btn" data-bs-toggle="modal" data-bs-target="#modalChooseDepartment">' +
-                        '<i class="fas fa-edit me-1"></i>' +
-                        '<span id="prsDeptBtnText">' + (selectedDept ? 'Ubah Bidang' : 'Pilih Bidang') + '</span>' +
-                    '</button>' +
-                '</div>';
+                var labelHtml = '<label class="prs-form-label mb-2"><i class="fas fa-sitemap"></i> ' + f.label + ' <span class="text-danger">*</span></label>';
 
                 var tagsHtml = '<div class="d-flex align-items-center gap-1 mb-1" id="prsDeptTagsWrap"' + (selectedDept ? '' : ' style="display:none;"') + '>' +
                     '<span class="prs-dept-code-tag" id="prsDeptPickerCode">' + (selectedDept ? escapeAttr(selectedDept.code || val) : '') + '</span>' +
@@ -243,8 +237,11 @@
                                 (selectedDept ? escapeAttr(selectedDept.desc) : 'Klik untuk memilih dari 13 Bidang Pusat atau 10 LDKS Fakultas') +
                             '</div>' +
                         '</div>' +
-                        '<div class="prs-picker-arrow">' +
-                            '<i class="fas fa-chevron-right"></i>' +
+                        '<div class="prs-picker-action">' +
+                            '<span class="prs-picker-btn" id="prsDeptPickerBtn">' +
+                                '<span id="prsDeptBtnText">' + (selectedDept ? 'Ubah Bidang' : 'Pilih Bidang') + '</span>' +
+                                '<i class="fas fa-edit ms-1"></i>' +
+                            '</span>' +
                         '</div>' +
                     '</div>';
 

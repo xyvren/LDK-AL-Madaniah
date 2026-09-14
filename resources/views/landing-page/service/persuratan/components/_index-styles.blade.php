@@ -834,8 +834,9 @@ body.dark-mode .prs-dept-group-tag {
 }
 
 .prs-picker-content {
-    flex-grow: 1;
+    flex: 1 1 0%;
     min-width: 0;
+    overflow: hidden;
 }
 
 .prs-picker-title {
@@ -843,6 +844,9 @@ body.dark-mode .prs-dept-group-tag {
     font-weight: 800;
     color: var(--prs-heading);
     line-height: 1.35;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .prs-picker-desc {
@@ -862,22 +866,41 @@ body.dark-mode .prs-picker-desc {
 
 .prs-picker-action {
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 .prs-picker-btn {
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
-    background: linear-gradient(135deg, var(--prs-primary) 0%, var(--prs-primary-dark) 100%);
+    gap: 0.45rem;
+    background: linear-gradient(135deg, var(--prs-primary) 0%, var(--prs-primary-deep) 100%);
     color: #ffffff !important;
     border: none;
     border-radius: 12px;
-    padding: 0.55rem 1rem;
+    padding: 0.55rem 1.05rem;
     font-size: 0.82rem;
     font-weight: 700;
-    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
-    transition: all 0.2s;
+    box-shadow: 0 4px 14px rgba(0, 167, 157, 0.25);
+    transition: all 0.25s ease;
     pointer-events: none;
+}
+
+.prs-picker-card:hover .prs-picker-btn {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(0, 167, 157, 0.4);
+}
+
+[data-theme="dark"] .prs-picker-btn,
+html.dark-mode .prs-picker-btn,
+body.dark-mode .prs-picker-btn {
+    background: linear-gradient(135deg, #00a79d 0%, #007a73 100%);
+    box-shadow: 0 4px 14px rgba(0, 167, 157, 0.35);
+}
+
+.prs-picker-card.has-value .prs-picker-btn {
+    background: linear-gradient(135deg, #008b84 0%, #006b65 100%);
 }
 
 @media (max-width: 575.98px) {
