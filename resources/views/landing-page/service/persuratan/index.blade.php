@@ -229,11 +229,11 @@
                             <input type="hidden" name="jenis_surat" id="jenis_surat" value="{{ $selectedKey }}" required>
 
                             <div class="prs-form-group">
-                                <label class="prs-form-label">
-                                    <i class="fas fa-folder-open"></i> Jenis Surat yang Dibutuhkan
+                                <label class="prs-form-label mb-2">
+                                    <i class="fas fa-folder-open"></i> Jenis Surat yang Dibutuhkan <span class="text-danger">*</span>
                                 </label>
 
-                                <div class="prs-picker-card {{ $selectedSurat ? 'has-value' : '' }}" id="prsPickerTrigger" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#modalChooseLetter">
+                                <div class="prs-picker-card {{ $selectedSurat ? 'has-value' : '' }}" id="prsPickerTrigger" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#modalChooseLetter" title="Klik untuk memilih template surat">
                                     <div class="prs-picker-icon-wrap" id="prsPickerIcon">
                                         <i class="fas {{ $selectedSurat['icon'] ?? 'fa-file-alt' }}"></i>
                                     </div>
@@ -246,8 +246,8 @@
                                         </div>
                                     </div>
                                     <div class="prs-picker-action">
-                                        <span class="prs-picker-btn">
-                                            <span>{{ $selectedSurat ? 'Ganti Surat' : 'Pilih Surat' }}</span>
+                                        <span class="prs-picker-btn" id="prsPickerBtn">
+                                            <span id="prsPickerBtnText">{{ $selectedSurat ? 'Ganti Surat' : 'Pilih Surat' }}</span>
                                             <i class="fas fa-th-large ms-1"></i>
                                         </span>
                                     </div>
