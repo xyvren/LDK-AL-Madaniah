@@ -11,7 +11,7 @@ FROM php:8.2-cli AS composer-deps
 # System dependencies for PHP extensions
 RUN apt-get update && apt-get install -y --no-install-recommends \
         git unzip libzip-dev libpng-dev libjpeg62-turbo-dev libfreetype6-dev \
-        libicu-dev libbcmath-dev libxml2-dev libonig-dev \
+        libicu-dev libxml2-dev libonig-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j$(nproc) \
         pdo_mysql mbstring xml curl zip gd intl bcmath fileinfo opcache exif \
@@ -57,7 +57,7 @@ FROM php:8.2-cli AS production
 # Runtime system dependencies (smaller set than build stage)
 RUN apt-get update && apt-get install -y --no-install-recommends \
         git unzip libzip-dev libpng-dev libjpeg62-turbo-dev libfreetype6-dev \
-        libicu-dev libbcmath-dev libxml2-dev libonig-dev \
+        libicu-dev libxml2-dev libonig-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j$(nproc) \
         pdo_mysql mbstring xml curl zip gd intl bcmath fileinfo opcache exif \
