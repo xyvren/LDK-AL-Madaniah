@@ -80,7 +80,11 @@ COPY routes/ routes/
 COPY public/ public/
 COPY artisan artisan
 COPY server.php server.php
+COPY composer.json composer.lock ./
 COPY .env.example .env.example
+
+# Seed .env (Railway env vars override these — Dotenv is immutable)
+RUN cp .env.example .env
 
 # Generate optimized autoloader NOW (source code is present)
 RUN composer dump-autoload --optimize --no-scripts
@@ -98,4 +102,4 @@ RUN mkdir -p storage/framework/{sessions,views,cache} \
 EXPOSE ${PORT:-8000}
 
 # Start the Laravel dev server (Railway sets PORT automatically)
-CMD ["sh", "-c", "php artisan key:generate --force && php artisan migrate --force && php artisan config:cache && php artisan route:cache && php artisan view:cache && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}"]
+CMD ["sh", "-c", "php artisan migrate --force && php artisan config:cache && php artisan route:cache && php artisan view:cache && php artisan storage:link && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}"]
