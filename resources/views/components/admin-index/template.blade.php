@@ -104,7 +104,7 @@
             {{-- Page Title --}}
             <h1 class="page-title">
                 <i class="fa {{ $pageIcon }} me-2"></i>
-                <span>LDK&nbsp;Syahid</span>
+                <span>LDK&nbsp;Al-Madaniah</span>
                 <span class="highlighted-text ms-1">{{ $highlightedText }}</span>
             </h1>
 

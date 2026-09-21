@@ -26,7 +26,7 @@
             </div>
             <h1 class="ck-section-title mt-3">Call Kestari</h1>
             <p class="ck-section-sub">
-                Tautan panggilan untuk komunikasi dan informasi Kesekretariatan LDK Syahid.
+                Tautan panggilan untuk komunikasi dan informasi Kesekretariatan LDK Al-Madaniah.
                 Hubungi kami melalui berbagai saluran yang tersedia di bawah ini.
             </p>
         </div>

@@ -224,7 +224,7 @@
                                             <div class="kk-check-row">
                                                 <label class="kk-form-label-sm">Sasaran Program <span class="kk-entry-num">Ke-1</span> <span class="kk-param-hint-inline">— target peserta / kelompok penerima manfaat</span></label>
                                                 <input type="text" class="kk-form-input"
-                                                       name="target_1" placeholder="Contoh: Pengurus LDK Syahid"
+                                                       name="target_1" placeholder="Contoh: Pengurus LDK Al-Madaniah"
                                                        onchange="refreshValue()">
                                                 <div class="kk-exec-area">
                                                     <span class="kk-exec-hint">Terlaksana di pelaksanaan ke:</span>

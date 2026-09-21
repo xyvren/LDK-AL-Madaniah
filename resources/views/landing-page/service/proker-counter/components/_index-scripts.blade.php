@@ -964,7 +964,7 @@ document.addEventListener('DOMContentLoaded', function () {
     window.kkShareWa = function () {
         var prokerName = document.querySelector('span[id="namaproker"]');
         var name = prokerName ? prokerName.innerHTML : '';
-        var text = (name ? 'Nilai Proker "' + name + '": ' : 'Kalkulator Kestari LDK Syahid\n') + window.location.href;
+        var text = (name ? 'Nilai Proker "' + name + '": ' : 'Kalkulator Kestari LDK Al-Madaniah\n') + window.location.href;
         window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
     };
 

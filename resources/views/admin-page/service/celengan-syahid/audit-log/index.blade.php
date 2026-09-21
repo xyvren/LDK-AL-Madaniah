@@ -13,7 +13,7 @@
             <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 page-header">
                 <div>
                     <h1 class="page-title mb-0"><i class="fas fa-history me-2"></i>Audit Log</h1>
-                    <p class="text-muted mb-0 mt-1 small d-none d-md-block">Admin activity on Celengan Syahid campaigns &amp; donations</p>
+                    <p class="text-muted mb-0 mt-1 small d-none d-md-block">Admin activity on Celengan Al-Madaniah campaigns &amp; donations</p>
                 </div>
                 <button type="button" id="audit-refresh" class="btn btn-sm btn-outline-secondary btn-rounded">
                     <i class="fas fa-sync-alt me-1"></i>Refresh

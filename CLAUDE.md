@@ -1,4 +1,4 @@
-# CLAUDE.md — LDK Syahid Web App
+# CLAUDE.md — LDK Al-Madaniah UBB Web App
 
 Context file for Claude Code. Read this before making any changes.
 
@@ -6,9 +6,9 @@ Context file for Claude Code. Read this before making any changes.
 
 ## Project Overview
 
-**LDK Syahid Web App** is a full-stack Laravel CMS + public website for Lembaga Dakwah Kampus (LDK) Syahid, UIN Jakarta. It handles public content (articles, events, news), organizational services (crowdfunding, digital library, forms), and an admin panel with role-based access.
+**LDK Al-Madaniah UBB Web App** is a full-stack Laravel CMS + public website for Lembaga Dakwah Kampus (LDK) Syahid, UBB. It handles public content (articles, events, news), organizational services (crowdfunding, digital library, forms), and an admin panel with role-based access.
 
-- **Production URL**: https://ldksyah.id / https://www.ldksyah.id
+- **Production URL**: https://ubb.ac.id / https://www.ubb.ac.id
 - **Current version**: v2.3.0
 - **PHP runtime**: 8.2+ (server) — NOTE: PHP CLI on dev machine is 5.6, do NOT run `php artisan` via CLI
 - **Framework**: Laravel 8.x with Blade templating
@@ -188,7 +188,7 @@ BISATOPUP_SETTLEMENT_MINUTES=15
 
 # 2FA
 TWO_FA_ALLOWED_USERS=email1@example.com,email2@example.com
-TWO_FA_APP_NAME=LDK Syahid Admin
+TWO_FA_APP_NAME=LDK Al-Madaniah Admin
 TWO_FA_DISCREPANCY_THRESHOLD=50000  # Rp tolerance for balance report
 
 # reCAPTCHA

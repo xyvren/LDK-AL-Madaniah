@@ -51,7 +51,7 @@ class SyncKirimdevTemplates extends Command
                         'text' => "🚨 *Invoice Donasi* 🚨\n\nAssalamu'alaikum, {{1}} 😊\n\nJazakallah Khairan Katsiiran, kamu berniat berdonasi untuk campaign *{{2}}* sebesar *{{3}}*. Segera selesaikan pembayaran sebelum *{{4}} WIB* melalui link berikut:\n{{5}}\n\nInfo lengkap ada di email kamu ya 😃\n\nTerima kasih telah menjadi bagian dari Manusia Baik 😇",
                         'example' => [
                             'body_text' => [[
-                                'Budi', 'Bantu Palestina', 'Rp100.000', '31 Des 2026 23:59', 'https://ldksyah.id/inv/ABC123',
+                                'Budi', 'Bantu Palestina', 'Rp100.000', '31 Des 2026 23:59', 'https://ubb.ac.id/inv/ABC123',
                             ]],
                         ],
                     ],
@@ -114,7 +114,7 @@ class SyncKirimdevTemplates extends Command
                         'text' => "📩 *Request Shortlink #{{1}}* 📩\n\nAda permintaan shortlink baru!\n\n👤 Nama: {{2}}\n📧 Email: {{3}}\n📱 WhatsApp: {{4}}\n✂️ Custom link diminta: {{5}}\n\nBalas *YES* untuk approve atau *NO* untuk tolak permintaan ini.",
                         'example' => [
                             'body_text' => [[
-                                '42', 'Budi', 'budi@mail.com', '628123456789', 'ldksyah.id/event2026',
+                                '42', 'Budi', 'budi@mail.com', '628123456789', 'ubb.ac.id/event2026',
                             ]],
                         ],
                     ],
@@ -145,7 +145,7 @@ class SyncKirimdevTemplates extends Command
                         'text' => "📩 *Request Shortlink #{{1}}* 📩\n\nAda permintaan shortlink baru!\n\n👤 Nama: {{2}}\n📧 Email: {{3}}\n📱 WhatsApp: {{4}}\n🔗 Link asli: {{5}}\n✂️ Custom link diminta: {{6}}\n📝 Catatan: {{7}}\n\nGunakan tombol di bawah untuk approve atau tolak permintaan ini.",
                         'example' => [
                             'body_text' => [[
-                                '42', 'Budi', 'budi@mail.com', '628123456789', 'https://contoh.com/halaman-panjang', 'ldksyah.id/event2026', 'Untuk campaign donasi bulan ini',
+                                '42', 'Budi', 'budi@mail.com', '628123456789', 'https://contoh.com/halaman-panjang', 'ubb.ac.id/event2026', 'Untuk campaign donasi bulan ini',
                             ]],
                         ],
                     ],
@@ -170,7 +170,7 @@ class SyncKirimdevTemplates extends Command
                         // sequential.") — each {{n}} may only appear once.
                         'text' => "✅ *Kustom URL Kamu Sudah Jadi* ✅\n\nHalo {{1}} 😀\n\nBerikut hasil link yang telah kami kustom:\n🔗 {{2}}\n\nLink tersebut wajib digunakan sebagaimana mestinya ya. Terima kasih telah menggunakan layanan kami 😉",
                         'example' => [
-                            'body_text' => [['Budi', 'https://ldksyah.id/event2026']],
+                            'body_text' => [['Budi', 'https://ubb.ac.id/event2026']],
                         ],
                     ],
                 ],
@@ -215,7 +215,7 @@ class SyncKirimdevTemplates extends Command
                         'text' => "📩 *Request Letter #{{1}}* 📩\n\nAda permohonan surat baru!\n\n👤 Nama: {{2}}\n📌 Jenis Surat: {{3}}\n🏢 Bidang: {{4}}\n📝 Acara: {{5}}\n\n🔍 Preview Draft:\n{{6}}\n\nGunakan tombol di bawah untuk approve atau tolak permohonan ini.",
                         'example' => [
                             'body_text' => [[
-                                '1', 'Ahmad Fauzi', 'Surat Izin Orang Tua', 'Kaderisasi', 'Rihlah Akbar 2026', 'https://ldksyah.id/layanan/persuratan/preview/uuid-example',
+                                '1', 'Ahmad Fauzi', 'Surat Izin Orang Tua', 'Kaderisasi', 'Rihlah Akbar 2026', 'https://ubb.ac.id/layanan/persuratan/preview/uuid-example',
                             ]],
                         ],
                     ],
@@ -238,7 +238,7 @@ class SyncKirimdevTemplates extends Command
                         'text' => "✅ *Surat Telah Disetujui* ✅\n\nAssalamu'alaikum, {{1}} 😊\n\nAlhamdulillah, permohonan surat *{{2}}* telah disetujui dengan nomor *{{3}}*. Silakan unduh dokumen PDF resmi pada link berikut:\n{{4}}\n\nTerima kasih 😇",
                         'example' => [
                             'body_text' => [[
-                                'Ahmad Fauzi', 'Surat Izin Orang Tua', '001/Ph-e/KDR/LDK-SYAHID/8/2026', 'https://ldksyah.id/layanan/persuratan/download/1',
+                                'Ahmad Fauzi', 'Surat Izin Orang Tua', '001/Ph-e/KDR/LDK-SYAHID/8/2026', 'https://ubb.ac.id/layanan/persuratan/download/1',
                             ]],
                         ],
                     ],

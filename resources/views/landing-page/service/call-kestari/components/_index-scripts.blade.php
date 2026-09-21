@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
     window.ckShareWa = function (url, name, ev) {
         if (ev) ev.stopPropagation();
         var full = (url && url.indexOf('http') === 0) ? url : window.location.origin + url;
-        var text = (name ? name + ' — LDK Syahid\n' : '') + full;
+        var text = (name ? name + ' — LDK Al-Madaniah\n' : '') + full;
         window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
     };
 

@@ -22,7 +22,7 @@
         <div class="hero-slide">
             <img class="hero-image"
                  src="https://lh3.googleusercontent.com/d/15FZ7gsz6x_2uH90iPqi0OVZY-OMISAVf"
-                 alt="Perpustakaan LDK Syahid" />
+                 alt="Perpustakaan LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
 
@@ -37,7 +37,7 @@
                 <span>Perpustakaan</span>
                 <span class="cb-badge-pulse"></span>
             </div>
-            <h2 class="cb-section-title mt-3">Koleksi Buku LDK Syahid</h2>
+            <h2 class="cb-section-title mt-3">Koleksi Buku LDK Al-Madaniah</h2>
             <p class="cb-section-sub">Jelajahi koleksi buku islami terpilih untuk memperkaya wawasan dan iman</p>
         </div>
 

@@ -31,7 +31,7 @@
         <div class="recipient">
             <p>Yth.</p>
             <p><strong>Wakil Rektor Bidang Kemahasiswaan</strong></p>
-            <p>UIN Syarif Hidayatullah Jakarta</p>
+            <p>Universitas Bangka Belitung</p>
         </div>
 
         <p class="salam">Assalamu'alaikum Warahmatullahi Wabarakatuh,</p>
@@ -82,7 +82,7 @@
         <table class="signature-table">
             <tr>
                 <td class="ttd-cell"><strong>Sekretaris Jenderal</strong></td>
-                <td class="ttd-cell"><strong>Ketua Umum LDK Syahid</strong></td>
+                <td class="ttd-cell"><strong>Ketua Umum LDK Al-Madaniah</strong></td>
             </tr>
             <tr>
                 <td class="ttd-cell"><div class="ttd-space">@include('pdf.components._sekjen-signature')</div></td>
@@ -103,7 +103,7 @@
                 <td class="qr-cell"><img src="{!! $qrCode !!}" alt="QR Verifikasi"></td>
                 <td>
                     <p><strong>Verifikasi Keaslian Dokumen</strong></p>
-                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Syahid.</p>
+                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Al-Madaniah.</p>
                     <p class="verification-url">{{ $verifikasiUrl }}</p>
                     <p>Kode Verifikasi: <strong>{{ $kodeVerifikasi }}</strong></p>
                 </td>

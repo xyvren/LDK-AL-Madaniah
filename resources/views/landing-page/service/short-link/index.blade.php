@@ -26,7 +26,7 @@
             </div>
             <h1 class="sl-section-title mt-3">Perpendek URL</h1>
             <p class="sl-section-sub">
-                Layanan pemendek tautan khusus anggota UKM LDK Syahid UIN Jakarta.
+                Layanan pemendek tautan khusus anggota UKM LDK Al-Madaniah Universitas Bangka Belitung.
                 Buat tautan yang lebih rapi dan mudah diingat.
             </p>
         </div>
@@ -47,7 +47,7 @@
                     <ul class="sl-info-list">
                         <li>Isi formulir tersebut dengan data yang benar dan lengkap</li>
                         <li>Masukkan link asli yang ingin dipendekkan</li>
-                        <li>Tentukan custom link dengan format <code>https://ldksyah.id/kata-kunci</code></li>
+                        <li>Tentukan custom link dengan format <code>https://ubb.ac.id/kata-kunci</code></li>
                         <li>Klik <strong>Kirim Permintaan</strong> lalu tunggu konfirmasi</li>
                         <li>Hubungi kontak di bawah untuk pelayanan lebih cepat</li>
                     </ul>
@@ -60,9 +60,9 @@
                         Ketentuan
                     </p>
                     <ul class="sl-info-list">
-                        <li>Hanya untuk anggota UKM LDK Syahid UIN Jakarta</li>
+                        <li>Hanya untuk anggota UKM LDK Al-Madaniah Universitas Bangka Belitung</li>
                         <li>Nomor WhatsApp harus diawali <code>+62</code></li>
-                        <li>Custom link harus diawali <code>https://ldksyah.id/</code></li>
+                        <li>Custom link harus diawali <code>https://ubb.ac.id/</code></li>
                         <li>Gunakan tanda pisah <code>-</code> jika satu kata lebih dari 10 huruf</li>
                         <li>Link akan diganti acak jika pilihan tidak tersedia</li>
                     </ul>
@@ -162,9 +162,9 @@
                                 </label>
                                 <input type="text" class="sl-form-input" id="sl-customLink"
                                        name="customLink"
-                                       placeholder="https://ldksyah.id/nama-program"
-                                       value="https://ldksyah.id/" required />
-                                <span class="sl-field-hint">Contoh: https://ldksyah.id/nama-program</span>
+                                       placeholder="https://ubb.ac.id/nama-program"
+                                       value="https://ubb.ac.id/" required />
+                                <span class="sl-field-hint">Contoh: https://ubb.ac.id/nama-program</span>
                                 <span class="sl-field-error" id="sl-err-customLink"></span>
                             </div>
 

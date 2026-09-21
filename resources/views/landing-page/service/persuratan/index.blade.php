@@ -19,7 +19,7 @@
             </div>
             <h1 class="prs-section-title mt-3">Layanan Pengajuan Surat</h1>
             <p class="prs-section-sub">
-                Layanan pengajuan dan penerbitan surat resmi LDK Syahid UIN Syarif Hidayatullah Jakarta secara mandiri, terstandarisasi, dan terverifikasi digital.
+                Layanan pengajuan dan penerbitan surat resmi LDK Al-Madaniah Universitas Bangka Belitung secara mandiri, terstandarisasi, dan terverifikasi digital.
             </p>
         </div>
 
@@ -51,7 +51,7 @@
                         Ketentuan &amp; Masa Berlaku
                     </p>
                     <ul class="prs-info-list">
-                        <li>Khusus Pengurus Pusat &amp; LDK Syahid Fakultas (LDKSF)</li>
+                        <li>Khusus Pengurus Pusat &amp; LDK Al-Madaniah Fakultas (LDKSF)</li>
                         <li>Nomor WhatsApp pemohon harus aktif untuk menerima notifikasi</li>
                         <li>Pengajuan belum diproses dalam <strong>7 hari</strong> akan otomatis kadaluarsa</li>
                         <li>Surat kadaluarsa dapat diajukan ulang hanya dengan 1-klik</li>
@@ -69,7 +69,7 @@
                         </div>
                         <div>
                             <p class="prs-contact-role">Biro Kesekretariatan (Pusat)</p>
-                            <p class="prs-contact-name">{{ $namaKestari ?: 'Kestari LDK Syahid' }}</p>
+                            <p class="prs-contact-name">{{ $namaKestari ?: 'Kestari LDK Al-Madaniah' }}</p>
                             <p class="prs-contact-num">{{ $waKestari }}</p>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                         </div>
                         <div>
                             <p class="prs-contact-role">Sekretaris Jenderal (LDKSF)</p>
-                            <p class="prs-contact-name">{{ $namaSekjen ?: 'Sekjen LDK Syahid' }}</p>
+                            <p class="prs-contact-name">{{ $namaSekjen ?: 'Sekjen LDK Al-Madaniah' }}</p>
                             <p class="prs-contact-num">{{ $waSekjen }}</p>
                         </div>
                     </div>
@@ -242,7 +242,7 @@
                                             {{ $selectedSurat['label'] ?? 'Pilih Jenis Surat Resmi...' }}
                                         </div>
                                         <div class="prs-picker-desc" id="prsPickerDesc">
-                                            {{ $selectedSurat['description'] ?? 'Klik di sini untuk membuka katalog 18 jenis surat resmi LDK Syahid' }}
+                                            {{ $selectedSurat['description'] ?? 'Klik di sini untuk membuka katalog 18 jenis surat resmi LDK Al-Madaniah' }}
                                         </div>
                                     </div>
                                     <div class="prs-picker-action">
@@ -266,7 +266,7 @@
                                     <span>Kirim Pengajuan Surat</span>
                                 </button>
                                 <p class="prs-submit-hint">
-                                    <i class="fas fa-shield-alt me-1 text-primary"></i> Data Anda akan diverifikasi oleh Kesekretariatan LDK Syahid sebelum surat resmi diterbitkan.
+                                    <i class="fas fa-shield-alt me-1 text-primary"></i> Data Anda akan diverifikasi oleh Kesekretariatan LDK Al-Madaniah sebelum surat resmi diterbitkan.
                                 </p>
                             </div>
 
@@ -305,7 +305,7 @@
                             </button>
                             <div class="prs-faq-answer">
                                 <div class="prs-faq-answer-inner">
-                                    Sistem secara otomatis mengarahkan permohonan dari <strong>Pengurus Pusat ke Kestari</strong>, sedangkan permohonan dari <strong>LDK Syahid Fakultas ke Sekjen</strong> melalui integrasi WhatsApp interaktif.
+                                    Sistem secara otomatis mengarahkan permohonan dari <strong>Pengurus Pusat ke Kestari</strong>, sedangkan permohonan dari <strong>LDK Al-Madaniah Fakultas ke Sekjen</strong> melalui integrasi WhatsApp interaktif.
                                 </div>
                             </div>
                         </div>
@@ -329,7 +329,7 @@
                             </button>
                             <div class="prs-faq-answer">
                                 <div class="prs-faq-answer-inner">
-                                    Ya. Setiap dokumen PDF yang diterbitkan dilengkapi dengan <strong>Nomor Surat Resmi</strong>, <strong>Tanda Tangan Digital Sekretaris Jenderal</strong>, dan <strong>QR Code Verifikasi</strong> yang terdaftar secara sah di sistem LDK Syahid UIN Jakarta.
+                                    Ya. Setiap dokumen PDF yang diterbitkan dilengkapi dengan <strong>Nomor Surat Resmi</strong>, <strong>Tanda Tangan Digital Sekretaris Jenderal</strong>, dan <strong>QR Code Verifikasi</strong> yang terdaftar secara sah di sistem LDK Al-Madaniah Universitas Bangka Belitung.
                                 </div>
                             </div>
                         </div>

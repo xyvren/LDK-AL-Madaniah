@@ -13,7 +13,7 @@
                     Jadwal <span class="section-title-highlight">Terbaru</span>
                 </h2>
                 <p class="section-description-fun">
-                    Jadwal kegiatan LDK Syahid agar kamu tidak ketinggalan info penting!
+                    Jadwal kegiatan LDK Al-Madaniah agar kamu tidak ketinggalan info penting!
                 </p>
             </div>
             <div class="col-lg-4 text-lg-end d-none d-md-block">
@@ -55,7 +55,7 @@
                     <div class="info-content">
                         <div class="info-badge">
                             <i class="fas fa-calendar-check"></i>
-                            <span>Jadwal LDK Syahid</span>
+                            <span>Jadwal LDK Al-Madaniah</span>
                         </div>
 
                         <div class="info-divider">
@@ -77,7 +77,7 @@
 
                         <div class="info-description">
                             <i class="fas fa-info-circle"></i>
-                            <p>Cek jadwal lengkap kegiatan dan acara LDK Syahid bulan ini!</p>
+                            <p>Cek jadwal lengkap kegiatan dan acara LDK Al-Madaniah bulan ini!</p>
                         </div>
 
                         <a href="/schedule" class="info-cta">

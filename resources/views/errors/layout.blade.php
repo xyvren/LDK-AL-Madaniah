@@ -4,11 +4,11 @@
         <script>(function(){if(localStorage.getItem('darkMode')==='enabled')document.documentElement.setAttribute('data-theme','dark');})()</script>
         <meta charset="utf-8" />
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-        <title>@yield('title') &#9679; LDK Syahid</title>
+        <title>@yield('title') &#9679; LDK Al-Madaniah UBB</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta content="LDK Syahid, UIN Jakarta" name="keywords" />
-        <meta content="Halaman Error - LDK Syahid UIN Jakarta" name="description" />
-        <link href="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1" rel="icon" />
+        <meta content="LDK Al-Madaniah, Universitas Bangka Belitung" name="keywords" />
+        <meta content="Halaman Error - LDK Al-Madaniah Universitas Bangka Belitung" name="description" />
+        <link href="/landing-page-ext-rsrc/img/ldk-logo.png" rel="icon" />
 
         {{-- Google Fonts --}}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -54,10 +54,10 @@
         {{-- Navbar --}}
         <div class="error-navbar">
             <a href="/">
-                <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1" alt="LDK Syahid">
+                <img src="/landing-page-ext-rsrc/img/ldk-logo.png" alt="LDK Al-Madaniah UBB">
                 <div>
-                    <span class="brand-name">LDK Syahid</span>
-                    <span class="brand-tagline">UIN Jakarta</span>
+                    <span class="brand-name">LDK Al-Madaniah</span>
+                    <span class="brand-tagline">Universitas Bangka Belitung</span>
                 </div>
             </a>
             <button id="errDarkToggle" class="error-dark-toggle" title="Mode Gelap">
@@ -106,7 +106,7 @@
 
         {{-- Footer --}}
         <div class="error-footer">
-            &copy; {{ date('Y') }} <a href="/">LDK Syahid</a> UIN Syarif Hidayatullah Jakarta
+            &copy; {{ date('Y') }} <a href="/">LDK Al-Madaniah</a> Universitas Bangka Belitung
         </div>
 
         {{-- Scripts --}}

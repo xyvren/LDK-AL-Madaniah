@@ -24,7 +24,7 @@
             <h1 class="page-title">
                 <i class="fa fa-{{ $operation === 'create' ? 'plus-circle' : ($operation === 'update' ? 'edit' : 'eye') }} me-2"></i>
                 <span>{{ $operation === 'create' ? 'Add New' : ($operation === 'update' ? 'Edit' : 'View') }}</span>
-                <span class="highlighted-text ms-1">KTA LDK Syahid</span>
+                <span class="highlighted-text ms-1">KTA LDK Al-Madaniah</span>
                 @if($operation !== 'create' && $ktaData)
                     <small class="text-muted d-block mt-2">{{ $ktaData->fullName }}</small>
                 @endif

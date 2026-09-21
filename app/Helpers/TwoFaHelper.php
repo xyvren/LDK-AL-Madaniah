@@ -31,7 +31,7 @@ class TwoFaHelper
 
     public static function qrCodeUrl(User $user, string $secret): string
     {
-        $appName = config('services.two_fa.app_name', 'LDK Syahid Admin');
+        $appName = config('services.two_fa.app_name', 'LDK Al-Madaniah Admin');
         return (new Google2FA())->getQRCodeUrl($appName, $user->email, $secret);
     }
 

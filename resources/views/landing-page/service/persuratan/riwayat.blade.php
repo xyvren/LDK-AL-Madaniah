@@ -75,7 +75,7 @@
                     <div class="pr-empty">
                         <span><i class="fas fa-file-circle-plus"></i></span>
                         <h5>Belum ada pengajuan surat</h5>
-                        <p>Mulai ajukan surat resmi LDK Syahid, lalu statusnya akan tampil di halaman ini.</p>
+                        <p>Mulai ajukan surat resmi LDK Al-Madaniah, lalu statusnya akan tampil di halaman ini.</p>
                         <a href="{{ route('service.persuratan.index') }}" class="btn btn-primary">
                             <i class="fas fa-plus me-1"></i>
                             Ajukan Sekarang

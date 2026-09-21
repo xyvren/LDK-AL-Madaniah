@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>{{ $article->title }} – LDK Syahid</title>
+    <title>{{ $article->title }} – LDK Al-Madaniah</title>
     <style>
         @media only screen and (max-width: 600px) {
             .card     { width: 100% !important; }
@@ -32,12 +32,12 @@
                         <table cellpadding="0" cellspacing="0" role="presentation" style="margin:0 auto 14px;">
                             <tr><td style="background:#ffffff;border-radius:18px;padding:8px;box-shadow:0 0 0 3px rgba(255,255,255,0.35);">
                                 <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
-                                     width="64" height="64" alt="LDK Syahid"
+                                     width="64" height="64" alt="LDK Al-Madaniah"
                                      style="border-radius:12px;display:block;" />
                             </td></tr>
                         </table>
                         <div style="color:#ffffff;font-size:20px;font-weight:700;letter-spacing:-0.3px;line-height:1.2;">
-                            LDK Syahid
+                            LDK Al-Madaniah
                         </div>
                         <div style="color:rgba(255,255,255,0.8);font-size:12px;margin-top:5px;letter-spacing:0.2px;">
                             Artikel Terbaru
@@ -49,7 +49,7 @@
                 <tr>
                     <td align="center" style="background:#f0fffe;padding:12px 16px;border-bottom:1px solid #e2e8f0;">
                         <span style="display:inline-block;background:#00a79d;color:#ffffff;font-size:12px;font-weight:600;padding:4px 16px;border-radius:50px;letter-spacing:0.4px;">
-                            📄 &nbsp;Artikel Terbaru dari LDK Syahid
+                            📄 &nbsp;Artikel Terbaru dari LDK Al-Madaniah
                         </span>
                     </td>
                 </tr>
@@ -85,7 +85,7 @@
 
                         <!-- Info -->
                         <p style="margin:0 0 28px;font-size:14px;color:#4a5568;line-height:1.75;">
-                            Artikel terbaru dari LDK Syahid telah terbit. Klik tombol di bawah untuk membaca artikel lengkapnya.
+                            Artikel terbaru dari LDK Al-Madaniah telah terbit. Klik tombol di bawah untuk membaca artikel lengkapnya.
                         </p>
 
                         <!-- CTA Button -->
@@ -102,7 +102,7 @@
                         <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
                             <tr><td style="border-top:1px solid #e2e8f0;padding-top:20px;">
                                 <p style="margin:0;font-size:12px;color:#a0aec0;line-height:1.6;text-align:center;">
-                                    Kamu menerima email ini karena terdaftar sebagai pelanggan atau keluarga LDK Syahid.<br/>
+                                    Kamu menerima email ini karena terdaftar sebagai pelanggan atau keluarga LDK Al-Madaniah.<br/>
                                     Ingin berhenti berlangganan?
                                     <a href="{{ $unsubscribeUrl }}" style="color:#718096;text-decoration:underline;">Klik di sini</a>.
                                 </p>
@@ -120,7 +120,7 @@
                             Wassalamu'alaikum Warahmatullahi Wabarakatuh 🤍
                         </p>
                         <p style="margin:0;font-size:12px;color:#a0aec0;">
-                            Tim LDK Syahid · UIN Syarif Hidayatullah Jakarta
+                            Tim LDK Al-Madaniah · Universitas Bangka Belitung
                         </p>
                         <p style="margin:8px 0 0;font-size:11px;color:#cbd5e0;letter-spacing:0.3px;">
                             #KitaAdalahSaudara
@@ -133,7 +133,7 @@
             <!-- Bottom copyright -->
             <table width="560" cellpadding="0" cellspacing="0" role="presentation" style="max-width:560px;">
                 <tr><td style="padding:18px 0;text-align:center;font-size:11px;color:#a0aec0;">
-                    © {{ date('Y') }} UKM LDK Syahid UIN Syarif Hidayatullah Jakarta. All rights reserved.
+                    © {{ date('Y') }} UKM LDK Al-Madaniah Universitas Bangka Belitung. All rights reserved.
                 </td></tr>
             </table>
 

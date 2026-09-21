@@ -10,7 +10,7 @@
         <div class="row">
             <h1 class="cs-page-title">
                 <i class="fa fa-donate me-2"></i>
-                <span>Celengan Syahid</span>
+                <span>Celengan Al-Madaniah</span>
                 <span class="highlighted-text ms-1">Analytics Dashboard</span>
             </h1>
 

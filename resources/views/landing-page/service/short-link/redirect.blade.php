@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Mengalihkan… &#9679; LDK Syahid</title>
-    <link rel="icon" href="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"/>
+    <title>Mengalihkan… &#9679; LDK Al-Madaniah</title>
+    <link rel="icon" href="/landing-page-ext-rsrc/img/ldk-logo.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
@@ -162,11 +162,11 @@
         <div class="ldk-dot-orbit ldk-dot-orbit-1"><span class="ldk-orbit-dot"></span></div>
         <div class="ldk-dot-orbit ldk-dot-orbit-2"><span class="ldk-orbit-dot"></span></div>
         <div class="ldk-dot-orbit ldk-dot-orbit-3"><span class="ldk-orbit-dot"></span></div>
-        <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
-             alt="LDK Syahid" class="ldk-spin-img"/>
+        <img src="/landing-page-ext-rsrc/img/ldk-logo.png"
+             alt="LDK Al-Madaniah" class="ldk-spin-img"/>
     </div>
     <div class="ldk-spin-label">
-        <span class="ldk-spin-brand">LDK Syahid</span>
+        <span class="ldk-spin-brand">LDK Al-Madaniah</span>
         <div class="ldk-spin-dots">
             <span></span><span></span><span></span>
         </div>

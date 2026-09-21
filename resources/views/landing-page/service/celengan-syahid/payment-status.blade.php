@@ -193,7 +193,7 @@
                     <i class="fas fa-sync-alt"></i> Muat Ulang Halaman
                 </button>
                 <a href="{{ route('service.celengansyahid') }}" class="ds-btn ds-btn-outline">
-                    <i class="fas fa-arrow-left"></i> Kembali ke Celengan Syahid
+                    <i class="fas fa-arrow-left"></i> Kembali ke Celengan Madaniah
                 </a>
             </div>
             @endif

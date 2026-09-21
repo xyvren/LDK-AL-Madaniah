@@ -14,7 +14,7 @@
                     <span class="art-heading__sparkle">✨</span>
                 </h2>
                 <p class="art-subtitle">
-                    Hasil tulisan penuh semangat dari para anggota LDK Syahid. Yuk baca! 📚
+                    Hasil tulisan penuh semangat dari para anggota LDK Al-Madaniah. Yuk baca! 📚
                 </p>
             </div>
             <div class="col-lg-4 text-lg-end">

@@ -106,7 +106,7 @@ return [
 
     'two_fa' => [
         'allowed_users'          => array_filter(array_map('trim', explode(',', env('TWO_FA_ALLOWED_USERS', '')))),
-        'app_name'               => env('TWO_FA_APP_NAME', 'LDK Syahid Admin'),
+        'app_name'               => env('TWO_FA_APP_NAME', 'LDK Al-Madaniah Admin'),
         'discrepancy_threshold'  => (int) env('TWO_FA_DISCREPANCY_THRESHOLD', 50000),
     ],
 

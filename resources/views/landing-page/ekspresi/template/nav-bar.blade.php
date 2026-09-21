@@ -18,7 +18,7 @@
                 <li><a class="nav-link scrollto" href="#QnA">Q&A</a></li>
                 <li><a class="nav-link scrollto" href="#logo">Join Us</a></li>
                 <li><a class="getstarted scrollto"
-                        href="https://ldksyah.id/ekspresi26"
+                        href="https://ubb.ac.id/ekspresi26"
                         target="_blank" rel="noopener noreferrer">Daftar Sekarang</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

@@ -438,7 +438,7 @@
         <div class="row">
             <h1 class="page-title">
                 <i class="fa fa-tachometer-alt me-2"></i>
-                <span>LDK&nbsp;Syahid</span>
+                <span>LDK&nbsp;Al-Madaniah</span>
                 <span class="highlighted-text ms-1">Dashboard</span>
             </h1>
 

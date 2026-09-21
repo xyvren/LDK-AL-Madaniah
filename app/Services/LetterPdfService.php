@@ -159,16 +159,16 @@ class LetterPdfService
 
         $data = [
             'kode_bidang'             => 'BPH',
-            'nama_acara'              => 'Rihlah Akbar LDK Syahid 2026',
+            'nama_acara'              => 'Rihlah Akbar LDK Al-Madaniah 2026',
             'tema_acara'              => 'Menjalin Ukhuwah, Menggapai Mardhatillah',
             'nama_kegiatan'           => 'Studi Banding & Kolaborasi Dakwah',
-            'nama_program'            => 'LDK Syahid Peduli Ummat',
+            'nama_program'            => 'LDK Al-Madaniah Peduli Ummat',
             'hari_tanggal'            => now()->addDays(7)->format('Y-m-d') . ' to ' . now()->addDays(8)->format('Y-m-d'),
             'waktu'                   => '08.00 s.d. 16.00 WIB',
             'tempat'                  => 'Villa Bukit Cisarua, Bogor',
             'alamat_tempat'           => 'Jl. Raya Puncak KM 84, Cisarua, Bogor, Jawa Barat',
             'tempat_dipinjam'         => 'Aula Student Center Lt. 3 & Ruang Rapat Lt. 2',
-            'ditujukan_kepada'        => 'Dekan Fakultas Sains dan Teknologi UIN Jakarta',
+            'ditujukan_kepada'        => 'Dekan Fakultas Sains dan Teknologi UBB',
             'jabatan_tujuan'          => 'Dekan Fakultas Sains dan Teknologi',
             'nama_ketua_pelaksana'    => 'Muhammad Syauqi Mubarak',
             'nim_ketua_pelaksana'     => '11230600000067',
@@ -186,8 +186,8 @@ class LetterPdfService
             'jenis_undangan'          => 'eksternal',
             'jenis_peminjaman'        => 'internal',
             'daftar_alat'             => "1. Proyektor Epson 3300 Lumens (1 unit)\n2. Kabel Roll 25 Meter (2 buah)\n3. Sound Portable Wireless (1 set)\n4. Mic Wireless (2 unit)",
-            'perihal_imbauan'         => 'Partisipasi Seluruh Pengurus dalam Rangkaian Milad LDK Syahid ke-30',
-            'poin_imbauan'            => "1. Menjaga ketertiban dan kebersihan sekretariat bersama.\n2. Menghadiri agenda opening ceremony tepat waktu.\n3. Memakai atribut resmi organisasi LDK Syahid.",
+            'perihal_imbauan'         => 'Partisipasi Seluruh Pengurus dalam Rangkaian Milad LDK Al-Madaniah ke-20',
+            'poin_imbauan'            => "1. Menjaga ketertiban dan kebersihan sekretariat bersama.\n2. Menghadiri agenda opening ceremony tepat waktu.\n3. Memakai atribut resmi organisasi LDK Al-Madaniah.",
             'bentuk_kerjasama'        => 'Media Partner, Publikasi Konten Bersama, dan Booth Promosi',
         ];
 

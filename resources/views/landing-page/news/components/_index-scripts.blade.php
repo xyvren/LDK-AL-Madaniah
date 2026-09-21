@@ -430,7 +430,7 @@ document.addEventListener('DOMContentLoaded', function () {
     window.nwShareTw = function (url, title, ev) {
         if (ev) ev.stopPropagation();
         var full = window.location.origin + url;
-        var text = (title ? title + ' — LDK Syahid\n' : '') + full;
+        var text = (title ? title + ' — LDK Al-Madaniah\n' : '') + full;
         window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text), '_blank');
     };
 
@@ -531,7 +531,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (bsWaBtn) bsWaBtn.addEventListener('click', function () { nwShareWa(url, title); });
         if (bsTwBtn) bsTwBtn.addEventListener('click', function () {
             var full = window.location.origin + url;
-            var text = (title ? title + ' — LDK Syahid\n' : '') + full;
+            var text = (title ? title + ' — LDK Al-Madaniah\n' : '') + full;
             window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text), '_blank');
         });
 

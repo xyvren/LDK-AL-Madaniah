@@ -22,7 +22,7 @@
             </h2>
             <div class="section-divider mx-auto"></div>
             <p class="section-description mt-3">
-                Mengenal pengurus dan struktur UKM LDK Syahid UIN Jakarta secara lebih dekat
+                Mengenal pengurus dan struktur UKM LDK Al-Madaniah Universitas Bangka Belitung secara lebih dekat
             </p>
         </div>
 
@@ -46,7 +46,7 @@
                         <div class="ms-di-photo-wrap">
                             <img
                                 src="https://lh3.googleusercontent.com/d/{{ $data->gdrive_id }}"
-                                alt="Foto Pengurus LDK Syahid {{ $data->batch }}"
+                                alt="Foto Pengurus LDK Al-Madaniah {{ $data->batch }}"
                                 loading="lazy"
                                 onerror="onImgErr(this)"
                             >
@@ -54,7 +54,7 @@
 
                         {{-- Info + Deskripsi --}}
                         <div class="ms-di-info">
-                            <div class="ms-mob-eyebrow">LDK Syahid {{ $data->batch }}</div>
+                            <div class="ms-mob-eyebrow">LDK Al-Madaniah {{ $data->batch }}</div>
                             <h5 class="ms-mob-hname" style="font-size:1.1rem;">{{ $data->structureName }}</h5>
                             <div style="display:flex;align-items:center;gap:0.45rem;flex-wrap:wrap;">
                                 <span class="ms-di-period-badge">
@@ -102,7 +102,7 @@
                             <div class="ms-di-chart-body">
                                 <img
                                     src="https://lh3.googleusercontent.com/d/{{ $data->gdrive_id_2 }}=s3000"
-                                    alt="Bagan Struktur LDK Syahid {{ $data->batch }}"
+                                    alt="Bagan Struktur LDK Al-Madaniah {{ $data->batch }}"
                                     loading="lazy"
                                     onerror="if(!this.dataset.err){this.dataset.err=1;this.style.display='none';}"
                                 >
@@ -132,7 +132,7 @@
                             <div class="ms-mob-hero">
                                 <div class="ms-mob-hero-row">
                                     <div>
-                                        <div class="ms-mob-eyebrow">LDK Syahid {{ $data->batch }}</div>
+                                        <div class="ms-mob-eyebrow">LDK Al-Madaniah {{ $data->batch }}</div>
                                         <h6 class="ms-mob-hname">{{ $data->structureName }}</h6>
                                     </div>
                                     @if($loop->first)
@@ -148,7 +148,7 @@
                             <div class="ms-mob-photo-area">
                                 <img
                                     src="https://lh3.googleusercontent.com/d/{{ $data->gdrive_id }}"
-                                    alt="Foto Pengurus LDK Syahid {{ $data->batch }}"
+                                    alt="Foto Pengurus LDK Al-Madaniah {{ $data->batch }}"
                                     loading="lazy"
                                     onerror="onImgErr(this)"
                                 >
@@ -169,7 +169,7 @@
                                 class="ms-view-chart-btn ms-detail-btn"
                                 type="button"
                                 data-name="{{ $data->structureName }}"
-                                data-batch="LDK Syahid {{ $data->batch }}"
+                                data-batch="LDK Al-Madaniah {{ $data->batch }}"
                                 data-period="{{ $data->period }}"
                                 data-desc="{{ $data->structureDescription }}"
                                 data-photo="https://lh3.googleusercontent.com/d/{{ $data->gdrive_id }}"
@@ -199,7 +199,7 @@
         <div class="ms-empty ms-reveal">
             <div class="ms-empty-icon"><i class="fas fa-users"></i></div>
             <h4 class="fw-bold mb-2" style="color:var(--dark);">Struktur Belum Tersedia</h4>
-            <p class="text-secondary mb-0">Informasi struktur kepengurusan LDK Syahid akan segera diperbarui.</p>
+            <p class="text-secondary mb-0">Informasi struktur kepengurusan LDK Al-Madaniah akan segera diperbarui.</p>
         </div>
 
         @endif
@@ -226,7 +226,7 @@
             </button>
         </div>
         <div class="ms-lb-body">
-            <img id="msLbImg" src="" alt="Bagan Struktur UKM LDK Syahid">
+            <img id="msLbImg" src="" alt="Bagan Struktur UKM LDK Al-Madaniah">
         </div>
     </div>
 </div>

@@ -7,7 +7,7 @@ class TextFormatter
     /**
      * Escape user-supplied text, auto-link bare URLs/domains (with or
      * without a scheme — e.g. "https://...", "www...", or a bare
-     * "wa.me/62..." / "ldksyah.id/..." style link), and convert newlines
+     * "wa.me/62..." / "ubb.ac.id/..." style link), and convert newlines
      * to <br>. Safe to echo with {!! !!} since linking happens on the
      * already-escaped string — no raw HTML from the source text ever
      * reaches the output.
@@ -29,7 +29,7 @@ class TextFormatter
             $url = $m[0];
 
             // Trailing punctuation almost never belongs to the link itself
-            // (e.g. "(wa.me/123)" or "lihat di ldksyah.id/x.") — keep it
+            // (e.g. "(wa.me/123)" or "lihat di ubb.ac.id/x.") — keep it
             // outside the <a> tag.
             $trail = '';
             while ($url !== '' && strpbrk(substr($url, -1), '.,!?:;)"\'') !== false) {

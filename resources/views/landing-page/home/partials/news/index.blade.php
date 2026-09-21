@@ -12,7 +12,7 @@
                 Berita <span class="news-heading__highlight">Terbaru</span>
             </h2>
             <p class="news-subtitle">
-                Info terkini seputar kegiatan dan perkembangan LDK Syahid
+                Info terkini seputar kegiatan dan perkembangan LDK Al-Madaniah
             </p>
         </div>
 

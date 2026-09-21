@@ -13,10 +13,10 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Finding Direction, Building Civilization: Menjadi Muslim Berdaya di Tengah Perubahan Zaman" name="description">
-    <meta content="Ekspresi, LDK Syahid, UIN Jakarta, Kaderisasi, Ekspresi 2026" name="keywords">
+    <meta content="Ekspresi, LDK Al-Madaniah, Universitas Bangka Belitung, Kaderisasi, Ekspresi 2026" name="keywords">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <meta property="og:title" content="EKSPRESI 2026 &#9679; LDK Syahid" />
+    <meta property="og:title" content="EKSPRESI 2026 &#9679; LDK Al-Madaniah" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:image" content="{{ $logoEkspresiUrl }}" />
@@ -24,7 +24,7 @@
     <meta property="og:image:height" content="300" />
     <meta property="og:description" content="Finding Direction, Building Civilization: Menjadi Muslim Berdaya di Tengah Perubahan Zaman" />
 
-    <title>EKSPRESI 2026 &#9679; LDK Syahid</title>
+    <title>EKSPRESI 2026 &#9679; LDK Al-Madaniah</title>
 
     <link href="{{ $logoEkspresiUrl }}" rel="icon">
     <link href="{{ $logoEkspresiUrl }}" rel="apple-touch-icon">
@@ -49,9 +49,9 @@
                 <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
                     data-aos="fade-up" data-aos-delay="200">
                     <h1 class="fw-bold">Finding Direction, Building Civilization: Menjadi Muslim Berdaya di Tengah Perubahan Zaman</h1>
-                    <h2>Eksplorasi Potensi Diri Islami 2026 — LDK Syahid UIN Syarif Hidayatullah Jakarta</h2>
+                    <h2>Eksplorasi Potensi Diri Islami 2026 — LDK Al-Madaniah Universitas Bangka Belitung</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-center justify-content-lg-start">
-                        <a href="https://ldksyah.id/ekspresi26"
+                        <a href="https://ubb.ac.id/ekspresi26"
                             class="btn-get-started scrollto mb-3 mb-md-0 me-md-3" target="_blank" rel="noopener noreferrer">Daftar Sekarang</a>
                         <a href="https://youtu.be/oReHVyhX8xQ?si=rqtMWSf-LcY88ViQ" class="glightbox btn-watch-video d-flex align-items-center"><i
                                 class="bi bi-play-circle me-2"></i><span>Tonton Video</span></a>
@@ -100,7 +100,7 @@
                         <div
                             class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
                             <div class="content">
-                                <h4>Berpijak pada pemikiran tersebut, LDK Syahid bermaksud melaksanakan kegiatan Latihan
+                                <h4>Berpijak pada pemikiran tersebut, LDK Al-Madaniah bermaksud melaksanakan kegiatan Latihan
                                     Kader Dakwah (LKD) 2026 yang dinamakan "EKSPRESI 2026 - Eksplorasi Potensi Diri Islami
                                     2026".</h4>
                             </div>
@@ -123,7 +123,7 @@
                         <div
                             class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
                             <div class="content">
-                                <h4>LDK Syahid mengemas kegiatan ini dengan berbagai agenda menarik dan bermanfaat.</h4>
+                                <h4>LDK Al-Madaniah mengemas kegiatan ini dengan berbagai agenda menarik dan bermanfaat.</h4>
                             </div>
                         </div>
                         <div
@@ -137,14 +137,14 @@
                             class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
                             <div class="content">
                                 <h3>Siapkan dirimu untuk bergabung dan nantikan keseruan kolaborasi kebaikan dari
-                                    inisiator yang sudah bergabung di LDK Syahid!</h3>
+                                    inisiator yang sudah bergabung di LDK Al-Madaniah!</h3>
                             </div>
                         </div>
                         <div
                             class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
                             <div class="content">
                                 <h4><b>Daftar sekarang</b>, karena kamu juga akan berkesempatan ikut salah satu KMB
-                                    (Kelas Minat Bakat) yang ada di LDK Syahid.</h4>
+                                    (Kelas Minat Bakat) yang ada di LDK Al-Madaniah.</h4>
                             </div>
                         </div>
                     </div>
@@ -165,14 +165,14 @@
                     <div class="row content">
                         <div class="col-lg-5 border-rules mb-4 mb-lg-0">
                             <p class="p-2">
-                                Mahasiswa aktif UIN Syarif Hidayatullah Jakarta semester 1 atau 3 (Dibuktikan dengan
+                                Mahasiswa aktif Universitas Bangka Belitung semester 1 atau 3 (Dibuktikan dengan
                                 KTM/KRS)
                             </p>
                         </div>
                         <div class="col-lg-2 pt-4 pt-lg-0"></div>
                         <div class="col-lg-5 border-rules">
                             <p class="p-2">
-                                Siap belajar dan berkomitmen tinggi di LDK Syahid UIN Jakarta
+                                Siap belajar dan berkomitmen tinggi di LDK Al-Madaniah Universitas Bangka Belitung
                             </p>
                         </div>
                     </div>
@@ -231,7 +231,7 @@
                             <div class="date-badge mb-3">
                                 09 – 11 Oktober 2026
                             </div>
-                            <p class="date-card-desc">Rangkaian acara kaderisasi LDK Syahid (materi, kelas minat bakat, & outbound).</p>
+                            <p class="date-card-desc">Rangkaian acara kaderisasi LDK Al-Madaniah (materi, kelas minat bakat, & outbound).</p>
                         </div>
                     </div>
                 </div>
@@ -251,7 +251,7 @@
                                 <div class="step-badge">01</div>
                                 <div class="step-icon mb-2"><i class="bi bi-globe2"></i></div>
                                 <h4>Buka Website</h4>
-                                <p>Akses website <a href="https://www.ldksyah.id/ekspresi" target="_blank" rel="noopener noreferrer">ldksyah.id/ekspresi</a> lalu klik tombol <b>Daftar Sekarang</b>.</p>
+                                <p>Akses website <a href="https://ubb.ac.id/ekspresi" target="_blank" rel="noopener noreferrer">ubb.ac.id/ekspresi</a> lalu klik tombol <b>Daftar Sekarang</b>.</p>
                             </div>
                         </div>
 
@@ -271,7 +271,7 @@
                                 <div class="step-badge">03</div>
                                 <div class="step-icon mb-2"><i class="bi bi-file-earmark-arrow-down"></i></div>
                                 <h4>Surat Izin Ortu</h4>
-                                <p>Unduh berkas izin di <a href="https://ldksyah.id/SuratIzinOrtu_Ekspresi2026" target="_blank" rel="noopener noreferrer">Template Surat Izin</a>, cetak & minta tanda tangan orang tua/wali.</p>
+                                <p>Unduh berkas izin di <a href="https://ubb.ac.id/SuratIzinOrtu_Ekspresi2026" target="_blank" rel="noopener noreferrer">Template Surat Izin</a>, cetak & minta tanda tangan orang tua/wali.</p>
                             </div>
                         </div>
 
@@ -281,7 +281,7 @@
                                 <div class="step-badge">04</div>
                                 <div class="step-icon mb-2"><i class="bi bi-pencil-square"></i></div>
                                 <h4>Isi Form & Kirim</h4>
-                                <p>Lengkapi seluruh formulir pendaftaran di <a href="https://ldksyah.id/ekspresi26" target="_blank" rel="noopener noreferrer">Form Pendaftaran</a> lalu klik submit.</p>
+                                <p>Lengkapi seluruh formulir pendaftaran di <a href="https://ubb.ac.id/ekspresi26" target="_blank" rel="noopener noreferrer">Form Pendaftaran</a> lalu klik submit.</p>
                             </div>
                         </div>
 
@@ -291,7 +291,7 @@
                                 <div class="step-badge">05</div>
                                 <div class="step-icon mb-2"><i class="bi bi-check2-circle"></i></div>
                                 <h4>Upload & Konfirmasi</h4>
-                                <p>Upload berkas yang sudah ditandatangani ke <a href="https://ldksyah.id/PengumpulanSuratIzinOrtu_Ekspresi26" target="_blank" rel="noopener noreferrer">Form Pengumpulan</a> atau serahkan ke stand.</p>
+                                <p>Upload berkas yang sudah ditandatangani ke <a href="https://ubb.ac.id/PengumpulanSuratIzinOrtu_Ekspresi26" target="_blank" rel="noopener noreferrer">Form Pengumpulan</a> atau serahkan ke stand.</p>
                             </div>
                         </div>
                     </div>
@@ -314,7 +314,7 @@
                 <div class="row g-4 justify-content-center mb-4">
                     {{-- 1. Form Pendaftaran Peserta --}}
                     <div class="col-xl-3 col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                        <a href="https://ldksyah.id/ekspresi26" target="_blank" rel="noopener noreferrer" class="hyperlink-item">
+                        <a href="https://ubb.ac.id/ekspresi26" target="_blank" rel="noopener noreferrer" class="hyperlink-item">
                             <div class="icon-box highlight-card text-center">
                                 <div class="icon"><i class="bi bi-rocket-takeoff"></i></div>
                                 <h4>Form Pendaftaran</h4>
@@ -324,7 +324,7 @@
                     </div>
                     {{-- 2. Template Surat Izin Ortu --}}
                     <div class="col-xl-3 col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="150">
-                        <a href="https://ldksyah.id/SuratIzinOrtu_Ekspresi2026" target="_blank" rel="noopener noreferrer" class="hyperlink-item">
+                        <a href="https://ubb.ac.id/SuratIzinOrtu_Ekspresi2026" target="_blank" rel="noopener noreferrer" class="hyperlink-item">
                             <div class="icon-box text-center">
                                 <div class="icon"><i class="bi bi-file-earmark-check"></i></div>
                                 <h4>Template Surat Izin</h4>
@@ -334,7 +334,7 @@
                     </div>
                     {{-- 3. Form Pengumpulan Surat Izin Ortu --}}
                     <div class="col-xl-3 col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-                        <a href="https://ldksyah.id/PengumpulanSuratIzinOrtu_Ekspresi26" target="_blank" rel="noopener noreferrer" class="hyperlink-item">
+                        <a href="https://ubb.ac.id/PengumpulanSuratIzinOrtu_Ekspresi26" target="_blank" rel="noopener noreferrer" class="hyperlink-item">
                             <div class="icon-box text-center">
                                 <div class="icon"><i class="bi bi-file-earmark-arrow-up"></i></div>
                                 <h4>Pengumpulan Surat Izin</h4>
@@ -445,7 +445,7 @@
                             <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
                                 <p class="answere">
                                     EKSPRESI itu Eksplorasi Potensi Diri Islami yaitu gerbang masuk utama untuk menjadi
-                                    anggota LDK Syahid
+                                    anggota LDK Al-Madaniah
                                 </p>
                             </div>
                         </li>
@@ -471,7 +471,7 @@
                             <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                                 <p class="answere">
                                     Syaratnya gampang banget loh, yaitu Mahasiswa aktif semester 1 atau 3 yang siap
-                                    belajar serta mau berkomitmen penuh menjadi anggota LDK Syahid
+                                    belajar serta mau berkomitmen penuh menjadi anggota LDK Al-Madaniah
                                 </p>
                             </div>
                         </li>
@@ -496,7 +496,7 @@
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                                 <p class="answere">
-                                    Kamu bisa langsung kunjungi website LDK Syahid dan pilih tombol 'Daftar Sekarang'
+                                    Kamu bisa langsung kunjungi website LDK Al-Madaniah dan pilih tombol 'Daftar Sekarang'
                                     atau datang langsung ke stand utama EKSPRESI yang ada di Gazebo Taman FITK (Kampus
                                     1)
                                 </p>
@@ -527,14 +527,14 @@
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
                     <h2>Join Us!</h2>
-                    <p>Keluarga Besar LDK Syahid & LDK Fakultas se-UIN Syarif Hidayatullah Jakarta</p>
+                    <p>Keluarga Besar LDK Al-Madaniah & LDK Fakultas se-Universitas Bangka Belitung</p>
                 </div>
                 <div class="mx-3">
                     <div class="container rounded border-0 p-4" style="background-color: #fff">
                         <div class="row justify-content-center align-items-center" data-aos="zoom-in">
 
                             <div class="col-lg-12 col-md-4 col-12 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
+                                <img src="/landing-page-ext-rsrc/img/ldk-logo.png"
                                     class="img-fluid" alt="" style="width: 100px;">
                             </div>
 

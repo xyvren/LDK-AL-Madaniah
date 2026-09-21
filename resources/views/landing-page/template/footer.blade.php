@@ -2,8 +2,8 @@
 <footer class="footer-fun">
     {{-- Decorative Top Wave --}}
     <div class="footer-wave">
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
-            <path d="M0,60 C240,120 480,0 720,60 C960,120 1200,0 1440,60 L1440,120 L0,120 Z" fill="#1a2332"></path>
+        <svg viewBox="0 0 1440 200" preserveAspectRatio="none">
+            <path d="M0,100 C120,200 240,0 360,100 C480,200 600,0 720,100 C840,200 960,0 1080,100 C1200,200 1320,0 1440,100 L1440,200 L0,200 Z" fill="#1a2332"></path>
         </svg>
     </div>
 
@@ -16,34 +16,34 @@
                         <div class="footer-brand mb-3">
                             <div class="footer-logo-wrapper me-1">
                                 <img src="https://lh3.googleusercontent.com/d/1LsDxFAt1WU66CNp-2CN3J2qWXXJHlWIY"
-                                     alt="Logo UIN Jakarta"
+                                     alt="Logo Universitas Bangka Belitung"
                                      class="footer-logo footer-logo-secondary">
                             </div>
                             <div class="footer-logo-wrapper">
-                                <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
-                                     alt="Logo LDK Syahid"
+                                <img src="/landing-page-ext-rsrc/img/ldk-logo.png"
+                                     alt="Logo LDK Al-Madaniah"
                                      class="footer-logo">
                                 <span class="footer-logo-sparkle">✨</span>
                             </div>
                             <div class="footer-brand-text">
-                                <span class="brand-name">LDK Syahid</span>
-                                <span class="brand-tagline">#KitaAdalahSaudara</span>
+                                <span class="brand-name">LDK Al-Madaniah</span>
+                                <span class="brand-tagline">#MuslimMudaArsitekPeradaban</span>
                             </div>
                         </div>
                         <p class="footer-description">
-                            Lembaga Dakwah Kampus UIN Syarif Hidayatullah Jakarta. Tempat bertumbuh bersama dalam kebaikan! 🌱
+                            Lembaga Dakwah Kampus Universitas Bangka Belitung. Muslim Muda Arsitek Peradaban! 🌱
                         </p>
                         <div class="footer-social">
-                            <a class="social-btn social-facebook" href="https://www.facebook.com/ldksyahid/" target="_blank" aria-label="Facebook">
+                            <a class="social-btn social-facebook" href="https://www.facebook.com/ldkalmadaniah/" target="_blank" aria-label="Facebook">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a class="social-btn social-twitter" href="https://twitter.com/ldksyahid/" target="_blank" aria-label="Twitter">
+                            <a class="social-btn social-twitter" href="https://www.instagram.com/ldk_.almadaniah/" target="_blank" aria-label="Twitter">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a class="social-btn social-youtube" href="https://www.youtube.com/channel/UCJ-SyxQN5sG4CzO0waSYpBQ" target="_blank" aria-label="YouTube">
+                            <a class="social-btn social-youtube" href="https://www.youtube.com/@ldkal-madaniah" target="_blank" aria-label="YouTube">
                                 <i class="fab fa-youtube"></i>
                             </a>
-                            <a class="social-btn social-instagram" href="https://www.instagram.com/ldksyahid/" target="_blank" aria-label="Instagram">
+                            <a class="social-btn social-instagram" href="https://www.instagram.com/ldk_.almadaniah/" target="_blank" aria-label="Instagram">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
@@ -60,7 +60,7 @@
                         <ul class="footer-contact-list">
                             <li>
                                 <i class="fas fa-building"></i>
-                                <span>Lt. 3 Gedung SC UIN Jakarta</span>
+                                <span>Kampus Terpadu UBB Balunijuk, Merawang</span>
                             </li>
                             <li>
                                 <i class="fas fa-phone-alt"></i>
@@ -68,7 +68,7 @@
                             </li>
                             <li>
                                 <i class="fas fa-envelope"></i>
-                                <span>ldk.ormawa@apps.uinjkt.ac.id</span>
+                                <span>ldkalmadaniah@ubb.ac.id</span>
                             </li>
                         </ul>
                     </div>
@@ -236,13 +236,13 @@
                 <div class="copyright-content">
                     <div class="copyright-left">
                         <span>&copy; {{ date('Y') }}</span>
-                        <a href="/" class="copyright-link">UKM LDK Syahid</a>
+                        <a href="/" class="copyright-link">UKM LDK Al-Madaniah</a>
                         <span class="copyright-heart">🤝</span>
                         <span>Kita Adalah Saudara</span>
                     </div>
                     <div class="copyright-right">
                         <span>Developed by</span>
-                        <a href="/itsupport" class="copyright-link">IT Support UKM LDK Syahid</a>
+                        <a href="/itsupport" class="copyright-link">IT Support UKM LDK Al-Madaniah UBB</a>
                         <span class="dev-emoji">👨‍💻</span>
                     </div>
                 </div>
@@ -269,14 +269,15 @@
 
     .footer-wave {
         position: relative;
-        height: 80px;
-        overflow: hidden;
+        height: 120px;
+        overflow: visible;
     }
 
     .footer-wave svg {
         position: absolute;
         bottom: 0;
-        width: 100%;
+        left: -5%;
+        width: 110%;
         height: 100%;
     }
 
@@ -668,7 +669,7 @@
         }
 
         .footer-wave {
-            height: 60px;
+            height: 80px;
         }
 
         .footer-logo {
@@ -691,7 +692,7 @@
         }
 
         .footer-wave {
-            height: 40px;
+            height: 60px;
         }
 
         .footer-links-grid {

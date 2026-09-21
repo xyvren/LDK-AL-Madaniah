@@ -60,9 +60,9 @@
                     : 'https://lh3.googleusercontent.com/d/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O';
                 $logoSrc = $campaign->gdrive_id_1
                     ? 'https://lh3.googleusercontent.com/d/' . $campaign->gdrive_id_1
-                    : 'https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1';
-                $orgName = $campaign->nama_organisasi ?: (($campaign->nama_pj && $campaign->link_pj) ? $campaign->nama_pj : 'UKM LDK Syahid');
-                $orgLink = ($campaign->nama_pj && $campaign->link_pj) ? $campaign->link_pj : 'https://www.ldksyah.id/';
+                    : '/landing-page-ext-rsrc/img/ldk-logo.png';
+                $orgName = $campaign->nama_organisasi ?: (($campaign->nama_pj && $campaign->link_pj) ? $campaign->nama_pj : 'UKM LDK Al-Madaniah');
+                $orgLink = ($campaign->nama_pj && $campaign->link_pj) ? $campaign->link_pj : 'https://ubb.ac.id';
                 $catColor = $categoryColors[$campaign->kategori] ?? '#00a79d';
             @endphp
             <div class="cs-campaign-card wow fadeInUp"
@@ -191,9 +191,9 @@
                     : 'https://lh3.googleusercontent.com/d/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O';
                 $logoSrc = $campaign->gdrive_id_1
                     ? 'https://lh3.googleusercontent.com/d/' . $campaign->gdrive_id_1
-                    : 'https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1';
-                $orgName = $campaign->nama_organisasi ?: (($campaign->nama_pj && $campaign->link_pj) ? $campaign->nama_pj : 'UKM LDK Syahid');
-                $orgLink = ($campaign->nama_pj && $campaign->link_pj) ? $campaign->link_pj : 'https://www.ldksyah.id/';
+                    : '/landing-page-ext-rsrc/img/ldk-logo.png';
+                $orgName = $campaign->nama_organisasi ?: (($campaign->nama_pj && $campaign->link_pj) ? $campaign->nama_pj : 'UKM LDK Al-Madaniah');
+                $orgLink = ($campaign->nama_pj && $campaign->link_pj) ? $campaign->link_pj : 'https://ubb.ac.id';
                 $catColor = $categoryColors[$campaign->kategori] ?? '#00a79d';
             @endphp
             <div class="cs-mobile-card"

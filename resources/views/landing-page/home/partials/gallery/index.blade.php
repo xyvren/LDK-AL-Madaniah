@@ -43,7 +43,7 @@
                 Dokumentasi <span class="title-highlight-gal">Kegiatan</span>
             </h2>
             <p class="section-description-gal">
-                Momen-momen seru dari kegiatan LDK Syahid yang penuh manfaat!
+                Momen-momen seru dari kegiatan LDK Al-Madaniah yang penuh manfaat!
             </p>
         </div>
 

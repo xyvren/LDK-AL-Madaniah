@@ -222,7 +222,7 @@ Route::post('/shortlink/store', [RequestShortlinkController::class, 'store'])->n
 // Route LandingPage Layanan Call Kestari
 Route::get('/callkestari', [CallKestariController::class, 'index'])->name('service.callkestari');
 
-// Route KTA LDK Syahid
+// Route KTA LDK Al-Madaniah
 Route::get('/kta/{link}', [MsKTALDKSyahidController::class, 'show'])->name('kta.show');
 
 // Public landing page routes — Celengan Syahid service
@@ -545,7 +545,7 @@ Route::middleware(['auth'])->prefix('/admin/security')->group(function () {
 Route::get('/admin/service/celengansyahid/{path?}', fn ($path = null) => redirect('/admin/celengan-syahid' . ($path ? '/' . $path : ''), 301))
     ->where('path', '.*')->middleware(['role:Superadmin|HelperCelsyahid']);
 
-// Route AdminPage KTA LDK Syahid
+// Route AdminPage KTA LDK Al-Madaniah
 Route::middleware(['role:Superadmin|HelperLetter'])->prefix('/admin/ktaldksyahid')->group(function () {
     Route::get('/', [MsKTALDKSyahidController::class, 'indexAdmin'])->name('admin.ktaldksyahid.index');
     Route::get('/create', [MsKTALDKSyahidController::class, 'create'])->name('admin.ktaldksyahid.create');

@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://ldksyah.id'),
+    'url' => env('APP_URL', 'https://ubb.ac.id'),
 
     'asset_url' => env('ASSET_URL', null),
 

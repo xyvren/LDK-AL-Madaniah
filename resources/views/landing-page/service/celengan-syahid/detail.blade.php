@@ -20,11 +20,11 @@
                             : 'https://lh3.googleusercontent.com/d/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O';
     $logoSrc          = $data->gdrive_id_1
                             ? 'https://lh3.googleusercontent.com/d/' . $data->gdrive_id_1
-                            : 'https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1';
-    $orgName          = $data->nama_organisasi ?: (($data->nama_pj && $data->link_pj) ? $data->nama_pj : 'UKM LDK Syahid');
-    $orgLink          = ($data->nama_pj && $data->link_pj) ? $data->link_pj : 'https://www.ldksyah.id/';
+                            : '/landing-page-ext-rsrc/img/ldk-logo.png';
+    $orgName          = $data->nama_organisasi ?: (($data->nama_pj && $data->link_pj) ? $data->nama_pj : 'UKM LDK Al-Madaniah');
+    $orgLink          = ($data->nama_pj && $data->link_pj) ? $data->link_pj : 'https://ubb.ac.id';
     $waText           = urlencode(
-        "🚨 *[CELENGAN SYAHID]* 🚨\n\n_*{$data->judul}*_\n\n_" . route('service.celengansyahid.detail', $data->link) . "_\n\nYuk teman-teman kita bantu saudara kita 😇\n\n_\"Dan berbuat-baiklah kepada kedua orang tua, karib-kerabat, anak-anak yatim, orang-orang miskin, tetangga dekat dan tetangga jauh, teman sejawat, ibnu sabil dan hamba sahaya yang kamu miliki. Sungguh, Allah tidak menyukai orang yang sombong dan membanggakan diri,\" ● (QS. An-Nisa 4: Ayat 36)_\n\n#CelenganSyahid\n#{$data->link}\n#UKMLDKSyahid\n#KitaAdalahSaudara\n#Bismillah"
+        "🚨 *[CELENGAN MADANIAH]* 🚨\n\n_*{$data->judul}*_\n\n_" . route('service.celengansyahid.detail', $data->link) . "_\n\nYuk teman-teman kita bantu saudara kita 😇\n\n_\"Dan berbuat-baiklah kepada kedua orang tua, karib-kerabat, anak-anak yatim, orang-orang miskin, tetangga dekat dan tetangga jauh, teman sejawat, ibnu sabil dan hamba sahaya yang kamu miliki. Sungguh, Allah tidak menyukai orang yang sombong dan membanggakan diri,\" ● (QS. An-Nisa 4: Ayat 36)_\n\n#CelenganSyahid\n#{$data->link}\n#UKMLDKSyahid\n#KitaAdalahSaudara\n#Bismillah"
     );
 @endphp
 
@@ -235,7 +235,7 @@
             {{-- ── Back Link ──────────────────────────────────────── --}}
             <a href="{{ route('service.celengansyahid') }}" class="cd-back-link wow fadeIn" data-wow-delay="0.05s">
                 <span class="cd-back-icon"><i class="fas fa-arrow-left"></i></span>
-                <span>Kembali ke Celengan Syahid</span>
+                <span>Kembali ke Celengan Madaniah</span>
             </a>
         </div>
 
@@ -245,7 +245,7 @@
 
 {{-- ── Mobile Sticky Donate Footer (d-lg-none) ──────────────────── --}}
 <div class="cd-mobile-footer d-lg-none">
-    <a href="{{ route('service.celengansyahid') }}" class="cd-mobile-back-btn" title="Kembali ke Celengan Syahid">
+    <a href="{{ route('service.celengansyahid') }}" class="cd-mobile-back-btn" title="Kembali ke Celengan Madaniah">
         <i class="fas fa-arrow-left"></i>
     </a>
     @if($isDeadlinePassed)

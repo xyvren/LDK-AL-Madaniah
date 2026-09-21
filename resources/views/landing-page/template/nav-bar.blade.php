@@ -11,14 +11,14 @@
         {{-- Brand --}}
         <a href="/" class="navbar-brand-fun">
             <div class="brand-logo-wrapper">
-                <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
+                <img src="/landing-page-ext-rsrc/img/ldk-logo.png"
                      class="brand-logo"
-                     alt="Logo LDK Syahid">
+                     alt="Logo LDK Al-Madaniah">
                 <span class="brand-emoji">✨</span>
             </div>
             <div class="brand-text">
-                <span class="brand-name">LDK Syahid</span>
-                <span class="brand-tagline">UIN Jakarta</span>
+                <span class="brand-name">LDK Al-Madaniah</span>
+                <span class="brand-tagline">Univ. Bangka Belitung</span>
             </div>
         </a>
 
@@ -41,7 +41,7 @@
                             <div class="dropdown-icon"><i class="fas fa-sitemap"></i></div>
                             <div class="dropdown-text">
                                 <span class="dropdown-title">Struktur Pengurus</span>
-                                <span class="dropdown-desc">Kenali pengurus LDK Syahid</span>
+                                <span class="dropdown-desc">Kenali pengurus LDK Al-Madaniah</span>
                             </div>
                         </a>
                     </li>
@@ -288,12 +288,12 @@
     <div class="mobile-menu-header">
         <a href="/" class="mobile-brand">
             <div class="mobile-brand-logo-wrapper">
-                <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1" alt="Logo">
+                <img src="/landing-page-ext-rsrc/img/ldk-logo.png" alt="Logo">
                 <span class="mobile-brand-emoji">✨</span>
             </div>
             <div class="mobile-brand-info">
-                <span class="mobile-brand-name-text">LDK Syahid</span>
-                <span class="mobile-brand-tagline-text">UIN Jakarta</span>
+                <span class="mobile-brand-name-text">LDK Al-Madaniah</span>
+                <span class="mobile-brand-tagline-text">Univ. Bangka Belitung</span>
             </div>
         </a>
         <button class="mobile-close" id="mobileClose">
@@ -391,12 +391,12 @@
 
     <div class="mobile-menu-footer">
         <div class="social-links">
-            <a href="https://www.facebook.com/ldksyahid/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/ldksyahid/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/ldkalmadaniah/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/annisa_almadaniah/" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.youtube.com/channel/UCJ-SyxQN5sG4CzO0waSYpBQ" target="_blank"><i class="fab fa-youtube"></i></a>
-            <a href="https://www.instagram.com/ldksyahid/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/ldk_.almadaniah/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
-        <p class="copyright">© {{ date('Y') }} LDK Syahid · Kita Adalah Saudara <span class="beat-emoji">❤️</span></p>
+        <p class="copyright">© {{ date('Y') }} LDK Al-Madaniah · Kita Adalah Saudara <span class="beat-emoji">❤️</span></p>
     </div>
 </div>
 

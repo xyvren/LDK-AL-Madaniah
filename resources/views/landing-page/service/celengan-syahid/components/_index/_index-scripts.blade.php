@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var title       = el.dataset.title       || '';
         var cover       = el.dataset.cover        || '';
-        var org         = el.dataset.org          || 'UKM LDK Syahid';
+        var org         = el.dataset.org          || 'UKM LDK Al-Madaniah';
         var orgLogo     = el.dataset.orgLogo      || '';
         var orgLink     = el.dataset.orgLink      || '#';
         var category    = el.dataset.category     || '';

@@ -1,4 +1,4 @@
-{{-- resources/views/landing-page/kta-ldksyahid/index.blade.php --}}
+{{-- resources/views/landing-page/kta-ldksyahid/index.blade.php — KTA LDK Al-Madaniah UBB --}}
 @extends('landing-page.template.body')
 
 
@@ -38,7 +38,7 @@
                 @endif
                 <div class="kta-ldk-badge">
                     <img src="https://lh3.googleusercontent.com/d/1LsDxFAt1WU66CNp-2CN3J2qWXXJHlWIY"
-                         alt="LDK Syahid Badge">
+                         alt="LDK Al-Madaniah Badge">
                 </div>
             </div>
 
@@ -50,8 +50,8 @@
                         {{ $ktaData->memberNumber }}
                     </span>
                     <img class="kta-ldk-logo"
-                         src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
-                         alt="LDK Syahid">
+                         src="/landing-page-ext-rsrc/img/ldk-logo.png"
+                         alt="LDK Al-Madaniah">
                 </div>
 
                 <h1 class="kta-hero-name">{{ $ktaData->fullName }}</h1>
@@ -201,7 +201,7 @@
         <div class="text-center mb-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="kta-section-badge">
                 <span>🕌</span>
-                <span>Tentang LDK Syahid</span>
+                <span>Tentang LDK Al-Madaniah</span>
                 <span class="kta-badge-pulse"></span>
             </div>
             <h2 class="kta-section-title mt-3">Kenali Organisasi Kami</h2>
@@ -237,8 +237,8 @@
                     <div class="col-lg-5 text-center">
                         <div class="about-img-cr">
                             <div class="img-frame">
-                                <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
-                                     alt="LDK Syahid" class="about-photo">
+                                <img src="/landing-page-ext-rsrc/img/ldk-logo.png"
+                                     alt="LDK Al-Madaniah" class="about-photo">
                             </div>
                             <div class="img-badge-cr">
                                 <div class="badge-inner">
@@ -253,7 +253,7 @@
                                 <i class="fas fa-users"></i> Ukhuwah
                             </div>
                         </div>
-                        <p class="mt-4 fst-italic text-muted px-3" style="font-size: 0.9rem;">LDK Syahid adalah UKM keislaman yang aktif dalam mentoring, kajian, rihlah, softskill, ukhuwah, dan pembentukan karakter kepemimpinan.</p>
+                        <p class="mt-4 fst-italic text-muted px-3" style="font-size: 0.9rem;">LDK Al-Madaniah adalah UKM keislaman yang aktif dalam mentoring, kajian, rihlah, softskill, ukhuwah, dan pembentukan karakter kepemimpinan.</p>
                     </div>
                     <div class="col-lg-7">
                         <div class="intro-card-cr">
@@ -264,12 +264,12 @@
                                 </div>
                                 <div>
                                     <h4 class="intro-title">Lembaga Dakwah Kampus</h4>
-                                    <span class="intro-subtitle">UIN Syarif Hidayatullah Jakarta</span>
+                                    <span class="intro-subtitle">Universitas Bangka Belitung</span>
                                 </div>
                             </div>
                             <div class="intro-body">
                                 <p style="text-align: justify;">
-                                    LDK Syahid adalah Salah satu Unit Kegiatan Mahasiswa (UKM) bidang keislaman di UIN Jakarta. Kegiatan-kegiatan yang dilakukan oleh LDK Syahid ialah Mentoring Pekanan, Kajian Keislaman, Rihlah, Upgrading Softskill, Menguatkan Ukhuwah Islamiyah, Management SDM, Management Problem Solved, Pembentukan Karakter Kepemimpinan, dan masih banyak lagi. Outputnya adalah Anggota LDK Syahid menjadi generasi emas menyongsong kehidupan masyarakat madani.
+                                    LDK Al-Madaniah adalah Salah satu Unit Kegiatan Mahasiswa (UKM) bidang keislaman di Universitas Bangka Belitung. Kegiatan-kegiatan yang dilakukan oleh LDK Al-Madaniah ialah Mentoring Pekanan, Kajian Keislaman, Rihlah, Upgrading Softskill, Menguatkan Ukhuwah Islamiyah, Management SDM, Management Problem Solved, Pembentukan Karakter Kepemimpinan, dan masih banyak lagi. Outputnya adalah Anggota LDK Al-Madaniah menjadi generasi emas menyongsong kehidupan masyarakat madani.
                                 </p>
                                 <div class="features-grid-cr">
                                     <div class="feature-cr" data-tooltip="Belajar bersama setiap pekan">
@@ -325,7 +325,7 @@
                                     <span class="orbit-dot" style="--delay: 2s">🌟</span>
                                 </div>
                             </div>
-                            <h4 class="vision-title-cr">Visi LDK Syahid</h4>
+                            <h4 class="vision-title-cr">Visi LDK Al-Madaniah</h4>
                             <blockquote class="vision-quote-cr">
                                 <span class="quote-mark">"</span>Terciptanya insan-insan dakwah yang memiliki kekokohan <span class="quote-hl">spiritualitas</span>, <span class="quote-hl">intelektualitas</span>, dan <span class="quote-hl">solidaritas</span> dengan etos profesionalisme menuju kampus yang islami dalam rangka mewujudkan <span class="quote-hl">khairu ummah</span>.<span class="quote-mark">"</span>
                             </blockquote>

@@ -30,7 +30,7 @@
         </div>
         <p class="salam">Assalamu'alaikum Warahmatullahi Wabarakatuh,</p>
         <p class="indent">Teriring do'a dan harapan semoga Bapak/Ibu/Saudara/i dalam keadaan sehat wal 'afiat serta berkah dalam menjalankan aktivitas sehari-hari.</p>
-        <p class="indent">Sehubungan dengan pelaksanaan agenda <strong>{{ $data['nama_acara'] ?? '-' }}</strong> yang mengusung tema <strong><em>&ldquo;{{ $data['tema_acara'] ?? '-' }}&rdquo;</em></strong> oleh UKM Lembaga Dakwah Kampus (LDK) Syahid UIN Syarif Hidayatullah Jakarta, yang InsyaAllah akan diselenggarakan pada:</p>
+        <p class="indent">Sehubungan dengan pelaksanaan agenda <strong>{{ $data['nama_acara'] ?? '-' }}</strong> yang mengusung tema <strong><em>&ldquo;{{ $data['tema_acara'] ?? '-' }}&rdquo;</em></strong> oleh UKM Lembaga Dakwah Kampus (LDK) Syahid Universitas Bangka Belitung, yang InsyaAllah akan diselenggarakan pada:</p>
         <table class="identity">
             <tr><td class="identity-label">Hari, Tanggal</td><td class="identity-sep">:</td><td>{{ $hariTanggal }}</td></tr>
             <tr><td class="identity-label">Waktu</td><td class="identity-sep">:</td><td>{{ $waktu }}</td></tr>
@@ -42,7 +42,7 @@
         <table class="signature-table">
             <tr>
                 <td class="ttd-cell"><strong>Sekretaris Jenderal</strong></td>
-                <td class="ttd-cell"><strong>Ketua Umum LDK Syahid</strong></td>
+                <td class="ttd-cell"><strong>Ketua Umum LDK Al-Madaniah</strong></td>
             </tr>
             <tr>
                 <td class="ttd-cell"><div class="ttd-space">@include('pdf.components._sekjen-signature')</div></td>
@@ -62,7 +62,7 @@
                 <td class="qr-cell"><img src="{!! $qrCode !!}" alt="QR Verifikasi"></td>
                 <td>
                     <p><strong>Verifikasi Keaslian Dokumen</strong></p>
-                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Syahid.</p>
+                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Al-Madaniah.</p>
                     <p class="verification-url">{{ $verifikasiUrl }}</p>
                     <p>Kode Verifikasi: <strong>{{ $kodeVerifikasi }}</strong></p>
                 </td>

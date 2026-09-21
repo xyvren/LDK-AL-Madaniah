@@ -27,7 +27,7 @@ class CreateLkReportTable extends Migration
                 [
                     'reportName' => 'Laporan Keuangan',
                     'node' => '/laporan-keuangan',
-                    'description' => 'Laporan Keuangan LDK Syahid merupakan pencatatan pemasukan dan pengeluaran transaksi keuangan sesuai dengan realisasi Program Kerja dan Non Program Kerja untuk menjaga transparansi dan akuntabilitas keuangan, baik di LDK Syahid tingkat Pusat maupun Fakultas.',
+                    'description' => 'Laporan Keuangan LDK Al-Madaniah merupakan pencatatan pemasukan dan pengeluaran transaksi keuangan sesuai dengan realisasi Program Kerja dan Non Program Kerja untuk menjaga transparansi dan akuntabilitas keuangan, baik di LDK Al-Madaniah tingkat Pusat maupun Fakultas.',
                     'iconGdriveID' => '1Z8nd1FOuN2JiQ76YuRHkHOmtrPukvO4V',
                     'createdDate' => now(),
                     'editedDate' => now(),

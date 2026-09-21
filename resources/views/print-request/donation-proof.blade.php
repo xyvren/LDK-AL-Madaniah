@@ -221,8 +221,8 @@
                                 <img src="{{ $logoUrl }}" class="hdr-logo" alt="">
                             </td>
                             <td class="hdr-org">
-                                <div class="hdr-org-name">UKM LDK Syahid</div>
-                                <div class="hdr-org-sub">UIN Syarif Hidayatullah Jakarta</div>
+                                <div class="hdr-org-name">UKM LDK Al-Madaniah</div>
+                                <div class="hdr-org-sub">Universitas Bangka Belitung</div>
                             </td>
                         </tr>
                     </table>
@@ -365,21 +365,21 @@
                 <td>
                     <div class="f-lbl">Alamat Penyelenggara</div>
                     <div class="f-text">
-                        Gedung Student Center Lantai 3, Ruang LDK Syahid<br>
-                        UIN Syarif Hidayatullah Jakarta
+                        Gedung Student Center Lantai 3, Ruang LDK Al-Madaniah<br>
+                        Universitas Bangka Belitung
                     </div>
                 </td>
                 <td>
                     <div class="f-lbl">Kontak Resmi</div>
                     <div class="f-text">
-                        UKM LDK Syahid<br>
-                        ldk.ormawa@apps.uinjkt.ac.id &middot; www.ldksyah.id
+                        UKM LDK Al-Madaniah<br>
+                        ldkalmadaniah@ubb.ac.id &middot; ubb.ac.id
                     </div>
                 </td>
             </tr>
         </table>
         <div class="disclaimer">
-            * Bukti pembayaran yang sah yang dikeluarkan oleh UKM LDK Syahid UIN Syarif Hidayatullah Jakarta.
+            * Bukti pembayaran yang sah yang dikeluarkan oleh UKM LDK Al-Madaniah Universitas Bangka Belitung.
             Dokumen ini berlaku sebagai bukti penerimaan donasi resmi dari program Celengan Syahid.
         </div>
         <div class="print-info">Dicetak pada: {{ $printDate }}</div>

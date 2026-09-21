@@ -24,7 +24,7 @@ class ArticleNewsletterMail extends Mailable
 
     public function build()
     {
-        return $this->subject('📄 ' . $this->article->title . ' – LDK Syahid')
+        return $this->subject('📄 ' . $this->article->title . ' – LDK Al-Madaniah')
                     ->view('emails.newsletter.article');
     }
 }

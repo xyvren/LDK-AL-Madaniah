@@ -17,7 +17,7 @@
         <div class="hero-slide">
             <img class="hero-image"
                  src="https://lh3.googleusercontent.com/d/1Y4z7FlfDyACvm6jyaWvCQHNB_-1NgnVz"
-                 alt="Galeri LDK Syahid" />
+                 alt="Galeri LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
 

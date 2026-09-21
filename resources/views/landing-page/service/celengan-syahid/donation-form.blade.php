@@ -6,11 +6,11 @@
                     : 'https://lh3.googleusercontent.com/d/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O';
     $logoSrc  = $data->gdrive_id_1
                     ? 'https://lh3.googleusercontent.com/d/' . $data->gdrive_id_1
-                    : 'https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1';
-    $orgName          = $data->nama_organisasi ?: (($data->nama_pj && $data->link_pj) ? $data->nama_pj : 'UKM LDK Syahid');
-    $rawLink          = ($data->nama_pj && $data->link_pj) ? $data->link_pj : 'https://www.ldksyah.id/';
+                    : '/landing-page-ext-rsrc/img/ldk-logo.png';
+    $orgName          = $data->nama_organisasi ?: (($data->nama_pj && $data->link_pj) ? $data->nama_pj : 'UKM LDK Al-Madaniah');
+    $rawLink          = ($data->nama_pj && $data->link_pj) ? $data->link_pj : 'https://ubb.ac.id';
     // Only allow http/https — block javascript: and other unsafe schemes
-    $orgLink          = preg_match('/^https?:\/\//i', $rawLink) ? $rawLink : 'https://www.ldksyah.id/';
+    $orgLink          = preg_match('/^https?:\/\//i', $rawLink) ? $rawLink : 'https://ubb.ac.id';
     $isDeadlinePassed = $data->deadline && strtotime($data->deadline) < time();
 @endphp
 

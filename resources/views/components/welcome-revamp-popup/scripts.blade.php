@@ -46,9 +46,9 @@
     /* ── Share — Web Share API + fallback ── */
     if (btnExplore) {
         var shareData = {
-            title : 'Warisan Akal Budi Gemilang — LDK Syahid',
-            text  : 'Tentang masa depan, tentang masa terang. Pelan pasti, jalanmu bakal gemilang gaes! 🌟 — LDK Syahid UIN Jakarta',
-            url   : 'https://ldksyah.id/',
+            title : 'Warisan Akal Budi Gemilang — LDK Al-Madaniah',
+            text  : 'Tentang masa depan, tentang masa terang. Pelan pasti, jalanmu bakal gemilang gaes! 🌟 — LDK Al-Madaniah Universitas Bangka Belitung',
+            url   : 'http://127.0.0.1:8001/',
         };
         btnExplore.addEventListener('click', function () {
             if (navigator.share) {

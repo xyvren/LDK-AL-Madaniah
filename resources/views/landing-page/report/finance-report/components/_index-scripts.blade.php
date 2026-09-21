@@ -46,7 +46,7 @@
     window.frShareX = function (url, title, ev) {
         if (ev) ev.stopPropagation();
         var full = (url && url.indexOf('http') === 0) ? url : window.location.origin + url;
-        var text = (title ? title + ' — LDK Syahid\n' : '') + full;
+        var text = (title ? title + ' — LDK Al-Madaniah\n' : '') + full;
         window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text), '_blank');
     };
 

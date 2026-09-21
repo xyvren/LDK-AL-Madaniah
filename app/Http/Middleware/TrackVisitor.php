@@ -144,27 +144,63 @@ class TrackVisitor
         ]);
 
         // Upsert page stat — uniqueVisitors counts distinct IPs per page per day
-        DB::statement("
-            INSERT INTO tr_visitor_page_stat
-                (statDate, path, totalHits, uniqueVisitors, mobileHits, desktopHits, tabletHits, botHits, createdDate, updatedDate)
-            VALUES
-                (?, ?, 1, ?, ?, ?, ?, ?, NOW(), NOW())
-            ON DUPLICATE KEY UPDATE
-                totalHits      = totalHits + 1,
-                uniqueVisitors = uniqueVisitors + VALUES(uniqueVisitors),
-                mobileHits     = mobileHits  + VALUES(mobileHits),
-                desktopHits    = desktopHits + VALUES(desktopHits),
-                tabletHits     = tabletHits  + VALUES(tabletHits),
-                botHits        = botHits     + VALUES(botHits),
-                updatedDate    = NOW()
-        ", [
-            $date,
-            $path,
-            $isUniqueOnPage,
-            $deviceType === 'mobile'  ? 1 : 0,
-            $deviceType === 'desktop' ? 1 : 0,
-            $deviceType === 'tablet'  ? 1 : 0,
-            $isBot,
-        ]);
+        $driver = DB::getDriverName();
+        if ($driver === 'sqlite') {
+            // SQLite: use INSERT OR REPLACE with a subquery approach
+            $existing = DB::table('tr_visitor_page_stat')
+                ->where('statDate', $date)
+                ->where('path', $path)
+                ->first();
+            if ($existing) {
+                DB::table('tr_visitor_page_stat')
+                    ->where('statDate', $date)
+                    ->where('path', $path)
+                    ->update([
+                        'totalHits'      => DB::raw('totalHits + 1'),
+                        'uniqueVisitors' => DB::raw('uniqueVisitors + ' . (int)$isUniqueOnPage),
+                        'mobileHits'     => DB::raw('mobileHits + ' . ($deviceType === 'mobile' ? 1 : 0)),
+                        'desktopHits'    => DB::raw('desktopHits + ' . ($deviceType === 'desktop' ? 1 : 0)),
+                        'tabletHits'     => DB::raw('tabletHits + ' . ($deviceType === 'tablet' ? 1 : 0)),
+                        'botHits'        => DB::raw('botHits + ' . (int)$isBot),
+                        'updatedDate'    => now(),
+                    ]);
+            } else {
+                DB::table('tr_visitor_page_stat')->insert([
+                    'statDate'       => $date,
+                    'path'           => $path,
+                    'totalHits'      => 1,
+                    'uniqueVisitors' => (int)$isUniqueOnPage,
+                    'mobileHits'     => $deviceType === 'mobile' ? 1 : 0,
+                    'desktopHits'    => $deviceType === 'desktop' ? 1 : 0,
+                    'tabletHits'     => $deviceType === 'tablet' ? 1 : 0,
+                    'botHits'        => (int)$isBot,
+                    'createdDate'    => now(),
+                    'updatedDate'    => now(),
+                ]);
+            }
+        } else {
+            DB::statement("
+                INSERT INTO tr_visitor_page_stat
+                    (statDate, path, totalHits, uniqueVisitors, mobileHits, desktopHits, tabletHits, botHits, createdDate, updatedDate)
+                VALUES
+                    (?, ?, 1, ?, ?, ?, ?, ?, NOW(), NOW())
+                ON DUPLICATE KEY UPDATE
+                    totalHits      = totalHits + 1,
+                    uniqueVisitors = uniqueVisitors + VALUES(uniqueVisitors),
+                    mobileHits     = mobileHits  + VALUES(mobileHits),
+                    desktopHits    = desktopHits + VALUES(desktopHits),
+                    tabletHits     = tabletHits  + VALUES(tabletHits),
+                    botHits        = botHits     + VALUES(botHits),
+                    updatedDate    = NOW()
+            ", [
+                $date,
+                $path,
+                $isUniqueOnPage,
+                $deviceType === 'mobile'  ? 1 : 0,
+                $deviceType === 'desktop' ? 1 : 0,
+                $deviceType === 'tablet'  ? 1 : 0,
+                $isBot,
+            ]);
+        }
     }
 }

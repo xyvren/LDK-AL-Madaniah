@@ -1,7 +1,7 @@
 {{-- Path: resources/views/admin-page/service-request/persuratan/components/_index-styles.blade.php --}}
 <style>
 /* ================================================================
-   ADMIN PERSURATAN — LDK Syahid Design System Alignment
+   ADMIN PERSURATAN — LDK Al-Madaniah Design System Alignment
    ================================================================ */
 
 /* ── Page Title Styles (Standard Admin Pattern) ──────────── */

@@ -107,7 +107,7 @@
                     </div>
                 </div>
                 <a href="/admin/comments" class="nav-item nav-link {{ $isActive('admin/comments') ? 'active' : '' }}"><i class="fas fa-comments me-2"></i>Comments</a>
-                <a href="/admin/ktaldksyahid" class="nav-item nav-link {{ $isActive('admin/ktaldksyahid') ? 'active' : '' }}"><i class="fa fa-id-card me-2"></i>KTA LDK Syahid</a>
+                <a href="/admin/ktaldksyahid" class="nav-item nav-link {{ $isActive('admin/ktaldksyahid') ? 'active' : '' }}"><i class="fa fa-id-card me-2"></i>KTA LDK Al-Madaniah</a>
                 <a href="/admin/catalog/books" class="nav-item nav-link {{ $isActive('admin/catalog/books') ? 'active' : '' }}"><i class="fa fa-book me-2"></i>Book Catalog</a>
                 <a href="/admin/forms" class="nav-item nav-link {{ $isActive('admin/forms') ? 'active' : '' }}"><i class="fas fa-clipboard-list me-2"></i>Dynamic Forms</a>
                 <div class="nav-item dropdown">
@@ -215,7 +215,7 @@
                         <a href="/admin/service/callkestari" class="dropdown-item {{ $isActive('admin/service/callkestari') ? 'active' : '' }}"><i class="fas fa-angle-right me-2"></i>Call Kestari</a>
                     </div>
                 </div>
-                <a href="/admin/ktaldksyahid" class="nav-item nav-link {{ $isActive('admin/ktaldksyahid') ? 'active' : '' }}"><i class="fa fa-id-card me-2"></i>KTA LDK Syahid</a>
+                <a href="/admin/ktaldksyahid" class="nav-item nav-link {{ $isActive('admin/ktaldksyahid') ? 'active' : '' }}"><i class="fa fa-id-card me-2"></i>KTA LDK Al-Madaniah</a>
                 <a href="/admin/catalog/books" class="nav-item nav-link {{ $isActive('admin/catalog/books') ? 'active' : '' }}"><i class="fa fa-book me-2"></i>Book Catalog</a>
                 <a href="/admin/forms" class="nav-item nav-link {{ $isActive('admin/forms') ? 'active' : '' }}"><i class="fas fa-clipboard-list me-2"></i>Dynamic Forms</a>
             </div>

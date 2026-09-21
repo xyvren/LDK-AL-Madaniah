@@ -25,10 +25,10 @@
             </div>
             <h2 class="kmb2-title">
                 Kelas Minat Bakat
-                <span class="kmb2-title-hl">UKM LDK Syahid</span>
+                <span class="kmb2-title-hl">UKM LDK Al-Madaniah</span>
             </h2>
             <p class="kmb2-subtitle">
-                Kelas Minat Bakat merupakan kelas yang mewadahi bakat dan minat anggota LDK Syahid
+                Kelas Minat Bakat merupakan kelas yang mewadahi bakat dan minat anggota LDK Al-Madaniah
                 agar dapat mengembangkan potensinya. <strong>Klik kartu untuk info lengkap!</strong> 👇
             </p>
         </div>
@@ -143,7 +143,7 @@
                     <span class="kmb2-cta-rocket">🚀</span>
                     <div>
                         <div class="kmb2-cta-h">Siap Mengembangkan Potensimu?</div>
-                        <div class="kmb2-cta-s">Bergabunglah dengan Kelas Minat Bakat LDK Syahid dan mulai berkarya!</div>
+                        <div class="kmb2-cta-s">Bergabunglah dengan Kelas Minat Bakat LDK Al-Madaniah dan mulai berkarya!</div>
                     </div>
                 </div>
                 <div class="kmb2-cta-chips">

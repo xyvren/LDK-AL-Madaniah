@@ -24,7 +24,7 @@ class ReportController extends Controller
         $reports = MsFinanceReport::getReports();
 
         $cpName  = MsSetting::getSettingValue1(Key1::LAPORAN_KEUANGAN, Key2::CpFinanceReportName)
-                   ?? 'Kestari LDK Syahid';
+                   ?? 'Kestari LDK Al-Madaniah';
         $cpPhone = MsSetting::getSettingValue1(Key1::LAPORAN_KEUANGAN, Key2::CpFinanceReportPhone)
                    ?? '';
 

@@ -409,7 +409,7 @@
 
                         <h1 class="vfy-title">Dokumen Resmi Terverifikasi</h1>
                         <p class="vfy-sub">
-                            Surat ini dinyatakan <strong>ASLI</strong> dan sah terdaftar dalam basis data arsip administrasi digital UKM LDK Syahid UIN Syarif Hidayatullah Jakarta.
+                            Surat ini dinyatakan <strong>ASLI</strong> dan sah terdaftar dalam basis data arsip administrasi digital UKM LDK Al-Madaniah Universitas Bangka Belitung.
                         </p>
 
                         <div class="vfy-data-sheet">
@@ -472,7 +472,7 @@
                         <div class="vfy-notice-box">
                             <i class="fas fa-lock fs-5 flex-shrink-0"></i>
                             <div>
-                                Dokumen ini dilindungi integritasnya dengan tanda tangan digital resmi dan QR Code verifikasi real-time dari UKM LDK Syahid.
+                                Dokumen ini dilindungi integritasnya dengan tanda tangan digital resmi dan QR Code verifikasi real-time dari UKM LDK Al-Madaniah.
                             </div>
                         </div>
 
@@ -500,7 +500,7 @@
 
                         <h1 class="vfy-title">Dokumen Sedang Diproses</h1>
                         <p class="vfy-sub">
-                            Dokumen dengan kode ini telah terdaftar di sistem, namun masih menunggu verifikasi dan penerbitan nomor resmi dari Biro Kesekretariatan LDK Syahid.
+                            Dokumen dengan kode ini telah terdaftar di sistem, namun masih menunggu verifikasi dan penerbitan nomor resmi dari Biro Kesekretariatan LDK Al-Madaniah.
                         </p>
 
                         <div class="vfy-data-sheet">
@@ -546,7 +546,7 @@
 
                         <h1 class="vfy-title">Dokumen Tidak Berlaku</h1>
                         <p class="vfy-sub">
-                            Pengajuan surat untuk kode ini telah <strong>DITOLAK</strong> oleh administrator dan tidak berlaku sebagai dokumen resmi LDK Syahid.
+                            Pengajuan surat untuk kode ini telah <strong>DITOLAK</strong> oleh administrator dan tidak berlaku sebagai dokumen resmi LDK Al-Madaniah.
                         </p>
 
                         @if ($suratLog->catatan_admin)
@@ -580,7 +580,7 @@
 
                         <h1 class="vfy-title">Dokumen Tidak Ditemukan</h1>
                         <p class="vfy-sub">
-                            Kode verifikasi <code class="px-2 py-1 rounded text-danger fw-bold vfy-code-badge">{{ $kode }}</code> tidak terdaftar dalam basis data resmi LDK Syahid. Harap waspada terhadap indikasi pemalsuan dokumen.
+                            Kode verifikasi <code class="px-2 py-1 rounded text-danger fw-bold vfy-code-badge">{{ $kode }}</code> tidak terdaftar dalam basis data resmi LDK Al-Madaniah. Harap waspada terhadap indikasi pemalsuan dokumen.
                         </p>
 
                         <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
@@ -614,7 +614,7 @@
                 </div>{{-- /vfy-card --}}
 
                 <p class="text-muted small mt-4">
-                    &copy; {{ date('Y') }} UKM LDK Syahid UIN Syarif Hidayatullah Jakarta &bull; Sistem Arsip &amp; Verifikasi Digital
+                    &copy; {{ date('Y') }} UKM LDK Al-Madaniah Universitas Bangka Belitung &bull; Sistem Arsip &amp; Verifikasi Digital
                 </p>
 
             </div>

@@ -54,7 +54,7 @@
     window.edShareTw = function (ev) {
         if (ev) ev.stopPropagation();
         var titleEl = document.getElementById('ed-event-title');
-        var text = (titleEl ? titleEl.textContent.trim() + ' — LDK Syahid\n' : '') + window.location.href;
+        var text = (titleEl ? titleEl.textContent.trim() + ' — LDK Al-Madaniah\n' : '') + window.location.href;
         window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text), '_blank');
     };
 

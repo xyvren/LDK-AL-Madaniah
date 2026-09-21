@@ -1,7 +1,7 @@
 @verbatim
 <style>
 /* ================================================================
-   KTA LDK SYAHID PAGE  —  prefix: kta-
+   KTA LDK AL-MADANIAH PAGE  —  prefix: kta-
    ================================================================ */
 
 :root {

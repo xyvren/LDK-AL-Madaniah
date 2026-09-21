@@ -1,5 +1,5 @@
 /**
- * LDK Syahid - Modern Base JavaScript
+ * LDK Al-Madaniah UBB - Modern Base JavaScript
  * Reusable scripts for all landing pages
  * Version: 2.0
  */
@@ -605,7 +605,7 @@
         Performance.init();
         ErrorHandler.init();
 
-        console.log('LDK Syahid - All modules initialized');
+        console.log('LDK Al-Madaniah UBB - All modules initialized');
     }
 
     // Run on DOM ready
@@ -616,7 +616,7 @@
     // ========================================
     // 21. EXPOSE PUBLIC API
     // ========================================
-    window.LDKSyahid = {
+    window.LDKAlMadaniah = {
         Toast: Toast,
         Clipboard: Clipboard,
         Share: Share,

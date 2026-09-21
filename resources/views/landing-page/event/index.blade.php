@@ -22,7 +22,7 @@
         <div class="hero-slide">
             <img class="hero-image"
                  src="https://lh3.googleusercontent.com/d/1RGwNt7vN1cUTUOlD4DeDdceeQdRmhFAG"
-                 alt="Kegiatan LDK Syahid" />
+                 alt="Kegiatan LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
 
@@ -38,7 +38,7 @@
                 <span class="ev-badge-pulse"></span>
             </div>
             <h2 class="ev-section-title mt-3">Kegiatan Kami</h2>
-            <p class="ev-section-sub">Jelajahi berbagai kegiatan dan program yang diselenggarakan LDK Syahid</p>
+            <p class="ev-section-sub">Jelajahi berbagai kegiatan dan program yang diselenggarakan LDK Al-Madaniah</p>
         </div>
 
         {{-- ── Search + Filter Bar ──────────────────────────── --}}

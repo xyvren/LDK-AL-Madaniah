@@ -20,7 +20,7 @@ class DepartmentRegistry
             'SQC'  => 'Bidang SQC (Syahid Qur\'an Center)',
             'RMSC' => 'Bidang Remaja Masjid Student Center',
         ],
-        'LDK Syahid Fakultas (LDKSF)' => [
+        'LDK Al-Madaniah Fakultas' => [
             'LDKS.FST'      => 'LDKS Fakultas Sains dan Teknologi',
             'LDKS.FDIKOM'   => 'LDKS Fakultas Dakwah dan Ilmu Komunikasi',
             'LDKS.FU'       => 'LDKS Fakultas Ushuluddin',
@@ -48,7 +48,7 @@ class DepartmentRegistry
             'group'    => 'pusat',
             'badge'    => 'Pusat',
             'icon'     => 'fa-crown',
-            'desc'     => 'Pimpinan harian UKM LDK Syahid UIN Jakarta',
+            'desc'     => 'Pimpinan harian UKM LDK Al-Madaniah UBB',
         ],
         'KST' => [
             'code'     => 'KST',
@@ -154,7 +154,7 @@ class DepartmentRegistry
             'group'    => 'fakultas',
             'badge'    => 'FST',
             'icon'     => 'fa-flask',
-            'desc'     => 'Unit dakwah fakultas di lingkungan FST UIN Jakarta',
+            'desc'     => 'Unit dakwah fakultas di lingkungan UBB',
         ],
         'LDKS.FDIKOM' => [
             'code'     => 'LDKS.FDIKOM',
@@ -162,7 +162,7 @@ class DepartmentRegistry
             'group'    => 'fakultas',
             'badge'    => 'FDIKOM',
             'icon'     => 'fa-broadcast-tower',
-            'desc'     => 'Unit dakwah fakultas di lingkungan FDIKOM UIN Jakarta',
+            'desc'     => 'Unit dakwah fakultas di lingkungan FDIKOM UBB',
         ],
         'LDKS.FU' => [
             'code'     => 'LDKS.FU',
@@ -178,7 +178,7 @@ class DepartmentRegistry
             'group'    => 'fakultas',
             'badge'    => 'FSH',
             'icon'     => 'fa-balance-scale',
-            'desc'     => 'Unit dakwah fakultas di lingkungan FSH UIN Jakarta',
+            'desc'     => 'Unit dakwah fakultas di lingkungan FSH UBB',
         ],
         'LDKS.FAH' => [
             'code'     => 'LDKS.FAH',
@@ -186,7 +186,7 @@ class DepartmentRegistry
             'group'    => 'fakultas',
             'badge'    => 'FAH',
             'icon'     => 'fa-feather-alt',
-            'desc'     => 'Unit dakwah fakultas di lingkungan FAH UIN Jakarta',
+            'desc'     => 'Unit dakwah fakultas di lingkungan FAH UBB',
         ],
         'LDKS.FITK' => [
             'code'     => 'LDKS.FITK',
@@ -194,7 +194,7 @@ class DepartmentRegistry
             'group'    => 'fakultas',
             'badge'    => 'FITK',
             'icon'     => 'fa-chalkboard-teacher',
-            'desc'     => 'Unit dakwah fakultas di lingkungan FITK UIN Jakarta',
+            'desc'     => 'Unit dakwah fakultas di lingkungan FITK UBB',
         ],
         'LDKS.FDI' => [
             'code'     => 'LDKS.FDI',
@@ -202,7 +202,7 @@ class DepartmentRegistry
             'group'    => 'fakultas',
             'badge'    => 'FDI',
             'icon'     => 'fa-language',
-            'desc'     => 'Unit dakwah fakultas di lingkungan FDI UIN Jakarta',
+            'desc'     => 'Unit dakwah fakultas di lingkungan FDI UBB',
         ],
         'LDKS.FPsi' => [
             'code'     => 'LDKS.FPsi',
@@ -210,7 +210,7 @@ class DepartmentRegistry
             'group'    => 'fakultas',
             'badge'    => 'FPsi',
             'icon'     => 'fa-smile',
-            'desc'     => 'Unit dakwah fakultas di lingkungan Psikologi UIN Jakarta',
+            'desc'     => 'Unit dakwah fakultas di lingkungan Psikologi UBB',
         ],
         'LDKS.FISIP' => [
             'code'     => 'LDKS.FISIP',
@@ -218,7 +218,7 @@ class DepartmentRegistry
             'group'    => 'fakultas',
             'badge'    => 'FISIP',
             'icon'     => 'fa-users',
-            'desc'     => 'Unit dakwah fakultas di lingkungan FISIP UIN Jakarta',
+            'desc'     => 'Unit dakwah fakultas di lingkungan FISIP UBB',
         ],
         'LDKS.FIKES-FK' => [
             'code'     => 'LDKS.FIKES-FK',
@@ -226,7 +226,7 @@ class DepartmentRegistry
             'group'    => 'fakultas',
             'badge'    => 'FK/FIKES',
             'icon'     => 'fa-heartbeat',
-            'desc'     => 'Unit dakwah fakultas di lingkungan FIKES & FK UIN Jakarta',
+            'desc'     => 'Unit dakwah fakultas di lingkungan FIKES & FK UBB',
         ],
     ];
 

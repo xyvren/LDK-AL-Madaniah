@@ -45,7 +45,7 @@
         {{-- PENERIMA --}}
         <div class="recipient">
             <p>Yth.</p>
-            <p><strong>Orang Tua/Wali Kader LDK Syahid</strong></p>
+            <p><strong>Orang Tua/Wali Kader LDK Al-Madaniah</strong></p>
             <p>di Tempat</p>
         </div>
 
@@ -57,7 +57,7 @@
         <p class="indent">Sehubungan dengan pelaksanaan <strong>{{ $data['nama_acara'] ?? '-' }}</strong>
             dengan tema <strong><em>&ldquo;{{ $data['tema_acara'] ?? '-' }}&rdquo;</em></strong>
             yang dilaksanakan oleh pengurus UKM Lembaga Dakwah Kampus (LDK) Syahid
-            UIN Syarif Hidayatullah Jakarta, yang InsyaAllah akan dilaksanakan pada:</p>
+            Universitas Bangka Belitung, yang InsyaAllah akan dilaksanakan pada:</p>
 
         {{-- TABEL IDENTITAS KEGIATAN --}}
         <table class="identity">
@@ -90,7 +90,7 @@
         <table class="signature-table">
             <tr>
                 <td class="ttd-cell"><strong>Sekretaris Jenderal</strong></td>
-                <td class="ttd-cell"><strong>Ketua Umum LDK Syahid</strong></td>
+                <td class="ttd-cell"><strong>Ketua Umum LDK Al-Madaniah</strong></td>
             </tr>
             <tr>
                 <td class="ttd-cell"><div class="ttd-space">@include('pdf.components._sekjen-signature')</div></td>
@@ -112,7 +112,7 @@
                 <td class="qr-cell"><img src="{!! $qrCode !!}" alt="QR Verifikasi"></td>
                 <td>
                     <p><strong>Verifikasi Keaslian Dokumen</strong></p>
-                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Syahid.</p>
+                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Al-Madaniah.</p>
                     <p class="verification-url">{{ $verifikasiUrl }}</p>
                     <p>Kode Verifikasi: <strong>{{ $kodeVerifikasi }}</strong></p>
                 </td>

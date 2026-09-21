@@ -18,7 +18,7 @@
                                     <div class="hero-content-box">
                                         <div class="hero-badge animate__animated animate__fadeInDown">
                                             <span class="badge-icon">👑</span>
-                                            <span>LDK Syahid</span>
+                                            <span>LDK Al-Madaniah</span>
                                         </div>
                                         <h1 class="hero-title-fun animate__animated animate__fadeInUp">
                                             {{ $post->title }}
@@ -51,7 +51,7 @@
                 <div class="hero-mobile-content d-lg-none">
                     <div class="hero-mobile-badge">
                         <span class="badge-icon">👑</span>
-                        <span>LDK Syahid</span>
+                        <span>LDK Al-Madaniah</span>
                     </div>
                     <h2 class="hero-mobile-title">{{ $post->title }}</h2>
                     @if ($post->description)

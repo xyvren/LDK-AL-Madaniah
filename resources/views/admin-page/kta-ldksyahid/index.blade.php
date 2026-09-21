@@ -6,7 +6,7 @@
         [
             'icon' => 'fa-plus-circle',
             'title' => 'How to Add KTA',
-            'description' => 'Click the <strong>"Add KTA"</strong> button to create a new KTA LDK Syahid member card.'
+            'description' => 'Click the <strong>"Add KTA"</strong> button to create a new KTA LDK Al-Madaniah member card.'
         ],
         [
             'icon' => 'fa-search',
@@ -78,9 +78,9 @@
 
 @section('content')
 <x-admin-index.template
-    pageTitle="KTA LDK Syahid Management"
+    pageTitle="KTA LDK Al-Madaniah Management"
     pageIcon="fa-id-card"
-    highlightedText="KTA LDK Syahid Management System"
+    highlightedText="KTA LDK Al-Madaniah Management System"
     :guideCards="$guideCards"
     addButtonText="Add KTA"
     addButtonRoute="admin.ktaldksyahid.create"

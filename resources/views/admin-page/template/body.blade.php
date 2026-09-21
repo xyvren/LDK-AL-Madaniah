@@ -5,7 +5,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     {{-- Off This Meta For Development --}}
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-    <title>{{ $title ?? 'Admin Panel' }} &#9679; LDK Syahid</title>
+    <title>{{ $title ?? 'Admin Panel' }} &#9679; LDK Al-Madaniah UBB</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -18,7 +18,7 @@
     <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.4/summernote.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Favicon -->
-    <link href="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1" rel="icon">
+    <link href="/landing-page-ext-rsrc/img/ldk-logo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1605,7 +1605,7 @@
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-ldk" role="status">
-                <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1" alt="Loading" class="ldk-logo-spinner" width="70" height="70">
+                <img src="/landing-page-ext-rsrc/img/ldk-logo.png" alt="Loading" class="ldk-logo-spinner" width="70" height="70">
                 <!-- Orbiting ring -->
                 <div class="ldk-orbit-ring"></div>
                 <span class="sr-only">Loading...</span>

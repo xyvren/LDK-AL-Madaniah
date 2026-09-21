@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Konfirmasi Pengiriman Formulir – LDK Syahid</title>
+    <title>Konfirmasi Pengiriman Formulir – LDK Al-Madaniah</title>
     <style>
         @media only screen and (max-width: 600px) {
             .card     { width: 100% !important; }
@@ -32,7 +32,7 @@
 
                         <!-- Org label -->
                         <p style="margin:0 0 14px;font-size:11px;color:rgba(255,255,255,0.7);letter-spacing:2px;text-transform:uppercase;">
-                            ✦ LDK Syahid ✦
+                            ✦ LDK Al-Madaniah ✦
                         </p>
 
                         <!-- Icon badge -->
@@ -105,7 +105,7 @@
                         <!-- Footer note -->
                         <p style="margin:24px 0 0;font-size:13px;color:#6b7280;line-height:1.7;padding:16px;background:#f0fdf4;border-radius:8px;">
                             Jika Anda tidak merasa mengisi formulir ini, abaikan email ini.
-                            Data Anda tersimpan dengan aman oleh tim LDK Syahid.
+                            Data Anda tersimpan dengan aman oleh tim LDK Al-Madaniah.
                         </p>
 
                     </td>
@@ -119,7 +119,7 @@
                             Wassalamu'alaikum Warahmatullahi Wabarakatuh
                         </p>
                         <p style="margin:0 0 4px;font-size:12px;color:#9ca3af;">
-                            Email ini dikirim secara otomatis oleh sistem LDK Syahid.
+                            Email ini dikirim secara otomatis oleh sistem LDK Al-Madaniah.
                         </p>
                         <p style="margin:0 0 8px;font-size:12px;color:#9ca3af;">
                             Mohon tidak membalas email ini.

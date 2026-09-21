@@ -16,7 +16,7 @@
         <div class="hero-slide">
             <img class="hero-image"
                  src="https://lh3.googleusercontent.com/d/1_8BpRTDUtkXG9_9CMz7ZxH9k834azBWR"
-                 alt="Jadwal LDK Syahid" />
+                 alt="Jadwal LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
 
@@ -30,8 +30,8 @@
                 <span>Jadwal Kegiatan</span>
                 <span class="sch-badge-pulse"></span>
             </div>
-            <h2 class="sch-section-title mt-3">Jadwal LDK Syahid</h2>
-            <p class="sch-section-sub">Temukan jadwal kegiatan dan agenda LDK Syahid secara lengkap di sini</p>
+            <h2 class="sch-section-title mt-3">Jadwal LDK Al-Madaniah</h2>
+            <p class="sch-section-sub">Temukan jadwal kegiatan dan agenda LDK Al-Madaniah secara lengkap di sini</p>
         </div>
 
         {{-- =====================================================

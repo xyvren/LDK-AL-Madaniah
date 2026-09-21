@@ -13,7 +13,7 @@ class VerifyEmailNotification extends BaseVerifyEmail
 
         return (new MailMessage)
             ->mailer('gmail')
-            ->subject('Verifikasi Email Kamu – LDK Syahid')
+            ->subject('Verifikasi Email Kamu – LDK Al-Madaniah')
             ->view('emails.verifiy-email.index', [
                 'name' => $notifiable->name,
                 'url'  => $verificationUrl,

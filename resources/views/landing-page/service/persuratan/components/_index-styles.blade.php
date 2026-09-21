@@ -2,7 +2,7 @@
 <style>
 /* ================================================================
    PERSURATAN LANDING PAGE — Modern Redesign & Dark Mode Engine
-   Palette: LDK Syahid Emerald (#009788 / #00a79d) & Sky Blue (#0ea5e9)
+   Palette: LDK Al-Madaniah Emerald (#009788 / #00a79d) & Sky Blue (#0ea5e9)
    Dark Mode: [data-theme="dark"], html.dark-mode, body.dark-mode
    Prefix: prs-
    ================================================================ */

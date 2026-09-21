@@ -23,7 +23,7 @@ class SubscribeConfirmation extends Mailable
     {
         $subject = $this->isResubscribe
             ? 'Selamat Datang Kembali! Kamu Berhasil Berlangganan Kembali 🎉'
-            : 'Selamat! Kamu Berhasil Berlangganan LDK Syahid 🎉';
+            : 'Selamat! Kamu Berhasil Berlangganan LDK Al-Madaniah 🎉';
 
         return $this->subject($subject)
                     ->view('emails.subscription.subscribe');

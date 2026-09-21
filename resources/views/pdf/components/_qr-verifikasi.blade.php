@@ -50,7 +50,7 @@
         @else
             {{-- Status: MERAH --}}
             <p style="margin: 0; color: #dc3545; font-weight: bold;">Peringatan: Dokumen Tidak Valid</p>
-            <p style="margin: 0;">Dokumen ini <strong>BUKAN</strong> surat resmi dari LDK Syahid atau pengajuannya telah <strong>ditolak</strong>.</p>
+            <p style="margin: 0;">Dokumen ini <strong>BUKAN</strong> surat resmi dari LDK Al-Madaniah atau pengajuannya telah <strong>ditolak</strong>.</p>
             @if($suratLog->catatan_admin)
                 <p style="margin: 2px 0 0 0; color: #dc3545;">Alasan Penolakan: {{ $suratLog->catatan_admin }}</p>
             @endif

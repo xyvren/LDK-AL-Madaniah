@@ -38,7 +38,7 @@ class LetterRegistry
             'category'    => 'izin_peminjaman',
             'icon'        => 'fa-user-shield',
             'badge'       => 'Ph-e',
-            'description' => 'Izin kepada orang tua/wali kader untuk mengikuti agenda kegiatan resmi LDK Syahid.',
+            'description' => 'Izin kepada orang tua/wali kader untuk mengikuti agenda kegiatan resmi LDK Al-Madaniah.',
             'fields'      => ['kode_bidang', 'nama_acara', 'tema_acara', 'hari_tanggal', 'waktu', 'tempat'],
         ],
         'peminjaman-alat' => [
@@ -54,7 +54,7 @@ class LetterRegistry
             'category'    => 'izin_peminjaman',
             'icon'        => 'fa-landmark',
             'badge'       => 'Ph-i',
-            'description' => 'Peminjaman fasilitas bersama kampus UIN Jakarta (Student Center, Aula, Lapangan).',
+            'description' => 'Peminjaman fasilitas bersama kampus UBB (Student Center, Aula, Lapangan).',
             'fields'      => ['kode_bidang', 'nama_acara', 'tema_acara', 'nama_ketua_pelaksana', 'nim_ketua_pelaksana', 'ditujukan_kepada', 'hari_tanggal', 'waktu', 'tempat_dipinjam'],
         ],
         'peminjaman-tempat-fakultas' => [
@@ -110,7 +110,7 @@ class LetterRegistry
             'category'    => 'keterangan_undangan',
             'icon'        => 'fa-id-card',
             'badge'       => 'S.Ket-e',
-            'description' => 'Keterangan resmi status keaktifan kepengurusan mahasiswa di UKM LDK Syahid.',
+            'description' => 'Keterangan resmi status keaktifan kepengurusan mahasiswa di UKM LDK Al-Madaniah.',
             'fields'      => ['kode_bidang', 'nama', 'ttl', 'nim', 'fakultas', 'jurusan', 'jabatan', 'keperluan', 'penyelenggara'],
         ],
         'permohonan-pemateri' => [

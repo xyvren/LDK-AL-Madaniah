@@ -72,7 +72,7 @@
 
                         {{-- Subtitle --}}
                         <p class="testimony-subtitle mb-4">
-                            Banyak mahasiswa UIN Jakarta yang sudah merasakan manfaat bergabung dengan LDK Syahid
+                            Banyak mahasiswa Universitas Bangka Belitung yang sudah merasakan manfaat bergabung dengan LDK Al-Madaniah
                         </p>
 
                         {{-- Stats Cards --}}
@@ -111,7 +111,7 @@
                     Kata Mereka <span class="testimony-heading__heart">❤️</span>
                 </h2>
                 <p class="testimony-subtitle-mobile mb-3">
-                    Banyak mahasiswa UIN Jakarta yang sudah merasakan manfaat bergabung dengan LDK Syahid
+                    Banyak mahasiswa Universitas Bangka Belitung yang sudah merasakan manfaat bergabung dengan LDK Al-Madaniah
                 </p>
             </div>
 

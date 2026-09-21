@@ -31,7 +31,7 @@
         <p class="indent">Teriring do'a dan harapan semoga Bapak/Ibu/Saudara/i dalam keadaan sehat
             wal 'afiat serta berkah dalam menjalankan aktivitas sehari-hari.</p>
         <p class="indent">Melalui surat ini, kami memberitahukan bahwa UKM Lembaga Dakwah Kampus
-            (LDK) Syahid UIN Syarif Hidayatullah Jakarta akan melaksanakan kegiatan
+            (LDK) Syahid Universitas Bangka Belitung akan melaksanakan kegiatan
             <strong>{{ $data['nama_kegiatan'] ?? '-' }}</strong>.
             Adapun agenda tersebut InsyaAllah akan diselenggarakan pada:</p>
         <table class="identity">
@@ -47,7 +47,7 @@
         <table class="signature-table">
             <tr>
                 <td class="ttd-cell"><strong>Sekretaris Jenderal</strong></td>
-                <td class="ttd-cell"><strong>Ketua Umum LDK Syahid</strong></td>
+                <td class="ttd-cell"><strong>Ketua Umum LDK Al-Madaniah</strong></td>
             </tr>
             <tr>
                 <td class="ttd-cell"><div class="ttd-space">@include('pdf.components._sekjen-signature')</div></td>
@@ -67,7 +67,7 @@
                 <td class="qr-cell"><img src="{!! $qrCode !!}" alt="QR"></td>
                 <td>
                     <p><strong>Verifikasi Keaslian Dokumen</strong></p>
-                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Syahid.</p>
+                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Al-Madaniah.</p>
                     <p class="verification-url">{{ $verifikasiUrl }}</p>
                     <p>Kode Verifikasi: <strong>{{ $kodeVerifikasi }}</strong></p>
                 </td>

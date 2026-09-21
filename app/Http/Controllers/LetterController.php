@@ -36,7 +36,7 @@ class LetterController extends Controller
         }
 
         return view('landing-page.service.persuratan.index', [
-            'title'       => 'Layanan Persuratan — LDK Syahid',
+            'title'       => 'Layanan Persuratan — LDK Al-Madaniah',
             'suratTypes'  => LetterRegistry::all(),
             'waSekjen'    => $waSekjen,
             'namaSekjen'  => $namaSekjen,
@@ -115,7 +115,7 @@ class LetterController extends Controller
         $riwayat = $query->latest()->paginate(10);
 
         return view('landing-page.service.persuratan.riwayat', [
-            'title'         => 'Riwayat Pengajuan Surat — LDK Syahid',
+            'title'         => 'Riwayat Pengajuan Surat — LDK Al-Madaniah',
             'riwayat'       => $riwayat,
             'totalSurat'    => $totalSurat,
             'pendingCount'  => $pendingCount,
@@ -177,7 +177,7 @@ class LetterController extends Controller
         }
 
         return view('landing-page.service.persuratan.verifikasi', [
-            'title'    => 'Verifikasi Keaslian Dokumen — LDK Syahid',
+            'title'    => 'Verifikasi Keaslian Dokumen — LDK Al-Madaniah',
             'suratLog' => $suratLog,
             'kode'     => $kode,
         ]);

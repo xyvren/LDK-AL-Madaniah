@@ -26,7 +26,7 @@
         {{-- Title --}}
         <h3 class="evp-title">Email Terverifikasi! 🎉</h3>
         <p class="evp-subtitle">
-            Alhamdulillah, akun kamu di <strong style="color:var(--primary);">LDK Syahid</strong> sudah aktif sepenuhnya.
+            Alhamdulillah, akun kamu di <strong style="color:var(--primary);">LDK Al-Madaniah</strong> sudah aktif sepenuhnya.
             Yuk mulai jelajahi semua fitur kami!
         </p>
 

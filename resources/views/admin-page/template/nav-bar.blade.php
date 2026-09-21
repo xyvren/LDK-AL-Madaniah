@@ -42,7 +42,7 @@
         'admin/article' => ['name' => 'Article', 'icon' => 'fa-book-open'],
         'admin/schedule' => ['name' => 'Schedule', 'icon' => 'fa-list-alt'],
         'admin/news' => ['name' => 'News', 'icon' => 'fa-newspaper'],
-        'admin/ktaldksyahid' => ['name' => 'KTA LDK Syahid', 'icon' => 'fa-id-card'],
+        'admin/ktaldksyahid' => ['name' => 'KTA LDK Al-Madaniah', 'icon' => 'fa-id-card'],
         'admin/catalog/books' => ['name' => 'Book Catalog', 'icon' => 'fa-book'],
         'admin/setting' => ['name' => 'Setting', 'icon' => 'fa-cog'],
         'admin/job-queue-log' => ['name' => 'Job Queue Log', 'icon' => 'fa-stream'],

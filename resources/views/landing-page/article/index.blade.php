@@ -22,7 +22,7 @@
         <div class="hero-slide">
             <img class="hero-image"
                  src="https://lh3.googleusercontent.com/d/1hDEx-QFNqCTduumn6IvJ6iOf8qmTp-P_"
-                 alt="Artikel LDK Syahid" />
+                 alt="Artikel LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
 
@@ -38,7 +38,7 @@
                 <span class="ar-badge-pulse"></span>
             </div>
             <h2 class="ar-section-title mt-3">Kumpulan Artikel</h2>
-            <p class="ar-section-sub">Karya tulis terbaik dari para penulis dan editor LDK Syahid</p>
+            <p class="ar-section-sub">Karya tulis terbaik dari para penulis dan editor LDK Al-Madaniah</p>
         </div>
 
         {{-- ── Search + Filter Bar (reusable component) ───────── --}}

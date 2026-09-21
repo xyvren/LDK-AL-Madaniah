@@ -22,7 +22,7 @@
         <div class="hero-slide">
             <img class="hero-image"
                  src="https://lh3.googleusercontent.com/d/1OtOSZ4rX0-83a1zQbxP9dQG04DbWzQlJ"
-                 alt="Berita LDK Syahid" />
+                 alt="Berita LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
 
@@ -38,7 +38,7 @@
                 <span class="nw-badge-pulse"></span>
             </div>
             <h2 class="nw-section-title mt-3">Berita Terkini</h2>
-            <p class="nw-section-sub">Informasi dan kabar terbaru seputar kegiatan LDK Syahid</p>
+            <p class="nw-section-sub">Informasi dan kabar terbaru seputar kegiatan LDK Al-Madaniah</p>
         </div>
 
         {{-- ── Search + Filter Bar ─────────────────────────────── --}}

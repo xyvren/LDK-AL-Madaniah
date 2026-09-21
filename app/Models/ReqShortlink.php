@@ -98,7 +98,7 @@ class ReqShortlink extends Model
                             $adminName = \Illuminate\Support\Facades\Auth::user()->name ?? '';
 
                             return "https://api.whatsapp.com/send?phone={$item->whatsapp}&text="
-                                . urlencode("*[KUSTOM URL KAMU SUDAH JADI]*\n\n_Assalammu'alaikum_\n\nHalo {$item->name} 😀, Perkenalkan Saya _{$adminName}_, Berikut hasil link yang telah kami Kustom menggunakan layanan kami :\n\n{$item->fixCustomLink}\n\n**Link Tersebut Wajib digunakan dengan Sebagaimana Mestinya*\n\nTerimakasih {$item->name} karena telah menggunakan layanan kami 😉\n\n_Wassalammua'laikum_\n\n#KitaAdalahSaudara\n#LDKSyahid\n#{$getAngkatanShortlink}\n#UINJakarta");
+                                . urlencode("*[KUSTOM URL KAMU SUDAH JADI]*\n\n_Assalammu'alaikum_\n\nHalo {$item->name} 😀, Perkenalkan Saya _{$adminName}_, Berikut hasil link yang telah kami Kustom menggunakan layanan kami :\n\n{$item->fixCustomLink}\n\n**Link Tersebut Wajib digunakan dengan Sebagaimana Mestinya*\n\nTerimakasih {$item->name} karena telah menggunakan layanan kami 😉\n\n_Wassalammua'laikum_\n\n#KitaAdalahSaudara\n#LDKAlMadaniah\n#{$getAngkatanShortlink}\n#UBBBangka");
                         },
                     ],
                 ],

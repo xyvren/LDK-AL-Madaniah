@@ -35,7 +35,7 @@
             salam semoga selalu tercurah kepada Nabi Muhammad SAW beserta keluarga dan para
             pengikutnya.</p>
         <p class="indent">Yang bertanda tangan di bawah ini, Pengurus UKM Lembaga Dakwah Kampus (LDK)
-            Syahid UIN Syarif Hidayatullah Jakarta menerangkan bahwa:</p>
+            Syahid Universitas Bangka Belitung menerangkan bahwa:</p>
         <table class="identity">
             <tr><td class="identity-label">Nama Lengkap</td><td class="identity-sep">:</td><td><strong>{{ $data['nama'] ?? '-' }}</strong></td></tr>
             <tr><td class="identity-label">Tempat, Tanggal Lahir</td><td class="identity-sep">:</td><td>{{ $data['ttl'] ?? '-' }}</td></tr>
@@ -43,8 +43,8 @@
             <tr><td class="identity-label">Fakultas / Jurusan</td><td class="identity-sep">:</td><td>{{ $data['fakultas'] ?? '-' }} / {{ $data['jurusan'] ?? '-' }}</td></tr>
             <tr><td class="identity-label">Jabatan di LDK</td><td class="identity-sep">:</td><td>{{ $data['jabatan'] ?? '-' }}</td></tr>
         </table>
-        <p class="indent">Merupakan mahasiswa/i UIN Syarif Hidayatullah Jakarta yang
-            <strong>benar-benar aktif</strong> sebagai pengurus LDK Syahid.
+        <p class="indent">Merupakan mahasiswa/i Universitas Bangka Belitung yang
+            <strong>benar-benar aktif</strong> sebagai pengurus LDK Al-Madaniah.
             Surat keterangan ini dibuat untuk keperluan {{ $data['keperluan'] ?? '-' }}.</p>
         <p class="indent">Demikian surat keterangan ini kami buat agar dapat dipergunakan sebagaimana
             mestinya. Atas perhatiannya, kami ucapkan jazakumullah khairan katsiran.</p>
@@ -52,7 +52,7 @@
         <table class="signature-table">
             <tr>
                 <td class="ttd-cell"><strong>Sekretaris Jenderal</strong></td>
-                <td class="ttd-cell"><strong>Ketua Umum LDK Syahid</strong></td>
+                <td class="ttd-cell"><strong>Ketua Umum LDK Al-Madaniah</strong></td>
             </tr>
             <tr>
                 <td class="ttd-cell"><div class="ttd-space">@include('pdf.components._sekjen-signature')</div></td>
@@ -72,7 +72,7 @@
                 <td class="qr-cell"><img src="{!! $qrCode !!}" alt="QR"></td>
                 <td>
                     <p><strong>Verifikasi Keaslian Dokumen</strong></p>
-                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Syahid.</p>
+                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Al-Madaniah.</p>
                     <p class="verification-url">{{ $verifikasiUrl }}</p>
                     <p>Kode Verifikasi: <strong>{{ $kodeVerifikasi }}</strong></p>
                 </td>

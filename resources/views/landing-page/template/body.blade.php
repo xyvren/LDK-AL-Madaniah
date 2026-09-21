@@ -4,11 +4,11 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta charset="utf-8" />
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-        <title>{{ isset($title) ? $title : 'Default' }} &#9679; LDK Syahid</title>
+        <title>{{ isset($title) ? $title : 'Default' }} &#9679; LDK Al-Madaniah UBB</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta content="LDK Syahid, UIN Jakarta, Dakwah Kampus, Islam" name="keywords" />
-        <meta content="Website resmi UKM LDK Syahid UIN Syarif Hidayatullah Jakarta" name="description" />
-        <link href="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1" rel="icon" />
+        <meta content="LDK Al-Madaniah, UBB, Universitas Bangka Belitung, Dakwah Kampus, Islam" name="keywords" />
+        <meta content="Website resmi UKM LDK Al-Madaniah Universitas Bangka Belitung" name="description" />
+        <link href="/landing-page-ext-rsrc/img/ldk-logo.png" rel="icon" />
 
         {{-- Google Fonts --}}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -82,12 +82,12 @@
                 <div class="ldk-dot-orbit ldk-dot-orbit-2"><span class="ldk-orbit-dot"></span></div>
                 <div class="ldk-dot-orbit ldk-dot-orbit-3"><span class="ldk-orbit-dot"></span></div>
                 {{-- Logo center --}}
-                <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
-                     alt="LDK Syahid" class="ldk-spin-img">
+                <img src="/landing-page-ext-rsrc/img/ldk-logo.png"
+                     alt="LDK Al-Madaniah" class="ldk-spin-img">
             </div>
             {{-- Loading label --}}
             <div class="ldk-spin-label">
-                <span class="ldk-spin-brand">LDK Syahid</span>
+                <span class="ldk-spin-brand">LDK Al-Madaniah</span>
                 <div class="ldk-spin-dots">
                     <span></span><span></span><span></span>
                 </div>

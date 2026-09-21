@@ -14,7 +14,7 @@ $cuInfoCards = [
     [
         'icon'  => '🏛️',
         'title' => 'Alamat Lengkap',
-        'value' => 'Gedung Student Center Lt. 3, Ruang LDK Syahid, UIN Syarif Hidayatullah Jakarta, Jl. Ir. H. Djuanda No. 95, Ciputat Tim., Tangerang Selatan, Banten 15412',
+        'value' => 'Gedung Student Center Lt. 3, Ruang LDK Al-Madaniah, Universitas Bangka Belitung, Jl. Ir. H. Djuanda No. 95, Balunijuk Tim., Bangka Belitung, Banten 15412',
         'color' => 'primary',
         'link'  => null,
     ],
@@ -22,17 +22,17 @@ $cuInfoCards = [
         'icon'  => '📱',
         'title' => 'WhatsApp',
         'value' => '+62 851-5936-0504',
-        'sub'   => 'Admin LDK Syahid UIN Jakarta',
+        'sub'   => 'Admin LDK Al-Madaniah Universitas Bangka Belitung',
         'color' => 'green',
         'link'  => 'https://wa.me/6285159360504',
     ],
     [
         'icon'  => '✉️',
         'title' => 'Email',
-        'value' => 'ldk.ormawa@apps.uinjkt.ac.id',
-        'sub'   => 'Admin LDK Syahid UIN Jakarta',
+        'value' => 'ldkalmadaniah@ubb.ac.id',
+        'sub'   => 'Admin LDK Al-Madaniah Universitas Bangka Belitung',
         'color' => 'teal',
-        'link'  => 'mailto:ldk.ormawa@apps.uinjkt.ac.id',
+        'link'  => 'mailto:ldkalmadaniah@ubb.ac.id',
     ],
     [
         'icon'    => '🌐',
@@ -41,11 +41,11 @@ $cuInfoCards = [
         'link'    => null,
         'value'   => 'Instagram, YouTube, Twitter, Facebook, LinkedIn',
         'socials' => [
-            ['icon' => 'fab fa-instagram',  'label' => '@ldksyahid',         'link' => 'https://www.instagram.com/ldksyahid/'],
-            ['icon' => 'fab fa-youtube',    'label' => 'youtube/syahidtv',   'link' => 'https://www.youtube.com/channel/UCJ-SyxQN5sG4CzO0waSYpBQ'],
-            ['icon' => 'fab fa-twitter',    'label' => '@ldksyahid',         'link' => 'https://twitter.com/ldksyahid/'],
-            ['icon' => 'fab fa-facebook-f', 'label' => 'facebook/ldksyahid', 'link' => 'https://www.facebook.com/ldksyahid/'],
-            ['icon' => 'fab fa-linkedin',   'label' => 'linkedin/ldksyahid', 'link' => 'https://www.linkedin.com/company/ukm-ldk-syahid-uin-syarif-hidayatullah-jakarta/'],
+            ['icon' => 'fab fa-instagram',  'label' => '@ldk_.almadaniah',         'link' => 'https://www.instagram.com/ldk_.almadaniah/'],
+            ['icon' => 'fab fa-youtube',    'label' => 'youtube/@ldkal-madaniah',   'link' => 'https://www.youtube.com/@ldkal-madaniah'],
+            ['icon' => 'fab fa-twitter',    'label' => '@ldk_.almadaniah',         'link' => 'https://www.instagram.com/annisa_almadaniah/'],
+            ['icon' => 'fab fa-facebook-f', 'label' => 'facebook/ldkalmadaniah', 'link' => 'https://www.facebook.com/ldkalmadaniah/'],
+            ['icon' => 'fab fa-linkedin',   'label' => 'linkedin/ldk-almadaniah', 'link' => 'https://www.linkedin.com/company/ldk-almadaniah-ubb/'],
         ],
     ],
 ];
@@ -166,7 +166,7 @@ $cuInfoCards = [
                         <span>Lokasi Kami</span>
                     </div>
                     <h3 class="cu-section-title mt-3 mb-1">Temukan Kami di Sini</h3>
-                    <p class="cu-section-sub">LDK Syahid, Gedung Student Center Lt. 3</p>
+                    <p class="cu-section-sub">LDK Al-Madaniah, Gedung Student Center Lt. 3</p>
                 </div>
 
                 {{-- Location info chips --}}
@@ -182,7 +182,7 @@ $cuInfoCards = [
                         <span class="cu-loc-ico">📍</span>
                         <div>
                             <span class="cu-loc-label">Kota</span>
-                            <span class="cu-loc-val">Ciputat, Tangerang Selatan</span>
+                            <span class="cu-loc-val">Balunijuk, Bangka Belitung</span>
                         </div>
                     </div>
                 </div>
@@ -190,11 +190,11 @@ $cuInfoCards = [
                 {{-- Map iframe --}}
                 <div class="cu-map-wrap">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6773009952885!2d106.75319361449397!3d-6.306059963469107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69efd9636c9d6b%3A0x71fbe6e9045945ff!2sLDK%20Syahid%20UIN%20Syarif%20Hidayatullah%20Jakarta!5e0!3m2!1sen!2sid!4v1664598000447!5m2!1sen!2sid"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.014277717468!2d106.11545627581977!3d-2.148386997831005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e22c07659d47913%3A0xb31a31d9a049449f!2sUniversitas%20Bangka%20Belitung!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
                         frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0" title="Lokasi LDK Syahid">
+                        aria-hidden="false" tabindex="0" title="Lokasi LDK Al-Madaniah">
                     </iframe>
-                    <a href="https://www.google.com/maps/place/LDK+Syahid+UIN+Syarif+Hidayatullah+Jakarta/@-6.306059963469107,106.75319361449397,17z"
+                    <a href="https://www.google.com/maps/search/?api=1&query=Universitas+Bangka+Belitung+Balunijuk"
                        target="_blank" rel="noopener" class="cu-map-open-btn">
                         <i class="fas fa-location-arrow"></i>
                         <span>Buka di Google Maps</span>
@@ -298,7 +298,7 @@ $cuInfoCards = [
                     </div>
                     <h3 class="cu-subscribe-title">Tetap Terhubung<br>Bersama Kami</h3>
                     <p class="cu-subscribe-sub">
-                        Jadilah bagian dari komunitas LDK Syahid. Dapatkan kabar kegiatan, artikel inspiratif, dan informasi penting langsung ke emailmu — gratis, tanpa spam.
+                        Jadilah bagian dari komunitas LDK Al-Madaniah. Dapatkan kabar kegiatan, artikel inspiratif, dan informasi penting langsung ke emailmu — gratis, tanpa spam.
                     </p>
                     <div class="cu-subscribe-benefits">
                         <div class="cu-benefit-item">

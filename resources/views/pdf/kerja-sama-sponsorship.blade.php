@@ -36,7 +36,7 @@
             keluarga dan para pengikutnya.</p>
 
         <p class="indent">Melalui surat ini, kami dari pengurus UKM Lembaga Dakwah Kampus (LDK) Syahid
-            UIN Syarif Hidayatullah Jakarta bermaksud mengajukan permohonan dukungan kerja
+            Universitas Bangka Belitung bermaksud mengajukan permohonan dukungan kerja
             sama/sponsorship untuk menyukseskan program kami:</p>
 
         <p style="text-align:center; margin:10pt 0;">
@@ -61,7 +61,7 @@
         <table class="signature-table">
             <tr>
                 <td class="ttd-cell"><strong>Sekretaris Jenderal</strong></td>
-                <td class="ttd-cell"><strong>Ketua Umum LDK Syahid</strong></td>
+                <td class="ttd-cell"><strong>Ketua Umum LDK Al-Madaniah</strong></td>
             </tr>
             <tr>
                 <td class="ttd-cell"><div class="ttd-space">@include('pdf.components._sekjen-signature')</div></td>
@@ -82,7 +82,7 @@
                 <td class="qr-cell"><img src="{!! $qrCode !!}" alt="QR Verifikasi"></td>
                 <td>
                     <p><strong>Verifikasi Keaslian Dokumen</strong></p>
-                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Syahid.</p>
+                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Al-Madaniah.</p>
                     <p class="verification-url">{{ $verifikasiUrl }}</p>
                     <p>Kode Verifikasi: <strong>{{ $kodeVerifikasi }}</strong></p>
                 </td>

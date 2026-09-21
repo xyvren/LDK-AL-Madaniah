@@ -29,7 +29,7 @@
         </div>
         <p class="salam">Assalamu'alaikum Warahmatullahi Wabarakatuh,</p>
         <p class="indent">Puji syukur senantiasa kita panjatkan ke hadirat Allah SWT. Shalawat dan salam semoga selalu tercurah kepada junjungan kita Nabi Muhammad SAW, beserta keluarga, sahabat, dan para pengikutnya.</p>
-        <p class="indent">Dalam rangka mempererat tali silaturahmi, bertukar gagasan, serta memperluas wawasan keorganisasian melalui program kerja <strong>{{ $data['nama_kegiatan'] ?? 'Kunjungan Studi Banding' }}</strong>, maka pengurus UKM Lembaga Dakwah Kampus (LDK) Syahid UIN Syarif Hidayatullah Jakarta bermaksud mengadakan kunjungan silaturahmi ke lembaga yang Bapak/Ibu pimpin pada:</p>
+        <p class="indent">Dalam rangka mempererat tali silaturahmi, bertukar gagasan, serta memperluas wawasan keorganisasian melalui program kerja <strong>{{ $data['nama_kegiatan'] ?? 'Kunjungan Studi Banding' }}</strong>, maka pengurus UKM Lembaga Dakwah Kampus (LDK) Syahid Universitas Bangka Belitung bermaksud mengadakan kunjungan silaturahmi ke lembaga yang Bapak/Ibu pimpin pada:</p>
         <table class="identity">
             <tr><td class="identity-label">Hari, Tanggal</td><td class="identity-sep">:</td><td>{{ $hariTanggal }}</td></tr>
             <tr><td class="identity-label">Waktu</td><td class="identity-sep">:</td><td>{{ $waktu }}</td></tr>
@@ -42,7 +42,7 @@
         <table class="signature-table">
             <tr>
                 <td class="ttd-cell"><strong>Sekretaris Jenderal</strong></td>
-                <td class="ttd-cell"><strong>Ketua Umum LDK Syahid</strong></td>
+                <td class="ttd-cell"><strong>Ketua Umum LDK Al-Madaniah</strong></td>
             </tr>
             <tr>
                 <td class="ttd-cell"><div class="ttd-space">@include('pdf.components._sekjen-signature')</div></td>
@@ -62,7 +62,7 @@
                 <td class="qr-cell"><img src="{!! $qrCode !!}" alt="QR Verifikasi"></td>
                 <td>
                     <p><strong>Verifikasi Keaslian Dokumen</strong></p>
-                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Syahid.</p>
+                    <p>Pindai QR atau buka tautan berikut untuk memastikan surat tercatat di sistem LDK Al-Madaniah.</p>
                     <p class="verification-url">{{ $verifikasiUrl }}</p>
                     <p>Kode Verifikasi: <strong>{{ $kodeVerifikasi }}</strong></p>
                 </td>

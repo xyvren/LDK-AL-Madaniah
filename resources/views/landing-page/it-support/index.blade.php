@@ -28,8 +28,8 @@
             <span>Tim Teknologi</span>
             <span class="its-badge-pulse"></span>
         </div>
-        <h2 class="its-section-title mt-3">IT Support LDK Syahid</h2>
-        <p class="its-section-sub">Tim ahli yang berkomitmen memberikan yang terbaik di bidang teknologi untuk UKM LDK Syahid</p>
+        <h2 class="its-section-title mt-3">IT Support LDK Al-Madaniah</h2>
+        <p class="its-section-sub">Tim ahli yang berkomitmen memberikan yang terbaik di bidang teknologi untuk UKM LDK Al-Madaniah</p>
     </div>
 
 
@@ -46,7 +46,7 @@
                     <div class="its-empty-icon-wrap"><i class="fas fa-users"></i></div>
                 </div>
                 <h4 class="its-empty-title">Belum Ada Anggota</h4>
-                <p class="its-empty-sub">Tim IT Support LDK Syahid akan segera hadir.</p>
+                <p class="its-empty-sub">Tim IT Support LDK Al-Madaniah akan segera hadir.</p>
             </div>
         @else
             <div class="its-grid">
@@ -131,7 +131,7 @@
                     <div class="its-empty-icon-wrap"><i class="fas fa-users"></i></div>
                 </div>
                 <h4 class="its-empty-title">Belum Ada Anggota</h4>
-                <p class="its-empty-sub">Tim IT Support LDK Syahid akan segera hadir.</p>
+                <p class="its-empty-sub">Tim IT Support LDK Al-Madaniah akan segera hadir.</p>
             </div>
         @else
             <div class="its-mobile-carousel" id="its-mobile-carousel">

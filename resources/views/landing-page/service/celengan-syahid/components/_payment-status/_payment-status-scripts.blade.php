@@ -47,7 +47,7 @@
         buildQrisImage(rawQr, { amount: amount, campaign: campaign, expiry: expiry }, function (dataUrl) {
             var a = document.createElement('a');
             a.href     = dataUrl;
-            a.download = 'qris-donasi-ldksyahid-' + timestampForFilename() + '.png';
+            a.download = 'qris-donasi-ldkalmadaniah-' + timestampForFilename() + '.png';
             a.style.display = 'none';
             document.body.appendChild(a);
             a.click();
@@ -99,10 +99,10 @@
         ctx.textAlign = 'left';
         ctx.fillStyle = '#ffffff';
         ctx.font = 'bold 20px Arial, sans-serif';
-        ctx.fillText('LDK Syahid', 84, hH / 2 - 6);
+        ctx.fillText('LDK Al-Madaniah', 84, hH / 2 - 6);
         ctx.font = '13px Arial, sans-serif';
         ctx.fillStyle = 'rgba(255,255,255,0.88)';
-        ctx.fillText('Celengan Syahid  •  UIN Jakarta', 84, hH / 2 + 14);
+        ctx.fillText('Celengan Madaniah  •  Universitas Bangka Belitung', 84, hH / 2 + 14);
 
         /* Subtitle */
         ctx.fillStyle = '#6b7280';
@@ -175,7 +175,7 @@
 
             ctx.fillStyle = '#9ca3af';
             ctx.font      = '11px Arial, sans-serif';
-            ctx.fillText('ldksyah.id  •  Celengan Syahid', W / 2, H - 22);
+            ctx.fillText('ldkalmadaniah  •  Celengan Madaniah', W / 2, H - 22);
 
             callback(oc.toDataURL('image/png'));
         }
@@ -335,7 +335,7 @@
                     '<i class="fas fa-sync-alt"></i> Muat Ulang Halaman' +
                 '</button>' +
                 '<a href="' + HOME_URL + '" class="ds-btn ds-btn-outline">' +
-                    '<i class="fas fa-arrow-left"></i> Kembali ke Celengan Syahid' +
+                    '<i class="fas fa-arrow-left"></i> Kembali ke Celengan Madaniah' +
                 '</a>';
         });
     }

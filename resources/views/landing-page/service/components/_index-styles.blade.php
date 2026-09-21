@@ -9,7 +9,7 @@
      Call Kestari:       #00a79d
      Kalkulator Kestari: #6366f1
      Perpendek URL:      #f59e0b
-     Celengan Syahid:    #10b981 (disabled)
+     Celengan Al-Madaniah:    #10b981 (disabled)
    ================================================================ */
 
 :root {

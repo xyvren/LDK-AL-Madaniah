@@ -75,5 +75,19 @@ class AppServiceProvider extends ServiceProvider
                 $view->with('isSuperadmin', false);
             }
         });
+
+        // Register custom functions for SQLite compatibility
+        if ($this->app['db']->connection() instanceof \Illuminate\Database\SQLiteConnection) {
+            $pdo = $this->app['db']->connection()->getPdo();
+            $pdo->sqliteCreateFunction('YEAR', function ($date) {
+                return $date ? date('Y', strtotime($date)) : null;
+            }, 1);
+            $pdo->sqliteCreateFunction('MONTH', function ($date) {
+                return $date ? date('m', strtotime($date)) : null;
+            }, 1);
+            $pdo->sqliteCreateFunction('DAY', function ($date) {
+                return $date ? date('d', strtotime($date)) : null;
+            }, 1);
+        }
     }
 }

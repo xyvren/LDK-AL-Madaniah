@@ -192,7 +192,7 @@
                                         'nim'                  => 'NIM',
                                         'fakultas'             => 'Faculty',
                                         'jurusan'              => 'Major / Study Program',
-                                        'jabatan'              => 'Position in LDK Syahid',
+                                        'jabatan'              => 'Position in LDK Al-Madaniah',
                                         'ttl'                  => 'Place & Date of Birth',
                                         'program_rekomendasi'  => 'Recommended Program',
                                         'pertimbangan'         => 'Recommendation Points',

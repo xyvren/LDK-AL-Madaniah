@@ -56,8 +56,8 @@
                             <p class="prf-fullname">{{ Auth::user()->name }}</p>
                         </div>
                         <img class="prf-bio-logo"
-                             src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
-                             alt="LDK Syahid">
+                             src="/landing-page-ext-rsrc/img/ldk-logo.png"
+                             alt="LDK Al-Madaniah">
                     </div>
 
                     <div class="prf-bio-divider"></div>

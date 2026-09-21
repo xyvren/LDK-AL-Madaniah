@@ -21,7 +21,7 @@
         <div class="hero-slide">
             <img class="hero-image"
                  src="https://lh3.googleusercontent.com/d/1RNWVLrXSyfS5kXXllib3HyGOyBZEW257"
-                 alt="Laporan LDK Syahid" />
+                 alt="Laporan LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
 
@@ -36,14 +36,14 @@
                 <span>Laporan</span>
                 <span class="rp-badge-pulse"></span>
             </div>
-            <h2 class="rp-section-title mt-3">Laporan LDK Syahid</h2>
-            <p class="rp-section-sub">Dokumentasi transparan dan akuntabel seluruh kegiatan LDK Syahid</p>
+            <h2 class="rp-section-title mt-3">Laporan LDK Al-Madaniah</h2>
+            <p class="rp-section-sub">Dokumentasi transparan dan akuntabel seluruh kegiatan LDK Al-Madaniah</p>
         </div>
 
         {{-- ── Info Card (Features) ────────────────────────────── --}}
         <div class="rp-info-card wow fadeInUp mb-5" data-wow-delay="0.15s">
             <p class="rp-info-desc">
-                UKM LDK Syahid menyajikan berbagai laporan dengan standar kualitas tinggi yang
+                UKM LDK Al-Madaniah menyajikan berbagai laporan dengan standar kualitas tinggi yang
                 mencerminkan integritas organisasi. Setiap laporan dirancang untuk memberikan
                 gambaran utuh tentang kinerja, keuangan, dan program kerja kepada seluruh
                 anggota dan stakeholders.

@@ -101,7 +101,7 @@
                 </button>
                 <div id="wrp-share-fallback">
                     Salin link ini:
-                    <a href="https://ldksyah.id/" target="_blank" rel="noopener noreferrer">ldksyah.id</a>
+                    <a href="https://ubb.ac.id" target="_blank" rel="noopener noreferrer">ubb.ac.id</a>
                     lalu bagikan ke Story atau WA squad kamu!
                 </div>
                 <button id="wrp-btn-dismiss">Jangan tampilkan lagi</button>

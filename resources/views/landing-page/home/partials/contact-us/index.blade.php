@@ -42,8 +42,8 @@
                             </div>
                             <div class="contact-method-item__content">
                                 <span class="contact-method-item__label">Email</span>
-                                <a href="mailto:ldk.ormawa@apps.uinjkt.ac.id" class="contact-method-item__value">
-                                    ldk.ormawa@apps.uinjkt.ac.id
+                                <a href="mailto:ldkalmadaniah@ubb.ac.id" class="contact-method-item__value">
+                                    ldkalmadaniah@ubb.ac.id
                                 </a>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                             </div>
                             <div class="contact-method-item__content">
                                 <span class="contact-method-item__label">Lokasi</span>
-                                <span class="contact-method-item__value">UIN Syarif Hidayatullah Jakarta</span>
+                                <span class="contact-method-item__value">Universitas Bangka Belitung</span>
                             </div>
                         </div>
 

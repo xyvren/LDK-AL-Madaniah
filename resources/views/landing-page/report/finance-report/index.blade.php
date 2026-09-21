@@ -21,7 +21,7 @@
         <div class="hero-slide">
             <img class="hero-image"
                  src="https://lh3.googleusercontent.com/d/1wOvUz3jq66UwdPduMGiW4RUML9JMV-nC"
-                 alt="Laporan Keuangan LDK Syahid" />
+                 alt="Laporan Keuangan LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
 
@@ -36,8 +36,8 @@
                 <span>Laporan Keuangan</span>
                 <span class="fr-badge-pulse"></span>
             </div>
-            <h2 class="fr-section-title mt-3">Laporan Keuangan LDK Syahid</h2>
-            <p class="fr-section-sub">Transparansi dan akuntabilitas pengelolaan keuangan LDK Syahid</p>
+            <h2 class="fr-section-title mt-3">Laporan Keuangan LDK Al-Madaniah</h2>
+            <p class="fr-section-sub">Transparansi dan akuntabilitas pengelolaan keuangan LDK Al-Madaniah</p>
         </div>
 
         {{-- ── Info Card (Features) ────────────────────────────── --}}
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <p class="fr-info-desc">
-                Laporan keuangan UKM LDK Syahid merupakan bentuk pertanggungjawaban publik atas
+                Laporan keuangan UKM LDK Al-Madaniah merupakan bentuk pertanggungjawaban publik atas
                 pengelolaan dana organisasi. Setiap laporan mencakup realisasi anggaran, arus kas,
                 dan posisi keuangan yang telah melalui proses audit internal untuk memastikan
                 keakuratan dan kredibilitas informasi.
@@ -224,7 +224,7 @@
                     <div class="fr-cp-info">
                         <span class="fr-cp-name">{{ $cpName }}</span>
                         @if($cpPhone)
-                        <a href="https://wa.me/{{ $cpPhone }}?text={{ urlencode('Halo Kestari LDK Syahid, saya ingin bertanya mengenai Laporan Keuangan.' . "\n" . url('/laporan-keuangan')) }}"
+                        <a href="https://wa.me/{{ $cpPhone }}?text={{ urlencode('Halo Kestari LDK Al-Madaniah, saya ingin bertanya mengenai Laporan Keuangan.' . "\n" . url('/laporan-keuangan')) }}"
                            target="_blank"
                            rel="noopener"
                            class="fr-cp-wa">

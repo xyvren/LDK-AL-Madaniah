@@ -669,7 +669,7 @@
             <div class="terminal-body">
                 <div><span class="t-prompt">$</span> <span class="t-cmd">php artisan about</span></div>
                 <div class="t-out">&nbsp;</div>
-                <div><span class="t-out">&nbsp; Application Name &nbsp;&nbsp;&nbsp;&nbsp;</span><span class="t-val">LDK Syahid</span></div>
+                <div><span class="t-out">&nbsp; Application Name &nbsp;&nbsp;&nbsp;&nbsp;</span><span class="t-val">LDK Al-Madaniah UBB</span></div>
                 <div><span class="t-out">&nbsp; Laravel Version &nbsp;&nbsp;&nbsp;&nbsp;</span><span class="t-str">{{ Illuminate\Foundation\Application::VERSION }}</span></div>
                 <div><span class="t-out">&nbsp; PHP Version &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="t-str">{{ PHP_VERSION }}</span></div>
                 <div><span class="t-out">&nbsp; Environment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="t-val">production</span></div>

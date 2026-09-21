@@ -367,7 +367,7 @@
                         @if ($operation !== 'view')
                             <div class="form-check mb-3">
                                 <input type="checkbox" class="form-check-input" id="cekOrganisasi" {{ $hasOrganization ? 'checked' : '' }}>
-                                <label class="form-check-label" for="cekOrganisasi">Organizations other than UKM LDK Syahid ?</label>
+                                <label class="form-check-label" for="cekOrganisasi">Organizations other than UKM LDK Al-Madaniah ?</label>
                             </div>
                         @endif
                         <div id="formOrganisasi" @if(!$hasOrganization && $operation !== 'view') style="display: none;" @endif>
@@ -385,7 +385,7 @@
                                             @else
                                                 <input type="text" class="form-control" id="inputNamaOrganisasi" name="nama_organisasi"
                                                     value="{{ old('nama_organisasi', $data->nama_organisasi ?? '') }}"
-                                                    placeholder="e.g. UKM LDK Syahid">
+                                                    placeholder="e.g. UKM LDK Al-Madaniah">
                                             @endif
                                         </div>
                                     </div>

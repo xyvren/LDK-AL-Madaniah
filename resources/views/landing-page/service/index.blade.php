@@ -19,7 +19,7 @@
         <div class="hero-slide">
             <img class="hero-image"
                  src="https://lh3.googleusercontent.com/d/1GmgV8Pussl5orvOXnVfVePWxXjH866_x"
-                 alt="Layanan LDK Syahid" />
+                 alt="Layanan LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
 
@@ -33,8 +33,8 @@
                 <span>Layanan</span>
                 <span class="sv-badge-pulse"></span>
             </div>
-            <h2 class="sv-section-title mt-3">Layanan LDK Syahid</h2>
-            <p class="sv-section-sub">Berbagai layanan digital untuk mendukung kegiatan dan administrasi UKM LDK Syahid</p>
+            <h2 class="sv-section-title mt-3">Layanan LDK Al-Madaniah</h2>
+            <p class="sv-section-sub">Berbagai layanan digital untuk mendukung kegiatan dan administrasi UKM LDK Al-Madaniah</p>
         </div>
 
         {{-- ══════════════════════════════════════════════════
@@ -88,7 +88,7 @@
                         <span class="sv-card-dot"></span>
                         <h5 class="sv-card-title">Call Kestari</h5>
                     </div>
-                    <p class="sv-card-desc">Call Kestari merupakan tautan panggilan yang di dalamnya terdapat laman khusus berisi informasi penting untuk dibagikan kepada para Sekretaris Bidang/Biro, Sekretaris LDKSF dan Anggota LDK Syahid, yang berfungsi membantu mengarahkan pengguna dalam berkomunikasi lebih personal terkait Kesekretariatan.</p>
+                    <p class="sv-card-desc">Call Kestari merupakan tautan panggilan yang di dalamnya terdapat laman khusus berisi informasi penting untuk dibagikan kepada para Sekretaris Bidang/Biro, Sekretaris LDKSF dan Anggota LDK Al-Madaniah, yang berfungsi membantu mengarahkan pengguna dalam berkomunikasi lebih personal terkait Kesekretariatan.</p>
                     <div class="sv-card-footer">
                         <div class="sv-card-share-row">
                             <button class="sv-card-share-btn sv-share-copy"
@@ -118,7 +118,7 @@
                         <span class="sv-card-dot"></span>
                         <h5 class="sv-card-title">Kalkulator Kestari</h5>
                     </div>
-                    <p class="sv-card-desc">Kalkulator Kestari merupakan sebuah program untuk membantu menghitung penilaian Program Kerja UKM LDK Syahid yang biasanya digunakan sebelum MSG atau MUSA/F dalam rangka mengevaluasi kinerja program secara objektif dan terukur.</p>
+                    <p class="sv-card-desc">Kalkulator Kestari merupakan sebuah program untuk membantu menghitung penilaian Program Kerja UKM LDK Al-Madaniah yang biasanya digunakan sebelum MSG atau MUSA/F dalam rangka mengevaluasi kinerja program secara objektif dan terukur.</p>
                     <div class="sv-card-footer">
                         <div class="sv-card-share-row">
                             <button class="sv-card-share-btn sv-share-copy"
@@ -148,7 +148,7 @@
                         <span class="sv-card-dot"></span>
                         <h5 class="sv-card-title">Perpendek URL</h5>
                     </div>
-                    <p class="sv-card-desc">Perpendek URL merupakan sebuah layanan untuk membuat URL/Link yang panjang menjadi singkat sehingga memudahkan untuk diketik dan dibagikan. Layanan ini hanya dapat digunakan oleh anggota UKM LDK Syahid UIN Jakarta.</p>
+                    <p class="sv-card-desc">Perpendek URL merupakan sebuah layanan untuk membuat URL/Link yang panjang menjadi singkat sehingga memudahkan untuk diketik dan dibagikan. Layanan ini hanya dapat digunakan oleh anggota UKM LDK Al-Madaniah Universitas Bangka Belitung.</p>
                     <div class="sv-card-footer">
                         <div class="sv-card-share-row">
                             <button class="sv-card-share-btn sv-share-copy"
@@ -171,14 +171,14 @@
             <div class="sv-card" style="--sv-accent: #10b981;">
                 <div class="sv-card-img-wrap">
                     <img src="https://lh3.googleusercontent.com/d/1CynJ5fKVEumKQLxLxncZC99ALkEmf_4t"
-                         alt="Celengan Syahid" class="sv-card-img" loading="lazy">
+                         alt="Celengan Al-Madaniah" class="sv-card-img" loading="lazy">
                 </div>
                 <div class="sv-card-body">
                     <div class="sv-card-title-row">
                         <span class="sv-card-dot"></span>
-                        <h5 class="sv-card-title">Celengan Syahid</h5>
+                        <h5 class="sv-card-title">Celengan Al-Madaniah</h5>
                     </div>
-                    <p class="sv-card-desc">Celengan Syahid adalah sebuah layanan Donasi Crowdfunding secara online untuk membantu orang yang membutuhkan. Melalui Celengan Syahid, kita dapat berdonasi untuk berbagai keperluan seperti kemanusiaan, pendidikan, dan kebutuhan dasar lainnya.</p>
+                    <p class="sv-card-desc">Celengan Al-Madaniah adalah sebuah layanan Donasi Crowdfunding secara online untuk membantu orang yang membutuhkan. Melalui Celengan Syahid, kita dapat berdonasi untuk berbagai keperluan seperti kemanusiaan, pendidikan, dan kebutuhan dasar lainnya.</p>
                     <div class="sv-card-footer">
                         <div class="sv-card-share-row">
                             <button class="sv-card-share-btn sv-share-copy"
@@ -186,7 +186,7 @@
                                 <i class="fas fa-link"></i><span>Salin URL</span>
                             </button>
                             <button class="sv-card-share-btn sv-share-wa"
-                                    onclick="svShareWa('{{ url('/celengan-syahid') }}', 'Celengan Syahid', event)">
+                                    onclick="svShareWa('{{ url('/celengan-syahid') }}', 'Celengan Al-Madaniah', event)">
                                 <i class="fab fa-whatsapp"></i><span>WhatsApp</span>
                             </button>
                         </div>
@@ -209,7 +209,7 @@
             <h5 class="sv-card-title">Layanan Persuratan</h5>
         </div>
         <p class="sv-card-desc">
-            Buat surat resmi LDK Syahid secara otomatis — Surat Izin Orang Tua, Peminjaman Alat/Tempat,
+            Buat surat resmi LDK Al-Madaniah secara otomatis — Surat Izin Orang Tua, Peminjaman Alat/Tempat,
             Permohonan Bantuan Dana, Rekomendasi, Undangan, dan lainnya. Nomor surat otomatis,
             lengkap dengan QR code verifikasi keaslian dokumen.
         </p>
@@ -267,7 +267,7 @@
      style="--sv-accent: #0ea5e9;"
      onclick="svOpenSheet(this)"
      data-title="Layanan Persuratan"
-     data-desc="Buat surat resmi LDK Syahid secara otomatis — Surat Izin Orang Tua, Peminjaman Alat/Tempat, Permohonan Bantuan Dana, Rekomendasi, Undangan, dan lainnya. Nomor surat otomatis, lengkap dengan QR code verifikasi keaslian dokumen."
+     data-desc="Buat surat resmi LDK Al-Madaniah secara otomatis — Surat Izin Orang Tua, Peminjaman Alat/Tempat, Permohonan Bantuan Dana, Rekomendasi, Undangan, dan lainnya. Nomor surat otomatis, lengkap dengan QR code verifikasi keaslian dokumen."
      data-image="GANTI_DENGAN_FILE_ID_GAMBAR"
      data-url="{{ route('service.persuratan.index') }}"
      data-accent="#0ea5e9"
@@ -280,7 +280,7 @@
     </div>
     <div class="sv-m-info">
         <h5 class="sv-m-title">Layanan Persuratan</h5>
-        <p class="sv-m-desc">Generate surat resmi LDK Syahid otomatis, lengkap dengan QR verifikasi</p>
+        <p class="sv-m-desc">Generate surat resmi LDK Al-Madaniah otomatis, lengkap dengan QR verifikasi</p>
         <span class="sv-m-hint"><i class="fas fa-info-circle"></i> Ketuk untuk detail</span>
     </div>
     <i class="fas fa-chevron-right sv-m-arrow"></i>
@@ -292,7 +292,7 @@
                  style="--sv-accent: #00a79d;"
                  onclick="svOpenSheet(this)"
                  data-title="Call Kestari"
-                 data-desc="Call Kestari merupakan tautan panggilan yang di dalamnya terdapat laman khusus berisi informasi penting untuk dibagikan kepada para Sekretaris Bidang/Biro, Sekretaris LDKSF dan Anggota LDK Syahid."
+                 data-desc="Call Kestari merupakan tautan panggilan yang di dalamnya terdapat laman khusus berisi informasi penting untuk dibagikan kepada para Sekretaris Bidang/Biro, Sekretaris LDKSF dan Anggota LDK Al-Madaniah."
                  data-image="1q0rUVWPt2doB9_lgKOaKTDyHWbctHChX"
                  data-url="/callkestari"
                  data-accent="#00a79d"
@@ -304,7 +304,7 @@
                 </div>
                 <div class="sv-m-info">
                     <h5 class="sv-m-title">Call Kestari</h5>
-                    <p class="sv-m-desc">Tautan panggilan untuk komunikasi dan informasi Kesekretariatan LDK Syahid</p>
+                    <p class="sv-m-desc">Tautan panggilan untuk komunikasi dan informasi Kesekretariatan LDK Al-Madaniah</p>
                     <span class="sv-m-hint"><i class="fas fa-info-circle"></i> Ketuk untuk detail</span>
                 </div>
                 <i class="fas fa-chevron-right sv-m-arrow"></i>
@@ -315,7 +315,7 @@
                  style="--sv-accent: #6366f1;"
                  onclick="svOpenSheet(this)"
                  data-title="Kalkulator Kestari"
-                 data-desc="Kalkulator Kestari merupakan sebuah program untuk membantu menghitung penilaian Program Kerja UKM LDK Syahid yang biasanya digunakan sebelum MSG atau MUSA/F."
+                 data-desc="Kalkulator Kestari merupakan sebuah program untuk membantu menghitung penilaian Program Kerja UKM LDK Al-Madaniah yang biasanya digunakan sebelum MSG atau MUSA/F."
                  data-image="1DZdc8rblfJUSkN5Q-Faxsur2iOnI_IYm"
                  data-url="/kalkulatorkestari"
                  data-accent="#6366f1"
@@ -327,7 +327,7 @@
                 </div>
                 <div class="sv-m-info">
                     <h5 class="sv-m-title">Kalkulator Kestari</h5>
-                    <p class="sv-m-desc">Program penghitung penilaian Program Kerja UKM LDK Syahid secara objektif</p>
+                    <p class="sv-m-desc">Program penghitung penilaian Program Kerja UKM LDK Al-Madaniah secara objektif</p>
                     <span class="sv-m-hint"><i class="fas fa-info-circle"></i> Ketuk untuk detail</span>
                 </div>
                 <i class="fas fa-chevron-right sv-m-arrow"></i>
@@ -338,7 +338,7 @@
                  style="--sv-accent: #f59e0b;"
                  onclick="svOpenSheet(this)"
                  data-title="Perpendek URL"
-                 data-desc="Layanan untuk membuat URL/Link panjang menjadi singkat sehingga mudah diketik dan dibagikan. Khusus untuk anggota UKM LDK Syahid UIN Jakarta."
+                 data-desc="Layanan untuk membuat URL/Link panjang menjadi singkat sehingga mudah diketik dan dibagikan. Khusus untuk anggota UKM LDK Al-Madaniah Universitas Bangka Belitung."
                  data-image="1BoMYgj-B2HNblHjkebs1ZRiVUuVre5Wf"
                  data-url="/shortlink"
                  data-accent="#f59e0b"
@@ -360,8 +360,8 @@
             <div class="sv-m-card"
                  style="--sv-accent: #10b981;"
                  onclick="svOpenSheet(this)"
-                 data-title="Celengan Syahid"
-                 data-desc="Celengan Syahid adalah sebuah layanan Donasi Crowdfunding secara online untuk membantu orang yang membutuhkan. Melalui Celengan Syahid, kita dapat berdonasi untuk berbagai keperluan seperti kemanusiaan, pendidikan, dan kebutuhan dasar lainnya."
+                 data-title="Celengan Al-Madaniah"
+                 data-desc="Celengan Al-Madaniah adalah sebuah layanan Donasi Crowdfunding secara online untuk membantu orang yang membutuhkan. Melalui Celengan Syahid, kita dapat berdonasi untuk berbagai keperluan seperti kemanusiaan, pendidikan, dan kebutuhan dasar lainnya."
                  data-image="1CynJ5fKVEumKQLxLxncZC99ALkEmf_4t"
                  data-url="{{ route('service.celengansyahid') }}"
                  data-accent="#10b981"
@@ -369,10 +369,10 @@
                  data-disabled="0">
                 <div class="sv-m-thumb">
                     <img src="https://lh3.googleusercontent.com/d/1CynJ5fKVEumKQLxLxncZC99ALkEmf_4t"
-                         alt="Celengan Syahid" loading="lazy">
+                         alt="Celengan Al-Madaniah" loading="lazy">
                 </div>
                 <div class="sv-m-info">
-                    <h5 class="sv-m-title">Celengan Syahid</h5>
+                    <h5 class="sv-m-title">Celengan Al-Madaniah</h5>
                     <p class="sv-m-desc">Layanan donasi crowdfunding untuk berbagai keperluan kemanusiaan dan pendidikan</p>
                     <span class="sv-m-hint"><i class="fas fa-info-circle"></i> Ketuk untuk detail</span>
                 </div>

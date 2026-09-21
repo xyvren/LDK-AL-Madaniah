@@ -150,7 +150,7 @@ class Campaign extends Model
         $options = [];
         foreach ($rows as $val) {
             $key            = $val ?? '__ldk__';
-            $options[$key]  = $val ?? 'UKM LDK Syahid';
+            $options[$key]  = $val ?? 'UKM LDK Al-Madaniah';
         }
         return $options;
     }

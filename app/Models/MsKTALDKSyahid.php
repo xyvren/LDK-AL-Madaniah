@@ -53,7 +53,7 @@ class MsKTALDKSyahid extends Model
     {
         return [
             'idKey' => 'id',
-            'emptyMessage' => 'No KTA LDK Syahid found',
+            'emptyMessage' => 'No KTA LDK Al-Madaniah found',
             'emptyIcon' => 'fa-id-card',
             'colspan' => 8,
             'columns' => [

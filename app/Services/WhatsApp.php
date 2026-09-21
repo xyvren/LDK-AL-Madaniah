@@ -54,7 +54,7 @@ class WhatsApp
 
     public static function sendInvoiceSimpleText($data)
     {
-        $message = "🚨 *[INVOICE DONASI]* 🚨\n\n_Assalammualaikum, ".$data['donaturName']."_ 😊\n\nJazakallah Khairan Katsiiran karena kamu telah ingin melakukan donasi untuk campaign *" .$data['campaignName']. "* dengan jumlah donasi  _*".$data['donationAmount']."*_ . Yuk segera transfer donasimu pada link dibawah ini sebelum jatuh tempo pada  _" .$data['expiredDate']. " WIB_\n\n" .$data['invoiceUrl']. "\n\n_*Informasi Lengkap silahkan cek email kamu yaaa_ 😃\n\nTerimakasih telah menjadi bagian dari Manusia Baik\n\n_Wassalammu'alaikum_ 😇\n\n#LDKSyahid\n#KitaAdalahSaudara\n#FSLDKBanten\n#UINJakarta\n#CelenganSyahid\n➖➖➖➖➖➖➖➖➖\nMedia Sosial LDK Syahid\nldksyah.id/Medsos";
+        $message = "🚨 *[INVOICE DONASI]* 🚨\n\n_Assalammualaikum, ".$data['donaturName']."_ 😊\n\nJazakallah Khairan Katsiiran karena kamu telah ingin melakukan donasi untuk campaign *" .$data['campaignName']. "* dengan jumlah donasi  _*".$data['donationAmount']."*_ . Yuk segera transfer donasimu pada link dibawah ini sebelum jatuh tempo pada  _" .$data['expiredDate']. " WIB_\n\n" .$data['invoiceUrl']. "\n\n_*Informasi Lengkap silahkan cek email kamu yaaa_ 😃\n\nTerimakasih telah menjadi bagian dari Manusia Baik\n\n_Wassalammu'alaikum_ 😇\n\n#LDKAlMadaniah\n#KitaAdalahSaudara\n#FSLDKBanten\n#UBBBangka\n#CelenganSyahid\n➖➖➖➖➖➖➖➖➖\nMedia Sosial LDK Al-Madaniah\nldksyah.id/Medsos";
 
         return self::send($data['donaturTelp'], $message, 'invoice_donasi_v2', [
             $data['donaturName'],
@@ -67,7 +67,7 @@ class WhatsApp
 
     public static function sendPaidSimpleText($data)
     {
-        $message = "🚨 *[DONASI BERHASIL]* 🚨\n\n_Assalammualaikum, ".$data['donaturName']."_ 😊\n\nAlhamdulillah Jazakallah Khairan Katsiiran telah berdonasi sebesar  _*".LFC::formatRupiah($data['donationAmount'])."*_\n\nSegera cek email *Invoice Donasimu* kembali yaaa untuk melihat _Status Donasimu_ dan jangan lupa untuk menyimpan bukti donasi nyaaa 😁\n\nTerimakasih telah menjadi bagian dari Manusia Baik\n\n_Wassalammu'alaikum_ 😇\n\n#LDKSyahid\n#KitaAdalahSaudara\n#FSLDKBanten\n#UINJakarta\n#CelenganSyahid\n➖➖➖➖➖➖➖➖➖\nMedia Sosial LDK Syahid\nldksyah.id/Medsos";
+        $message = "🚨 *[DONASI BERHASIL]* 🚨\n\n_Assalammualaikum, ".$data['donaturName']."_ 😊\n\nAlhamdulillah Jazakallah Khairan Katsiiran telah berdonasi sebesar  _*".LFC::formatRupiah($data['donationAmount'])."*_\n\nSegera cek email *Invoice Donasimu* kembali yaaa untuk melihat _Status Donasimu_ dan jangan lupa untuk menyimpan bukti donasi nyaaa 😁\n\nTerimakasih telah menjadi bagian dari Manusia Baik\n\n_Wassalammu'alaikum_ 😇\n\n#LDKAlMadaniah\n#KitaAdalahSaudara\n#FSLDKBanten\n#UBBBangka\n#CelenganSyahid\n➖➖➖➖➖➖➖➖➖\nMedia Sosial LDK Al-Madaniah\nldksyah.id/Medsos";
 
         return self::send($data['donaturTelp'], $message, 'donasi_berhasil_v2', [
             $data['donaturName'],
@@ -96,7 +96,7 @@ class WhatsApp
             . "Balas *YES* untuk _approve_ atau *NO* untuk _tolak_ permintaan ini.\n\n"
             . "Atau proses manual via halaman admin:\n"
             . $adminUrl . "\n\n"
-            . "#LDKSyahid\n#LayananShortlink";
+            . "#LDKAlMadaniah\n#LayananShortlink";
 
         // Order must match the 'request_shortlink_v6' template's {{1}}..{{7}}
         // — requestId first since it's the first variable to appear in the
@@ -139,9 +139,9 @@ class WhatsApp
             . "Terimakasih {$data['name']} telah menggunakan layanan kami 😉\n\n"
             . "_Wassalammua'laikum_\n\n"
             . "#KitaAdalahSaudara\n"
-            . "#LDKSyahid\n"
+            . "#LDKAlMadaniah\n"
             . "#{$angkatan}\n"
-            . "#UINJakarta";
+            . "#UBBBangka";
 
         return self::send($data['whatsapp'], $message, 'shortlink_disetujui_v2', [
             $data['name'],
@@ -170,9 +170,9 @@ class WhatsApp
             . "Terimakasih atas pengertiannya 🙏\n\n"
             . "_Wassalammua'laikum_\n\n"
             . "#KitaAdalahSaudara\n"
-            . "#LDKSyahid\n"
+            . "#LDKAlMadaniah\n"
             . "#{$angkatan}\n"
-            . "#UINJakarta";
+            . "#UBBBangka";
 
         return self::send($data['whatsapp'], $message, 'shortlink_ditolak_v2', [
             $data['name'],
@@ -231,7 +231,7 @@ class WhatsApp
             . "🕐 *Waktu:* {$paidAt}\n\n"
             . "📊 *Total Dana Terkumpul (PAID):* " . LFC::formatRupiah($summary['total_paid']) . "\n"
             . "💵 *Saldo Tersedia Saat Ini:* " . LFC::formatRupiah($summary['available']) . "\n\n"
-            . "#LDKSyahid\n#CelenganSyahid";
+            . "#LDKAlMadaniah\n#CelenganSyahid";
 
         self::send($picTarget, $message, 'notifikasi_pic_donasi_v2', [
             $picName,
@@ -281,7 +281,7 @@ class WhatsApp
             . "🏦 *Tujuan:* {$destination}\n"
             . "🕐 *Waktu:* {$completedAt}\n\n"
             . "💵 *Saldo Tersedia Saat Ini:* " . LFC::formatRupiah($summary['available']) . "\n\n"
-            . "#LDKSyahid\n#CelenganSyahid";
+            . "#LDKAlMadaniah\n#CelenganSyahid";
 
         self::send($picTarget, $message, 'notifikasi_pic_withdraw', [
             $picName,
@@ -321,7 +321,7 @@ class WhatsApp
             . "Balas *YES* untuk _approve_ (terbitkan nomor otomatis) atau *NO* untuk _tolak_ permohonan ini.\n\n"
             . "Atau proses & atur nomor manual via panel admin:\n"
             . $adminUrl . "\n\n"
-            . "#LDKSyahid\n#LayananPersuratan";
+            . "#LDKAlMadaniah\n#LayananPersuratan";
 
         return self::send($data['targetPhone'], $message, 'request_letter_v1', [
             (string) $data['letterId'],
@@ -345,8 +345,8 @@ class WhatsApp
             . "🔢 *Nomor Surat:* {$data['letterNumber']}\n\n"
             . "Unduh dokumen PDF resmi ber-QR Code pada tautan berikut:\n"
             . "🔗 {$data['downloadUrl']}\n\n"
-            . "Terima kasih telah menggunakan Layanan Persuratan LDK Syahid 🙏\n\n"
-            . "#LDKSyahid\n#KitaAdalahSaudara";
+            . "Terima kasih telah menggunakan Layanan Persuratan LDK Al-Madaniah 🙏\n\n"
+            . "#LDKAlMadaniah\n#KitaAdalahSaudara";
 
         return self::send($data['targetPhone'], $message, 'letter_approved_v1', [
             $data['name'],
@@ -369,7 +369,7 @@ class WhatsApp
             . "📝 *Catatan Admin:* {$reason}\n\n"
             . "Silakan hubungi Kestari atau ajukan ulang melalui website jika masih dibutuhkan.\n\n"
             . "Terima kasih atas pengertiannya 🙏\n\n"
-            . "#LDKSyahid\n#KitaAdalahSaudara";
+            . "#LDKAlMadaniah\n#KitaAdalahSaudara";
 
         return self::send($data['targetPhone'], $message, 'letter_rejected_v1', [
             $data['name'],

@@ -369,7 +369,7 @@
         <div class="ed-bottom-inner">
             <div class="ed-bottom-text">
                 <h4 class="ed-bottom-title">Ada Kegiatan Lainnya!</h4>
-                <p class="ed-bottom-sub">Jelajahi berbagai program dan kegiatan menarik lainnya dari LDK Syahid</p>
+                <p class="ed-bottom-sub">Jelajahi berbagai program dan kegiatan menarik lainnya dari LDK Al-Madaniah</p>
             </div>
             <div class="ed-bottom-btns">
                 <a href="{{ route('event.index') }}" class="ed-bottom-more-btn">

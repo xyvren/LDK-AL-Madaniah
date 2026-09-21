@@ -306,7 +306,7 @@ class PublicController extends Controller
                 'donationAmount' => $request->input('jumlah_donasi'),
                 'donationID'     => $postDonation->id,
                 'invoiceUrl'     => $statusUrl,
-                'merchantName'   => 'UKM LDK Syahid',
+                'merchantName'   => 'UKM LDK Al-Madaniah',
                 'logo'           => null,
                 'expiredDate'    => $formattedDate,
             ];

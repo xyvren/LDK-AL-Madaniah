@@ -59,8 +59,8 @@ return [
             'timeout'    => null,
             'auth_mode'  => null,
             'from'       => [
-                'address' => env('GMAIL_FROM_ADDRESS', 'noreplyldksyahid@gmail.com'),
-                'name'    => env('GMAIL_FROM_NAME', 'LDK Syahid'),
+                'address' => env('GMAIL_FROM_ADDRESS', 'ldkalmadaniah@ubb.ac.id'),
+                'name'    => env('GMAIL_FROM_NAME', 'LDK Al-Madaniah'),
             ],
         ],
 
