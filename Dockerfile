@@ -24,12 +24,13 @@ WORKDIR /var/www/html
 
 COPY composer.json composer.lock ./
 
+# Install deps WITHOUT autoloader optimization (source not copied yet)
 RUN composer install \
         --no-dev \
         --no-interaction \
         --no-scripts \
         --prefer-dist \
-        --optimize-autoloader
+        --no-autoloader
 
 # ---------------------------------------------------------------------------
 # Stage 2: Final production image
@@ -77,6 +78,9 @@ COPY public/ public/
 COPY artisan artisan
 COPY server.php server.php
 COPY .env.example .env.example
+
+# Generate optimized autoloader NOW (source code is present)
+RUN composer dump-autoload --optimize --no-scripts
 
 # Ensure required directories exist and are writable
 RUN mkdir -p storage/framework/{sessions,views,cache} \
