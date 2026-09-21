@@ -64,6 +64,9 @@ RUN { \
 
 WORKDIR /var/www/html
 
+# Composer binary (needed for dump-autoload below)
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+
 # Copy Composer dependencies from builder
 COPY --from=composer-deps /var/www/html/vendor vendor/
 
