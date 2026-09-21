@@ -1,6 +1,6 @@
 # =============================================================================
 # Dockerfile — LDK Al-Madaniah UBB (Laravel 8.83.29 · PHP 8.2)
-# Multi-stage build: deps → assets → production
+# Simple two-stage build: composer-deps → production
 # =============================================================================
 
 # ---------------------------------------------------------------------------
@@ -8,10 +8,9 @@
 # ---------------------------------------------------------------------------
 FROM php:8.2-cli AS composer-deps
 
-# System dependencies for PHP extensions
 RUN apt-get update && apt-get install -y --no-install-recommends \
-        git unzip pkg-config libcurl4-openssl-dev libzip-dev libpng-dev libjpeg62-turbo-dev libfreetype6-dev \
-        libicu-dev libxml2-dev libonig-dev \
+        git unzip pkg-config libcurl4-openssl-dev libzip-dev libpng-dev \
+        libjpeg62-turbo-dev libfreetype6-dev libicu-dev libxml2-dev libonig-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j$(nproc) \
         pdo_mysql mbstring xml curl zip gd intl bcmath fileinfo opcache exif \
@@ -23,10 +22,8 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/html
 
-# Copy only composer files first for layer caching
 COPY composer.json composer.lock ./
 
-# Install dependencies (--no-dev for production)
 RUN composer install \
         --no-dev \
         --no-interaction \
@@ -35,29 +32,13 @@ RUN composer install \
         --optimize-autoloader
 
 # ---------------------------------------------------------------------------
-# Stage 2: Node.js — build front-end assets (Laravel Mix / Webpack)
-# ---------------------------------------------------------------------------
-FROM node:18-alpine AS asset-builder
-
-WORKDIR /var/www/html
-
-COPY package.json package-lock.json ./
-RUN npm ci --no-audit --no-fund
-
-COPY resources/ resources/
-COPY webpack.mix.js ./
-
-RUN npx mix --production
-
-# ---------------------------------------------------------------------------
-# Stage 3: Final production image
+# Stage 2: Final production image
 # ---------------------------------------------------------------------------
 FROM php:8.2-cli AS production
 
-# Runtime system dependencies (smaller set than build stage)
 RUN apt-get update && apt-get install -y --no-install-recommends \
-        git unzip pkg-config libcurl4-openssl-dev libzip-dev libpng-dev libjpeg62-turbo-dev libfreetype6-dev \
-        libicu-dev libxml2-dev libonig-dev \
+        git unzip pkg-config libcurl4-openssl-dev libzip-dev libpng-dev \
+        libjpeg62-turbo-dev libfreetype6-dev libicu-dev libxml2-dev libonig-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j$(nproc) \
         pdo_mysql mbstring xml curl zip gd intl bcmath fileinfo opcache exif \
@@ -85,12 +66,7 @@ WORKDIR /var/www/html
 # Copy Composer dependencies from builder
 COPY --from=composer-deps /var/www/html/vendor vendor/
 
-# Copy built assets from builder
-COPY --from=asset-builder /var/www/html/public/js public/js/
-COPY --from=asset-builder /var/www/html/public/css public/css/
-COPY --from=asset-builder /var/www/html/public/mix-manifest.json public/mix-manifest.json
-
-# Copy application source code
+# Copy application source code (assets already compiled in repo)
 COPY app/ app/
 COPY bootstrap/ bootstrap/
 COPY config/ config/
@@ -110,13 +86,6 @@ RUN mkdir -p storage/framework/{sessions,views,cache} \
              public/storage \
     && chmod -R 775 storage bootstrap/cache \
     && chmod -R 775 public/storage
-
-# If a storage link artisan command is needed:
-# RUN php artisan storage:link
-
-# Health-check command for Railway
-HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
-    CMD php artisan tinker --execute="echo 'ok';" || exit 1
 
 # Expose the port Railway assigns
 EXPOSE ${PORT:-8000}
