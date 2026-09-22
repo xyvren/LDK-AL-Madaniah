@@ -106,4 +106,4 @@ RUN mkdir -p storage/framework/sessions \
 EXPOSE ${PORT:-8000}
 
 # Start the Laravel dev server (Railway sets PORT automatically)
-CMD ["sh", "-c", "php artisan migrate --force; php artisan config:cache; php artisan view:cache; php artisan storage:link || true; php artisan serve --host=0.0.0.0 --port=${PORT:-8000}"]
+CMD ["sh", "-c", "php artisan migrate --force && php artisan db:seed --force --class=AdminUserSeeder && php artisan config:cache && php artisan view:cache && php artisan storage:link || true; php artisan serve --host=0.0.0.0 --port=${PORT:-8000}"]
