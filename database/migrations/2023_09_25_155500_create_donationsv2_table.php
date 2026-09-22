@@ -13,6 +13,10 @@ class CreateDonationsv2Table extends Migration
      */
     public function up()
     {
+        if (Schema::hasTable('donations')) {
+            return;
+        }
+
         Schema::create('donations', function (Blueprint $table) {
             $table->uuid('id');
             $table->string('jumlah_donasi')->nullable();
