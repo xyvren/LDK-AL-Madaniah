@@ -77,6 +77,7 @@ COPY config/ config/
 COPY database/ database/
 COPY resources/ resources/
 COPY routes/ routes/
+COPY storage/ storage/
 COPY public/ public/
 COPY artisan artisan
 COPY server.php server.php
@@ -90,13 +91,16 @@ RUN cp .env.example .env
 RUN composer dump-autoload --optimize --no-scripts
 
 # Ensure required directories exist and are writable
-RUN mkdir -p storage/framework/{sessions,views,cache} \
+RUN mkdir -p storage/framework/sessions \
+             storage/framework/views \
+             storage/framework/cache/data \
+             storage/framework/cache \
              storage/logs \
              storage/app/public \
              bootstrap/cache \
              public/storage \
-    && chmod -R 775 storage bootstrap/cache \
-    && chmod -R 775 public/storage
+    && chmod -R 777 storage bootstrap/cache \
+    && chmod -R 777 public/storage
 
 # Expose the port Railway assigns
 EXPOSE ${PORT:-8000}
