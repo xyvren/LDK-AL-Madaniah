@@ -5,7 +5,7 @@
 @section('content')
 
 <div style="display:none;">
-    <audio src="{{ asset('audio/mars-ldksyahid.mp3') }}" type="audio/mpeg" autoplay loop></audio>
+    <audio src="#" type="audio/mpeg" autoplay loop></audio>
 </div>
 
 <section class="ms-section wow fadeInUp" data-wow-delay="0.1s">
