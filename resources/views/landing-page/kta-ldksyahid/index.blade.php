@@ -37,7 +37,7 @@
                          alt="Foto Default">
                 @endif
                 <div class="kta-ldk-badge">
-                    <img src="https://lh3.googleusercontent.com/d/1LsDxFAt1WU66CNp-2CN3J2qWXXJHlWIY"
+                    <img src="{{ asset('landing-page-ext-rsrc/img/logo-ubb.png') }}"
                          alt="LDK Al-Madaniah Badge">
                 </div>
             </div>

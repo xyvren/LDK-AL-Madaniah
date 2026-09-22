@@ -15,7 +15,7 @@
                     <div class="footer-brand-section">
                         <div class="footer-brand mb-3">
                             <div class="footer-logo-wrapper me-1">
-                                <img src="https://lh3.googleusercontent.com/d/1LsDxFAt1WU66CNp-2CN3J2qWXXJHlWIY"
+                                <img src="{{ asset('landing-page-ext-rsrc/img/logo-ubb.png') }}"
                                      alt="Logo Universitas Bangka Belitung"
                                      class="footer-logo footer-logo-secondary">
                             </div>
