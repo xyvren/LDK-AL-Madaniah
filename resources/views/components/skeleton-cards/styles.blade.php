@@ -250,8 +250,8 @@
 [data-theme="dark"] .sk-gallery-card,
 [data-theme="dark"] .sk-gallery-mcard { background: #161b27; }
 [data-theme="dark"] .sk-ck-card,
-[data-theme="dark"] .sk-ck-mcard  { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
-[data-theme="dark"] .sk-ck-icon-wrap { background: rgba(0,167,157,.1); }
-[data-theme="dark"] .sk-ck-footer { border-top-color: rgba(0,167,157,.12); }
+[data-theme="dark"] .sk-ck-mcard  { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
+[data-theme="dark"] .sk-ck-icon-wrap { background: rgba(37,99,235,.1); }
+[data-theme="dark"] .sk-ck-footer { border-top-color: rgba(37,99,235,.12); }
 </style>
 @endverbatim

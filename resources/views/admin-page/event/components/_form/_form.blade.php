@@ -328,7 +328,7 @@
                                     <div class="mb-3">
                                         <div>
                                             @if($event->gdrive_id)
-                                                <img src="https://lh3.googleusercontent.com/d/{{ $event->gdrive_id }}" alt="Event Poster" class="img-thumbnail" style="max-height: 300px;">
+                                                <img src="/drive-media/{{ $event->gdrive_id }}" alt="Event Poster" class="img-thumbnail" style="max-height: 300px;">
                                             @else
                                                 <div class="no-image-placeholder bg-light p-4 text-center rounded border" style="max-height: 300px;">
                                                     <i class="fas fa-image fa-3x text-muted mb-2"></i>
@@ -349,7 +349,7 @@
                                         </label>
                                         <div class="mb-2">
                                             @if($operation === 'update' && $event->gdrive_id)
-                                                <img id="posterPreview" src="https://lh3.googleusercontent.com/d/{{ $event->gdrive_id }}" alt="Current Poster" class="img-thumbnail mb-2" style="max-height: 200px;">
+                                                <img id="posterPreview" src="/drive-media/{{ $event->gdrive_id }}" alt="Current Poster" class="img-thumbnail mb-2" style="max-height: 200px;">
                                             @else
                                                 <img id="posterPreview" src="" alt="Preview" class="img-thumbnail mb-2" style="max-height: 200px; display:none;">
                                                 <x-svg-placeholder />

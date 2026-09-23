@@ -87,7 +87,7 @@
         }
 
         var colorBg = {
-            primary: 'rgba(0,167,157,0.12)',
+            primary: 'rgba(37,99,235,0.12)',
             green:   'rgba(0,184,148,0.12)',
             teal:    'rgba(32,201,151,0.12)',
             info:    'rgba(13,202,240,0.12)',
@@ -102,7 +102,7 @@
             var subEl   = card.querySelector('.cu-card-sub');
 
             var html = '<div class="cu-bs-header">';
-            html += '<div class="cu-bs-icon" style="background:' + (colorBg[color] || 'rgba(0,167,157,0.1)') + '">' + icon + '</div>';
+            html += '<div class="cu-bs-icon" style="background:' + (colorBg[color] || 'rgba(37,99,235,0.1)') + '">' + icon + '</div>';
             html += '<h5 class="cu-bs-title">' + title + '</h5>';
             html += '</div><div class="cu-bs-body">';
 

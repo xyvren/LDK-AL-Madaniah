@@ -33,7 +33,7 @@
                         title: 'Invalid File Type!',
                         text: 'Please upload only JPG, JPEG, or PNG images.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     this.value = '';
                     return;
@@ -45,7 +45,7 @@
                         title: 'File Too Large!',
                         text: 'Image must be less than 5MB.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     this.value = '';
                     return;
@@ -85,7 +85,7 @@
                         title: 'Batch Required!',
                         text: 'Please enter a batch.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     batch.focus();
                     return;
@@ -98,7 +98,7 @@
                         title: 'Period Required!',
                         text: 'Please enter a period.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     period.focus();
                     return;
@@ -111,7 +111,7 @@
                         title: 'Structure Name Required!',
                         text: 'Please enter a structure name.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     structureName.focus();
                     return;
@@ -124,7 +124,7 @@
                         title: 'Description Required!',
                         text: 'Please enter a structure description.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     structureDescription.focus();
                     return;
@@ -137,7 +137,7 @@
                         title: 'Logo Required!',
                         text: 'Please upload a logo for the structure.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     structureLogo.focus();
                     return;
@@ -150,7 +150,7 @@
                         title: 'Structure Image Required!',
                         text: 'Please upload a structure image.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     structureImage.focus();
                     return;
@@ -190,7 +190,7 @@
                 title: 'Error!',
                 text: '{{ session('error') }}',
                 icon: 'error',
-                confirmButtonColor: '#00a79d'
+                confirmButtonColor: '#2563eb'
             });
         @endif
     });

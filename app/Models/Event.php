@@ -321,7 +321,7 @@ class Event extends Model
     public function getPosterUrl(): ?string
     {
         if ($this->gdrive_id) {
-            return "https://lh3.googleusercontent.com/d/{$this->gdrive_id}";
+            return url('/drive-media/' . $this->gdrive_id);
         }
         return null;
     }

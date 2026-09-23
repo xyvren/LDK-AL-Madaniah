@@ -59,7 +59,7 @@
 
                 {{-- Poster Image --}}
                 <a href="{{ $event->getEventUrl() }}" class="ev-card-img-wrap">
-                    <img src="{{ $event->getPosterUrl() ?? 'https://placehold.co/400x300/e0f7f5/00a79d?text=Event' }}"
+                    <img src="{{ $event->getPosterUrl() ?? 'https://placehold.co/400x300/e0f7f5/2563eb?text=Event' }}"
                          alt="{{ $event->title }}"
                          class="ev-card-img" loading="lazy">
 
@@ -199,7 +199,7 @@
 
                 {{-- Thumbnail --}}
                 <div class="ev-m-thumb">
-                    <img src="{{ $event->getPosterUrl() ?? 'https://placehold.co/400x300/e0f7f5/00a79d?text=Event' }}"
+                    <img src="{{ $event->getPosterUrl() ?? 'https://placehold.co/400x300/e0f7f5/2563eb?text=Event' }}"
                          alt="{{ $event->title }}" loading="lazy">
                     @if($event->start)
                     <div class="ev-card-date">

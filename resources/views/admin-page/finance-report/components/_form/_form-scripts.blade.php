@@ -26,7 +26,7 @@
                             title: 'Invalid File Type!',
                             text: 'Please upload only PDF files.',
                             icon: 'error',
-                            confirmButtonColor: '#00a79d'
+                            confirmButtonColor: '#2563eb'
                         });
                         this.value = '';
                         return;
@@ -38,7 +38,7 @@
                             title: 'File Too Large!',
                             text: 'PDF file must be less than 25MB.',
                             icon: 'error',
-                            confirmButtonColor: '#00a79d'
+                            confirmButtonColor: '#2563eb'
                         });
                         this.value = '';
                         return;
@@ -60,7 +60,7 @@
                     title: 'File Name Required!',
                     text: 'Please enter a file name for the report.',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 fileName.focus();
                 return;
@@ -73,7 +73,7 @@
                     title: 'LDK Tag Required!',
                     text: 'Please select an LDK tag.',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 // Focus on Select2
                 $(ldkID).select2('open');
@@ -88,7 +88,7 @@
                     title: 'PDF File Required!',
                     text: 'Please upload a PDF file for the finance report.',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 pdfFile.focus();
                 return;

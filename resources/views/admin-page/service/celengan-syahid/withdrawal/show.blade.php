@@ -120,15 +120,15 @@ html.dark-mode .wd-info-value { color: #e5e7eb; }
 
 /* ── Amount breakdown ──────────────────────────────── */
 .wd-breakdown {
-    background: rgba(0,167,157,.05);
-    border: 1px solid rgba(0,167,157,.15);
+    background: rgba(37,99,235,.05);
+    border: 1px solid rgba(37,99,235,.15);
     border-radius: 10px;
     padding: .85rem 1rem;
 }
-html.dark-mode .wd-breakdown { background: rgba(0,167,157,.08); border-color: rgba(0,167,157,.2); }
+html.dark-mode .wd-breakdown { background: rgba(37,99,235,.08); border-color: rgba(37,99,235,.2); }
 .wd-breakdown-row { display: flex; justify-content: space-between; align-items: center; padding: .3rem 0; font-size: .875rem; }
 .wd-breakdown-row.total {
-    border-top: 2px dashed rgba(0,167,157,.25);
+    border-top: 2px dashed rgba(37,99,235,.25);
     margin-top: .3rem;
     padding-top: .55rem;
     font-weight: 700;

@@ -7,7 +7,7 @@
             <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
                 <div class="hero-slide has-content">
                     <img class="hero-image"
-                         src="https://lh3.googleusercontent.com/d/{{ $post->gdrive_id }}"
+                         src="/drive-media/{{ $post->gdrive_id }}"
                          alt="{{ $post->title }}" />
 
                     {{-- Content Overlay (Desktop Only) --}}
@@ -74,7 +74,7 @@
             <div class="carousel-item active">
                 <div class="hero-slide">
                     <img class="hero-image"
-                         src="https://lh3.googleusercontent.com/d/1Cur2mISU8cwkWcyBuiwv9aGYNTxsZMPo"
+                         src="/drive-media/1Cur2mISU8cwkWcyBuiwv9aGYNTxsZMPo"
                          alt="Default Background" />
                 </div>
 

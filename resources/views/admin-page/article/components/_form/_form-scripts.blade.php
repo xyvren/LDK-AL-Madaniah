@@ -17,7 +17,7 @@
                             title: 'Invalid File Type!',
                             text: 'Please upload only JPG, JPEG, or PNG images.',
                             icon: 'error',
-                            confirmButtonColor: '#00a79d'
+                            confirmButtonColor: '#2563eb'
                         });
                         this.value = '';
                         return;
@@ -29,7 +29,7 @@
                             title: 'File Too Large!',
                             text: 'Image must be less than 5MB.',
                             icon: 'error',
-                            confirmButtonColor: '#00a79d'
+                            confirmButtonColor: '#2563eb'
                         });
                         this.value = '';
                         return;
@@ -73,7 +73,7 @@
                         title: 'Title Required!',
                         text: 'Please enter a title for the article.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     title.focus();
                     return;
@@ -86,7 +86,7 @@
                         title: 'Theme Required!',
                         text: 'Please enter a theme for the article.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     theme.focus();
                     return;
@@ -99,7 +99,7 @@
                         title: 'Date Required!',
                         text: 'Please select a publish date.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     datearticle.focus();
                     return;
@@ -112,7 +112,7 @@
                         title: 'Writer Required!',
                         text: 'Please enter the writer name.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     writer.focus();
                     return;
@@ -125,7 +125,7 @@
                         title: 'Editor Required!',
                         text: 'Please enter the editor name.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     editor.focus();
                     return;
@@ -138,7 +138,7 @@
                         title: 'Embed Link Required!',
                         text: 'Please enter the anyflip embed link.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     embedpdf.focus();
                     return;
@@ -151,7 +151,7 @@
                         title: 'Poster Required!',
                         text: 'Please upload a poster image.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     poster.focus();
                     return;
@@ -201,7 +201,7 @@
                 title: 'Error!',
                 text: '{{ session('error') }}',
                 icon: 'error',
-                confirmButtonColor: '#00a79d'
+                confirmButtonColor: '#2563eb'
             });
         @endif
 

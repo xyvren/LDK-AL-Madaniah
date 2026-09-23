@@ -20,7 +20,7 @@
     <x-hero-jumbotron type="hadith">
         <div class="hero-slide">
             <img class="hero-image"
-                 src="https://lh3.googleusercontent.com/d/1RNWVLrXSyfS5kXXllib3HyGOyBZEW257"
+                 src="/drive-media/1RNWVLrXSyfS5kXXllib3HyGOyBZEW257"
                  alt="Laporan LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>

@@ -32,7 +32,7 @@ function copyFormUrl() {
     }).catch(() => {
         Swal.fire({
             title: 'Copy this URL', input: 'text', inputValue: url,
-            confirmButtonColor: '#00a79d', confirmButtonText: 'Close'
+            confirmButtonColor: '#2563eb', confirmButtonText: 'Close'
         });
     });
 }

@@ -15,7 +15,7 @@
     <x-hero-jumbotron type="hadith">
         <div class="hero-slide">
             <img class="hero-image"
-                 src="https://lh3.googleusercontent.com/d/1_8BpRTDUtkXG9_9CMz7ZxH9k834azBWR"
+                 src="/drive-media/1_8BpRTDUtkXG9_9CMz7ZxH9k834azBWR"
                  alt="Jadwal LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
@@ -77,7 +77,7 @@
                 {{-- Collapsible body (schedule image) --}}
                 <div class="sch-card-body" id="sch-body-{{ $schedule->id }}">
                     <div class="sch-img-wrap">
-                        <img src="https://lh3.googleusercontent.com/d/{{ $schedule->gdrive_id }}"
+                        <img src="/drive-media/{{ $schedule->gdrive_id }}"
                              alt="{{ $schedule->title }}"
                              class="sch-img"
                              loading="lazy">
@@ -118,7 +118,7 @@
                         <h5 class="sch-mob-card-title">{{ $schedule->title }}</h5>
 
                         <div class="sch-mob-img-wrap">
-                            <img src="https://lh3.googleusercontent.com/d/{{ $schedule->gdrive_id }}"
+                            <img src="/drive-media/{{ $schedule->gdrive_id }}"
                                  alt="{{ $schedule->title }}"
                                  loading="lazy">
                         </div>
@@ -127,7 +127,7 @@
                                 type="button"
                                 data-title="{{ $schedule->title }}"
                                 data-month="{{ $schedule->month }} {{ $schedule->year }}"
-                                data-img="https://lh3.googleusercontent.com/d/{{ $schedule->gdrive_id }}">
+                                data-img="/drive-media/{{ $schedule->gdrive_id }}">
                             <i class="fas fa-expand-alt"></i>
                             Lihat Jadwal Lengkap
                         </button>

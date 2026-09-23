@@ -21,7 +21,7 @@
     <x-hero-jumbotron type="hadith">
         <div class="hero-slide">
             <img class="hero-image"
-                 src="https://lh3.googleusercontent.com/d/15FZ7gsz6x_2uH90iPqi0OVZY-OMISAVf"
+                 src="/drive-media/15FZ7gsz6x_2uH90iPqi0OVZY-OMISAVf"
                  alt="Perpustakaan LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>

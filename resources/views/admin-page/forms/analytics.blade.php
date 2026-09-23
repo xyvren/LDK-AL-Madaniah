@@ -19,7 +19,7 @@
     display: flex; align-items: center; justify-content: center;
     font-size: 1.25rem; flex-shrink: 0;
 }
-.stat-card-icon.teal  { background: rgba(0,167,157,.12); color: #00a79d; }
+.stat-card-icon.teal  { background: rgba(37,99,235,.12); color: #2563eb; }
 .stat-card-icon.green { background: rgba(34,197,94,.12);  color: #16a34a; }
 .stat-card-icon.red   { background: rgba(239,68,68,.12);  color: #dc2626; }
 .stat-card-icon.blue  { background: rgba(59,130,246,.12); color: #2563eb; }
@@ -54,7 +54,7 @@ html.dark-mode .stat-card-num    { color: #e4e6eb; }
 html.dark-mode .stat-card-lbl    { color: #9ca3af; }
 html.dark-mode .chart-card       { background: #22252d; border-color: #2d3139; }
 html.dark-mode .chart-card-title { color: #c8cdd3; }
-html.dark-mode .chart-card-badge { background: rgba(0,167,157,.15); color: #2dd4bf; }
+html.dark-mode .chart-card-badge { background: rgba(37,99,235,.15); color: #2dd4bf; }
 html.dark-mode .recent-table th  { color: #6b7280; border-bottom-color: #2d3139; }
 html.dark-mode .recent-table td  { color: #c8cdd3; border-color: #2d3139; }
 html.dark-mode .recent-table     { color: #c8cdd3; }
@@ -176,7 +176,7 @@ html.dark-mode .an-header .badge { opacity: .9; }
                         <canvas id="chartStatus" height="170"></canvas>
                         <div class="text-center mt-2" style="font-size:.75rem; color:#6b7280;">
                             <span class="me-3">
-                                <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#00a79d;margin-right:4px;"></span>
+                                <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#2563eb;margin-right:4px;"></span>
                                 Valid ({{ $validCount }})
                             </span>
                             <span>
@@ -308,7 +308,7 @@ html.dark-mode .an-header .badge { opacity: .9; }
     Chart.defaults.borderColor       = gridColor;
 
     const PALETTE = [
-        '#00a79d','#6366f1','#f59e0b','#ef4444','#10b981',
+        '#2563eb','#6366f1','#f59e0b','#ef4444','#10b981',
         '#3b82f6','#a855f7','#ec4899','#14b8a6','#f97316',
     ];
 
@@ -322,11 +322,11 @@ html.dark-mode .an-header .badge { opacity: .9; }
                 datasets: [{
                     label: 'Submissions',
                     data: @json($dailyCounts),
-                    borderColor: '#00a79d',
-                    backgroundColor: 'rgba(0,167,157,.12)',
+                    borderColor: '#2563eb',
+                    backgroundColor: 'rgba(37,99,235,.12)',
                     borderWidth: 2,
                     pointRadius: 3,
-                    pointBackgroundColor: '#00a79d',
+                    pointBackgroundColor: '#2563eb',
                     fill: true,
                     tension: .35,
                 }]
@@ -349,7 +349,7 @@ html.dark-mode .an-header .badge { opacity: .9; }
             type: 'doughnut',
             data: {
                 labels: ['Valid', 'Invalid'],
-                datasets: [{ data: [{{ $validCount }}, {{ $invalidCount }}], backgroundColor: ['#00a79d','#ef4444'], borderWidth: 0 }]
+                datasets: [{ data: [{{ $validCount }}, {{ $invalidCount }}], backgroundColor: ['#2563eb','#ef4444'], borderWidth: 0 }]
             },
             options: {
                 responsive: true,
@@ -423,7 +423,7 @@ html.dark-mode .an-header .badge { opacity: .9; }
                     datasets: [{
                         label: 'Responses',
                         data: fc.data,
-                        backgroundColor: isNumericType ? '#00a79d' : colors,
+                        backgroundColor: isNumericType ? '#2563eb' : colors,
                         borderRadius: 5,
                         borderWidth: 0,
                     }]

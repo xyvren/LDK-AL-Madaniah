@@ -123,8 +123,8 @@
             }
 
             .ldk-ring-1 {
-                border-top-color: #00a79d;
-                border-right-color: #00a79d;
+                border-top-color: #2563eb;
+                border-right-color: #2563eb;
                 animation: ldkOrbitFun 1.5s linear infinite;
                 opacity: 0.7;
             }
@@ -158,13 +158,13 @@
                 display: block;
             }
 
-            .ldk-dot-orbit-1 .ldk-orbit-dot { background: #00a79d; }
+            .ldk-dot-orbit-1 .ldk-orbit-dot { background: #2563eb; }
             .ldk-dot-orbit-2 .ldk-orbit-dot { background: #f59e0b; }
             .ldk-dot-orbit-3 .ldk-orbit-dot { background: #ec4899; }
 
             @keyframes ldkSpinPulse {
-                0%, 100% { transform: scale(1); filter: drop-shadow(0 0 8px rgba(0,167,157,0.4)); }
-                50%       { transform: scale(1.1); filter: drop-shadow(0 0 18px rgba(0,167,157,0.7)); }
+                0%, 100% { transform: scale(1); filter: drop-shadow(0 0 8px rgba(37,99,235,0.4)); }
+                50%       { transform: scale(1.1); filter: drop-shadow(0 0 18px rgba(37,99,235,0.7)); }
             }
 
             @keyframes ldkOrbitFun {
@@ -199,7 +199,7 @@
                 animation: ldkDotBounce 0.7s ease-in-out infinite;
             }
 
-            .ldk-spin-dots span:nth-child(1) { background: #00a79d; animation-delay: 0s; }
+            .ldk-spin-dots span:nth-child(1) { background: #2563eb; animation-delay: 0s; }
             .ldk-spin-dots span:nth-child(2) { background: #f59e0b; animation-delay: 0.12s; }
             .ldk-spin-dots span:nth-child(3) { background: #ec4899; animation-delay: 0.24s; }
 
@@ -218,7 +218,7 @@
             [data-theme="dark"] .ldk-spin-brand { color: #e2e8f0; }
             [data-theme="dark"] .ldk-spin-img {
                 mix-blend-mode: normal;
-                filter: brightness(1.15) drop-shadow(0 0 10px rgba(0,167,157,0.35));
+                filter: brightness(1.15) drop-shadow(0 0 10px rgba(37,99,235,0.35));
             }
         </style>
 
@@ -283,7 +283,7 @@
                 title: 'Akses Ditolak',
                 text: 'Anda tidak memiliki izin untuk mengakses halaman ini.',
                 confirmButtonText: 'Ok',
-                confirmButtonColor: '#00a79d'
+                confirmButtonColor: '#2563eb'
             });
         </script>
         @endif

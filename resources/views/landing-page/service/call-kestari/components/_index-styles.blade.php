@@ -11,11 +11,11 @@
 <style>
 /* ================================================================
    CALL KESTARI PAGE  —  styles prefix: ck-
-   Primary: #00a79d
+   Primary: #2563eb
    ================================================================ */
 
 :root {
-    --ck-primary:       #00a79d;
+    --ck-primary:       #2563eb;
     --ck-primary-dark:  #008f86;
     --ck-primary-light: #e0f7f5;
     --ck-dark:          #282d30;
@@ -44,8 +44,8 @@
     animation: ckPulse 2s ease infinite;
 }
 @keyframes ckPulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(0,167,157,.4); }
-    50%       { box-shadow: 0 0 0 6px rgba(0,167,157,0); }
+    0%, 100% { box-shadow: 0 0 0 0 rgba(37,99,235,.4); }
+    50%       { box-shadow: 0 0 0 6px rgba(37,99,235,0); }
 }
 .ck-section-title { font-size: 2rem; font-weight: 700; color: var(--ck-dark); margin: 0; }
 .ck-section-sub   { color: var(--ck-gray); font-size: 1rem; margin: .5rem 0 0; }
@@ -89,8 +89,8 @@
 }
 .ck-card:hover {
     transform: translateY(-5px) scale(1.005);
-    box-shadow: 0 16px 36px rgba(0,0,0,.08), 0 4px 16px rgba(0,167,157,.14);
-    border-color: rgba(0,167,157,.28);
+    box-shadow: 0 16px 36px rgba(0,0,0,.08), 0 4px 16px rgba(37,99,235,.14);
+    border-color: rgba(37,99,235,.28);
 }
 
 /* Icon area */
@@ -107,12 +107,12 @@
     width: 66px; height: 66px; border-radius: 18px;
     background: white;
     display: flex; align-items: center; justify-content: center;
-    box-shadow: 0 4px 18px rgba(0,167,157,.22);
+    box-shadow: 0 4px 18px rgba(37,99,235,.22);
     transition: transform .3s ease, box-shadow .3s ease;
 }
 .ck-card:hover .ck-card-icon {
     transform: scale(1.1) rotate(-4deg);
-    box-shadow: 0 8px 28px rgba(0,167,157,.32);
+    box-shadow: 0 8px 28px rgba(37,99,235,.32);
 }
 .ck-card-icon i { font-size: 1.5rem; color: var(--ck-primary); }
 
@@ -152,13 +152,13 @@
 }
 .ck-share-btn i { font-size: .75rem; }
 .ck-share-copy {
-    background: rgba(0,167,157,.08);
-    border-color: rgba(0,167,157,.22);
+    background: rgba(37,99,235,.08);
+    border-color: rgba(37,99,235,.22);
     color: var(--ck-primary);
 }
 .ck-share-copy:hover {
     background: var(--ck-primary); color: white; border-color: var(--ck-primary);
-    box-shadow: 0 4px 14px rgba(0,167,157,.28); transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(37,99,235,.28); transform: translateY(-1px);
 }
 .ck-share-wa {
     background: rgba(37,211,102,.08); border-color: rgba(37,211,102,.28); color: #1da851;
@@ -175,12 +175,12 @@
     border-radius: 50px; padding: .52rem 1.1rem;
     font-size: .8rem; font-weight: 700; text-decoration: none;
     transition: all .3s ease; white-space: nowrap; border: none; cursor: pointer;
-    box-shadow: 0 4px 14px rgba(0,167,157,.28);
+    box-shadow: 0 4px 14px rgba(37,99,235,.28);
     margin-left: auto; flex-shrink: 0;
 }
 .ck-cta-btn:hover {
     color: white; transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0,167,157,.38);
+    box-shadow: 0 8px 24px rgba(37,99,235,.38);
 }
 .ck-cta-btn i { font-size: .72rem; transition: transform .2s ease; }
 .ck-cta-btn:hover i { transform: translateX(3px); }
@@ -201,7 +201,7 @@
 }
 .ck-m-card:active {
     transform: scale(.98);
-    box-shadow: 0 6px 20px rgba(0,167,157,.18);
+    box-shadow: 0 6px 20px rgba(37,99,235,.18);
 }
 .ck-m-icon {
     width: 50px; height: 50px; border-radius: 14px; flex-shrink: 0;
@@ -248,10 +248,10 @@
     position: relative; z-index: 3;
     width: 88px; height: 88px;
     border-radius: 28px;
-    background: linear-gradient(135deg, #00c4b8, #00a79d);
+    background: linear-gradient(135deg, #00c4b8, #2563eb);
     display: flex; align-items: center; justify-content: center;
     color: white; font-size: 2rem;
-    box-shadow: 0 12px 36px rgba(0,167,157,.38), 0 4px 12px rgba(0,0,0,.06);
+    box-shadow: 0 12px 36px rgba(37,99,235,.38), 0 4px 12px rgba(0,0,0,.06);
     animation: ckEmptyFloat 3.2s ease-in-out infinite;
 }
 @keyframes ckEmptyFloat {
@@ -261,7 +261,7 @@
 .ck-empty-ring {
     position: absolute;
     border-radius: 50%;
-    border: 2px solid rgba(0,167,157,.14);
+    border: 2px solid rgba(37,99,235,.14);
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     animation: ckEmptyRing 3s ease-out infinite;
@@ -314,12 +314,12 @@
 .ck-empty-tip {
     display: inline-flex; align-items: center; gap: .3rem;
     background: #f0fefa;
-    border: 1.5px solid rgba(0,167,157,.18);
+    border: 1.5px solid rgba(37,99,235,.18);
     border-radius: 50px;
     padding: .32rem 1rem;
     font-size: .78rem; font-weight: 600;
     color: #007d76;
-    box-shadow: 0 2px 8px rgba(0,167,157,.07);
+    box-shadow: 0 2px 8px rgba(37,99,235,.07);
 }
 
 
@@ -373,7 +373,7 @@
     width: 80px; height: 80px; border-radius: 24px;
     background: white;
     display: flex; align-items: center; justify-content: center;
-    box-shadow: 0 8px 28px rgba(0,167,157,.28);
+    box-shadow: 0 8px 28px rgba(37,99,235,.28);
 }
 .ck-bs-icon i { font-size: 2rem; color: var(--ck-primary); }
 
@@ -392,10 +392,10 @@
     width: 100%; background: var(--ck-primary); color: white;
     border-radius: 50px; padding: .9rem; font-weight: 700; font-size: .95rem;
     text-decoration: none; border: none; cursor: pointer;
-    box-shadow: 0 6px 24px rgba(0,167,157,.32);
+    box-shadow: 0 6px 24px rgba(37,99,235,.32);
     transition: all .3s ease; margin-bottom: .65rem;
 }
-.ck-bs-cta:hover { color: white; transform: scale(1.02); box-shadow: 0 8px 30px rgba(0,167,157,.40); }
+.ck-bs-cta:hover { color: white; transform: scale(1.02); box-shadow: 0 8px 30px rgba(37,99,235,.40); }
 
 /* Share in sheet */
 .ck-bs-share-wrap { margin-top: .85rem; }
@@ -418,11 +418,11 @@
 }
 .ck-bs-share-btn i { font-size: .8rem; }
 .ck-bs-share-copy {
-    background: rgba(0,167,157,.08); border-color: rgba(0,167,157,.22); color: var(--ck-primary);
+    background: rgba(37,99,235,.08); border-color: rgba(37,99,235,.22); color: var(--ck-primary);
 }
 .ck-bs-share-copy:hover {
     background: var(--ck-primary); color: white; border-color: var(--ck-primary);
-    box-shadow: 0 4px 14px rgba(0,167,157,.28); transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(37,99,235,.28); transform: translateY(-1px);
 }
 .ck-bs-share-wa {
     background: rgba(37,211,102,.08); border-color: rgba(37,211,102,.28); color: #1da851;
@@ -474,34 +474,34 @@ body.ck-sheet-open .back-to-top {
 [data-theme="dark"] .ck-section-sub    { color: #9ca3af; }
 [data-theme="dark"] .ck-results-info   { color: #9ca3af; }
 [data-theme="dark"] .ck-results-info strong { color: #e2e8f0; }
-[data-theme="dark"] .ck-card           { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .ck-card           { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .ck-card-icon      { background: #252b3b; }
 [data-theme="dark"] .ck-card-name      { color: #e2e8f0; }
 [data-theme="dark"] .ck-card-link      { color: #9ca3af; }
-[data-theme="dark"] .ck-card-footer    { border-top-color: rgba(0,167,157,.12); }
-[data-theme="dark"] .ck-m-card         { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .ck-card-footer    { border-top-color: rgba(37,99,235,.12); }
+[data-theme="dark"] .ck-m-card         { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .ck-m-name         { color: #e2e8f0; }
 [data-theme="dark"] .ck-m-link         { color: #9ca3af; }
 [data-theme="dark"] .ck-m-arrow        { color: rgba(255,255,255,.2); }
 [data-theme="dark"] .ck-empty-title    { color: #e2e8f0; }
 [data-theme="dark"] .ck-empty-sub      { color: #9ca3af; }
-[data-theme="dark"] .ck-empty-tip      { background: rgba(0,167,157,.12); border-color: rgba(0,167,157,.25); color: #4dd9d3; }
+[data-theme="dark"] .ck-empty-tip      { background: rgba(37,99,235,.12); border-color: rgba(37,99,235,.25); color: #4dd9d3; }
 [data-theme="dark"] .ck-bottom-sheet   { background: #1a1f2e; }
-[data-theme="dark"] .ck-bs-close       { background: #252b3b; color: #4dd9cf; box-shadow: none; }
+[data-theme="dark"] .ck-bs-close       { background: #252b3b; color: #60a5fa; box-shadow: none; }
 [data-theme="dark"] .ck-bs-drag-handle { background: rgba(255,255,255,.15); }
 [data-theme="dark"] .ck-bs-name        { color: #e2e8f0; }
 [data-theme="dark"] .ck-bs-link        { color: #9ca3af; }
 [data-theme="dark"] .ck-bs-share-label { color: #9ca3af; }
 [data-theme="dark"] .ck-bs-share-label::before,
 [data-theme="dark"] .ck-bs-share-label::after { background: rgba(255,255,255,.1); }
-[data-theme="dark"] .ck-bs-share-btn   { background: #252b3b; border-color: rgba(0,167,157,.2); color: #9ca3af; }
-[data-theme="dark"] .ck-section-badge  { background: rgba(0,167,157,.15); color: #4dd9cf; }
-[data-theme="dark"] .ck-card-icon-wrap { background: rgba(0,167,157,.1); }
-[data-theme="dark"] .ck-card:hover .ck-card-icon-wrap { background: linear-gradient(135deg, rgba(0,167,157,.2), rgba(0,167,157,.08)); }
-[data-theme="dark"] .ck-m-icon         { background: rgba(0,167,157,.15); }
-[data-theme="dark"] .ck-m-hint         { color: #4dd9cf; }
+[data-theme="dark"] .ck-bs-share-btn   { background: #252b3b; border-color: rgba(37,99,235,.2); color: #9ca3af; }
+[data-theme="dark"] .ck-section-badge  { background: rgba(37,99,235,.15); color: #60a5fa; }
+[data-theme="dark"] .ck-card-icon-wrap { background: rgba(37,99,235,.1); }
+[data-theme="dark"] .ck-card:hover .ck-card-icon-wrap { background: linear-gradient(135deg, rgba(37,99,235,.2), rgba(37,99,235,.08)); }
+[data-theme="dark"] .ck-m-icon         { background: rgba(37,99,235,.15); }
+[data-theme="dark"] .ck-m-hint         { color: #60a5fa; }
 
-[data-theme="dark"] .ck-bs-icon-wrap   { background: rgba(0,167,157,.1); }
+[data-theme="dark"] .ck-bs-icon-wrap   { background: rgba(37,99,235,.1); }
 [data-theme="dark"] .ck-bs-icon        { background: #252b3b; }
 </style>
 @endverbatim

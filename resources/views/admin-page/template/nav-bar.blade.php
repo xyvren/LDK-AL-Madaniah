@@ -166,7 +166,7 @@
         <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                 @if (Auth::User()->profile != null && Auth::User()->profile->profilepicture != null)
-                    <img class="rounded-circle me-lg-2" src="https://lh3.googleusercontent.com/d/{{Auth::User()->profile->gdrive_id}}" alt="{{Auth::User()->profile->namapanggilan}}" style="width: 40px; height: 40px;">
+                    <img class="rounded-circle me-lg-2" src="/drive-media/{{Auth::User()->profile->gdrive_id}}" alt="{{Auth::User()->profile->namapanggilan}}" style="width: 40px; height: 40px;">
                 @elseif (Auth::User()->profile != null && Auth::User()->profile->googleAvatar)
                     <img class="rounded-circle me-lg-2" src="{{ Auth::User()->profile->googleAvatar }}" alt="{{ Auth::user()->name }}" style="width: 40px; height: 40px;">
                 @else
@@ -256,11 +256,11 @@
     gap: 0.45rem;
     padding: 0 0.8rem;
     height: 36px;
-    background: rgba(0,167,157,0.08);
-    border: 1px solid rgba(0,167,157,0.22);
+    background: rgba(37,99,235,0.08);
+    border: 1px solid rgba(37,99,235,0.22);
     outline: none;
     border-radius: 10px;
-    color: #00a79d;
+    color: #2563eb;
     cursor: pointer;
     transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
     white-space: nowrap;
@@ -269,8 +269,8 @@
     text-align: left;
 }
 .btn-prayer-navbar:hover {
-    background: rgba(0,167,157,0.15);
-    border-color: rgba(0,167,157,0.4);
+    background: rgba(37,99,235,0.15);
+    border-color: rgba(37,99,235,0.4);
     color: #007a73;
 }
 .btn-prayer-navbar:focus { box-shadow: none; outline: none; }
@@ -332,7 +332,7 @@
 .prayer-modal-overlay.active .prayer-modal { transform: scale(1) translateY(0); }
 .prayer-modal-hero {
     position: relative;
-    background: linear-gradient(145deg, #00a79d 0%, #007b73 60%, #005f5a 100%);
+    background: linear-gradient(145deg, #2563eb 0%, #1d4ed8 60%, #005f5a 100%);
     border-radius: 22px 22px 0 0;
     padding: 2rem 1.5rem 1.75rem;
     text-align: center;
@@ -402,38 +402,38 @@
 .prayer-modal-location { font-size: 0.78rem; color: rgba(255,255,255,0.65); margin: 0; position: relative; z-index: 2; }
 .prayer-list { display: flex; flex-direction: column; gap: 0.45rem; padding: 1.1rem 1.25rem 1.5rem; }
 .prayer-item { display: flex; align-items: center; gap: 0.75rem; padding: 0.7rem 1rem; background: #f8fafb; border-radius: 12px; transition: all 0.2s ease; }
-.prayer-item.next-prayer { background: rgba(0,167,157,0.1); }
-.prayer-item-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(0,167,157,0.25); border: 2px solid #00a79d; flex-shrink: 0; }
-.prayer-item.next-prayer .prayer-item-dot { background: #00a79d; animation: pulseDot 1.6s ease-in-out infinite; }
-@keyframes pulseDot { 0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0,167,157,0.45); } 50% { transform: scale(1.15); box-shadow: 0 0 0 6px rgba(0,167,157,0); } }
+.prayer-item.next-prayer { background: rgba(37,99,235,0.1); }
+.prayer-item-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(37,99,235,0.25); border: 2px solid #2563eb; flex-shrink: 0; }
+.prayer-item.next-prayer .prayer-item-dot { background: #2563eb; animation: pulseDot 1.6s ease-in-out infinite; }
+@keyframes pulseDot { 0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37,99,235,0.45); } 50% { transform: scale(1.15); box-shadow: 0 0 0 6px rgba(37,99,235,0); } }
 .prayer-item-name { flex: 1; font-weight: 500; font-size: 0.88rem; color: #333; }
-.prayer-item.next-prayer .prayer-item-name { color: #00a79d; font-weight: 700; }
-.prayer-next-badge { font-size: 0.62rem; background: #00a79d; color: white; padding: 0.12rem 0.45rem; border-radius: 20px; font-weight: 600; }
+.prayer-item.next-prayer .prayer-item-name { color: #2563eb; font-weight: 700; }
+.prayer-next-badge { font-size: 0.62rem; background: #2563eb; color: white; padding: 0.12rem 0.45rem; border-radius: 20px; font-weight: 600; }
 .prayer-item-time { font-weight: 600; font-size: 0.88rem; color: #333; min-width: 40px; text-align: right; }
-.prayer-item.next-prayer .prayer-item-time { color: #00a79d; font-weight: 700; }
+.prayer-item.next-prayer .prayer-item-time { color: #2563eb; font-weight: 700; }
 .prayer-modal-loading { text-align: center; padding: 2rem 1rem; color: #888; }
-.prayer-modal-loading i { font-size: 1.75rem; color: #00a79d; display: block; margin-bottom: 0.5rem; animation: prayerSpin 0.9s linear infinite; }
+.prayer-modal-loading i { font-size: 1.75rem; color: #2563eb; display: block; margin-bottom: 0.5rem; animation: prayerSpin 0.9s linear infinite; }
 @keyframes prayerSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 .prayer-modal-loading p { font-size: 0.85rem; margin: 0; }
 
 /* Dark Mode */
 html.dark-mode .btn-prayer-navbar {
-    background: rgba(0,167,157,0.1);
-    border-color: rgba(0,167,157,0.28);
+    background: rgba(37,99,235,0.1);
+    border-color: rgba(37,99,235,0.28);
     color: #3ecfc6;
 }
 html.dark-mode .btn-prayer-navbar:hover {
-    background: rgba(0,167,157,0.18);
-    border-color: rgba(0,167,157,0.45);
-    color: #4dd9cf;
+    background: rgba(37,99,235,0.18);
+    border-color: rgba(37,99,235,0.45);
+    color: #60a5fa;
 }
 html.dark-mode .prayer-modal { background: #1a1f2e; box-shadow: 0 30px 70px rgba(0,0,0,0.6); }
 html.dark-mode .prayer-item { background: #252b3b; }
-html.dark-mode .prayer-item.next-prayer { background: rgba(0,167,157,0.15); }
+html.dark-mode .prayer-item.next-prayer { background: rgba(37,99,235,0.15); }
 html.dark-mode .prayer-item-name { color: #e2e8f0; }
 html.dark-mode .prayer-item-time { color: #e2e8f0; }
-html.dark-mode .prayer-item.next-prayer .prayer-item-name { color: #4dd9cf; }
-html.dark-mode .prayer-item.next-prayer .prayer-item-time { color: #4dd9cf; }
+html.dark-mode .prayer-item.next-prayer .prayer-item-name { color: #60a5fa; }
+html.dark-mode .prayer-item.next-prayer .prayer-item-time { color: #60a5fa; }
 html.dark-mode .prayer-modal-loading { color: #9ca3af; }
 </style>
 

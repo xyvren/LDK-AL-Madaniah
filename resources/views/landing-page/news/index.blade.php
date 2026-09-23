@@ -21,7 +21,7 @@
     <x-hero-jumbotron type="hadith">
         <div class="hero-slide">
             <img class="hero-image"
-                 src="https://lh3.googleusercontent.com/d/1OtOSZ4rX0-83a1zQbxP9dQG04DbWzQlJ"
+                 src="/drive-media/1OtOSZ4rX0-83a1zQbxP9dQG04DbWzQlJ"
                  alt="Berita LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>

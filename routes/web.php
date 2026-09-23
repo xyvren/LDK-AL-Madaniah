@@ -79,6 +79,27 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+// Media handler for local storage & Google Drive fallback
+Route::get('/drive-media/{id}', function (\Illuminate\Http\Request $request, $id) {
+    $cleanId = preg_replace('/=s\d+$/', '', $id);
+
+    $localFile = public_path('uploads/' . $cleanId);
+    if (file_exists($localFile) && is_file($localFile)) {
+        return response()->file($localFile, [
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+    }
+
+    $storageFile = storage_path('app/public/uploads/' . $cleanId);
+    if (file_exists($storageFile) && is_file($storageFile)) {
+        return response()->file($storageFile, [
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+    }
+
+    return redirect('https://lh3.googleusercontent.com/d/' . $id);
+})->where('id', '.*')->name('drive.media');
+
 // ======================================= START ROUTE LANDING PAGE =======================================
 // Route LandingPage Home
 Route::get('/', [HomeController::class, 'index'])->name('home');

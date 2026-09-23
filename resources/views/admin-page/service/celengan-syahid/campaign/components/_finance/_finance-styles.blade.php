@@ -3,7 +3,7 @@
     font-size: 1.65rem;
     font-weight: 600;
     text-align: center;
-    color: #00a79d;
+    color: #2563eb;
     margin: .75rem 0 1.5rem;
     position: relative;
     display: inline-block;
@@ -16,7 +16,7 @@
     width: 120px;
     margin: .35rem auto 0;
     border-radius: 3px;
-    background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);
+    background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);
 }
 .page-title small {
     color: #6c757d;
@@ -28,7 +28,7 @@
 .section-title {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #00a79d;
+    color: #2563eb;
     padding-bottom: .5rem;
     border-bottom: 2px solid #e0f7f5;
 }
@@ -47,18 +47,18 @@
 }
 .btn-custom-primary {
     color: #fff;
-    background-color: #00a79d;
-    border: 1px solid #00a79d;
+    background-color: #2563eb;
+    border: 1px solid #2563eb;
     transition: all .3s ease;
 }
 .btn-custom-primary:hover, .btn-custom-primary:focus {
     background-color: #008b84;
     border-color: #008b84;
     color: #fff;
-    box-shadow: 0 0 0 .2rem rgba(0,167,157,.25);
+    box-shadow: 0 0 0 .2rem rgba(37,99,235,.25);
 }
 .bisabiller-badge {
-    background: linear-gradient(135deg, #00a79d, #008b84);
+    background: linear-gradient(135deg, #2563eb, #008b84);
     color: #fff;
     border-radius: 12px;
     padding: 1rem 1.5rem;
@@ -66,7 +66,7 @@
 .stat-value {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #00a79d;
+    color: #2563eb;
 }
 .stat-value.available {
     font-size: 1.5rem;
@@ -80,19 +80,19 @@
     font-size: .85rem;
     padding: .35em .65em;
 }
-.text-brand { color: #00a79d; }
+.text-brand { color: #2563eb; }
 html.dark-mode .text-brand { color: #2dd4bf; }
 .btn-balance-report {
     display: inline-flex;
     align-items: center;
     color: #fff;
-    background: linear-gradient(135deg, #00a79d, #008b84);
+    background: linear-gradient(135deg, #2563eb, #008b84);
     border: none;
     border-radius: 6px;
     font-size: .78rem;
     font-weight: 600;
     padding: .3rem .75rem;
-    box-shadow: 0 2px 6px rgba(0,167,157,.3);
+    box-shadow: 0 2px 6px rgba(37,99,235,.3);
     transition: all .25s ease;
     white-space: nowrap;
     text-decoration: none;
@@ -100,7 +100,7 @@ html.dark-mode .text-brand { color: #2dd4bf; }
 .btn-balance-report:hover {
     background: linear-gradient(135deg, #008b84, #006f6a);
     color: #fff;
-    box-shadow: 0 4px 10px rgba(0,167,157,.4);
+    box-shadow: 0 4px 10px rgba(37,99,235,.4);
     transform: translateY(-1px);
     text-decoration: none;
 }
@@ -112,7 +112,7 @@ html.dark-mode .btn-balance-report:hover { background: linear-gradient(135deg, #
     background: #f0fdfc;
     border: 1px solid #e0f7f5;
 }
-.finance-box-online-title { color: #00a79d; }
+.finance-box-online-title { color: #2563eb; }
 .finance-box-offline {
     background: #f8f9fa;
     border: 1px solid #dee2e6;
@@ -124,21 +124,21 @@ html.dark-mode .btn-balance-report:hover { background: linear-gradient(135deg, #
 .wd-table { font-size: .875rem; }
 .wd-table thead th {
     font-weight: 600;
-    color: #00a79d;
+    color: #2563eb;
     border-bottom: 2px solid #e0f7f5;
     white-space: nowrap;
     padding: .7rem .75rem;
-    background: rgba(0,167,157,.04);
+    background: rgba(37,99,235,.04);
     border-top: none;
 }
 .wd-table tbody td { padding: .75rem .75rem; vertical-align: middle; }
 .wd-table tbody tr { border-bottom: 1px solid #f0f0f0; transition: background .15s; }
-.wd-table tbody tr:hover { background: rgba(0,167,157,.04); }
+.wd-table tbody tr:hover { background: rgba(37,99,235,.04); }
 .wd-table tbody tr:last-child { border-bottom: none; }
 .wd-table tbody tr.wd-row-failed { opacity: .8; }
 .wd-amount {
     font-weight: 700;
-    color: #00a79d;
+    color: #2563eb;
     font-size: .9rem;
 }
 .wd-bank-chip {
@@ -185,8 +185,8 @@ html.dark-mode .stat-value.available { color: #4ade80; }
 html.dark-mode .balance-divider { border-top-color: rgba(45,212,191,.2); }
 html.dark-mode .balance-divider-muted { border-top-color: rgba(255,255,255,.1); }
 html.dark-mode .finance-box-online {
-    background: rgba(0,167,157,.1);
-    border-color: rgba(0,167,157,.25);
+    background: rgba(37,99,235,.1);
+    border-color: rgba(37,99,235,.25);
 }
 html.dark-mode .finance-box-online-title { color: #2dd4bf; }
 html.dark-mode .finance-box-offline {
@@ -195,8 +195,8 @@ html.dark-mode .finance-box-offline {
 }
 html.dark-mode .finance-box-offline-title { color: #9ca3af; }
 html.dark-mode .btn-custom-primary {
-    background-color: #00a79d;
-    border-color: #00a79d;
+    background-color: #2563eb;
+    border-color: #2563eb;
     color: #fff;
 }
 html.dark-mode .btn-custom-primary:hover {

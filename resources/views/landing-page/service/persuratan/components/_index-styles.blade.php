@@ -2,7 +2,7 @@
 <style>
 /* ================================================================
    PERSURATAN LANDING PAGE — Modern Redesign & Dark Mode Engine
-   Palette: LDK Al-Madaniah Emerald (#009788 / #00a79d) & Sky Blue (#0ea5e9)
+   Palette: LDK Al-Madaniah Emerald (#009788 / #2563eb) & Sky Blue (#0ea5e9)
    Dark Mode: [data-theme="dark"], html.dark-mode, body.dark-mode
    Prefix: prs-
    ================================================================ */
@@ -77,12 +77,12 @@ body.dark-mode .prs-section-badge {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #00a79d;
+    background: #2563eb;
     animation: prsBadgePulse 2s infinite;
 }
 @keyframes prsBadgePulse {
-    0%,100% { box-shadow: 0 0 0 0 rgba(0,167,157,.5); }
-    70%      { box-shadow: 0 0 0 7px rgba(0,167,157,0); }
+    0%,100% { box-shadow: 0 0 0 0 rgba(37,99,235,.5); }
+    70%      { box-shadow: 0 0 0 7px rgba(37,99,235,0); }
 }
 
 .prs-section-title {
@@ -150,7 +150,7 @@ body.dark-mode .prs-info-card {
     align-items: center;
     gap: .45rem;
 }
-.prs-info-title i { color: #00a79d; }
+.prs-info-title i { color: #2563eb; }
 [data-theme="dark"] .prs-info-title,
 html.dark-mode .prs-info-title,
 body.dark-mode .prs-info-title {
@@ -177,7 +177,7 @@ body.dark-mode .prs-info-title {
     position: absolute;
     left: 0;
     top: .35rem;
-    color: #00a79d;
+    color: #2563eb;
     font-weight: bold;
 }
 [data-theme="dark"] .prs-info-list li,
@@ -227,7 +227,7 @@ body.dark-mode .prs-contact-title {
     height: 42px;
     border-radius: 12px;
     background: rgba(0, 167, 157, .12);
-    color: #00a79d;
+    color: #2563eb;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -680,12 +680,12 @@ body.dark-mode .prs-alert-danger {
 html.dark-mode .prs-label-action-btn,
 body.dark-mode .prs-label-action-btn {
     color: #2dd4bf !important;
-    border-color: #00a79d;
+    border-color: #2563eb;
 }
 [data-theme="dark"] .prs-label-action-btn:hover,
 html.dark-mode .prs-label-action-btn:hover,
 body.dark-mode .prs-label-action-btn:hover {
-    background: #00a79d;
+    background: #2563eb;
     color: #ffffff !important;
 }
 
@@ -730,7 +730,7 @@ body.dark-mode .prs-picker-card {
 html.dark-mode .prs-picker-card:hover,
 body.dark-mode .prs-picker-card:hover {
     background: #252b3b;
-    border-color: #00a79d;
+    border-color: #2563eb;
     box-shadow: 0 8px 24px rgba(0,0,0,0.3);
 }
 
@@ -798,7 +798,7 @@ body.dark-mode .prs-picker-arrow {
 [data-theme="dark"] .prs-picker-card:hover .prs-picker-arrow,
 html.dark-mode .prs-picker-card:hover .prs-picker-arrow,
 body.dark-mode .prs-picker-card:hover .prs-picker-arrow {
-    background-color: #00a79d;
+    background-color: #2563eb;
     color: #ffffff;
 }
 
@@ -895,7 +895,7 @@ body.dark-mode .prs-picker-desc {
 [data-theme="dark"] .prs-picker-btn,
 html.dark-mode .prs-picker-btn,
 body.dark-mode .prs-picker-btn {
-    background: linear-gradient(135deg, #00a79d 0%, #007a73 100%);
+    background: linear-gradient(135deg, #2563eb 0%, #007a73 100%);
     box-shadow: 0 4px 14px rgba(0, 167, 157, 0.35);
 }
 
@@ -1786,8 +1786,8 @@ body.dark-mode .flatpickr-day.endRange,
 [data-theme="dark"] .flatpickr-day.selected,
 [data-theme="dark"] .flatpickr-day.startRange,
 [data-theme="dark"] .flatpickr-day.endRange {
-    background: linear-gradient(135deg, #00a79d 0%, #008b84 100%) !important;
-    border-color: #00a79d !important;
+    background: linear-gradient(135deg, #2563eb 0%, #008b84 100%) !important;
+    border-color: #2563eb !important;
     color: #ffffff !important;
     box-shadow: 0 4px 12px rgba(0, 167, 157, 0.4) !important;
 }

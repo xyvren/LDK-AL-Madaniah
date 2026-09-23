@@ -3,7 +3,7 @@
    DONATION STATUS PAGE VARIABLES
    ================================================================ */
 :root {
-    --ds-primary:     #00a79d;
+    --ds-primary:     #2563eb;
     --ds-primary-lt:  #e0f7f5;
     --ds-dark:        #1a2332;
     --ds-gray:        #6b7280;
@@ -119,7 +119,7 @@
 }
 .ds-btn-primary {
     background: var(--ds-primary); color: #fff;
-    box-shadow: 0 4px 14px rgba(0,167,157,.25);
+    box-shadow: 0 4px 14px rgba(37,99,235,.25);
 }
 .ds-btn-primary:hover { color: #fff; filter: brightness(.9); transform: translateY(-1px); }
 
@@ -182,7 +182,7 @@
 [data-theme="dark"] .ds-status-sub    { color: #9ca3af; }
 /* Detail card */
 [data-theme="dark"] .ds-detail-card   { background: #1a1f2e; }
-[data-theme="dark"] .ds-detail-header { border-bottom-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .ds-detail-header { border-bottom-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .ds-detail-title  { color: #e2e8f0; }
 [data-theme="dark"] .ds-detail-row:nth-child(even) { background: #252b3b; }
 [data-theme="dark"] .ds-detail-key    { color: #9ca3af; }

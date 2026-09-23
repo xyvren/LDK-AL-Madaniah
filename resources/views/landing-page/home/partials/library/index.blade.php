@@ -32,7 +32,7 @@
                     <div class="library-card__img-wrap">
                         <a href="/perpustakaan/buku/{{ $book->slug }}">
                             @if($book->coverImageGdriveID)
-                            <img src="https://lh3.googleusercontent.com/d/{{ $book->coverImageGdriveID }}"
+                            <img src="/drive-media/{{ $book->coverImageGdriveID }}"
                                  alt="{{ $book->titleBook }}"
                                  class="library-card__img"
                                  loading="lazy">
@@ -97,12 +97,12 @@
                      data-book-publisher="{{ $book->publisherName ?? '' }}"
                      data-book-year="{{ $book->year ?? '' }}"
                      data-book-pages="{{ $book->pages ?? '' }}"
-                     data-book-img="{{ $book->coverImageGdriveID ? 'https://lh3.googleusercontent.com/d/' . $book->coverImageGdriveID : '' }}"
+                     data-book-img="{{ $book->coverImageGdriveID ? '/drive-media/' . $book->coverImageGdriveID : '' }}"
                      data-book-url="/perpustakaan/buku/{{ $book->slug }}">
 
                     <div class="library-card-mobile__img-wrap">
                         @if($book->coverImageGdriveID)
-                        <img src="https://lh3.googleusercontent.com/d/{{ $book->coverImageGdriveID }}"
+                        <img src="/drive-media/{{ $book->coverImageGdriveID }}"
                              alt="{{ $book->titleBook }}"
                              class="library-card-mobile__img">
                         @else

@@ -1,7 +1,7 @@
 @php
     $googleDriveLogoId = '1nQ3wAqQlB8_4mxETAWM8VcDwgAaOjEv2';
     $logoEkspresiUrl = !empty($googleDriveLogoId) 
-        ? "https://lh3.googleusercontent.com/d/{$googleDriveLogoId}" 
+        ? "/drive-media/{$googleDriveLogoId}" 
         : asset('landing-page-ext-rsrc/img/ekspresi-2026-logo.png');
 @endphp
 <!DOCTYPE html>
@@ -539,52 +539,52 @@
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1Fj4hZRy7SNQ1Kq72JvY4M557noiULg-i"
+                                <img src="/drive-media/1Fj4hZRy7SNQ1Kq72JvY4M557noiULg-i"
                                     class="img-fluid" alt="" style="max-width: 65%;">
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1R-3mi9Jzw5vt3-VKVPic9BTvJeFkaikK"
+                                <img src="/drive-media/1R-3mi9Jzw5vt3-VKVPic9BTvJeFkaikK"
                                     class="img-fluid" alt="" style="max-width: 65%;">
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1INzkD8YgOvf5_FVIXEnW40wUCsxJdepp"
+                                <img src="/drive-media/1INzkD8YgOvf5_FVIXEnW40wUCsxJdepp"
                                     class="img-fluid" alt="" style="max-width: 65%;">
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1t_dDa8IDgpOnH85RvU67DV3W2CxhSetx"
+                                <img src="/drive-media/1t_dDa8IDgpOnH85RvU67DV3W2CxhSetx"
                                     class="img-fluid" alt="" style="max-width: 65%;">
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1yU1Oj1qrFBanjcoj3ZhO1LPFOon7V92-"
+                                <img src="/drive-media/1yU1Oj1qrFBanjcoj3ZhO1LPFOon7V92-"
                                     class="img-fluid" alt="" style="max-width: 65%;">
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1u6mS175Q2Fbqd2k6CRNqKq0E3q5Sde1U"
+                                <img src="/drive-media/1u6mS175Q2Fbqd2k6CRNqKq0E3q5Sde1U"
                                     class="img-fluid" alt="" style="max-width: 65%;">
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1Iem3JZgYMXRitO1GOb9lTMVeMjiUQFUI"
+                                <img src="/drive-media/1Iem3JZgYMXRitO1GOb9lTMVeMjiUQFUI"
                                     class="img-fluid" alt="" style="max-width: 65%;">
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1HinEWSv90pL0MUZ1F0dAbyHNSmk2L-B5"
+                                <img src="/drive-media/1HinEWSv90pL0MUZ1F0dAbyHNSmk2L-B5"
                                     class="img-fluid" alt="" style="max-width: 65%;">
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1zgyRIwgN-wnFHAquVyBvSuyhb4ZzpJ0R"
+                                <img src="/drive-media/1zgyRIwgN-wnFHAquVyBvSuyhb4ZzpJ0R"
                                     class="img-fluid" alt="" style="max-width: 65%;">
                             </div>
 
                             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center mb-4">
-                                <img src="https://lh3.googleusercontent.com/d/1sr4GI8TE-Z2Og4PBm3hqm1Bb38NryJ6U"
+                                <img src="/drive-media/1sr4GI8TE-Z2Og4PBm3hqm1Bb38NryJ6U"
                                     class="img-fluid" alt="" style="max-width: 65%;">
                             </div>
 

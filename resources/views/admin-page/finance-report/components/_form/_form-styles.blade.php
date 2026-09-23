@@ -4,7 +4,7 @@
         font-size: 1.65rem;
         font-weight: 600;
         text-align: center;
-        color: #00a79d;
+        color: #2563eb;
         margin: .75rem 0 1.5rem;
         position: relative;
         display: inline-block;
@@ -20,19 +20,19 @@
         width: 120px;
         margin: .35rem auto 0;
         border-radius: 3px;
-        background: linear-gradient(90deg,#00a79d 0%,#008b84 100%);
+        background: linear-gradient(90deg,#2563eb 0%,#008b84 100%);
     }
     .section-title {
         font-size: 1.1rem;
         font-weight: 600;
-        color: #00a79d;
+        color: #2563eb;
         padding-bottom: 0.5rem;
         border-bottom: 2px solid #e0f7f5;
     }
     .btn-custom-primary {
         color: #fff;
-        background-color: #00a79d;
-        border: 1px solid #00a79d;
+        background-color: #2563eb;
+        border: 1px solid #2563eb;
         transition: all 0.3s ease;
     }
     .btn-custom-primary:hover {
@@ -48,7 +48,7 @@
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
     .form-control:focus, .form-select:focus {
-        border-color: #00a79d;
+        border-color: #2563eb;
         box-shadow: 0 0 0 0.2rem rgba(0, 167, 157, 0.25);
     }
     .form-text {
@@ -84,14 +84,14 @@
 
     /* Button Styles */
     .btn-outline-primary {
-        color: #00a79d;
-        border-color: #00a79d;
+        color: #2563eb;
+        border-color: #2563eb;
         transition: all 0.3s ease;
     }
     .btn-outline-primary:hover {
         color: white !important;
-        background-color: #00a79d;
-        border-color: #00a79d;
+        background-color: #2563eb;
+        border-color: #2563eb;
     }
     .btn-outline-secondary {
         color: #6c757d;
@@ -143,7 +143,7 @@
         cursor: pointer;
     }
     .select2-container--default .select2-results__option--highlighted[aria-selected] {
-        background-color: #00a79d !important;
+        background-color: #2563eb !important;
         color: #fff;
     }
     .select2-container--default .select2-results__option[aria-selected="true"] {
@@ -156,14 +156,14 @@
         font-weight: 500;
     }
     .select2-container--default .select2-selection__arrow b {
-        border-color: #00a79d transparent transparent transparent;
+        border-color: #2563eb transparent transparent transparent;
     }
     .select2-container--open .select2-selection--single {
         border: 1px solid #00bfa6 !important;
     }
     .select2-container--default .select2-results__option--highlighted[aria-selected],
     .select2-container--default .select2-results__option--highlighted {
-        background-color: #00a79d !important;
+        background-color: #2563eb !important;
         color: white !important;
     }
     .select2-container--default .select2-results__option[aria-selected="true"] {
@@ -181,7 +181,7 @@
         box-shadow: none !important;
     }
     .select2-container--default .select2-search__field:focus {
-        border-color: #00a79d !important;
+        border-color: #2563eb !important;
         box-shadow: 0 0 0 0.2rem rgba(0, 167, 157, 0.25) !important;
     }
     .select2-container--default .select2-selection__placeholder {

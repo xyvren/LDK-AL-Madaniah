@@ -4,7 +4,7 @@
     font-size: 1.65rem;
     font-weight: 600;
     text-align: center;
-    color: #00a79d;
+    color: #2563eb;
     margin: .75rem 0 1.5rem;
     position: relative;
     display: inline-block;
@@ -18,14 +18,14 @@
     width: 120px;
     margin: .35rem auto 0;
     border-radius: 3px;
-    background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);
+    background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);
 }
 
 /* ===== SECTION TITLE ===== */
 .section-title {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #00a79d;
+    color: #2563eb;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #e0f7f5;
     margin-bottom: 1.25rem;
@@ -34,8 +34,8 @@
 /* ===== BUTTONS ===== */
 .btn-custom-primary {
     color: #fff;
-    background-color: #00a79d;
-    border: 1px solid #00a79d;
+    background-color: #2563eb;
+    border: 1px solid #2563eb;
     transition: all 0.3s ease;
 }
 .btn-custom-primary:hover {
@@ -55,7 +55,7 @@
 
 /* ===== FORM CONTROLS ===== */
 .form-control:focus, .form-select:focus {
-    border-color: #00a79d;
+    border-color: #2563eb;
     box-shadow: 0 0 0 0.2rem rgba(0, 167, 157, 0.25);
 }
 .form-text { font-size: 0.8rem; color: #6c757d; }
@@ -92,7 +92,7 @@ input[type=number] { -moz-appearance: textfield; }
     border: 1px solid #bbf7d0;
     border-radius: 10px;
 }
-.stat-box .stat-num { font-size: 2rem; font-weight: 800; color: #00a79d; }
+.stat-box .stat-num { font-size: 2rem; font-weight: 800; color: #2563eb; }
 .stat-box .stat-lbl { font-size: .75rem; color: #6b7280; text-transform: uppercase; letter-spacing: .05em; }
 
 /* ===== STATUS BADGE ===== */
@@ -128,7 +128,7 @@ input[type=number] { -moz-appearance: textfield; }
     cursor: pointer; transition: all .15s; line-height: 1.4;
     vertical-align: middle;
 }
-.copy-url-btn:hover { background: #00a79d; border-color: #00a79d; color: #fff; }
+.copy-url-btn:hover { background: #2563eb; border-color: #2563eb; color: #fff; }
 .gdrive-link-disabled { opacity: .55; pointer-events: none; cursor: default; }
 .gdrive-link-disabled .gdrive-ext { color: #6b7280; }
 
@@ -143,7 +143,7 @@ html.dark-mode .gdrive-link { background: #1a2d1e; border-color: #2d4a30; color:
 html.dark-mode .gdrive-link:hover { background: #1f3524; color: #86efac; }
 html.dark-mode .gdrive-link .gdrive-text small { color: #9ca3af; }
 html.dark-mode .copy-url-btn { border-color: #374151; color: #9ca3af; }
-html.dark-mode .copy-url-btn:hover { background: #00a79d; border-color: #00a79d; color: #fff; }
+html.dark-mode .copy-url-btn:hover { background: #2563eb; border-color: #2563eb; color: #fff; }
 html.dark-mode .gdrive-info-alert { background: #0f2233; border-color: #1e4060; color: #7ec8e3; }
 
 /* ===== RESPONSIVE ===== */

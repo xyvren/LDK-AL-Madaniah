@@ -247,11 +247,11 @@
                         <div class="mission-grid-cr">
                             @php
                                 $misi = [
-                                    ['emoji' => '📖', 'num' => '1', 'color' => '#00a79d', 'title' => 'Pembinaan Karakter', 'desc' => 'Tarbiyah & Pengkaderan', 'detail' => 'Pengkaderan intensif berkesinambungan melalui mentoring pekanan dan pelatihan kepemimpinan dakwah tangguh.'],
+                                    ['emoji' => '📖', 'num' => '1', 'color' => '#2563eb', 'title' => 'Pembinaan Karakter', 'desc' => 'Tarbiyah & Pengkaderan', 'detail' => 'Pengkaderan intensif berkesinambungan melalui mentoring pekanan dan pelatihan kepemimpinan dakwah tangguh.'],
                                     ['emoji' => '📢', 'num' => '2', 'color' => '#008f86', 'title' => 'Syiar Kreatif & Edukatif', 'desc' => 'Kajian & Media Digital', 'detail' => 'Penyebaran dakwah kreatif, inklusif, dan inspiratif melalui media digital serta kajian keislaman kontemporer.'],
-                                    ['emoji' => '🤲', 'num' => '3', 'color' => '#00a79d', 'title' => 'Khidmat & Pelayanan', 'desc' => 'Advokasi & Aksi Sosial', 'detail' => 'Aksi kepedulian sosial kemahasiswaan, advokasi, konsultasi islami, dan bakti sosial bagi masyarakat.'],
+                                    ['emoji' => '🤲', 'num' => '3', 'color' => '#2563eb', 'title' => 'Khidmat & Pelayanan', 'desc' => 'Advokasi & Aksi Sosial', 'detail' => 'Aksi kepedulian sosial kemahasiswaan, advokasi, konsultasi islami, dan bakti sosial bagi masyarakat.'],
                                     ['emoji' => '🌱', 'num' => '4', 'color' => '#008f86', 'title' => 'Kemandirian Ekonomi', 'desc' => 'Wirausaha & Donasi Dakwah', 'detail' => 'Pengembangan unit usaha kreatif serta pengelolaan donasi infaq dakwah yang amanah dan transparan.'],
-                                    ['emoji' => '🧕', 'num' => '5', 'color' => '#00a79d', 'title' => 'Pemberdayaan Muslimah', 'desc' => 'Annisa Center UBB', 'detail' => 'Pemberdayaan mahasiswi kampus agar berkarakter anggun, cerdas, berdaya, dan bermartabat mulia.'],
+                                    ['emoji' => '🧕', 'num' => '5', 'color' => '#2563eb', 'title' => 'Pemberdayaan Muslimah', 'desc' => 'Annisa Center UBB', 'detail' => 'Pemberdayaan mahasiswi kampus agar berkarakter anggun, cerdas, berdaya, dan bermartabat mulia.'],
                                 ];
                             @endphp
                             @foreach($misi as $index => $item)

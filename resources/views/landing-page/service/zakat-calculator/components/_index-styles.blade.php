@@ -2,7 +2,7 @@
 <style>
 /* ============================================================
    ZK — Kalkulator Zakat Styles
-   Palette: #00a79d (teal) / #006D6D (dark teal)
+   Palette: #2563eb (teal) / #006D6D (dark teal)
    prefix: zk-
    ============================================================ */
 
@@ -35,7 +35,7 @@
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: #00a79d;
+    color: #2563eb;
     margin-bottom: 0.5rem;
 }
 
@@ -50,14 +50,14 @@
 .zk-deco-bar {
     width: 48px;
     height: 4px;
-    background: linear-gradient(90deg, #00a79d 0%, #006D6D 100%);
+    background: linear-gradient(90deg, #2563eb 0%, #006D6D 100%);
     border-radius: 50rem;
     margin: 1.1rem 0 1.5rem;
 }
 
 /* Quote Box */
 .zk-deco-quote {
-    background: rgba(0,167,157,0.04);
+    background: rgba(37,99,235,0.04);
     border-radius: 16px;
     padding: 1.25rem 1.5rem;
     position: relative;
@@ -71,7 +71,7 @@
     left: 12px;
     font-size: 6rem;
     line-height: 1;
-    color: rgba(0,167,157,0.12);
+    color: rgba(37,99,235,0.12);
     font-family: Georgia, serif;
     pointer-events: none;
 }
@@ -99,7 +99,7 @@
 .zk-deco-quote span {
     font-size: 0.75rem;
     font-weight: 700;
-    color: #00a79d;
+    color: #2563eb;
     display: block;
     text-align: right;
     position: relative;
@@ -108,9 +108,9 @@
 
 /* How-to card */
 .zk-how-card {
-    background: linear-gradient(135deg, rgba(0,167,157,0.05) 0%, rgba(255,255,255,0.8) 100%);
+    background: linear-gradient(135deg, rgba(37,99,235,0.05) 0%, rgba(255,255,255,0.8) 100%);
     backdrop-filter: blur(20px);
-    border: 2px solid rgba(0,167,157,0.15);
+    border: 2px solid rgba(37,99,235,0.15);
     border-radius: 20px;
     padding: 1.25rem 1.5rem;
     margin-bottom: 1.25rem;
@@ -120,7 +120,7 @@
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #00a79d;
+    color: #2563eb;
     margin-bottom: 0.85rem;
 }
 .zk-how-list {
@@ -144,15 +144,15 @@
     height: 8px;
     min-width: 8px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #00a79d 0%, #6dd5c7 100%);
+    background: linear-gradient(135deg, #2563eb 0%, #6dd5c7 100%);
     margin-top: 0.35rem;
-    box-shadow: 0 0 0 2px rgba(0,167,157,0.2);
+    box-shadow: 0 0 0 2px rgba(37,99,235,0.2);
     animation: zkBulletGrow 2.4s ease-in-out infinite;
     flex-shrink: 0;
 }
 @keyframes zkBulletGrow {
-    0%, 100% { transform: scale(1);   box-shadow: 0 0 0 2px rgba(0,167,157,0.2); }
-    50%       { transform: scale(1.3); box-shadow: 0 0 0 4px rgba(0,167,157,0.1); }
+    0%, 100% { transform: scale(1);   box-shadow: 0 0 0 2px rgba(37,99,235,0.2); }
+    50%       { transform: scale(1.3); box-shadow: 0 0 0 4px rgba(37,99,235,0.1); }
 }
 
 /* Method card */
@@ -188,17 +188,17 @@
 
 /* ── Form Card ──────────────────────────────────────────── */
 .zk-form-card {
-    background: linear-gradient(135deg, rgba(0,167,157,0.05) 0%, rgba(255,255,255,0.8) 100%);
+    background: linear-gradient(135deg, rgba(37,99,235,0.05) 0%, rgba(255,255,255,0.8) 100%);
     backdrop-filter: blur(20px);
-    border: 2px solid rgba(0,167,157,0.15);
+    border: 2px solid rgba(37,99,235,0.15);
     border-radius: 28px;
     padding: 2.25rem 2.5rem;
-    box-shadow: 0 20px 60px rgba(0,167,157,0.08);
+    box-shadow: 0 20px 60px rgba(37,99,235,0.08);
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 .zk-form-card:hover {
-    border-color: rgba(0,167,157,0.18);
-    box-shadow: 0 8px 32px rgba(0,167,157,0.08);
+    border-color: rgba(37,99,235,0.18);
+    box-shadow: 0 8px 32px rgba(37,99,235,0.08);
 }
 
 /* Card Title (Panduan Nisab) */
@@ -212,11 +212,11 @@
     width: 34px;
     height: 34px;
     border-radius: 10px;
-    background: rgba(0,167,157,0.12);
+    background: rgba(37,99,235,0.12);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #00a79d;
+    color: #2563eb;
     font-size: 0.85rem;
     flex-shrink: 0;
 }
@@ -419,14 +419,14 @@
     color: #1f2937;
     margin-bottom: 0.5rem;
 }
-.zk-form-label i { color: #00a79d; }
+.zk-form-label i { color: #2563eb; }
 
 /* ── Inputs ─────────────────────────────────────────────── */
 .zk-form-input {
     width: 100%;
     padding: 0.7rem 1rem;
     background: rgba(255,255,255,0.8);
-    border: 1.5px solid rgba(0,167,157,0.15);
+    border: 1.5px solid rgba(37,99,235,0.15);
     border-radius: 12px;
     font-size: 0.875rem;
     color: #1f2937;
@@ -438,8 +438,8 @@
     display: block;
 }
 .zk-form-input:focus {
-    border-color: #00a79d;
-    box-shadow: 0 0 0 3px rgba(0,167,157,0.08);
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.08);
     background: #fff;
 }
 .zk-form-input::placeholder { color: #9ca3af; font-weight: 400; }
@@ -447,22 +447,22 @@
 /* Input group wrapper — border lives here, not on children */
 .zk-input-group {
     display: flex;
-    border: 1.5px solid rgba(0,167,157,0.15);
+    border: 1.5px solid rgba(37,99,235,0.15);
     border-radius: 12px;
     overflow: hidden;
     background: rgba(255,255,255,0.8);
     transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 .zk-input-group:focus-within {
-    border-color: #00a79d;
-    box-shadow: 0 0 0 3px rgba(0,167,157,0.08);
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.08);
 }
 
 .zk-input-prefix {
     padding: 0.7rem 0.85rem;
     border: none;
     border-radius: 0;
-    background: rgba(0,167,157,0.05);
+    background: rgba(37,99,235,0.05);
     color: #007a73;
     font-weight: 700;
     display: flex;
@@ -491,7 +491,7 @@
     width: 100%;
     padding: 0.7rem 2.5rem 0.7rem 1rem;
     background: rgba(255,255,255,0.8);
-    border: 1.5px solid rgba(0,167,157,0.15);
+    border: 1.5px solid rgba(37,99,235,0.15);
     border-radius: 12px;
     font-size: 0.875rem;
     color: #1f2937;
@@ -500,15 +500,15 @@
     outline: none;
     cursor: pointer;
     appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2300a79d' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%232563eb' stroke-width='2' fill='none'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 14px center;
     transition: border-color 0.25s ease;
     box-sizing: border-box;
 }
 .zk-form-select:focus {
-    border-color: #00a79d;
-    box-shadow: 0 0 0 3px rgba(0,167,157,0.08);
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.08);
 }
 
 .zk-form-hint {
@@ -528,8 +528,8 @@
 }
 .zk-pill {
     padding: 0.45rem 1rem;
-    background: rgba(0,167,157,0.06);
-    border: 1.5px solid rgba(0,167,157,0.14);
+    background: rgba(37,99,235,0.06);
+    border: 1.5px solid rgba(37,99,235,0.14);
     border-radius: 50rem;
     cursor: pointer;
     white-space: nowrap;
@@ -540,20 +540,20 @@
     user-select: none;
 }
 .zk-pill:hover {
-    border-color: rgba(0,167,157,0.35);
-    background: rgba(0,167,157,0.1);
-    color: #00a79d;
+    border-color: rgba(37,99,235,0.35);
+    background: rgba(37,99,235,0.1);
+    color: #2563eb;
 }
 .zk-pill.active {
-    background: #00a79d;
-    border-color: #00a79d;
+    background: #2563eb;
+    border-color: #2563eb;
     color: #fff;
-    box-shadow: 0 4px 12px rgba(0,167,157,0.3);
+    box-shadow: 0 4px 12px rgba(37,99,235,0.3);
 }
 
 /* ── Description box ────────────────────────────────────── */
 .zk-desc-box {
-    background: rgba(0,167,157,0.06);
+    background: rgba(37,99,235,0.06);
     border-radius: 10px;
     padding: 0.6rem 1rem;
     margin-top: 0.75rem;
@@ -565,8 +565,8 @@
 
 /* ── Perdagangan Summary ─────────────────────────────────── */
 .zk-dagang-summary {
-    background: rgba(0,167,157,0.05);
-    border: 1.5px dashed rgba(0,167,157,0.3);
+    background: rgba(37,99,235,0.05);
+    border: 1.5px dashed rgba(37,99,235,0.3);
     border-radius: 12px;
     padding: 0.85rem 1rem;
     margin-bottom: 0.75rem;
@@ -579,7 +579,7 @@
 .zk-dagang-summary-val {
     font-weight: 700;
     font-size: 1.05rem;
-    color: #00a79d;
+    color: #2563eb;
 }
 
 /* ── Pertanian Tarif Toggle ─────────────────────────────── */
@@ -592,7 +592,7 @@
 .zk-tarif-label {
     flex: 1;
     min-width: 140px;
-    border: 1.5px solid rgba(0,167,157,0.2);
+    border: 1.5px solid rgba(37,99,235,0.2);
     border-radius: 12px;
     padding: 0.65rem 1rem;
     cursor: pointer;
@@ -606,8 +606,8 @@
 }
 .zk-tarif-label input { display: none; }
 .zk-tarif-label:has(input:checked) {
-    background: #00a79d;
-    border-color: #00a79d;
+    background: #2563eb;
+    border-color: #2563eb;
     color: #fff;
 }
 .zk-tarif-label small {
@@ -622,8 +622,8 @@
     padding: 1.5rem;
     border-radius: 18px;
     text-align: center;
-    background: rgba(0,167,157,0.05);
-    border: 2px dashed rgba(0,167,157,0.35);
+    background: rgba(37,99,235,0.05);
+    border: 2px dashed rgba(37,99,235,0.35);
     display: none;
 }
 .zk-result-status {
@@ -636,7 +636,7 @@
 .zk-result-amount {
     font-size: 2.2rem;
     font-weight: 800;
-    color: #00a79d;
+    color: #2563eb;
     line-height: 1.2;
 }
 
@@ -647,17 +647,17 @@
     justify-content: center;
     gap: 0.5rem;
     padding: 0.75rem 2rem;
-    background: linear-gradient(135deg, #00a79d 0%, #006D6D 100%);
+    background: linear-gradient(135deg, #2563eb 0%, #006D6D 100%);
     color: #fff !important;
     border-radius: 50rem;
     font-size: 0.875rem;
     font-weight: 700;
-    box-shadow: 0 4px 16px rgba(0,167,157,0.3);
+    box-shadow: 0 4px 16px rgba(37,99,235,0.3);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .zk-pay-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0,167,157,0.4);
+    box-shadow: 0 8px 24px rgba(37,99,235,0.4);
 }
 
 /* ============================================================
@@ -670,14 +670,14 @@
 }
 
 .zk-acc-item {
-    border: 1px solid rgba(0,167,157,0.12);
+    border: 1px solid rgba(37,99,235,0.12);
     border-radius: 14px;
     overflow: hidden;
     transition: border-color 0.25s ease;
     background: transparent;
 }
 .zk-acc-item.zk-open {
-    border-color: rgba(0,167,157,0.22);
+    border-color: rgba(37,99,235,0.22);
 }
 
 .zk-acc-header {
@@ -694,10 +694,10 @@
     transition: background 0.25s ease;
 }
 .zk-acc-header:hover {
-    background: rgba(0,167,157,0.05);
+    background: rgba(37,99,235,0.05);
 }
 .zk-acc-item.zk-open .zk-acc-header {
-    background: rgba(0,167,157,0.07);
+    background: rgba(37,99,235,0.07);
 }
 .zk-acc-title-text {
     font-size: 0.855rem;
@@ -715,7 +715,7 @@
 }
 .zk-acc-item.zk-open .zk-acc-chevron {
     transform: rotate(180deg);
-    color: #00a79d;
+    color: #2563eb;
 }
 
 /* Accordion Body */
@@ -743,7 +743,7 @@
     overflow: hidden;
 }
 .zk-nisab-table th {
-    background: rgba(0,167,157,0.1);
+    background: rgba(37,99,235,0.1);
     color: #007a73;
     padding: 0.4rem 0.65rem;
     font-weight: 700;
@@ -751,7 +751,7 @@
 }
 .zk-nisab-table td {
     padding: 0.35rem 0.65rem;
-    border-bottom: 1px solid rgba(0,167,157,0.08);
+    border-bottom: 1px solid rgba(37,99,235,0.08);
     color: #374151;
 }
 .zk-nisab-table tr:last-child td { border-bottom: none; }
@@ -831,42 +831,42 @@
 
 /* ── Dark Mode ──────────────────────────────────────────── */
 [data-theme="dark"] .zk-deco-title      { color: #e2e8f0; }
-[data-theme="dark"] .zk-deco-quote      { background: rgba(0,167,157,0.08); }
+[data-theme="dark"] .zk-deco-quote      { background: rgba(37,99,235,0.08); }
 [data-theme="dark"] .zk-deco-quote p    { color: #cbd5e0; }
 [data-theme="dark"] .zk-quran-arabic    { color: #e2e8f0; }
-[data-theme="dark"] .zk-how-card        { background: #1a1f2e; border-color: rgba(0,167,157,0.2); }
+[data-theme="dark"] .zk-how-card        { background: #1a1f2e; border-color: rgba(37,99,235,0.2); }
 [data-theme="dark"] .zk-how-list li     { color: #cbd5e0; }
 [data-theme="dark"] .zk-method-card     { background: rgba(245,158,11,0.06); border-color: rgba(245,158,11,0.2); }
 [data-theme="dark"] .zk-method-body     { color: #9ca3af; }
-[data-theme="dark"] .zk-form-card       { background: #1a1f2e; border-color: rgba(0,167,157,0.2); }
+[data-theme="dark"] .zk-form-card       { background: #1a1f2e; border-color: rgba(37,99,235,0.2); }
 [data-theme="dark"] .zk-card-title      { color: #e2e8f0; }
 [data-theme="dark"] .zk-gold-panel      { box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.3); }
 [data-theme="dark"] .zk-form-label      { color: #e2e8f0; }
-[data-theme="dark"] .zk-input-group      { background: #1e2535; border-color: rgba(0,167,157,0.25); }
-[data-theme="dark"] .zk-input-group:focus-within { border-color: #00a79d; }
+[data-theme="dark"] .zk-input-group      { background: #1e2535; border-color: rgba(37,99,235,0.25); }
+[data-theme="dark"] .zk-input-group:focus-within { border-color: #2563eb; }
 [data-theme="dark"] .zk-form-input,
-[data-theme="dark"] .zk-form-select     { background: #1e2535; border-color: rgba(0,167,157,0.25); color: #e2e8f0; }
+[data-theme="dark"] .zk-form-select     { background: #1e2535; border-color: rgba(37,99,235,0.25); color: #e2e8f0; }
 [data-theme="dark"] .zk-input-with-prefix { background: transparent !important; color: #e2e8f0; }
 [data-theme="dark"] .zk-form-input:focus,
-[data-theme="dark"] .zk-form-select:focus { background: #252b3b; border-color: #00a79d; }
+[data-theme="dark"] .zk-form-select:focus { background: #252b3b; border-color: #2563eb; }
 [data-theme="dark"] .zk-input-with-prefix:focus { background: transparent !important; }
 [data-theme="dark"] .zk-form-input::placeholder { color: rgba(226,232,240,0.35); }
-[data-theme="dark"] .zk-input-prefix    { background: rgba(0,167,157,0.12); color: #4ade80; }
+[data-theme="dark"] .zk-input-prefix    { background: rgba(37,99,235,0.12); color: #4ade80; }
 [data-theme="dark"] .zk-form-hint       { color: #6b7280; }
-[data-theme="dark"] .zk-pill            { background: rgba(0,167,157,0.06); border-color: rgba(0,167,157,0.2); color: #9ca3af; }
-[data-theme="dark"] .zk-pill.active     { background: #00a79d; color: #fff; }
-[data-theme="dark"] .zk-desc-box        { background: rgba(0,167,157,0.08); color: #94a3b8; }
-[data-theme="dark"] .zk-dagang-summary  { background: rgba(0,167,157,0.08); border-color: rgba(0,167,157,0.2); }
+[data-theme="dark"] .zk-pill            { background: rgba(37,99,235,0.06); border-color: rgba(37,99,235,0.2); color: #9ca3af; }
+[data-theme="dark"] .zk-pill.active     { background: #2563eb; color: #fff; }
+[data-theme="dark"] .zk-desc-box        { background: rgba(37,99,235,0.08); color: #94a3b8; }
+[data-theme="dark"] .zk-dagang-summary  { background: rgba(37,99,235,0.08); border-color: rgba(37,99,235,0.2); }
 [data-theme="dark"] .zk-dagang-summary-label { color: #9ca3af; }
-[data-theme="dark"] .zk-tarif-label     { border-color: rgba(0,167,157,0.25); color: #9ca3af; }
-[data-theme="dark"] .zk-result-box      { background: rgba(0,167,157,0.08); border-color: rgba(0,167,157,0.3); }
-[data-theme="dark"] .zk-acc-item        { border-color: rgba(0,167,157,0.2); }
-[data-theme="dark"] .zk-acc-header:hover { background: rgba(0,167,157,0.08); }
-[data-theme="dark"] .zk-acc-item.zk-open .zk-acc-header { background: rgba(0,167,157,0.1); }
+[data-theme="dark"] .zk-tarif-label     { border-color: rgba(37,99,235,0.25); color: #9ca3af; }
+[data-theme="dark"] .zk-result-box      { background: rgba(37,99,235,0.08); border-color: rgba(37,99,235,0.3); }
+[data-theme="dark"] .zk-acc-item        { border-color: rgba(37,99,235,0.2); }
+[data-theme="dark"] .zk-acc-header:hover { background: rgba(37,99,235,0.08); }
+[data-theme="dark"] .zk-acc-item.zk-open .zk-acc-header { background: rgba(37,99,235,0.1); }
 [data-theme="dark"] .zk-acc-title-text  { color: #e2e8f0; }
 [data-theme="dark"] .zk-acc-content     { color: #9ca3af; }
-[data-theme="dark"] .zk-nisab-table th  { background: rgba(0,167,157,0.15); }
-[data-theme="dark"] .zk-nisab-table td  { border-color: rgba(0,167,157,0.1); color: #9ca3af; }
+[data-theme="dark"] .zk-nisab-table th  { background: rgba(37,99,235,0.15); }
+[data-theme="dark"] .zk-nisab-table td  { border-color: rgba(37,99,235,0.1); color: #9ca3af; }
 [data-theme="dark"] .zk-warning-card    { background: rgba(245,158,11,0.05); border-color: rgba(245,158,11,0.2); }
 [data-theme="dark"] .zk-warning-title   { color: #fbbf24; }
 [data-theme="dark"] .zk-warning-list li { color: #9ca3af; }
@@ -922,7 +922,7 @@
 .zk-org-header-label {
     font-size: 0.72rem;
     font-weight: 600;
-    color: #00a79d;
+    color: #2563eb;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     margin: 0 0 0.2rem;
@@ -971,16 +971,16 @@
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 0.75rem 0.85rem;
-    border: 1.5px solid rgba(0,167,157,0.15);
+    border: 1.5px solid rgba(37,99,235,0.15);
     border-radius: 14px;
-    background: rgba(0,167,157,0.03);
+    background: rgba(37,99,235,0.03);
     text-decoration: none !important;
     transition: border-color 0.2s, box-shadow 0.2s, background 0.2s, transform 0.15s;
 }
 .zk-org-card:hover {
-    border-color: #00a79d;
-    background: rgba(0,167,157,0.07);
-    box-shadow: 0 4px 16px rgba(0,167,157,0.12);
+    border-color: #2563eb;
+    background: rgba(37,99,235,0.07);
+    box-shadow: 0 4px 16px rgba(37,99,235,0.12);
     transform: translateY(-2px);
 }
 
@@ -1020,7 +1020,7 @@
     margin-top: auto;
     font-size: 0.7rem;
     font-weight: 600;
-    color: #00a79d;
+    color: #2563eb;
     display: flex;
     align-items: center;
     gap: 0.25rem;
@@ -1033,8 +1033,8 @@
 [data-theme="dark"] .zk-org-close { background: rgba(255,255,255,0.08); color: #9ca3af; }
 [data-theme="dark"] .zk-org-close:hover { background: rgba(255,255,255,0.15); color: #e2e8f0; }
 [data-theme="dark"] .zk-org-subtitle { color: #6b7280; }
-[data-theme="dark"] .zk-org-card { background: rgba(0,167,157,0.05); border-color: rgba(0,167,157,0.2); }
-[data-theme="dark"] .zk-org-card:hover { background: rgba(0,167,157,0.12); border-color: #2dd4bf; }
+[data-theme="dark"] .zk-org-card { background: rgba(37,99,235,0.05); border-color: rgba(37,99,235,0.2); }
+[data-theme="dark"] .zk-org-card:hover { background: rgba(37,99,235,0.12); border-color: #2dd4bf; }
 [data-theme="dark"] .zk-org-logo-wrap { background: #252b3b; border-color: rgba(255,255,255,0.08); }
 [data-theme="dark"] .zk-org-name { color: #e2e8f0; }
 [data-theme="dark"] .zk-org-tagline { color: #6b7280; }

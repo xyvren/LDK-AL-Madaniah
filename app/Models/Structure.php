@@ -249,9 +249,9 @@ class Structure extends Model
     public function getLogoUrl()
     {
         if ($this->gdrive_id) {
-            return 'https://lh3.googleusercontent.com/d/' . $this->gdrive_id;
+            return url('/drive-media/' . $this->gdrive_id);
         }
-        return 'https://lh3.googleusercontent.com/d/1STslQ7I3qeakz_Pu5ZY5V8RcsxxcrqOm';
+        return url('/drive-media/1STslQ7I3qeakz_Pu5ZY5V8RcsxxcrqOm');
     }
 
     /**
@@ -260,8 +260,8 @@ class Structure extends Model
     public function getStructureImageUrl()
     {
         if ($this->gdrive_id_2) {
-            return 'https://lh3.googleusercontent.com/d/' . $this->gdrive_id_2;
+            return url('/drive-media/' . $this->gdrive_id_2);
         }
-        return 'https://lh3.googleusercontent.com/d/1STslQ7I3qeakz_Pu5ZY5V8RcsxxcrqOm';
+        return url('/drive-media/1STslQ7I3qeakz_Pu5ZY5V8RcsxxcrqOm');
     }
 }

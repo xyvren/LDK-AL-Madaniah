@@ -5,7 +5,7 @@
    ================================================================ */
 
 :root {
-    --kta-primary:       #00a79d;
+    --kta-primary:       #2563eb;
     --kta-primary-dark:  #007a72;
     --kta-primary-light: #e0f7f5;
     --kta-dark:          #1e293b;
@@ -15,7 +15,7 @@
     --kta-gray-200:      #e2e8f0;
     --kta-shadow-sm:     0 4px 20px rgba(0,0,0,.07);
     --kta-shadow-md:     0 8px 32px rgba(0,0,0,.10);
-    --kta-shadow-teal:   0 12px 36px rgba(0,167,157,.18);
+    --kta-shadow-teal:   0 12px 36px rgba(37,99,235,.18);
     --kta-radius:        20px;
 }
 
@@ -173,7 +173,7 @@
     transform: translateY(-6px);
     box-shadow:
         0 2px 4px rgba(0,0,0,.04),
-        0 18px 42px rgba(0,167,157,.14),
+        0 18px 42px rgba(37,99,235,.14),
         0 6px 16px rgba(0,0,0,.06);
 }
 
@@ -323,8 +323,8 @@
     animation: ktaPulse 2s ease infinite;
 }
 @keyframes ktaPulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(0,167,157,.4); }
-    50%       { box-shadow: 0 0 0 6px rgba(0,167,157,0); }
+    0%, 100% { box-shadow: 0 0 0 0 rgba(37,99,235,.4); }
+    50%       { box-shadow: 0 0 0 6px rgba(37,99,235,0); }
 }
 .kta-section-title {
     font-size: 1.85rem; font-weight: 800; color: var(--kta-dark);
@@ -406,7 +406,7 @@
     top: 6px;
     border-radius: 14px;
     background: linear-gradient(135deg, var(--kta-primary) 0%, var(--kta-primary-dark) 100%);
-    box-shadow: 0 4px 14px rgba(0,167,157,.35);
+    box-shadow: 0 4px 14px rgba(37,99,235,.35);
     transition: all .4s cubic-bezier(.4,0,.2,1);
     z-index: 1;
     pointer-events: none;
@@ -451,7 +451,7 @@
     .kta-tab-btn.active {
         background: linear-gradient(135deg, var(--kta-primary) 0%, var(--kta-primary-dark) 100%);
         color: white;
-        box-shadow: 0 4px 14px rgba(0,167,157,.35);
+        box-shadow: 0 4px 14px rgba(37,99,235,.35);
     }
 }
 
@@ -514,25 +514,25 @@
 }
 
 /* ── Dark Mode ──────────────────────────────────────────── */
-[data-theme="dark"] .kta-section-badge { background: rgba(0,167,157,.15); color: #4dd9cf; }
+[data-theme="dark"] .kta-section-badge { background: rgba(37,99,235,.15); color: #60a5fa; }
 [data-theme="dark"] .kta-section-title { color: #e2e8f0; }
 /* Tabs */
 [data-theme="dark"] .kta-tabs-wrapper  { background: #1a1f2e; box-shadow: 0 2px 12px rgba(0,0,0,.3); }
 [data-theme="dark"] .kta-tab-btn       { color: #e2e8f0; }
-[data-theme="dark"] .kta-tab-btn:hover { color: #4dd9cf !important; background: rgba(0,167,157,.12) !important; }
+[data-theme="dark"] .kta-tab-btn:hover { color: #60a5fa !important; background: rgba(37,99,235,.12) !important; }
 [data-theme="dark"] .kta-tab-btn.active { color: #fff; }
 /* Cards */
-[data-theme="dark"] .kta-card      { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .kta-card      { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .kta-card-body { background: #1a1f2e; }
 [data-theme="dark"] .kta-card-name { color: #e2e8f0; }
 [data-theme="dark"] .kta-card-meta { color: #9ca3af; }
-[data-theme="dark"] .kta-org-card  { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
-[data-theme="dark"] .kta-org-desc  { background: #252b3b; border-color: rgba(0,167,157,.2); color: #e2e8f0; }
-[data-theme="dark"] .kta-info-nav  { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .kta-org-card  { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
+[data-theme="dark"] .kta-org-desc  { background: #252b3b; border-color: rgba(37,99,235,.2); color: #e2e8f0; }
+[data-theme="dark"] .kta-info-nav  { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .kta-info-label { color: #9ca3af; }
 [data-theme="dark"] .kta-info-value { color: #e2e8f0; }
-[data-theme="dark"] .kta-quote-wrap { background: rgba(0,167,157,.08); }
-[data-theme="dark"] .kta-quote-wrap::before { color: rgba(0,167,157,.18); }
+[data-theme="dark"] .kta-quote-wrap { background: rgba(37,99,235,.08); }
+[data-theme="dark"] .kta-quote-wrap::before { color: rgba(37,99,235,.18); }
 [data-theme="dark"] .kta-quote-text { color: #cbd5e0; }
 </style>
 @endverbatim

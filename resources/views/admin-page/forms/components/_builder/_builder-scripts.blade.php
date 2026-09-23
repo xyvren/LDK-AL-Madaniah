@@ -805,7 +805,7 @@ function updateFieldCount(delta) {
 // ===== ADD HEADER IMAGE =====
 function addHeaderImage() {
     if (dropZone.querySelector('.field-card--header-image')) {
-        Swal.fire({ icon: 'info', title: 'Already Added', text: 'This form already has a header image. Edit or remove the existing one first.', confirmButtonColor: '#00a79d' });
+        Swal.fire({ icon: 'info', title: 'Already Added', text: 'This form already has a header image. Edit or remove the existing one first.', confirmButtonColor: '#2563eb' });
         return;
     }
 
@@ -823,7 +823,7 @@ function addHeaderImage() {
             </div>`,
         showCancelButton: true,
         confirmButtonText: '<i class="fa fa-upload me-1"></i> Upload & Add',
-        confirmButtonColor: '#00a79d',
+        confirmButtonColor: '#2563eb',
         cancelButtonText: 'Cancel',
         showLoaderOnConfirm: true,
         allowOutsideClick: () => !Swal.isLoading(),
@@ -884,7 +884,7 @@ function addSection() {
             </div>`,
         showCancelButton: true,
         confirmButtonText: '<i class="fa fa-plus me-1"></i> Add Section',
-        confirmButtonColor: '#00a79d',
+        confirmButtonColor: '#2563eb',
         cancelButtonText: 'Cancel',
         showLoaderOnConfirm: true,
         allowOutsideClick: () => !Swal.isLoading(),
@@ -1413,7 +1413,7 @@ function showAlert(type, message) {
         },
         header_image: {
             label: 'Header Image', desc: 'Banner image pinned to form top',
-            html: `<div class="fpp-img-mock" style="height:50px; background:linear-gradient(135deg,#00a79d,#0ea5e9); color:#fff; border-radius:7px;"><i class="fas fa-image"></i> Banner 1600×400</div>`
+            html: `<div class="fpp-img-mock" style="height:50px; background:linear-gradient(135deg,#2563eb,#0ea5e9); color:#fff; border-radius:7px;"><i class="fas fa-image"></i> Banner 1600×400</div>`
         }
     };
 

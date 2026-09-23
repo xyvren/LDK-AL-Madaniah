@@ -6,7 +6,7 @@
     font-size: 1.65rem !important;
     font-weight: 600 !important;
     text-align: center !important;
-    color: #00a79d !important;
+    color: #2563eb !important;
     margin: .75rem 0 1.5rem !important;
     position: relative;
     display: inline-block;
@@ -22,7 +22,7 @@
     width: 120px;
     margin: .35rem auto 0;
     border-radius: 3px;
-    background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);
+    background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);
 }
 .page-title small {
     color: #6c757d !important;
@@ -36,7 +36,7 @@
 .section-title {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #00a79d;
+    color: #2563eb;
     padding-bottom: .5rem;
     border-bottom: 2px solid #e0f7f5;
 }
@@ -117,7 +117,7 @@ html.dark-mode .cmtv-rx-pill { background: #252b3b; border-color: rgba(255,255,2
 
 /* Level-2 replies indented section */
 .cmtv-l2-wrap {
-    border-left: 2px solid rgba(0,167,157,.25);
+    border-left: 2px solid rgba(37,99,235,.25);
     padding-left: .75rem;
 }
 .cmtv-l2-row { padding: .4rem .5rem; border-radius: .4rem; }

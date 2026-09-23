@@ -13,7 +13,7 @@
     $printDate    = \Carbon\Carbon::now('Asia/Jakarta')->isoFormat('D MMMM Y') . ' pukul '
                     . \Carbon\Carbon::now('Asia/Jakarta')->format('H:i') . ' WIB';
 
-    $logoUrl = 'https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1';
+    $logoUrl = '/drive-media/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1';
 
     $hasBiayaAdmin = !empty($donation->biaya_admin) && (int) $donation->biaya_admin > 0;
     $totalTagihan  = !empty($donation->total_tagihan) ? $donation->total_tagihan
@@ -80,7 +80,7 @@
 
         /* ════════ HEADER ════════ */
         .hdr {
-            background-color: #00a79d;
+            background-color: #2563eb;
             padding: 0;
         }
         .hdr table { width: 100%; border-collapse: collapse; }
@@ -131,7 +131,7 @@
         .sec-dot-cell { width: 13px; vertical-align: middle; padding: 0; }
         .sec-dot {
             display: inline-block; width: 6px; height: 6px;
-            background-color: #00a79d; border-radius: 6px;
+            background-color: #2563eb; border-radius: 6px;
         }
         .sec-text-cell {
             font-size: 7.5px; font-weight: 600; color: #00877d; text-transform: uppercase;
@@ -175,7 +175,7 @@
         .pay-tbl { width: 100%; border-collapse: collapse; }
         .pay-tbl td { padding: 11px 17px; border-bottom: 1px solid #cdeae6; vertical-align: middle; }
         .pay-tbl tr:last-child td { border-bottom: none; }
-        .pay-tbl tr.total td { background-color: #e6f7f5; border-top: 2px solid #00a79d; padding: 14px 17px; }
+        .pay-tbl tr.total td { background-color: #e6f7f5; border-top: 2px solid #2563eb; padding: 14px 17px; }
         .pay-lbl   { font-size: 10.5px; color: #4a5568; }
         .pay-sub   { font-size: 8px; color: #94a3b8; margin-top: 2px; }
         .pay-val   { font-size: 10.5px; font-weight: 600; color: #2d3748; text-align: right; }
@@ -190,7 +190,7 @@
         }
         .footer table { width: 100%; border-collapse: collapse; }
         .footer td { vertical-align: top; width: 50%; }
-        .f-lbl  { font-size: 6.5px; font-weight: 600; color: #00a79d; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; }
+        .f-lbl  { font-size: 6.5px; font-weight: 600; color: #2563eb; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; }
         .f-text { font-size: 8.5px; color: #4a5568; line-height: 1.8; }
         .disclaimer {
             font-size: 7.5px; color: #94a3b8; line-height: 1.55; font-style: italic;

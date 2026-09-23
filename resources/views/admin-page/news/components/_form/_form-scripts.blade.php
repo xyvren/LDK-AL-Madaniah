@@ -44,7 +44,7 @@
                             title: 'Invalid File Type!',
                             text: 'Please upload only JPG, JPEG, or PNG images.',
                             icon: 'error',
-                            confirmButtonColor: '#00a79d'
+                            confirmButtonColor: '#2563eb'
                         });
                         this.value = '';
                         return;
@@ -56,7 +56,7 @@
                             title: 'File Too Large!',
                             text: 'Image must be less than 5MB.',
                             icon: 'error',
-                            confirmButtonColor: '#00a79d'
+                            confirmButtonColor: '#2563eb'
                         });
                         this.value = '';
                         return;
@@ -101,7 +101,7 @@
                         title: 'Title Required!',
                         text: 'Please enter a title for the news.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     title.focus();
                     return;
@@ -114,7 +114,7 @@
                         title: 'Date Publish Required!',
                         text: 'Please select a publish date.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     datepublish.focus();
                     return;
@@ -127,7 +127,7 @@
                         title: 'Picture Required!',
                         text: 'Please upload a picture for the news.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     picture.focus();
                     return;
@@ -141,7 +141,7 @@
                         title: 'Content Required!',
                         text: 'Please write the news content.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     $('.summernote').summernote('focus');
                     return;
@@ -191,7 +191,7 @@
                 title: 'Error!',
                 text: '{{ session('error') }}',
                 icon: 'error',
-                confirmButtonColor: '#00a79d'
+                confirmButtonColor: '#2563eb'
             });
         @endif
 

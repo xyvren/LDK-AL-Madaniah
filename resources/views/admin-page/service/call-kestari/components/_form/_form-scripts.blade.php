@@ -21,7 +21,7 @@
                     title: 'Error!',
                     text: 'Button Name is required',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 return;
             }
@@ -33,7 +33,7 @@
                     title: 'Error!',
                     text: 'Appear Position is required',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 return;
             }
@@ -45,7 +45,7 @@
                     title: 'Error!',
                     text: 'Link is required',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 return;
             }
@@ -57,7 +57,7 @@
                     title: 'Error!',
                     text: 'Please enter a valid URL starting with http:// or https://',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 return;
             }

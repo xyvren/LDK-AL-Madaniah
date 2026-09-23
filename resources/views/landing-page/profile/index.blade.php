@@ -16,7 +16,7 @@
                 <div class="prf-photo-wrap">
                     <div class="prf-photo-frame">
                         @if (Auth::User()->profile->profilepicture != null)
-                            <img src="https://lh3.googleusercontent.com/d/{{ Auth::User()->profile->gdrive_id }}"
+                            <img src="/drive-media/{{ Auth::User()->profile->gdrive_id }}"
                                  alt="{{ Auth::user()->name }}">
                         @elseif (Auth::User()->profile->googleAvatar)
                             <img src="{{ Auth::User()->profile->googleAvatar }}"

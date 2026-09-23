@@ -46,7 +46,7 @@
         <div class="cmt-form-avatar">
             @if(auth()->user()->profile && auth()->user()->profile->profilepicture)
                 <img class="cmt-avatar-img"
-                     src="https://lh3.googleusercontent.com/d/{{ auth()->user()->profile->gdrive_id }}"
+                     src="/drive-media/{{ auth()->user()->profile->gdrive_id }}"
                      alt="{{ auth()->user()->name }}" loading="lazy">
             @elseif(auth()->user()->profile && auth()->user()->profile->googleAvatar)
                 <img class="cmt-avatar-img"

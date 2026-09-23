@@ -5,25 +5,25 @@
 <style>
     .page-title {
         font-size: 1.65rem; font-weight: 600; text-align: center;
-        color: #00a79d; margin: .75rem 0 1.5rem; position: relative; display: inline-block;
+        color: #2563eb; margin: .75rem 0 1.5rem; position: relative; display: inline-block;
     }
     .page-title::after {
         content: ''; display: block; height: 4px; width: 120px;
         margin: .35rem auto 0; border-radius: 3px;
-        background: linear-gradient(90deg,#00a79d 0%,#008b84 100%);
+        background: linear-gradient(90deg,#2563eb 0%,#008b84 100%);
     }
     .section-title {
-        font-size: 1.05rem; font-weight: 600; color: #00a79d;
+        font-size: 1.05rem; font-weight: 600; color: #2563eb;
         padding-bottom: 0.5rem; border-bottom: 2px solid #e0f7f5;
     }
     .btn-custom-primary {
-        color: #fff; background-color: #00a79d; border: 1px solid #00a79d; transition: all 0.3s ease;
+        color: #fff; background-color: #2563eb; border: 1px solid #2563eb; transition: all 0.3s ease;
     }
     .btn-custom-primary:hover { background-color: #008b84; border-color: #008b84; color: #fff; }
     .btn-custom-primary:disabled { opacity: 0.7; cursor: not-allowed; }
     .card { border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
     .form-control:focus, .form-select:focus {
-        border-color: #00a79d; box-shadow: 0 0 0 0.2rem rgba(0,167,157,0.25);
+        border-color: #2563eb; box-shadow: 0 0 0 0.2rem rgba(37,99,235,0.25);
     }
     /* Recipient toggle */
     .recipient-toggle { display: flex; gap: 0.75rem; margin-bottom: 1rem; }
@@ -33,14 +33,14 @@
         transition: all 0.2s ease; text-align: center;
     }
     .recipient-toggle .btn-toggle.active {
-        border-color: #00a79d; background: rgba(0,167,157,0.08); color: #00a79d;
+        border-color: #2563eb; background: rgba(37,99,235,0.08); color: #2563eb;
     }
     .recipient-toggle .btn-toggle:hover:not(.active) {
         border-color: #b2d8d8; background: #f0fffe;
     }
     /* Email count badge */
     .email-count-badge {
-        display: inline-block; background: #00a79d; color: #fff;
+        display: inline-block; background: #2563eb; color: #fff;
         font-size: 0.75rem; font-weight: 600; padding: 2px 10px;
         border-radius: 20px; margin-left: 0.5rem;
     }
@@ -61,9 +61,9 @@
     }
     .attach-badge .attach-remove:hover { background: #dc3545; color: #fff; }
     html.dark-mode .attach-badge {
-        background: rgba(0,167,157,0.1); border-color: #2a4a48; color: #3ecfc6;
+        background: rgba(37,99,235,0.1); border-color: #2a4a48; color: #3ecfc6;
     }
-    html.dark-mode .attach-badge .attach-remove { background: rgba(0,167,157,0.15); color: #3ecfc6; }
+    html.dark-mode .attach-badge .attach-remove { background: rgba(37,99,235,0.15); color: #3ecfc6; }
     html.dark-mode .attach-badge .attach-remove:hover { background: #dc3545; color: #fff; }
     /* Subscribers info box */
     .subscribers-info {
@@ -73,24 +73,24 @@
     }
     .subscribers-info i { font-size: 1rem; flex-shrink: 0; }
     html.dark-mode .subscribers-info {
-        background: rgba(0,167,157,0.08); border-color: #2a4a48; color: #00a79d !important;
+        background: rgba(37,99,235,0.08); border-color: #2a4a48; color: #2563eb !important;
     }
-    html.dark-mode .subscribers-info * { color: #00a79d !important; }
+    html.dark-mode .subscribers-info * { color: #2563eb !important; }
 
     /* ── Dark Mode ── */
     html.dark-mode .card {
         background: #2b2f33 !important; border-color: #373b3e !important;
         box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
     }
-    html.dark-mode .section-title { color: #00a79d; border-bottom-color: #373b3e; }
+    html.dark-mode .section-title { color: #2563eb; border-bottom-color: #373b3e; }
     html.dark-mode .form-control,
     html.dark-mode .form-select {
         background-color: #1a1d21; border-color: #373b3e; color: #e4e6eb;
     }
     html.dark-mode .form-control:focus,
     html.dark-mode .form-select:focus {
-        background-color: #1a1d21; border-color: #00a79d; color: #e4e6eb;
-        box-shadow: 0 0 0 0.2rem rgba(0,167,157,0.25);
+        background-color: #1a1d21; border-color: #2563eb; color: #e4e6eb;
+        box-shadow: 0 0 0 0.2rem rgba(37,99,235,0.25);
     }
     html.dark-mode .form-control::placeholder { color: #6c757d; }
     html.dark-mode .form-label { color: #e4e6eb; }
@@ -99,10 +99,10 @@
         background: #1a1d21; border-color: #373b3e; color: #b0b3b8;
     }
     html.dark-mode .recipient-toggle .btn-toggle.active {
-        border-color: #00a79d; background: rgba(0,167,157,0.15); color: #00a79d;
+        border-color: #2563eb; background: rgba(37,99,235,0.15); color: #2563eb;
     }
     html.dark-mode .recipient-toggle .btn-toggle:hover:not(.active) {
-        border-color: #00a79d; background: #2b2f33; color: #e4e6eb;
+        border-color: #2563eb; background: #2b2f33; color: #e4e6eb;
     }
     html.dark-mode .note-editor.note-frame { border-color: #373b3e !important; }
     html.dark-mode .note-toolbar {
@@ -386,7 +386,7 @@ $(document).ready(function () {
         if (!subject) {
             isSubmitting = false;
             resetSubmitBtn();
-            Swal.fire({ icon: 'error', title: 'Subject Required', text: 'Please enter an email subject.', confirmButtonColor: '#00a79d' });
+            Swal.fire({ icon: 'error', title: 'Subject Required', text: 'Please enter an email subject.', confirmButtonColor: '#2563eb' });
             return;
         }
 
@@ -394,7 +394,7 @@ $(document).ready(function () {
         if (!body || body === '<p><br></p>' || body.trim() === '') {
             isSubmitting = false;
             resetSubmitBtn();
-            Swal.fire({ icon: 'error', title: 'Body Required', text: 'Please write the email body.', confirmButtonColor: '#00a79d' });
+            Swal.fire({ icon: 'error', title: 'Body Required', text: 'Please write the email body.', confirmButtonColor: '#2563eb' });
             return;
         }
 
@@ -405,7 +405,7 @@ $(document).ready(function () {
             if (emails.length === 0) {
                 isSubmitting = false;
                 resetSubmitBtn();
-                Swal.fire({ icon: 'error', title: 'No Recipients', text: 'Please enter at least one valid email address.', confirmButtonColor: '#00a79d' });
+                Swal.fire({ icon: 'error', title: 'No Recipients', text: 'Please enter at least one valid email address.', confirmButtonColor: '#2563eb' });
                 return;
             }
             recipientLabel = `${emails.length} recipient(s)`;
@@ -416,7 +416,7 @@ $(document).ready(function () {
             title: 'Send Email?',
             html: `Are you sure you want to send <strong>"${subject}"</strong> to ${recipientLabel}?`,
             showCancelButton: true,
-            confirmButtonColor: '#00a79d',
+            confirmButtonColor: '#2563eb',
             cancelButtonColor: '#6c757d',
             confirmButtonText: 'Yes, Send',
             cancelButtonText: 'Cancel',

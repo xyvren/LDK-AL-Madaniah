@@ -40,7 +40,7 @@
             <div class="gl-photo-grid">
                 @foreach($glData[$idx]['photos'] as $pidx => $pid)
                 <div class="gl-grid-item" onclick="glOpenZoomInline({{ $idx }}, {{ $pidx }})">
-                    <img src="https://lh3.googleusercontent.com/d/{{ $pid }}"
+                    <img src="/drive-media/{{ $pid }}"
                          alt="Foto {{ $pidx + 1 }}" loading="lazy">
                 </div>
                 @endforeach
@@ -84,7 +84,7 @@
     <div class="gl-mobile-card" data-gl-idx="{{ $idx }}" onclick="glOpenBottomSheet({{ $idx }})">
         @if($mthumb)
         <div class="gl-mobile-thumb">
-            <img src="https://lh3.googleusercontent.com/d/{{ $mthumb }}"
+            <img src="/drive-media/{{ $mthumb }}"
                  alt="{{ $post->eventTheme }}" loading="lazy">
             <div class="gl-mobile-thumb-bottom">
                 <span class="gl-m-tag-img">{{ Str::limit($post->eventName, 22) }}</span>

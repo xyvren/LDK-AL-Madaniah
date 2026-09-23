@@ -15,7 +15,7 @@
                         title: 'Name Required!',
                         text: 'Please enter a name.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     name.focus();
                     return;
@@ -27,7 +27,7 @@
                         title: 'Email Required!',
                         text: 'Please enter an email.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     email.focus();
                     return;
@@ -65,7 +65,7 @@
                 title: 'Error!',
                 text: '{{ session('error') }}',
                 icon: 'error',
-                confirmButtonColor: '#00a79d'
+                confirmButtonColor: '#2563eb'
             });
         @endif
     });

@@ -75,7 +75,7 @@
                     title: 'Error!',
                     text: 'Title is required',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 return;
             }
@@ -87,7 +87,7 @@
                     title: 'Error!',
                     text: 'Event Organizer is required',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 return;
             }
@@ -102,7 +102,7 @@
                         title: 'Error!',
                         text: `${select.previousElementSibling?.textContent?.replace('*', '').trim()} is required`,
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     select.focus();
                     return;

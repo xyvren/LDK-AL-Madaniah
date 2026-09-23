@@ -62,7 +62,7 @@ body.kmb2-popup-open .back-to-top {
     align-items: center;
     gap: .5rem;
     background: var(--primary-light);
-    border: 1px solid rgba(0,167,157,.25);
+    border: 1px solid rgba(37,99,235,.25);
     border-radius: 50px;
     padding: .5rem 1.25rem;
     margin-bottom: 1rem;
@@ -99,7 +99,7 @@ body.kmb2-popup-open .back-to-top {
     position:absolute;
     bottom:3px; left:0;
     width:100%; height:10px;
-    background:rgba(0,167,157,.12);
+    background:rgba(37,99,235,.12);
     border-radius:4px;
     z-index:-1;
 }
@@ -340,7 +340,7 @@ body.kmb2-popup-open .back-to-top {
     background: var(--primary-gradient);
     border-radius: 24px;
     padding: 1.75rem 2rem;
-    box-shadow: 0 10px 36px rgba(0,167,157,.28);
+    box-shadow: 0 10px 36px rgba(37,99,235,.28);
     position: relative;
     overflow: hidden;
 }
@@ -802,7 +802,7 @@ body.kmb2-popup-open .back-to-top {
     gap:.35rem;
     background:var(--primary-light);
     color:var(--primary);
-    border:1px solid rgba(0,167,157,.2);
+    border:1px solid rgba(37,99,235,.2);
     border-radius:50px;
     padding:.5rem 1rem;
     font-size:.8rem;
@@ -816,7 +816,7 @@ body.kmb2-popup-open .back-to-top {
     transform: scale(1.07) !important;
     background: var(--primary-light) !important;
     color: var(--primary) !important;
-    border-color: rgba(0,167,157,.2) !important;
+    border-color: rgba(37,99,235,.2) !important;
     box-shadow: none !important;
     outline: none !important;
 }
@@ -849,7 +849,7 @@ body.kmb2-popup-open .back-to-top {
     font-size:.9rem;
     font-weight:600;
     cursor:pointer;
-    box-shadow:0 4px 14px rgba(0,167,157,.3);
+    box-shadow:0 4px 14px rgba(37,99,235,.3);
     transition: transform .22s ease;
 }
 .kmb2-sheet-close:hover { transform: scale(1.02); }
@@ -888,7 +888,7 @@ body.kmb2-popup-open .back-to-top {
 }
 
 /* ── Dark Mode ── */
-[data-theme="dark"] .kmb2-card { background: rgba(26,31,46,.92); border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .kmb2-card { background: rgba(26,31,46,.92); border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .kmb2-card-name { color: #e2e8f0; }
 [data-theme="dark"] .kmb2-card-preview { color: #9ca3af; }
 [data-theme="dark"] .kmb2-photo-chip,
@@ -903,5 +903,5 @@ body.kmb2-popup-open .back-to-top {
 [data-theme="dark"] .kmb2-sheet-desc { color: #9ca3af; }
 [data-theme="dark"] .kmb2-sheet-dots .sdot { background: #374151; }
 [data-theme="dark"] .kmb2-title     { color: #e2e8f0; }
-[data-theme="dark"] .kmb2-title-hl  { color: #4dd9cf; }
+[data-theme="dark"] .kmb2-title-hl  { color: #60a5fa; }
 </style>

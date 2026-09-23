@@ -61,7 +61,7 @@ $cuInfoCards = [
     <x-hero-jumbotron type="quran">
         <div class="hero-slide">
             <img class="hero-image"
-                 src="https://lh3.googleusercontent.com/d/1Xt3HVJLvYBrcxcg-HyNK2pKOQ7WUIQBj"
+                 src="/drive-media/1Xt3HVJLvYBrcxcg-HyNK2pKOQ7WUIQBj"
                  alt="Hubungi Kami" />
         </div>
     </x-hero-jumbotron>

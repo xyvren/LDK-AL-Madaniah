@@ -38,7 +38,7 @@
                 <a href="{{ $report->node ?? '#' }}" class="rp-card-img-wrap"
                    @if($report->node) target="_blank" rel="noopener" @endif>
                     @if($report->iconGdriveID)
-                        <img src="https://lh3.googleusercontent.com/d/{{ $report->iconGdriveID }}"
+                        <img src="/drive-media/{{ $report->iconGdriveID }}"
                              alt="{{ $report->reportName }}"
                              class="rp-card-img" loading="lazy">
                     @else
@@ -118,7 +118,7 @@
 
                 <div class="rp-m-thumb">
                     @if($report->iconGdriveID)
-                        <img src="https://lh3.googleusercontent.com/d/{{ $report->iconGdriveID }}"
+                        <img src="/drive-media/{{ $report->iconGdriveID }}"
                              alt="{{ $report->reportName }}" loading="lazy">
                     @else
                         <div class="rp-m-thumb-fallback">

@@ -186,7 +186,7 @@
                     <button class="btn-user-fun has-avatar" data-bs-toggle="dropdown">
                         @if (Auth::User()->profile != null && Auth::User()->profile->profilepicture != null)
                             <img class="user-avatar"
-                                 src="https://lh3.googleusercontent.com/d/{{Auth::User()->profile->gdrive_id}}"
+                                 src="/drive-media/{{Auth::User()->profile->gdrive_id}}"
                                  alt="">
                         @elseif (Auth::User()->profile != null && Auth::User()->profile->googleAvatar)
                             <img class="user-avatar"
@@ -305,7 +305,7 @@
         @auth
             <div class="mobile-user-card">
                 @if (Auth::User()->profile != null && Auth::User()->profile->profilepicture != null)
-                    <img src="https://lh3.googleusercontent.com/d/{{Auth::User()->profile->gdrive_id}}" alt="">
+                    <img src="/drive-media/{{Auth::User()->profile->gdrive_id}}" alt="">
                 @elseif (Auth::User()->profile != null && Auth::User()->profile->googleAvatar)
                     <img src="{{ Auth::User()->profile->googleAvatar }}" alt="">
                 @else
@@ -1907,7 +1907,7 @@ body.prayer-modal-open .back-to-top,
 /* ---- Hero Section ---- */
 .prayer-modal-hero {
     position: relative;
-    background: linear-gradient(145deg, #00a79d 0%, #007b73 60%, #005f5a 100%);
+    background: linear-gradient(145deg, #2563eb 0%, #1d4ed8 60%, #005f5a 100%);
     border-radius: 22px 22px 0 0;
     padding: 2rem 1.5rem 1.75rem;
     text-align: center;
@@ -2241,8 +2241,8 @@ body.prayer-modal-open .back-to-top,
 [data-theme="dark"] .nav-menu .dropdown-fun,
 [data-theme="dark"] .nav-actions .dropdown-fun {
     background: #1a1f2e !important;
-    border-color: rgba(0,167,157,.2) !important;
-    box-shadow: 0 20px 60px rgba(0,0,0,.5), 0 8px 24px rgba(0,167,157,.1) !important;
+    border-color: rgba(37,99,235,.2) !important;
+    box-shadow: 0 20px 60px rgba(0,0,0,.5), 0 8px 24px rgba(37,99,235,.1) !important;
 }
 
 /* Dropdown items */
@@ -2252,52 +2252,52 @@ body.prayer-modal-open .back-to-top,
 }
 [data-theme="dark"] .dropdown-title { color: #e2e8f0 !important; }
 [data-theme="dark"] .dropdown-desc  { color: #9ca3af !important; }
-[data-theme="dark"] .dropdown-icon  { background: rgba(0,167,157,.15) !important; color: #4dd9cf !important; }
+[data-theme="dark"] .dropdown-icon  { background: rgba(37,99,235,.15) !important; color: #60a5fa !important; }
 
 /* Dropdown item hover */
 [data-theme="dark"] .nav-menu .dropdown-fun .dropdown-item:hover,
 [data-theme="dark"] .nav-actions .dropdown-fun .dropdown-item:hover {
-    background: linear-gradient(135deg, rgba(0,167,157,.15), rgba(0,167,157,.08)) !important;
+    background: linear-gradient(135deg, rgba(37,99,235,.15), rgba(37,99,235,.08)) !important;
 }
 [data-theme="dark"] .nav-menu .dropdown-fun .dropdown-item:hover .dropdown-title,
 [data-theme="dark"] .nav-actions .dropdown-fun .dropdown-item:hover .dropdown-title {
-    color: #4dd9cf !important;
+    color: #60a5fa !important;
 }
 [data-theme="dark"] .nav-menu .dropdown-fun .dropdown-item:hover .dropdown-desc,
 [data-theme="dark"] .nav-actions .dropdown-fun .dropdown-item:hover .dropdown-desc {
-    color: #4dd9cf !important;
+    color: #60a5fa !important;
 }
 
 /* Dropdown divider */
 [data-theme="dark"] .nav-actions .dropdown-fun .dropdown-divider {
-    border-color: rgba(0,167,157,.15) !important;
+    border-color: rgba(37,99,235,.15) !important;
 }
 
 /* Dropdown active item */
 [data-theme="dark"] .nav-menu .dropdown-fun .dropdown-item.active,
 [data-theme="dark"] .nav-actions .dropdown-fun .dropdown-item.active {
-    background: linear-gradient(135deg, rgba(0,167,157,.18), rgba(0,167,157,.1)) !important;
+    background: linear-gradient(135deg, rgba(37,99,235,.18), rgba(37,99,235,.1)) !important;
 }
 [data-theme="dark"] .nav-menu .dropdown-fun .dropdown-item:hover .dropdown-icon,
 [data-theme="dark"] .nav-actions .dropdown-fun .dropdown-item:hover .dropdown-icon,
 [data-theme="dark"] .nav-menu .dropdown-fun .dropdown-item.active .dropdown-icon,
 [data-theme="dark"] .nav-actions .dropdown-fun .dropdown-item.active .dropdown-icon {
-    background: #00a79d !important; color: #fff !important;
+    background: #2563eb !important; color: #fff !important;
 }
 
 /* Prayer button */
 [data-theme="dark"] .btn-prayer-navbar {
-    background: rgba(0,167,157,.12);
-    border-color: rgba(0,167,157,.3);
-    color: #4dd9cf;
+    background: rgba(37,99,235,.12);
+    border-color: rgba(37,99,235,.3);
+    color: #60a5fa;
 }
 [data-theme="dark"] .btn-prayer-navbar:hover {
     background: var(--primary);
     color: white;
 }
 [data-theme="dark"] .btn-prayer-mobile {
-    background: rgba(0,167,157,.12);
-    color: #4dd9cf;
+    background: rgba(37,99,235,.12);
+    color: #60a5fa;
 }
 [data-theme="dark"] .btn-prayer-mobile:hover,
 [data-theme="dark"] .btn-prayer-mobile:active {
@@ -2316,12 +2316,12 @@ body.prayer-modal-open .back-to-top,
     background: #252b3b;
 }
 [data-theme="dark"] .prayer-item.next-prayer {
-    background: rgba(0,167,157,.15);
+    background: rgba(37,99,235,.15);
 }
 [data-theme="dark"] .prayer-item-name { color: #e2e8f0; }
 [data-theme="dark"] .prayer-item-time { color: #e2e8f0; }
-[data-theme="dark"] .prayer-item.next-prayer .prayer-item-name { color: #4dd9cf; }
-[data-theme="dark"] .prayer-item.next-prayer .prayer-item-time { color: #4dd9cf; }
+[data-theme="dark"] .prayer-item.next-prayer .prayer-item-name { color: #60a5fa; }
+[data-theme="dark"] .prayer-item.next-prayer .prayer-item-time { color: #60a5fa; }
 
 /* Prayer loading */
 [data-theme="dark"] .prayer-modal-loading { color: #9ca3af; }
@@ -2329,11 +2329,11 @@ body.prayer-modal-open .back-to-top,
 /* Navbar background */
 [data-theme="dark"] .navbar-floating {
     background: rgba(15, 17, 23, 0.70) !important;
-    border-bottom-color: rgba(0,167,157,.15) !important;
+    border-bottom-color: rgba(37,99,235,.15) !important;
 }
 [data-theme="dark"] .navbar-floating.scrolled {
     background: rgba(18, 22, 34, 0.97) !important;
-    border-color: rgba(0,167,157,.2) !important;
+    border-color: rgba(37,99,235,.2) !important;
     box-shadow: 0 15px 50px rgba(0,0,0,.45) !important;
 }
 
@@ -2343,13 +2343,13 @@ body.prayer-modal-open .back-to-top,
 /* Nav links */
 [data-theme="dark"] .nav-menu .nav-link { color: #e2e8f0 !important; }
 [data-theme="dark"] .nav-menu .nav-link:hover {
-    color: #4dd9cf !important;
-    background: rgba(0,167,157,.12) !important;
+    color: #60a5fa !important;
+    background: rgba(37,99,235,.12) !important;
 }
 [data-theme="dark"] .navbar-floating.scrolled .nav-menu .nav-link { color: #e2e8f0 !important; }
 [data-theme="dark"] .navbar-floating.scrolled .nav-menu .nav-link:hover {
-    color: #4dd9cf !important;
-    background: rgba(0,167,157,.12) !important;
+    color: #60a5fa !important;
+    background: rgba(37,99,235,.12) !important;
 }
 
 /* Mobile Sidebar */
@@ -2359,34 +2359,34 @@ body.prayer-modal-open .back-to-top,
 [data-theme="dark"] .mobile-nav-fun > a,
 [data-theme="dark"] .mobile-dropdown-toggle   { color: #e2e8f0; }
 [data-theme="dark"] .mobile-nav-fun > a:hover,
-[data-theme="dark"] .mobile-dropdown-toggle:hover { background: rgba(0,167,157,.12) !important; color: #4dd9cf; }
-[data-theme="dark"] .mobile-nav-icon          { background: rgba(0,167,157,.15) !important; color: #4dd9cf !important; }
+[data-theme="dark"] .mobile-dropdown-toggle:hover { background: rgba(37,99,235,.12) !important; color: #60a5fa; }
+[data-theme="dark"] .mobile-nav-icon          { background: rgba(37,99,235,.15) !important; color: #60a5fa !important; }
 [data-theme="dark"] .mobile-nav-label         { color: #9ca3af; }
 [data-theme="dark"] .mobile-dropdown-menu a        { color: #e2e8f0; }
-[data-theme="dark"] .mobile-dropdown-menu a i      { background: rgba(0,167,157,.12) !important; color: #4dd9cf !important; }
-[data-theme="dark"] .mobile-dropdown-menu a.active i { background: #00a79d !important; color: white !important; }
-[data-theme="dark"] .mobile-dropdown-menu a:hover  { background: rgba(0,167,157,.12); color: #4dd9cf; }
-[data-theme="dark"] .mobile-dropdown-menu a:hover i { background: rgba(0,167,157,.3) !important; color: #4dd9cf !important; }
-[data-theme="dark"] .mobile-dropdown-menu          { border-left-color: rgba(0,167,157,.3) !important; }
-[data-theme="dark"] .mobile-user-card              { background: linear-gradient(135deg, rgba(0,167,157,.1), rgba(0,167,157,.03)); }
-[data-theme="dark"] .mobile-menu-footer .social-links a       { background: rgba(0,167,157,.12) !important; color: #4dd9cf !important; }
-[data-theme="dark"] .mobile-menu-footer .social-links a:hover { background: #00a79d !important; color: white !important; }
+[data-theme="dark"] .mobile-dropdown-menu a i      { background: rgba(37,99,235,.12) !important; color: #60a5fa !important; }
+[data-theme="dark"] .mobile-dropdown-menu a.active i { background: #2563eb !important; color: white !important; }
+[data-theme="dark"] .mobile-dropdown-menu a:hover  { background: rgba(37,99,235,.12); color: #60a5fa; }
+[data-theme="dark"] .mobile-dropdown-menu a:hover i { background: rgba(37,99,235,.3) !important; color: #60a5fa !important; }
+[data-theme="dark"] .mobile-dropdown-menu          { border-left-color: rgba(37,99,235,.3) !important; }
+[data-theme="dark"] .mobile-user-card              { background: linear-gradient(135deg, rgba(37,99,235,.1), rgba(37,99,235,.03)); }
+[data-theme="dark"] .mobile-menu-footer .social-links a       { background: rgba(37,99,235,.12) !important; color: #60a5fa !important; }
+[data-theme="dark"] .mobile-menu-footer .social-links a:hover { background: #2563eb !important; color: white !important; }
 [data-theme="dark"] .mobile-menu-footer .copyright            { color: #9ca3af; }
 [data-theme="dark"] .mobile-user-card .name   { color: #e2e8f0; }
 [data-theme="dark"] .mobile-user-card .email  { color: #9ca3af; }
-[data-theme="dark"] .mobile-actions           { border-top-color: rgba(0,167,157,.15); }
-[data-theme="dark"] .btn-mobile-outline            { background: #1a1f2e; color: #4dd9cf; border-color: rgba(0,167,157,.3); }
-[data-theme="dark"] .mobile-nav-fun > a.active    { background: rgba(0,167,157,.18) !important; color: #4dd9cf !important; }
-[data-theme="dark"] .mobile-dropdown.open .mobile-dropdown-toggle { background: rgba(0,167,157,.18) !important; color: #4dd9cf !important; }
-[data-theme="dark"] .mobile-dropdown-menu a.active { background: rgba(0,167,157,.15) !important; color: #4dd9cf !important; }
-[data-theme="dark"] .mobile-close   { background: rgba(0,167,157,.15); color: #4dd9cf; }
-[data-theme="dark"] .mobile-close:hover { background: #00a79d; color: #fff; }
+[data-theme="dark"] .mobile-actions           { border-top-color: rgba(37,99,235,.15); }
+[data-theme="dark"] .btn-mobile-outline            { background: #1a1f2e; color: #60a5fa; border-color: rgba(37,99,235,.3); }
+[data-theme="dark"] .mobile-nav-fun > a.active    { background: rgba(37,99,235,.18) !important; color: #60a5fa !important; }
+[data-theme="dark"] .mobile-dropdown.open .mobile-dropdown-toggle { background: rgba(37,99,235,.18) !important; color: #60a5fa !important; }
+[data-theme="dark"] .mobile-dropdown-menu a.active { background: rgba(37,99,235,.15) !important; color: #60a5fa !important; }
+[data-theme="dark"] .mobile-close   { background: rgba(37,99,235,.15); color: #60a5fa; }
+[data-theme="dark"] .mobile-close:hover { background: #2563eb; color: #fff; }
 [data-theme="dark"] .mobile-toggle,
-[data-theme="dark"] .navbar-floating.scrolled .mobile-toggle  { background: rgba(0,167,157,.15); }
+[data-theme="dark"] .navbar-floating.scrolled .mobile-toggle  { background: rgba(37,99,235,.15); }
 [data-theme="dark"] .mobile-toggle span,
-[data-theme="dark"] .navbar-floating.scrolled .mobile-toggle span { background: #4dd9cf; }
+[data-theme="dark"] .navbar-floating.scrolled .mobile-toggle span { background: #60a5fa; }
 [data-theme="dark"] .mobile-toggle.active,
-[data-theme="dark"] .navbar-floating.scrolled .mobile-toggle.active { background: #00a79d; }
+[data-theme="dark"] .navbar-floating.scrolled .mobile-toggle.active { background: #2563eb; }
 [data-theme="dark"] .mobile-toggle.active span,
 [data-theme="dark"] .navbar-floating.scrolled .mobile-toggle.active span { background: #fff; }
 </style>

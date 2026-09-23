@@ -2,153 +2,118 @@
 
 namespace App\Services;
 
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Facades\File;
 use Exception;
+use Throwable;
 use InvalidArgumentException;
 use RuntimeException;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
 
 class GoogleDrive
 {
     private string $folderID;
 
-    public function __construct(string $folderID)
+    public function __construct(string $folderID = '')
     {
-        if (empty($folderID)) {
-            throw new InvalidArgumentException('Folder ID cannot be empty');
-        }
-        $this->folderID = $folderID;
+        $this->folderID = $folderID ?: (config('filesystems.disks.google.folderId') ?: env('GOOGLE_DRIVE_FOLDER_ID') ?: 'root');
     }
 
     /**
-     * Download file from Google Drive to local temporary storage
-     *
-     * @param string $fileID The ID of the file to download
-     * @param string $localPath The local path to save the file
-     * @return string The local file path
-     * @throws RuntimeException If the download fails
+     * Check if Google Drive disk is properly configured
      */
-    public function downloadFile(string $fileID, string $localPath): string
+    private function hasGoogleCredentials(): bool
     {
-        try {
-            if (empty($fileID)) {
-                throw new InvalidArgumentException('File ID cannot be empty');
-            }
-
-            $filePath = $this->folderID . '/' . $fileID;
-
-            if (!Storage::disk('google')->exists($filePath)) {
-                throw new RuntimeException('File not found in Google Drive');
-            }
-
-            // Get file content
-            $fileContent = Storage::disk('google')->get($filePath);
-
-            // Ensure directory exists
-            $directory = dirname($localPath);
-            if (!File::isDirectory($directory)) {
-                File::makeDirectory($directory, 0755, true);
-            }
-
-            // Save to local storage
-            if (!File::put($localPath, $fileContent)) {
-                throw new RuntimeException('Failed to save file to local storage');
-            }
-
-            return $localPath;
-
-        } catch (Exception $e) {
-            throw new RuntimeException('File download failed: ' . $e->getMessage(), 0, $e);
-        }
+        $config = config('filesystems.disks.google');
+        return !empty($config['clientId']) && !empty($config['clientSecret']) && !empty($config['refreshToken']);
     }
 
     /**
-     * Upload an image file to Google Drive
+     * Save uploaded file to local public/uploads directory
+     *
+     * @param mixed $file
+     * @param string $fileName
+     * @return array ['fileName' => string, 'gdriveID' => string]
+     */
+    private function saveLocalFile($file, string $fileName): array
+    {
+        $uploadDir = public_path('uploads');
+        if (!File::isDirectory($uploadDir)) {
+            File::makeDirectory($uploadDir, 0777, true, true);
+        }
+
+        File::put($uploadDir . DIRECTORY_SEPARATOR . $fileName, File::get($file));
+
+        return [
+            'fileName' => $fileName,
+            'gdriveID' => $fileName,
+        ];
+    }
+
+    /**
+     * Upload an image file to Google Drive or fallback to local storage
      *
      * @param mixed $file The file to upload
      * @param string $fileName The desired file name
      * @param string $filePath The path where to store the file
      * @return array ['fileName' => string, 'gdriveID' => string]
-     * @throws RuntimeException If the upload fails
      */
     public function uploadImage($file, string $fileName, string $filePath): array
     {
-        try {
-            if (!is_uploaded_file($file->getPathname())) {
-                throw new RuntimeException('Invalid file upload');
+        if ($this->hasGoogleCredentials()) {
+            try {
+                if (Storage::cloud()->put($filePath, File::get($file))) {
+                    $fileMetaData = Storage::disk("google")->getAdapter()->getMetadata($filePath);
+                    if ($fileMetaData && !empty($fileMetaData['path'])) {
+                        $gdriveID = basename($fileMetaData['path']);
+                        return [
+                            'fileName' => $fileName,
+                            'gdriveID' => $gdriveID,
+                        ];
+                    }
+                }
+            } catch (Throwable $e) {
+                Log::warning('Google Drive image upload failed, falling back to local storage: ' . $e->getMessage());
             }
-
-            if (!Storage::cloud()->put($filePath, File::get($file))) {
-                throw new RuntimeException('Failed to store file in Google Drive');
-            }
-
-            $fileMetaData = Storage::disk("google")->getAdapter()->getMetadata($filePath);
-
-            if (!$fileMetaData) {
-                throw new RuntimeException('Failed to retrieve file metadata from Google Drive');
-            }
-
-            $gdriveID = basename($fileMetaData['path']);
-
-            if (empty($gdriveID)) {
-                throw new RuntimeException('Invalid Google Drive file ID');
-            }
-
-            return [
-                'fileName' => $fileName,
-                'gdriveID' => $gdriveID
-            ];
-        } catch (Exception $e) {
-            throw new RuntimeException('Image upload failed: ' . $e->getMessage(), 0, $e);
         }
+
+        return $this->saveLocalFile($file, $fileName);
     }
 
     /**
-     * Upload any file to Google Drive
+     * Upload any file to Google Drive or fallback to local storage
      *
      * @param mixed $file The file to upload
      * @param string $fileName The desired file name
      * @param string $filePath The path where to store the file
      * @return array ['fileName' => string, 'gdriveID' => string]
-     * @throws RuntimeException If the upload fails
      */
     public function uploadFile($file, string $fileName, string $filePath): array
     {
-        try {
-            if (!is_uploaded_file($file->getPathname())) {
-                throw new RuntimeException('Invalid file upload');
+        if ($this->hasGoogleCredentials()) {
+            try {
+                if (Storage::cloud()->put($filePath, File::get($file))) {
+                    $fileMetaData = Storage::disk("google")->getAdapter()->getMetadata($filePath);
+                    if ($fileMetaData && !empty($fileMetaData['path'])) {
+                        $gdriveID = basename($fileMetaData['path']);
+                        return [
+                            'fileName' => $fileName,
+                            'gdriveID' => $gdriveID,
+                        ];
+                    }
+                }
+            } catch (Throwable $e) {
+                Log::warning('Google Drive file upload failed, falling back to local storage: ' . $e->getMessage());
             }
-
-            if (!Storage::cloud()->put($filePath, File::get($file))) {
-                throw new RuntimeException('Failed to store file in Google Drive');
-            }
-
-            $fileMetaData = Storage::disk("google")->getAdapter()->getMetadata($filePath);
-
-            if (!$fileMetaData) {
-                throw new RuntimeException('Failed to retrieve file metadata from Google Drive');
-            }
-
-            $gdriveID = basename($fileMetaData['path']);
-
-            if (empty($gdriveID)) {
-                throw new RuntimeException('Invalid Google Drive file ID');
-            }
-
-            return [
-                'fileName' => $fileName,
-                'gdriveID' => $gdriveID
-            ];
-        } catch (Exception $e) {
-            throw new RuntimeException('File upload failed: ' . $e->getMessage(), 0, $e);
         }
+
+        return $this->saveLocalFile($file, $fileName);
     }
 
     /**
-     * Delete an image file from Google Drive
+     * Delete an image file
      *
-     * @param string $fileID The ID of the file to delete
-     * @throws RuntimeException If the deletion fails
+     * @param string $fileID The ID or filename of the file to delete
      */
     public function deleteImage(string $fileID): void
     {
@@ -156,123 +121,106 @@ class GoogleDrive
     }
 
     /**
-     * Delete any file from Google Drive
+     * Delete any file (from local or Google Drive)
      *
-     * @param string $fileID The ID of the file to delete
-     * @throws RuntimeException If the deletion fails
+     * @param string $fileID The ID or filename of the file to delete
      */
     public function deleteFile(string $fileID): void
     {
-        try {
-            if (empty($fileID)) {
-                throw new InvalidArgumentException('File ID cannot be empty');
-            }
+        if (empty($fileID)) {
+            return;
+        }
 
-            $fullPath = $this->folderID . '/' . $fileID;
+        $localPath = public_path('uploads' . DIRECTORY_SEPARATOR . $fileID);
+        if (File::exists($localPath)) {
+            File::delete($localPath);
+            return;
+        }
 
-            if (!Storage::disk('google')->exists($fullPath)) {
-                throw new RuntimeException('File not found in Google Drive');
+        if ($this->hasGoogleCredentials()) {
+            try {
+                $fullPath = $this->folderID . '/' . $fileID;
+                if (Storage::disk('google')->exists($fullPath)) {
+                    Storage::disk('google')->delete($fullPath);
+                }
+            } catch (Throwable $e) {
+                Log::warning('Google Drive file deletion failed: ' . $e->getMessage());
             }
-
-            if (!Storage::disk('google')->delete($fullPath)) {
-                throw new RuntimeException('Failed to delete file from Google Drive');
-            }
-        } catch (Exception $e) {
-            throw new RuntimeException('File deletion failed: ' . $e->getMessage(), 0, $e);
         }
     }
 
-
     /**
-     * Get a shareable URL for a file in Google Drive
+     * Get a shareable URL for a file
      *
-     * @param string $fileID The ID of the file
+     * @param string $fileID The ID or filename
      * @return string The shareable URL
-     * @throws RuntimeException If the URL cannot be generated
      */
     public function getFileUrl(string $fileID): string
     {
-        try {
-            if (empty($fileID)) {
-                throw new InvalidArgumentException('File ID cannot be empty');
-            }
-
-            $filePath = $this->folderID . '/' . $fileID;
-            $fileMetaData = Storage::disk("google")->getAdapter()->getMetadata($filePath);
-
-            if (!$fileMetaData) {
-                throw new RuntimeException('File not found in Google Drive');
-            }
-
-            $baseUrl = 'https://drive.google.com/file/d/';
-
-            return $baseUrl . $fileID . '/view';
-
-        } catch (Exception $e) {
-            throw new RuntimeException('Failed to get file URL: ' . $e->getMessage(), 0, $e);
+        if (empty($fileID)) {
+            return '';
         }
+
+        return url('/drive-media/' . $fileID);
     }
 
     /**
-     * Get Google Drive image URL in lh3.googleusercontent.com format
+     * Get image URL
      *
-     * @param string $fileID The ID of the file
+     * @param string $fileID The ID or filename
      * @return string The image URL
-     * @throws RuntimeException If the URL cannot be generated
      */
     public function getImageUrl(string $fileID): string
     {
-        try {
-            if (empty($fileID)) {
-                throw new InvalidArgumentException('File ID cannot be empty');
-            }
-
-            $filePath = $this->folderID . '/' . $fileID;
-            $fileMetaData = Storage::disk("google")->getAdapter()->getMetadata($filePath);
-
-            if (!$fileMetaData) {
-                throw new RuntimeException('File not found in Google Drive');
-            }
-
-            return "https://lh3.googleusercontent.com/d/" . $fileID;
-        } catch (Exception $e) {
-            throw new RuntimeException('Failed to get image URL: ' . $e->getMessage(), 0, $e);
+        if (empty($fileID)) {
+            return '';
         }
+
+        return url('/drive-media/' . $fileID);
     }
 
     /**
-     * Get a direct download URL for a file in Google Drive
+     * Get a direct download URL for a file
      *
-     * This method generates a direct binary access link to a file stored in Google Drive,
-     * using the `uc?export=download` endpoint. The returned URL allows the file (e.g. a PDF)
-     * to be downloaded or displayed directly — unlike the `/view` URL which opens
-     * the Google Drive viewer.
-     *
-     * Example:
-     *   Input:  1dKLlFgqXU5bXU7ZWvSzwVYiPPegggaLy
-     *   Output: https://drive.google.com/uc?export=download&id=1dKLlFgqXU5bXU7ZWvSzwVYiPPegggaLy
-     *
-     * @param string $fileID The unique Google Drive file ID
-     * @return string The direct binary file URL suitable for embedding or downloading
-     * @throws RuntimeException If the file does not exist or URL generation fails
+     * @param string $fileID The unique file ID or filename
+     * @return string The direct binary file URL
      */
     public function getFileDownloadUrl(string $fileID): string
     {
+        if (empty($fileID)) {
+            return '';
+        }
+
+        return url('/drive-media/' . $fileID);
+    }
+
+    /**
+     * Download a file to a local path
+     *
+     * @param string $fileID The ID or filename
+     * @param string $localPath Destination local path
+     * @return string
+     */
+    public function downloadFile(string $fileID, string $localPath): string
+    {
+        $localSource = public_path('uploads' . DIRECTORY_SEPARATOR . $fileID);
+        if (File::exists($localSource)) {
+            File::copy($localSource, $localPath);
+            return $localPath;
+        }
+
         try {
-            if (empty($fileID)) {
-                throw new InvalidArgumentException('File ID cannot be empty');
+            $fileStream = Storage::cloud()->readStream($fileID);
+            if (!$fileStream) {
+                throw new RuntimeException('Failed to read file from Google Drive');
             }
-
-            $filePath = $this->folderID . '/' . $fileID;
-            $fileMetaData = Storage::disk("google")->getAdapter()->getMetadata($filePath);
-
-            if (!$fileMetaData) {
-                throw new RuntimeException('File not found in Google Drive');
-            }
-
-            return "https://drive.google.com/uc?export=download&id=" . $fileID;
-        } catch (Exception $e) {
-            throw new RuntimeException('Failed to get direct file URL: ' . $e->getMessage(), 0, $e);
+            $targetStream = fopen($localPath, 'w+');
+            stream_copy_to_stream($fileStream, $targetStream);
+            fclose($targetStream);
+            return $localPath;
+        } catch (Throwable $e) {
+            Log::error('downloadFile error: ' . $e->getMessage());
+            throw new RuntimeException('File download failed: ' . $e->getMessage(), 0, $e);
         }
     }
 }

@@ -5,7 +5,7 @@
    ================================================================ */
 
 :root {
-    --its-primary:       #00a79d;
+    --its-primary:       #2563eb;
     --its-primary-dark:  #008b82;
     --its-primary-light: #e0f7f5;
     --its-dark:          #1e293b;
@@ -33,8 +33,8 @@
     animation: itsPulse 2s ease infinite;
 }
 @keyframes itsPulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(0,167,157,.4); }
-    50%       { box-shadow: 0 0 0 6px rgba(0,167,157,0); }
+    0%, 100% { box-shadow: 0 0 0 0 rgba(37,99,235,.4); }
+    50%       { box-shadow: 0 0 0 6px rgba(37,99,235,0); }
 }
 .its-section-title { font-size: 2rem; font-weight: 800; color: var(--its-dark); margin: 0; letter-spacing: -.3px; }
 .its-section-sub   { color: var(--its-gray); font-size: 1rem; margin: .5rem 0 0; }
@@ -93,7 +93,7 @@
 
 /* ─── Desktop Card ────────────────────────────────────────────── */
 .its-card {
-    --its-accent: #00a79d;
+    --its-accent: #2563eb;
     background: white;
     border-radius: 22px;
     overflow: hidden;
@@ -244,10 +244,10 @@
 .its-empty-icon-wrap {
     position: relative; z-index: 3;
     width: 88px; height: 88px; border-radius: 28px;
-    background: linear-gradient(135deg, #00c4b8, #00a79d);
+    background: linear-gradient(135deg, #00c4b8, #2563eb);
     display: flex; align-items: center; justify-content: center;
     color: white; font-size: 2rem;
-    box-shadow: 0 12px 36px rgba(0,167,157,.38), 0 4px 12px rgba(0,0,0,.06);
+    box-shadow: 0 12px 36px rgba(37,99,235,.38), 0 4px 12px rgba(0,0,0,.06);
     animation: itsEmptyFloat 3.2s ease-in-out infinite;
 }
 @keyframes itsEmptyFloat {
@@ -256,7 +256,7 @@
 }
 .its-empty-ring {
     position: absolute; border-radius: 50%;
-    border: 2px solid rgba(0,167,157,.14);
+    border: 2px solid rgba(37,99,235,.14);
     top: 50%; left: 50%; transform: translate(-50%,-50%);
     animation: itsEmptyRing 3s ease-out infinite;
 }
@@ -284,7 +284,7 @@
 .its-mobile-carousel::-webkit-scrollbar { display: none; }
 
 .its-mobile-card {
-    --its-accent: #00a79d;
+    --its-accent: #2563eb;
     flex: 0 0 58vw; max-width: 210px;
     scroll-snap-align: start;
     background: white; border-radius: 18px; overflow: hidden;
@@ -411,8 +411,8 @@
     height: 200px;
     background: linear-gradient(
         135deg,
-        var(--its-bs-accent, #00a79d) 0%,
-        color-mix(in srgb, var(--its-bs-accent, #00a79d) 60%, #0f172a) 100%
+        var(--its-bs-accent, #2563eb) 0%,
+        color-mix(in srgb, var(--its-bs-accent, #2563eb) 60%, #0f172a) 100%
     );
     position: relative; flex-shrink: 0;
 }
@@ -440,7 +440,7 @@
     border-radius: 50%;
     border: 5px solid white;
     box-shadow:
-        0 0 0 3px color-mix(in srgb, var(--its-bs-accent, #00a79d) 28%, transparent),
+        0 0 0 3px color-mix(in srgb, var(--its-bs-accent, #2563eb) 28%, transparent),
         0 12px 36px rgba(0,0,0,.2);
     overflow: hidden;
     margin-top: -65px; position: relative; z-index: 3;
@@ -537,7 +537,7 @@ body.its-sheet-open .back-to-top {
 }
 
 /* ── Dark Mode ──────────────────────────────────────────── */
-[data-theme="dark"] .its-section-badge  { background: rgba(0,167,157,.15); color: #4dd9cf; }
+[data-theme="dark"] .its-section-badge  { background: rgba(37,99,235,.15); color: #60a5fa; }
 [data-theme="dark"] .its-section-title  { color: #e2e8f0; }
 [data-theme="dark"] .its-section-sub    { color: #9ca3af; }
 [data-theme="dark"] .its-card           { background: #1a1f2e; }
@@ -556,7 +556,7 @@ body.its-sheet-open .back-to-top {
 [data-theme="dark"] .its-bs-photo-band  { background: #1a1f2e; }
 [data-theme="dark"] .its-bs-photo-ring  { border-color: #1a1f2e; }
 [data-theme="dark"] .its-bs-hdr::after  { background: linear-gradient(to top, #1a1f2e 0%, transparent 100%) !important; }
-[data-theme="dark"] .its-bs-close       { background: #252b3b; color: #4dd9cf; box-shadow: none; }
+[data-theme="dark"] .its-bs-close       { background: #252b3b; color: #60a5fa; box-shadow: none; }
 [data-theme="dark"] .its-bs-name        { color: #e2e8f0; }
 [data-theme="dark"] .its-bs-forkat      { color: #9ca3af; }
 </style>

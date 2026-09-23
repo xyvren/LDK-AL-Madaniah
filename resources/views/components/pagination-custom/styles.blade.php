@@ -52,7 +52,7 @@ button.pgn-edge:last-child  { border-radius: 14px 50px 50px 14px; }
 .pgn-nav:hover:not([disabled]) {
     background: var(--primary); color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0,167,157,.28);
+    box-shadow: 0 6px 18px rgba(37,99,235,.28);
 }
 .pgn-nav[disabled] {
     color: #c8d6d5; border-color: #e2ecec;
@@ -67,13 +67,13 @@ button.pgn-edge:last-child  { border-radius: 14px 50px 50px 14px; }
 .pgn-num:hover:not(.active) {
     background: var(--primary); color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0,167,157,.28);
+    box-shadow: 0 6px 18px rgba(37,99,235,.28);
 }
 .pgn-num.active {
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark, #007a72) 100%);
     border-color: transparent; color: #fff; font-weight: 700; font-size: .9rem;
     transform: translateY(-3px) scale(1.08);
-    box-shadow: 0 8px 22px rgba(0,167,157,.38);
+    box-shadow: 0 8px 22px rgba(37,99,235,.38);
     pointer-events: none;
 }
 
@@ -120,27 +120,27 @@ button.pgn-edge:last-child  { border-radius: 14px 50px 50px 14px; }
 
 /* ── Dark Mode ── */
 [data-theme="dark"] .pgn-info          { color: #9ca3af; }
-[data-theme="dark"] .pgn-info strong   { color: #4dd9cf; }
-[data-theme="dark"] .pgn-ellipsis      { color: #4dd9cf; }
+[data-theme="dark"] .pgn-info strong   { color: #60a5fa; }
+[data-theme="dark"] .pgn-ellipsis      { color: #60a5fa; }
 
 [data-theme="dark"] .pgn-nav,
 [data-theme="dark"] .pgn-num {
     background: #1a1f2e;
-    border-color: rgba(0,167,157,.4);
-    color: #4dd9cf;
+    border-color: rgba(37,99,235,.4);
+    color: #60a5fa;
 }
 [data-theme="dark"] .pgn-nav:hover:not([disabled]),
 [data-theme="dark"] .pgn-num:hover:not(.active) {
     background: var(--primary);
     border-color: var(--primary);
     color: #fff;
-    box-shadow: 0 6px 18px rgba(0,167,157,.3);
+    box-shadow: 0 6px 18px rgba(37,99,235,.3);
 }
 [data-theme="dark"] .pgn-num.active {
     background: linear-gradient(135deg, var(--primary) 0%, #007a72 100%);
     border-color: transparent;
     color: #fff;
-    box-shadow: 0 8px 22px rgba(0,167,157,.35);
+    box-shadow: 0 8px 22px rgba(37,99,235,.35);
 }
 [data-theme="dark"] .pgn-nav[disabled] {
     background: #161b28;

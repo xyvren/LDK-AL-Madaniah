@@ -9,15 +9,18 @@ class RemovePdfFileNameColumnsFromMsCatalogBook extends Migration
 {
     public function up(): void
     {
-        Schema::table(MsCatalogBook::getTableName(), function (Blueprint $table) {
-            if (Schema::hasColumn(MsCatalogBook::getTableName(), 'pdfFileName')) {
-                $table->dropColumn('pdfFileName');
-            }
+        $table = MsCatalogBook::getTableName();
+        if (Schema::hasColumn($table, 'pdfFileName')) {
+            Schema::table($table, function (Blueprint $t) {
+                $t->dropColumn('pdfFileName');
+            });
+        }
 
-            if (Schema::hasColumn(MsCatalogBook::getTableName(), 'pdfFileNameGdriveID')) {
-                $table->dropColumn('pdfFileNameGdriveID');
-            }
-        });
+        if (Schema::hasColumn($table, 'pdfFileNameGdriveID')) {
+            Schema::table($table, function (Blueprint $t) {
+                $t->dropColumn('pdfFileNameGdriveID');
+            });
+        }
     }
 
     public function down(): void

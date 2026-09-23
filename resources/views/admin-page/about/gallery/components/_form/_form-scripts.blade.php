@@ -34,7 +34,7 @@
                         title: 'Invalid File Type!',
                         text: 'Please upload only JPG, JPEG, or PNG images.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     e.target.value = '';
                     return;
@@ -46,7 +46,7 @@
                         title: 'File Too Large!',
                         text: 'Image must be less than 5MB.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     e.target.value = '';
                     return;
@@ -89,7 +89,7 @@
                         title: 'Event Name Required!',
                         text: 'Please enter an event name.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     eventName.focus();
                     return;
@@ -102,7 +102,7 @@
                         title: 'Event Theme Required!',
                         text: 'Please enter an event theme.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     eventTheme.focus();
                     return;
@@ -115,7 +115,7 @@
                         title: 'Group Photo Required!',
                         text: 'Please upload a group photo.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     groupPhoto.focus();
                     return;
@@ -155,7 +155,7 @@
                 title: 'Error!',
                 text: '{{ session('error') }}',
                 icon: 'error',
-                confirmButtonColor: '#00a79d'
+                confirmButtonColor: '#2563eb'
             });
         @endif
     });

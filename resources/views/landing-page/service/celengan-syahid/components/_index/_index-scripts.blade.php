@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var excerpt     = el.dataset.excerpt      || '';
         var url         = el.dataset.url          || '#';
         var donateUrl   = el.dataset.donateUrl    || '#';
-        var catColor    = getComputedStyle(el).getPropertyValue('--cs-cat').trim() || '#00a79d';
+        var catColor    = getComputedStyle(el).getPropertyValue('--cs-cat').trim() || '#2563eb';
 
         var imgHtml = cover
             ? '<img src="' + escHtml(cover) + '" alt="' + escHtml(title) + '" class="cs-bs-cover-img" loading="lazy">'

@@ -55,7 +55,7 @@ $(function () {
     }
 
     function swalError(msg) {
-        Swal.fire({ icon: 'error', title: 'Error!', text: msg, confirmButtonColor: '#00a79d' });
+        Swal.fire({ icon: 'error', title: 'Error!', text: msg, confirmButtonColor: '#2563eb' });
     }
 
     // ── Polling ────────────────────────────────────────────────────────────

@@ -25,7 +25,7 @@ class User extends Authenticatable implements MustVerifyEmail
     /**
      * Protected user ID that cannot be deleted/edited
      */
-    public const PROTECTED_USER_ID = 2;
+    public const PROTECTED_USER_ID = 1;
 
     /**
      * The attributes that are mass assignable.

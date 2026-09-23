@@ -2,12 +2,12 @@
 /* ── Page Header ──────────────────────────────────────── */
 .br-page-title {
     font-size: 1.55rem; font-weight: 700;
-    color: #00a79d; position: relative; display: inline-block;
+    color: #2563eb; position: relative; display: inline-block;
 }
 .br-page-title::after {
     content: ''; display: block; height: 4px; width: 100px;
     margin: .3rem 0 0; border-radius: 3px;
-    background: linear-gradient(90deg, #00a79d, #008b84);
+    background: linear-gradient(90deg, #2563eb, #008b84);
 }
 .btn-rounded { border-radius: 8px !important; }
 
@@ -24,7 +24,7 @@
     width: 48px; height: 48px; border-radius: 12px; flex-shrink: 0;
     display: flex; align-items: center; justify-content: center; font-size: 1.2rem;
 }
-.br-icon-actual   { background: rgba(0,167,157,.12);  color: #00a79d; }
+.br-icon-actual   { background: rgba(37,99,235,.12);  color: #2563eb; }
 .br-icon-expected { background: rgba(99,102,241,.12); color: #6366f1; }
 .br-icon-normal   { background: rgba(34,197,94,.12);  color: #16a34a; }
 .br-icon-warning  { background: rgba(234,179,8,.15);  color: #ca8a04; }
@@ -41,10 +41,10 @@
     box-shadow: 0 2px 10px rgba(0,0,0,.07); overflow: hidden;
 }
 .br-explain-header {
-    background: rgba(0,167,157,.06);
-    border-bottom: 1px solid rgba(0,167,157,.12);
+    background: rgba(37,99,235,.06);
+    border-bottom: 1px solid rgba(37,99,235,.12);
     padding: .65rem 1.25rem;
-    font-weight: 700; font-size: .88rem; color: #00a79d;
+    font-weight: 700; font-size: .88rem; color: #2563eb;
 }
 .br-explain-body {
     padding: 1rem 1.25rem;
@@ -86,15 +86,15 @@
     text-transform: uppercase; letter-spacing: .04em; padding: .85rem .75rem;
 }
 .br-tfoot-value {
-    font-size: 1.05rem; font-weight: 800; color: #00a79d; padding: .85rem .75rem;
+    font-size: 1.05rem; font-weight: 800; color: #2563eb; padding: .85rem .75rem;
 }
 
 /* ── Table elements ───────────────────────────────────── */
 .br-qris-badge {
     display: inline-block; font-size: .68rem; font-weight: 700;
     padding: .15em .6em; border-radius: 50px;
-    background: rgba(0,167,157,.1); color: #008b84;
-    border: 1px solid rgba(0,167,157,.2); vertical-align: middle;
+    background: rgba(37,99,235,.1); color: #008b84;
+    border: 1px solid rgba(37,99,235,.2); vertical-align: middle;
 }
 .br-txn-badge {
     display: inline-block; min-width: 28px; text-align: center;
@@ -103,7 +103,7 @@
 }
 .br-withdrawn { font-weight: 600; color: #d97706; font-size: .875rem; }
 .br-net { font-weight: 800; font-size: .9rem; }
-.br-net-positive { color: #00a79d; }
+.br-net-positive { color: #2563eb; }
 .br-net-negative { color: #dc2626; }
 .br-table-footer {
     padding: .65rem 1.25rem;
@@ -156,8 +156,8 @@ html.dark-mode .btn-outline-secondary:hover { background: #374151; color: #e5e7e
     padding: .18em .6em; border-radius: 4px; white-space: nowrap;
 }
 .bh-scope-credit {
-    background: rgba(0,167,157,.08); color: #00a79d;
-    border: 1px solid rgba(0,167,157,.2);
+    background: rgba(37,99,235,.08); color: #2563eb;
+    border: 1px solid rgba(37,99,235,.2);
 }
 .bh-scope-debit {
     background: rgba(220,38,38,.07); color: #b91c1c;
@@ -181,7 +181,7 @@ html.dark-mode .bh-scope-sep    { color: #6b7280; }
     font-size: .8rem; font-weight: 700;
     padding: .25em .85em; border-radius: 50px; white-space: nowrap;
 }
-.bh-pill-credit { background: rgba(0,167,157,.12); color: #007a72; border: 1px solid rgba(0,167,157,.3); }
+.bh-pill-credit { background: rgba(37,99,235,.12); color: #007a72; border: 1px solid rgba(37,99,235,.3); }
 .bh-pill-debit  { background: rgba(220,38,38,.1);  color: #b91c1c; border: 1px solid rgba(220,38,38,.25); }
 html.dark-mode .bh-summary-label { color: #6b7280; }
 html.dark-mode .bh-pill-credit { background: rgba(45,212,191,.1); color: #2dd4bf; border-color: rgba(45,212,191,.25); }
@@ -199,7 +199,7 @@ html.dark-mode .bh-pill-debit  { background: rgba(248,113,113,.1); color: #f8717
 }
 .bh-custom-select-btn:focus { outline: none; }
 .bh-custom-select.open .bh-custom-select-btn,
-.bh-custom-select-btn:focus { border-color: #00a79d; box-shadow: 0 0 0 .18rem rgba(0,167,157,.18); }
+.bh-custom-select-btn:focus { border-color: #2563eb; box-shadow: 0 0 0 .18rem rgba(37,99,235,.18); }
 .bh-select-label { flex: 1; text-align: left; }
 .bh-select-arrow { font-size: .68rem; color: #9ca3af; transition: transform .2s ease; }
 .bh-custom-select.open .bh-select-arrow { transform: rotate(180deg); }
@@ -221,12 +221,12 @@ html.dark-mode .bh-pill-debit  { background: rgba(248,113,113,.1); color: #f8717
 }
 .bh-select-item:first-child { padding-top: .6rem; }
 .bh-select-item:last-child  { padding-bottom: .6rem; }
-.bh-select-item:hover  { background: #f0fffe; color: #00a79d; }
-.bh-select-item.selected { color: #00a79d; font-weight: 600; background: rgba(0,167,157,.06); }
+.bh-select-item:hover  { background: #f0fffe; color: #2563eb; }
+.bh-select-item.selected { color: #2563eb; font-weight: 600; background: rgba(37,99,235,.06); }
 
 .bh-select-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
 .bh-dot-all    { background: #9ca3af; }
-.bh-dot-credit { background: #00a79d; }
+.bh-dot-credit { background: #2563eb; }
 .bh-dot-debit  { background: #d97706; }
 
 html.dark-mode .bh-custom-select-btn { background: transparent; border-color: #4b5563; color: #e5e7eb; }
@@ -261,7 +261,7 @@ html.dark-mode .bh-reference     { color: #6b7280; }
     transition: border-color .2s, box-shadow .2s;
 }
 .bh-search-group:focus-within {
-    border-color: #00a79d; box-shadow: 0 0 0 .18rem rgba(0,167,157,.18);
+    border-color: #2563eb; box-shadow: 0 0 0 .18rem rgba(37,99,235,.18);
 }
 .bh-search-icon { padding: 0 .65rem; color: #9ca3af; font-size: .8rem; flex-shrink: 0; }
 .bh-search-input {
@@ -282,8 +282,8 @@ html.dark-mode .bh-reference     { color: #6b7280; }
     cursor: pointer; transition: border-color .2s;
 }
 .bh-filter-select:focus {
-    border-color: #00a79d !important;
-    box-shadow: 0 0 0 .18rem rgba(0,167,157,.18) !important; outline: none;
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 .18rem rgba(37,99,235,.18) !important; outline: none;
 }
 
 /* ── Balance History Table Rows ───────────────────────────── */
@@ -293,8 +293,8 @@ html.dark-mode .bh-reference     { color: #6b7280; }
     border-radius: 50px; white-space: nowrap;
 }
 .bh-badge-payment {
-    background: rgba(0,167,157,.1); color: #00a79d;
-    border: 1px solid rgba(0,167,157,.25);
+    background: rgba(37,99,235,.1); color: #2563eb;
+    border: 1px solid rgba(37,99,235,.25);
 }
 .bh-badge-disbursement {
     background: rgba(217,119,6,.1); color: #b45309;
@@ -306,8 +306,8 @@ html.dark-mode .bh-reference     { color: #6b7280; }
     padding: .28em .75em; border-radius: 50px; white-space: nowrap;
 }
 .bh-pill-amount-credit {
-    background: rgba(0,167,157,.12); color: #007a72;
-    border: 1px solid rgba(0,167,157,.3);
+    background: rgba(37,99,235,.12); color: #007a72;
+    border: 1px solid rgba(37,99,235,.3);
 }
 .bh-pill-amount-debit {
     background: rgba(220,38,38,.1); color: #b91c1c;
@@ -330,7 +330,7 @@ html.dark-mode .bh-pill-amount-debit {
     padding: .65rem 1rem; border-top: 1px solid #e9ecef; background: #fff;
 }
 .bh-pg-btn { font-size: .78rem !important; padding: .22rem .6rem !important; border-radius: 6px !important; min-width: 32px; }
-.bh-pg-btn.active { background: #00a79d !important; border-color: #00a79d !important; color: #fff !important; font-weight: 700; }
+.bh-pg-btn.active { background: #2563eb !important; border-color: #2563eb !important; color: #fff !important; font-weight: 700; }
 .bh-pg-ellipsis { display: inline-flex; align-items: center; padding: 0 .3rem; color: #9ca3af; font-size: .82rem; }
 
 /* ── Balance History Modal ────────────────────────────────── */
@@ -342,7 +342,7 @@ html.dark-mode .bh-pill-amount-debit {
 .bh-modal-header {
     display: flex; align-items: center; justify-content: space-between;
     padding: 1rem 1.25rem;
-    border-bottom: 2px solid rgba(0,167,157,.12);
+    border-bottom: 2px solid rgba(37,99,235,.12);
     background: #fff;
 }
 .bh-modal-icon { flex-shrink: 0; }

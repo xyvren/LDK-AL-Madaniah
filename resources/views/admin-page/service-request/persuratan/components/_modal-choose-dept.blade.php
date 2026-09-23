@@ -4,7 +4,7 @@
         <div class="modal-content rounded-4 border-0 shadow overflow-hidden">
 
             {{-- Top Teal Gradient Accent Line --}}
-            <div style="height: 4px; background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);"></div>
+            <div style="height: 4px; background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);"></div>
 
             {{-- Modal Header --}}
             <div class="modal-header border-bottom px-4 pt-3 pb-3">

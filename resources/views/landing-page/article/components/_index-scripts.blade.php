@@ -492,7 +492,7 @@ document.addEventListener('DOMContentLoaded', function () {
             /* Image + gradient + handle */
             '<div class="ar-bs-img-wrap">' +
                 '<div class="ar-bs-drag-handle"></div>' +
-                '<img src="https://lh3.googleusercontent.com/d/' + escHtml(image) +
+                '<img src="/drive-media/' + escHtml(image) +
                      '" alt="' + escHtml(title) + '" class="ar-bs-img-photo" loading="lazy">' +
                 '<div class="ar-bs-img-gradient"></div>' +
             '</div>' +

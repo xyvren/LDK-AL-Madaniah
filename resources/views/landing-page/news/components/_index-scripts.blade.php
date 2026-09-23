@@ -452,8 +452,8 @@ document.addEventListener('DOMContentLoaded', function () {
         var excerpt   = el.dataset.excerpt;
 
         var imgSrc = image
-            ? 'https://lh3.googleusercontent.com/d/' + escHtml(image)
-            : 'https://lh3.googleusercontent.com/d/1STslQ7I3qeakz_Pu5ZY5V8RcsxxcrqOm';
+            ? '/drive-media/' + escHtml(image)
+            : '/drive-media/1STslQ7I3qeakz_Pu5ZY5V8RcsxxcrqOm';
 
         content.innerHTML =
             '<div class="nw-bs-img-wrap">' +

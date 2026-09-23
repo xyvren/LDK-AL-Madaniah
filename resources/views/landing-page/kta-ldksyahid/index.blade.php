@@ -25,15 +25,15 @@
             <div class="kta-photo-wrap wow fadeInLeft" data-wow-delay="0.2s">
                 @if (!empty($ktaData->gdrive_id))
                     <img class="kta-photo"
-                         src="https://lh3.googleusercontent.com/d/{{ $ktaData->gdrive_id }}"
+                         src="/drive-media/{{ $ktaData->gdrive_id }}"
                          alt="{{ $ktaData->fullName }}">
                 @elseif ($ktaData->gender !== 'Male')
                     <img class="kta-photo kta-photo--default"
-                         src="https://lh3.googleusercontent.com/d/15Q9hUkS-yvTBCtF4_KZUy9o725MZ9z6n"
+                         src="/drive-media/15Q9hUkS-yvTBCtF4_KZUy9o725MZ9z6n"
                          alt="Foto Default">
                 @else
                     <img class="kta-photo kta-photo--default"
-                         src="https://lh3.googleusercontent.com/d/1CACDd_5vjzM82KTR08ND_nGbqtePHRsj"
+                         src="/drive-media/1CACDd_5vjzM82KTR08ND_nGbqtePHRsj"
                          alt="Foto Default">
                 @endif
                 <div class="kta-ldk-badge">
@@ -364,11 +364,11 @@
                         <div class="mission-grid-cr">
                             @php
                                 $misi = [
-                                    ['emoji' => '📖', 'num' => '1', 'color' => '#00a79d', 'title' => 'Tarbiyah Madal Hayah', 'desc' => 'Pendidikan Sepanjang Hidup', 'detail' => 'Proses pendidikan berkelanjutan yang membentuk karakter dan keilmuan sepanjang hayat'],
+                                    ['emoji' => '📖', 'num' => '1', 'color' => '#2563eb', 'title' => 'Tarbiyah Madal Hayah', 'desc' => 'Pendidikan Sepanjang Hidup', 'detail' => 'Proses pendidikan berkelanjutan yang membentuk karakter dan keilmuan sepanjang hayat'],
                                     ['emoji' => '💝', 'num' => '2', 'color' => '#008f86', 'title' => 'Amal Sholeh', 'desc' => 'Perbuatan yang Baik', 'detail' => 'Mengamalkan kebaikan dalam setiap aspek kehidupan sehari-hari'],
-                                    ['emoji' => '⚖️', 'num' => '3', 'color' => '#00a79d', 'title' => "Amar Ma'ruf Nahi Mungkar", 'desc' => 'Memerintahkan yang Baik dan Mencegah yang Mungkar', 'detail' => 'Menyeru kepada kebaikan dan mencegah kemungkaran di lingkungan kampus dan masyarakat'],
+                                    ['emoji' => '⚖️', 'num' => '3', 'color' => '#2563eb', 'title' => "Amar Ma'ruf Nahi Mungkar", 'desc' => 'Memerintahkan yang Baik dan Mencegah yang Mungkar', 'detail' => 'Menyeru kepada kebaikan dan mencegah kemungkaran di lingkungan kampus dan masyarakat'],
                                     ['emoji' => '🤲', 'num' => '4', 'color' => '#008f86', 'title' => 'Khidmatul Ummah', 'desc' => 'Pengabdian Masyarakat', 'detail' => 'Melayani dan mengabdi untuk kemaslahatan umat secara profesional'],
-                                    ['emoji' => '🤝', 'num' => '5', 'color' => '#00a79d', 'title' => 'Wihdatul Ummah dan Ukhuwah Islamiyah', 'desc' => 'Persatuan Umat dan Ukhuwah Islamiyah', 'detail' => 'Mempersatukan umat dalam tali persaudaraan Islam yang kokoh'],
+                                    ['emoji' => '🤝', 'num' => '5', 'color' => '#2563eb', 'title' => 'Wihdatul Ummah dan Ukhuwah Islamiyah', 'desc' => 'Persatuan Umat dan Ukhuwah Islamiyah', 'detail' => 'Mempersatukan umat dalam tali persaudaraan Islam yang kokoh'],
                                 ];
                             @endphp
                             @foreach($misi as $index => $item)

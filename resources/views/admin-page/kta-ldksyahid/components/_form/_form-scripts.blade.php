@@ -44,12 +44,12 @@
                 if (file) {
                     const validTypes = ['image/jpeg', 'image/png', 'image/jpg', 'image/webp'];
                     if (!validTypes.includes(file.type)) {
-                        Swal.fire({ title: 'Invalid File Type!', text: 'Please upload only JPG, JPEG, PNG, or WebP images.', icon: 'error', confirmButtonColor: '#00a79d' });
+                        Swal.fire({ title: 'Invalid File Type!', text: 'Please upload only JPG, JPEG, PNG, or WebP images.', icon: 'error', confirmButtonColor: '#2563eb' });
                         e.target.value = '';
                         return;
                     }
                     if (file.size > 5 * 1024 * 1024) {
-                        Swal.fire({ title: 'File Too Large!', text: 'Image must be less than 5MB.', icon: 'error', confirmButtonColor: '#00a79d' });
+                        Swal.fire({ title: 'File Too Large!', text: 'Image must be less than 5MB.', icon: 'error', confirmButtonColor: '#2563eb' });
                         e.target.value = '';
                         return;
                     }

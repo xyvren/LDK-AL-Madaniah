@@ -480,7 +480,7 @@ function confirmStatusToggle(btn) {
         text: text,
         icon: 'question',
         showCancelButton: true,
-        confirmButtonColor: '#00a79d',
+        confirmButtonColor: '#2563eb',
         cancelButtonColor: '#6c757d',
         confirmButtonText: confirmBtn,
         cancelButtonText: 'Cancel'

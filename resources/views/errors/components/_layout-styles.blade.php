@@ -1,6 +1,6 @@
 <style>
     :root {
-        --err-primary: #00a79d;
+        --err-primary: #2563eb;
         --err-primary-dark: #008f86;
         --err-primary-light: #e0f7f5;
         --err-primary-glow: rgba(0, 167, 157, 0.15);
@@ -599,7 +599,7 @@
     [data-theme="dark"] .btn-err-secondary {
         background: rgba(0, 167, 157, 0.1);
         border-color: rgba(0, 167, 157, 0.3);
-        color: #4dd9cf !important;
+        color: #60a5fa !important;
     }
 
     [data-theme="dark"] .btn-err-secondary:hover {
@@ -613,7 +613,7 @@
     }
 
     [data-theme="dark"] .error-icon-bg {
-        background: linear-gradient(135deg, rgba(0,167,157,.2), rgba(0,167,157,.05));
+        background: linear-gradient(135deg, rgba(37,99,235,.2), rgba(37,99,235,.05));
     }
 
     [data-theme="dark"] .error-footer {
@@ -621,16 +621,16 @@
     }
 
     [data-theme="dark"] .error-footer a {
-        color: #4dd9cf;
+        color: #60a5fa;
     }
 
     [data-theme="dark"] .error-footer a:hover {
-        color: #00a79d;
+        color: #2563eb;
     }
 
     [data-theme="dark"] .error-dark-toggle {
         background: rgba(0, 167, 157, 0.15);
-        color: #4dd9cf;
+        color: #60a5fa;
     }
 
     [data-theme="dark"] .error-dark-toggle:hover {
@@ -638,8 +638,8 @@
     }
 
     /* Text selection */
-    ::selection         { background: rgba(0,167,157,.25); color: inherit; }
-    ::-moz-selection    { background: rgba(0,167,157,.25); color: inherit; }
-    [data-theme="dark"] ::selection      { background: rgba(0,167,157,.4); color: #fff; }
-    [data-theme="dark"] ::-moz-selection { background: rgba(0,167,157,.4); color: #fff; }
+    ::selection         { background: rgba(37,99,235,.25); color: inherit; }
+    ::-moz-selection    { background: rgba(37,99,235,.25); color: inherit; }
+    [data-theme="dark"] ::selection      { background: rgba(37,99,235,.4); color: #fff; }
+    [data-theme="dark"] ::-moz-selection { background: rgba(37,99,235,.4); color: #fff; }
 </style>

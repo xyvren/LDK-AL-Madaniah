@@ -12,15 +12,16 @@ class AlterTableMsCatalogBook extends Migration
         $tableName = MsCatalogBook::getTableName();
 
         if (Schema::hasTable($tableName)) {
-            Schema::table($tableName, function (Blueprint $table) use ($tableName) {
-
-                $columnsToDrop = ['categoryName', 'language', 'readCount', 'downloadCount', 'rating'];
-                foreach ($columnsToDrop as $col) {
-                    if (Schema::hasColumn($tableName, $col)) {
-                        $table->dropColumn($col);
-                    }
+            $columnsToDrop = ['categoryName', 'language', 'readCount', 'downloadCount', 'rating'];
+            foreach ($columnsToDrop as $col) {
+                if (Schema::hasColumn($tableName, $col)) {
+                    Schema::table($tableName, function (Blueprint $t) use ($col) {
+                        $t->dropColumn($col);
+                    });
                 }
+            }
 
+            Schema::table($tableName, function (Blueprint $table) use ($tableName) {
                 if (!Schema::hasColumn($tableName, 'bookCategoryID')) {
                     $table->unsignedBigInteger('bookCategoryID')->nullable()->after('edition')->index();
                 }

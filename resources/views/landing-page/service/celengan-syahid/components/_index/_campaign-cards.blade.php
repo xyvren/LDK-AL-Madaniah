@@ -56,14 +56,14 @@
                 $daysLeft = LFC::countdownHari($campaign->deadline);
                 $isNew = Carbon::parse($campaign->created_at)->diffInDays(now()) <= 14;
                 $cover = $campaign->gdrive_id
-                    ? 'https://lh3.googleusercontent.com/d/' . $campaign->gdrive_id
-                    : 'https://lh3.googleusercontent.com/d/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O';
+                    ? '/drive-media/' . $campaign->gdrive_id
+                    : '/drive-media/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O';
                 $logoSrc = $campaign->gdrive_id_1
-                    ? 'https://lh3.googleusercontent.com/d/' . $campaign->gdrive_id_1
+                    ? '/drive-media/' . $campaign->gdrive_id_1
                     : '/landing-page-ext-rsrc/img/ldk-logo.png';
                 $orgName = $campaign->nama_organisasi ?: (($campaign->nama_pj && $campaign->link_pj) ? $campaign->nama_pj : 'UKM LDK Al-Madaniah');
                 $orgLink = ($campaign->nama_pj && $campaign->link_pj) ? $campaign->link_pj : 'https://ubb.ac.id';
-                $catColor = $categoryColors[$campaign->kategori] ?? '#00a79d';
+                $catColor = $categoryColors[$campaign->kategori] ?? '#2563eb';
             @endphp
             <div class="cs-campaign-card wow fadeInUp"
                  style="--cs-cat: {{ $catColor }}"
@@ -187,14 +187,14 @@
                 $daysLeft = LFC::countdownHari($campaign->deadline);
                 $isNew = Carbon::parse($campaign->created_at)->diffInDays(now()) <= 14;
                 $cover = $campaign->gdrive_id
-                    ? 'https://lh3.googleusercontent.com/d/' . $campaign->gdrive_id
-                    : 'https://lh3.googleusercontent.com/d/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O';
+                    ? '/drive-media/' . $campaign->gdrive_id
+                    : '/drive-media/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O';
                 $logoSrc = $campaign->gdrive_id_1
-                    ? 'https://lh3.googleusercontent.com/d/' . $campaign->gdrive_id_1
+                    ? '/drive-media/' . $campaign->gdrive_id_1
                     : '/landing-page-ext-rsrc/img/ldk-logo.png';
                 $orgName = $campaign->nama_organisasi ?: (($campaign->nama_pj && $campaign->link_pj) ? $campaign->nama_pj : 'UKM LDK Al-Madaniah');
                 $orgLink = ($campaign->nama_pj && $campaign->link_pj) ? $campaign->link_pj : 'https://ubb.ac.id';
-                $catColor = $categoryColors[$campaign->kategori] ?? '#00a79d';
+                $catColor = $categoryColors[$campaign->kategori] ?? '#2563eb';
             @endphp
             <div class="cs-mobile-card"
                  style="--cs-cat: {{ $catColor }}"

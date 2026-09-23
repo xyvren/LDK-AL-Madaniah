@@ -10,6 +10,10 @@ return new class extends Migration
      */
     public function up(): void
     {
+        if (DB::getDriverName() === 'sqlite') {
+            return;
+        }
+
         DB::statement("ALTER TABLE surat_logs MODIFY status ENUM('pending', 'approved', 'rejected', 'expired') DEFAULT 'pending'");
     }
 

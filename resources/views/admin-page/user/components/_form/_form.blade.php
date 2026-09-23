@@ -246,7 +246,7 @@
                                                     {{-- LDK profile picture (from Google Drive upload) --}}
                                                     @if($driveAvatar)
                                                         <div class="profile-picture-container">
-                                                            <img src="https://lh3.googleusercontent.com/d/{{ $driveAvatar }}" alt="LDK Profile">
+                                                            <img src="/drive-media/{{ $driveAvatar }}" alt="LDK Profile">
                                                         </div>
                                                     @endif
                                                     <div>

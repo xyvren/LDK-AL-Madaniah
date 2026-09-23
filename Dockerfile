@@ -99,8 +99,11 @@ RUN mkdir -p storage/framework/sessions \
              storage/app/public \
              bootstrap/cache \
              public/storage \
+             public/uploads \
+             public/uploads/dynamic_forms \
     && chmod -R 777 storage bootstrap/cache \
-    && chmod -R 777 public/storage
+    && chmod -R 777 public/storage \
+    && chmod -R 777 public/uploads
 
 # Expose the port Railway assigns
 EXPOSE ${PORT:-8000}

@@ -538,12 +538,12 @@ $(function () {
 
         var isCredit = (type === 'PAYMENT');
         var icon  = isCredit ? 'fa-arrow-circle-down' : 'fa-arrow-circle-up';
-        var color = isCredit ? '#00a79d' : '#d97706';
+        var color = isCredit ? '#2563eb' : '#d97706';
 
         $('#bh-modal-icon').html('<i class="fas ' + icon + '" style="font-size:1.4rem;color:' + color + '"></i>');
         $('#bh-modal-title').text(isCredit ? 'Payment Credit' : 'Transfer Debit');
         $('#bh-modal-sub').text(detail.doc_no || detail.reff_id || '');
-        $('#bh-modal-header').css('border-bottom-color', isCredit ? 'rgba(0,167,157,.15)' : 'rgba(217,119,6,.15)');
+        $('#bh-modal-header').css('border-bottom-color', isCredit ? 'rgba(37,99,235,.15)' : 'rgba(217,119,6,.15)');
 
         var rows = '';
         if (isCredit) {
@@ -554,7 +554,7 @@ $(function () {
             rows += bhRow('Email', detail.email);
             rows += bhRowAmt('Gross Amount', detail.total_tagihan);
             rows += bhRowAmt('MDR Fee (1%)', detail.mdr, false, '#d97706');
-            rows += bhRowAmt('Wallet Credit', detail.total_tagihan - detail.mdr, true, '#00a79d');
+            rows += bhRowAmt('Wallet Credit', detail.total_tagihan - detail.mdr, true, '#2563eb');
         } else {
             rows += bhRow('Campaign', detail.campaign);
             rows += bhRow('Executed', detail.executed_at);

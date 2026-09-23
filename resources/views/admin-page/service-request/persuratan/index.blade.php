@@ -333,7 +333,7 @@
                                     <tr>
                                         <td colspan="7" class="text-center text-muted py-5">
                                             <div class="p-4">
-                                                <div class="rounded-circle d-inline-flex align-items-center justify-content-center p-3 mb-3" style="width:64px;height:64px; background-color: #e0f7f5; color: #00a79d;">
+                                                <div class="rounded-circle d-inline-flex align-items-center justify-content-center p-3 mb-3" style="width:64px;height:64px; background-color: #e0f7f5; color: #2563eb;">
                                                     <i class="fas fa-inbox fa-2x"></i>
                                                 </div>
                                                 <h6 class="font-weight-bold text-dark">No letter requests found</h6>

@@ -209,7 +209,7 @@
 
         /* Focus states */
         .dark-mode-checkbox:focus + .dark-mode-toggle .toggle-track {
-            outline: 2px solid #00a79d;
+            outline: 2px solid #2563eb;
             outline-offset: 2px;
         }
 
@@ -300,7 +300,7 @@
             position: fixed;
             top: 80px;
             right: 20px;
-            background: #00a79d;
+            background: #2563eb;
             color: white;
             padding: 12px 20px;
             border-radius: 8px;
@@ -385,13 +385,13 @@
 
         /* Accessibility improvements */
         .dark-mode-toggle:focus {
-            outline: 2px solid #00a79d;
+            outline: 2px solid #2563eb;
             outline-offset: 2px;
             border-radius: 4px;
         }
 
         .dark-mode-checkbox:focus-visible + .dark-mode-toggle .toggle-track {
-            outline: 2px solid #00a79d;
+            outline: 2px solid #2563eb;
             outline-offset: 2px;
         }
 
@@ -440,8 +440,8 @@
         }
         html.dark-mode .sidebar .dropdown-item.active,
         html.dark-mode .sidebar .dropdown-item:active {
-            background-color: rgba(0,167,157,0.15) !important;
-            color: #00a79d !important;
+            background-color: rgba(37,99,235,0.15) !important;
+            color: #2563eb !important;
         }
 
         /* ── Status badges ──────────────────────────────────────── */
@@ -882,7 +882,7 @@
         }
 
         html.dark-mode .table-hover tbody tr:hover {
-            background-color: rgba(0,167,157,0.1) !important;
+            background-color: rgba(37,99,235,0.1) !important;
             color: #e4e6eb;
         }
 
@@ -1096,11 +1096,11 @@
         html.dark-mode .daterangepicker td.active:hover,
         html.dark-mode .daterangepicker td.start-date,
         html.dark-mode .daterangepicker td.end-date {
-            background-color: #00a79d !important;
+            background-color: #2563eb !important;
             color: #fff !important;
         }
         html.dark-mode .daterangepicker td.today {
-            color: #00a79d !important;
+            color: #2563eb !important;
             font-weight: bold;
         }
         html.dark-mode .daterangepicker td.today.active {
@@ -1133,7 +1133,7 @@
             background-color: #373b3e !important;
         }
         html.dark-mode .daterangepicker .ranges li.active {
-            background-color: #00a79d !important;
+            background-color: #2563eb !important;
             color: #fff !important;
         }
         html.dark-mode .daterangepicker th.prev,
@@ -1155,7 +1155,7 @@
 
         /* Global form dark mode overrides (all admin forms) */
         html.dark-mode .section-title {
-            color: #00a79d;
+            color: #2563eb;
             border-bottom-color: #373b3e;
         }
         html.dark-mode .form-text {
@@ -1186,11 +1186,11 @@
             color: #e4e6eb;
         }
         html.dark-mode .role-option:hover {
-            border-color: #00a79d;
+            border-color: #2563eb;
             background-color: #2b2f33;
         }
         html.dark-mode .role-option.selected {
-            border-color: #00a79d;
+            border-color: #2563eb;
             background-color: rgba(0, 167, 157, 0.15);
         }
         html.dark-mode .role-option input[type="radio"] {
@@ -1198,7 +1198,7 @@
             background-color: #1a1d21;
         }
         html.dark-mode .role-option input[type="radio"]:checked {
-            border-color: #00a79d;
+            border-color: #2563eb;
             background-color: #1a1d21;
         }
         /* Card guide (index pages) */
@@ -1277,7 +1277,7 @@
         html.dark-mode .note-modal .modal-body .form-control:focus,
         html.dark-mode .note-modal .note-modal-body .form-control:focus,
         html.dark-mode .note-modal .note-input:focus {
-            border-color: #00a79d !important;
+            border-color: #2563eb !important;
         }
         html.dark-mode .note-modal .modal-footer,
         html.dark-mode .note-modal .note-modal-footer {
@@ -1333,7 +1333,7 @@
             color: #e4e6eb !important;
         }
         html.dark-mode .toggle-switch:hover {
-            border-color: #00a79d !important;
+            border-color: #2563eb !important;
             background-color: rgba(0, 167, 157, 0.1) !important;
         }
         /* Button fields container (jumbotron) */
@@ -1425,7 +1425,7 @@
         html.dark-mode .select2-container--default .select2-results__option--highlighted,
         html.dark-mode .select2-container--default .select2-results__option--highlighted[aria-selected],
         html.dark-mode .select2-container--default .select2-results__option--highlighted[aria-selected="true"] {
-            background-color: #00a79d !important;
+            background-color: #2563eb !important;
             color: #fff !important;
         }
         html.dark-mode .select2-container--default .select2-results__option[aria-selected="true"]:not(.select2-results__option--highlighted),
@@ -1487,11 +1487,11 @@
         }
         html.dark-mode .flatpickr-months .flatpickr-prev-month:hover,
         html.dark-mode .flatpickr-months .flatpickr-next-month:hover {
-            color: #00a79d !important;
+            color: #2563eb !important;
         }
         html.dark-mode .flatpickr-months .flatpickr-prev-month:hover svg,
         html.dark-mode .flatpickr-months .flatpickr-next-month:hover svg {
-            fill: #00a79d !important;
+            fill: #2563eb !important;
         }
         html.dark-mode .flatpickr-current-month .cur-month,
         html.dark-mode .flatpickr-current-month input.cur-year {
@@ -1512,17 +1512,17 @@
             border-color: #373b3e !important;
         }
         html.dark-mode .flatpickr-day.today {
-            border-color: #00a79d !important;
-            color: #00a79d !important;
+            border-color: #2563eb !important;
+            color: #2563eb !important;
         }
         html.dark-mode .flatpickr-day.today:hover {
-            background: #00a79d !important;
+            background: #2563eb !important;
             color: #fff !important;
         }
         html.dark-mode .flatpickr-day.selected,
         html.dark-mode .flatpickr-day.selected:hover {
-            background: #00a79d !important;
-            border-color: #00a79d !important;
+            background: #2563eb !important;
+            border-color: #2563eb !important;
             color: #fff !important;
         }
         html.dark-mode .flatpickr-day.prevMonthDay,

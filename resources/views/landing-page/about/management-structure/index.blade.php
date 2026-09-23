@@ -45,7 +45,7 @@
                         {{-- Foto frame --}}
                         <div class="ms-di-photo-wrap">
                             <img
-                                src="https://lh3.googleusercontent.com/d/{{ $data->gdrive_id }}"
+                                src="/drive-media/{{ $data->gdrive_id }}"
                                 alt="Foto Pengurus LDK Al-Madaniah {{ $data->batch }}"
                                 loading="lazy"
                                 onerror="onImgErr(this)"
@@ -101,7 +101,7 @@
                             {{-- Collapsible chart --}}
                             <div class="ms-di-chart-body">
                                 <img
-                                    src="https://lh3.googleusercontent.com/d/{{ $data->gdrive_id_2 }}=s3000"
+                                    src="/drive-media/{{ $data->gdrive_id_2 }}=s3000"
                                     alt="Bagan Struktur LDK Al-Madaniah {{ $data->batch }}"
                                     loading="lazy"
                                     onerror="if(!this.dataset.err){this.dataset.err=1;this.style.display='none';}"
@@ -147,7 +147,7 @@
                             {{-- Profile Photo — full contain, no crop --}}
                             <div class="ms-mob-photo-area">
                                 <img
-                                    src="https://lh3.googleusercontent.com/d/{{ $data->gdrive_id }}"
+                                    src="/drive-media/{{ $data->gdrive_id }}"
                                     alt="Foto Pengurus LDK Al-Madaniah {{ $data->batch }}"
                                     loading="lazy"
                                     onerror="onImgErr(this)"
@@ -172,8 +172,8 @@
                                 data-batch="LDK Al-Madaniah {{ $data->batch }}"
                                 data-period="{{ $data->period }}"
                                 data-desc="{{ $data->structureDescription }}"
-                                data-photo="https://lh3.googleusercontent.com/d/{{ $data->gdrive_id }}"
-                                data-chart="https://lh3.googleusercontent.com/d/{{ $data->gdrive_id_2 }}=s3000"
+                                data-photo="/drive-media/{{ $data->gdrive_id }}"
+                                data-chart="/drive-media/{{ $data->gdrive_id_2 }}=s3000"
                             >
                                 <i class="fas fa-expand-alt"></i>
                                 Lihat Selengkapnya

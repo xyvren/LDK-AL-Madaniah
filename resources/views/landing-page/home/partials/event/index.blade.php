@@ -37,7 +37,7 @@
 
                     <div class="event-card__img-wrap">
                         <a href="{{ $event->getEventUrl() }}">
-                            <img src="https://lh3.googleusercontent.com/d/{{ $event->gdrive_id }}"
+                            <img src="/drive-media/{{ $event->gdrive_id }}"
                                  alt="{{ $event->title }}"
                                  class="event-card__img"
                                  loading="lazy">
@@ -112,13 +112,13 @@
                      data-event-date="{{ $date->isoFormat('D MMMM YYYY') }}"
                      data-event-day="{{ $date->format('d') }}"
                      data-event-month="{{ $date->isoFormat('MMM') }}"
-                     data-event-img="https://lh3.googleusercontent.com/d/{{ $event->gdrive_id }}"
+                     data-event-img="/drive-media/{{ $event->gdrive_id }}"
                      data-event-desc="{!! \Illuminate\Support\Str::limit(strip_tags($event->broadcast), 200, '...') !!}"
                      data-event-url="{{ $event->getEventUrl() }}"
                      data-event-color="{{ $scheme['primary'] }}">
 
                     <div class="event-card-mobile__img-wrap">
-                        <img src="https://lh3.googleusercontent.com/d/{{ $event->gdrive_id }}"
+                        <img src="/drive-media/{{ $event->gdrive_id }}"
                              alt="{{ $event->title }}"
                              class="event-card-mobile__img">
 

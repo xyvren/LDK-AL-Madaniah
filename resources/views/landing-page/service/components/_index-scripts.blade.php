@@ -89,12 +89,12 @@ document.addEventListener('DOMContentLoaded', function () {
         var desc     = el.dataset.desc     || '';
         var image    = el.dataset.image    || '';
         var url      = el.dataset.url      || '';
-        var accent   = el.dataset.accent   || '#00a79d';
+        var accent   = el.dataset.accent   || '#2563eb';
         var label    = el.dataset.label    || 'Mulai';
         var disabled = el.dataset.disabled === '1';
 
         var imgHtml = image
-            ? '<img src="https://lh3.googleusercontent.com/d/' + escHtml(image) + '" alt="' + escHtml(title) + '" class="sv-bs-img-photo" loading="lazy">'
+            ? '<img src="/drive-media/' + escHtml(image) + '" alt="' + escHtml(title) + '" class="sv-bs-img-photo" loading="lazy">'
             : '';
 
         var ctaHtml = disabled

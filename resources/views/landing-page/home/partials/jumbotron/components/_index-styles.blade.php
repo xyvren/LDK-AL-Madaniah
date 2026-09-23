@@ -1,6 +1,6 @@
 <style>
     :root {
-        --primary: #00a79d;
+        --primary: #2563eb;
         --primary-dark: #008b82;
         --primary-light: #e0f7f5;
         --dark: #2c3e50;
@@ -898,11 +898,11 @@
         inset: 0;
         border-radius: inherit;
         background:
-            radial-gradient(circle at 10% 20%, rgba(0,167,157,0.07) 0%, transparent 50%),
-            radial-gradient(circle at 90% 15%, rgba(0,167,157,0.06) 0%, transparent 45%),
-            radial-gradient(circle at 75% 80%, rgba(0,167,157,0.08) 0%, transparent 55%),
-            radial-gradient(circle at 20% 85%, rgba(0,167,157,0.05) 0%, transparent 40%),
-            radial-gradient(circle at 50% 50%, rgba(0,167,157,0.04) 0%, transparent 60%);
+            radial-gradient(circle at 10% 20%, rgba(37,99,235,0.07) 0%, transparent 50%),
+            radial-gradient(circle at 90% 15%, rgba(37,99,235,0.06) 0%, transparent 45%),
+            radial-gradient(circle at 75% 80%, rgba(37,99,235,0.08) 0%, transparent 55%),
+            radial-gradient(circle at 20% 85%, rgba(37,99,235,0.05) 0%, transparent 40%),
+            radial-gradient(circle at 50% 50%, rgba(37,99,235,0.04) 0%, transparent 60%);
         pointer-events: none;
         z-index: 0;
     }
@@ -960,7 +960,7 @@
     [data-theme="dark"] .hero-desktop-text   { color: #9ca3af; }
     [data-theme="dark"] .hero-mobile-arab    { color: #e2e8f0; }
     [data-theme="dark"] .hero-mobile-desc    { color: #9ca3af; }
-    [data-theme="dark"] .hero-desktop-number { color: #4dd9cf; }
-    [data-theme="dark"] .hadith-number       { color: #4dd9cf; }
+    [data-theme="dark"] .hero-desktop-number { color: #60a5fa; }
+    [data-theme="dark"] .hadith-number       { color: #60a5fa; }
     [data-theme="dark"] .floating-icon       { opacity: .15; }
 </style>

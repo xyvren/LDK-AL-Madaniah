@@ -47,7 +47,7 @@
 {{-- ── Hero Section ─────────────────────────────────────────────── --}}
 <section class="ed-hero">
     <div class="ed-hero-bg"
-         style="background-image: url('{{ $postevent->getPosterUrl() ?? 'https://placehold.co/1200x600/1a1a2e/00a79d?text=Event' }}')">
+         style="background-image: url('{{ $postevent->getPosterUrl() ?? 'https://placehold.co/1200x600/1a1a2e/2563eb?text=Event' }}')">
     </div>
     <div class="ed-hero-overlay"></div>
 

@@ -20,7 +20,7 @@
     <x-hero-jumbotron type="hadith">
         <div class="hero-slide">
             <img class="hero-image"
-                 src="https://lh3.googleusercontent.com/d/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O"
+                 src="/drive-media/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O"
                  alt="Celengan Syahid" />
         </div>
     </x-hero-jumbotron>

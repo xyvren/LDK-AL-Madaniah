@@ -43,7 +43,7 @@
         36 => '#0891b2', // Travel & Pariwisata
         37 => '#f97316', // Kuliner
         38 => '#8b5cf6', // Fiksi
-        39 => '#00a79d', // Non-Fiksi
+        39 => '#2563eb', // Non-Fiksi
         40 => '#ec4899', // Puisi
         41 => '#7c3aed', // Cerpen
         42 => '#a855f7', // Novel
@@ -89,7 +89,7 @@
             @foreach($books as $book)
             @php
                 $catId  = $book->getBookCategory->bookCategoryID ?? 0;
-                $spine  = $categoryColors[$catId] ?? '#00a79d';
+                $spine  = $categoryColors[$catId] ?? '#2563eb';
                 $isNew  = \Carbon\Carbon::parse($book->createdDate)->diffInDays(now()) <= 30;
                 $isPrem = (($book->authorTypeID == 1 || $book->authorTypeID == 2) && $book->availabilityTypeID == 2);
                 $cover  = $book->coverImageUrl()
@@ -284,7 +284,7 @@
             @foreach($books as $book)
             @php
                 $catId  = $book->getBookCategory->bookCategoryID ?? 0;
-                $spine  = $categoryColors[$catId] ?? '#00a79d';
+                $spine  = $categoryColors[$catId] ?? '#2563eb';
                 $isNew  = \Carbon\Carbon::parse($book->createdDate)->diffInDays(now()) <= 30;
                 $isPrem = (($book->authorTypeID == 1 || $book->authorTypeID == 2) && $book->availabilityTypeID == 2);
                 $cover  = $book->coverImageUrl()

@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var node  = el.dataset.node  || '';
 
         var imgHtml = image
-            ? '<img src="https://lh3.googleusercontent.com/d/' + escHtml(image) + '" alt="' + escHtml(title) + '" class="rp-bs-img-photo" loading="lazy">'
+            ? '<img src="/drive-media/' + escHtml(image) + '" alt="' + escHtml(title) + '" class="rp-bs-img-photo" loading="lazy">'
             : '<div class="rp-bs-img-fallback"><i class="fas fa-file-alt"></i></div>';
 
         content.innerHTML =

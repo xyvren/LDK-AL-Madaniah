@@ -9,7 +9,7 @@
     font-size: 1.65rem;
     font-weight: 600;
     text-align: center;
-    color: #00a79d;
+    color: #2563eb;
     margin: .75rem 0 1.5rem;
     position: relative;
     display: inline-block;
@@ -25,18 +25,18 @@
     width: 120px;
     margin: .35rem auto 0;
     border-radius: 3px;
-    background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);
+    background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);
 }
 
 .text-custom {
-    color: #00a79d !important;
+    color: #2563eb !important;
 }
 
 /* ── Section Title ───────────────────────────────────────── */
 .section-title {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #00a79d;
+    color: #2563eb;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #e0f7f5;
 }
@@ -44,8 +44,8 @@
 /* ── Custom Primary Button ───────────────────────────────── */
 .btn-custom-primary {
     color: #fff !important;
-    background-color: #00a79d;
-    border: 1px solid #00a79d;
+    background-color: #2563eb;
+    border: 1px solid #2563eb;
     transition: all 0.3s ease;
 }
 .btn-custom-primary:hover {
@@ -58,14 +58,14 @@
 }
 
 .btn-outline-teal {
-    color: #00a79d !important;
-    border: 1.5px solid #00a79d !important;
+    color: #2563eb !important;
+    border: 1.5px solid #2563eb !important;
     background-color: transparent !important;
     font-weight: 600;
     transition: all 0.2s ease;
 }
 .btn-outline-teal:hover {
-    background-color: #00a79d !important;
+    background-color: #2563eb !important;
     color: #ffffff !important;
 }
 
@@ -87,7 +87,7 @@
     justify-content: center;
     font-size: 1rem;
 }
-.adm-header-icon.primary { background-color: #e0f7f5; color: #00a79d; }
+.adm-header-icon.primary { background-color: #e0f7f5; color: #2563eb; }
 .adm-header-icon.success { background-color: #d1fae5; color: #059669; }
 .adm-header-icon.danger  { background-color: #fee2e2; color: #dc2626; }
 .adm-header-icon.warning { background-color: #fef3c7; color: #d97706; }
@@ -162,7 +162,7 @@
     overflow: hidden;
 }
 .adm-dept-trigger-card:hover {
-    border-color: #00a79d;
+    border-color: #2563eb;
     background: #f0fdfa;
     box-shadow: 0 4px 14px rgba(0, 167, 157, 0.15);
     transform: translateY(-1px);
@@ -173,7 +173,7 @@
     min-width: 40px;
     border-radius: 10px;
     background-color: #e0f7f5;
-    color: #00a79d;
+    color: #2563eb;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,7 +182,7 @@
     transition: all 0.2s;
 }
 .adm-dept-trigger-card:hover .adm-dept-trigger-icon {
-    background-color: #00a79d;
+    background-color: #2563eb;
     color: #ffffff;
 }
 .adm-dept-card-text-wrap {
@@ -239,7 +239,7 @@
     transition: all 0.2s ease;
 }
 .adm-dept-trigger-card:hover .adm-dept-arrow {
-    background-color: #00a79d;
+    background-color: #2563eb;
     color: #ffffff;
     transform: translateX(2px);
 }
@@ -268,7 +268,7 @@
     transition: all 0.2s ease;
 }
 .adm-modal-search-input:focus {
-    border-color: #00a79d;
+    border-color: #2563eb;
     box-shadow: 0 0 0 3px rgba(0, 167, 157, 0.15);
 }
 .adm-search-clear-btn {
@@ -314,13 +314,13 @@
 }
 .adm-modal-cat-pill:hover, .adm-dept-pill:hover {
     background: #e0f7f5;
-    border-color: #00a79d;
+    border-color: #2563eb;
     color: #008b84 !important;
     transform: translateY(-1px);
 }
 .adm-modal-cat-pill.active, .adm-dept-pill.active {
-    background: linear-gradient(135deg, #00a79d 0%, #008b84 100%);
-    border-color: #00a79d;
+    background: linear-gradient(135deg, #2563eb 0%, #008b84 100%);
+    border-color: #2563eb;
     color: #ffffff !important;
     box-shadow: 0 3px 10px rgba(0, 167, 157, 0.3);
 }
@@ -341,13 +341,13 @@
     height: 100%;
 }
 .adm-dept-card:hover {
-    border-color: #00a79d;
+    border-color: #2563eb;
     background: #f0fdfa;
     transform: translateY(-2px);
     box-shadow: 0 4px 14px rgba(0, 167, 157, 0.12);
 }
 .adm-dept-card.active {
-    border-color: #00a79d;
+    border-color: #2563eb;
     background: #e0f7f5;
     box-shadow: 0 4px 14px rgba(0, 167, 157, 0.2);
 }
@@ -357,7 +357,7 @@
     min-width: 40px;
     border-radius: 10px;
     background-color: #e0f7f5;
-    color: #00a79d;
+    color: #2563eb;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -365,11 +365,11 @@
     transition: all 0.2s;
 }
 .adm-dept-card:hover .adm-dept-card-icon {
-    background-color: #00a79d;
+    background-color: #2563eb;
     color: #ffffff;
 }
 .adm-dept-card.active .adm-dept-card-icon {
-    background-color: #00a79d;
+    background-color: #2563eb;
     color: #ffffff;
 }
 .adm-dept-card-name {
@@ -421,11 +421,11 @@
     background-color: transparent;
 }
 .adm-dept-card:hover .adm-dept-check-circle {
-    border-color: #00a79d;
+    border-color: #2563eb;
 }
 .adm-dept-card.active .adm-dept-check-circle {
-    background-color: #00a79d;
-    border-color: #00a79d;
+    background-color: #2563eb;
+    border-color: #2563eb;
     color: #ffffff;
     box-shadow: 0 2px 6px rgba(0, 167, 157, 0.4);
 }
@@ -499,7 +499,7 @@ html.dark-mode .adm-type-picker-btn {
 html.dark-mode .adm-type-picker-btn:hover,
 html.dark-mode .adm-type-picker-btn.has-filter {
     background: rgba(0, 167, 157, 0.18) !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     color: #2dd4bf !important;
 }
 
@@ -511,14 +511,14 @@ html.dark-mode .adm-dept-trigger-card {
 }
 html.dark-mode .adm-dept-trigger-card:hover {
     background: rgba(0, 167, 157, 0.14) !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
 }
 html.dark-mode .adm-dept-trigger-icon {
     background-color: rgba(0, 167, 157, 0.2) !important;
     color: #2dd4bf !important;
 }
 html.dark-mode .adm-dept-trigger-card:hover .adm-dept-trigger-icon {
-    background-color: #00a79d !important;
+    background-color: #2563eb !important;
     color: #ffffff !important;
 }
 html.dark-mode .adm-dept-picker-title {
@@ -540,7 +540,7 @@ html.dark-mode .adm-dept-arrow {
     color: #94a3b8 !important;
 }
 html.dark-mode .adm-dept-trigger-card:hover .adm-dept-arrow {
-    background-color: #00a79d !important;
+    background-color: #2563eb !important;
     color: #ffffff !important;
 }
 
@@ -569,7 +569,7 @@ html.dark-mode .adm-modal-search-input {
     color: #f1f5f9 !important;
 }
 html.dark-mode .adm-modal-search-input:focus {
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     box-shadow: 0 0 0 3px rgba(0, 167, 157, 0.25) !important;
 }
 html.dark-mode .adm-modal-cat-pill,
@@ -581,13 +581,13 @@ html.dark-mode .adm-dept-pill {
 html.dark-mode .adm-modal-cat-pill:hover,
 html.dark-mode .adm-dept-pill:hover {
     background: rgba(0, 167, 157, 0.2) !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     color: #2dd4bf !important;
 }
 html.dark-mode .adm-modal-cat-pill.active,
 html.dark-mode .adm-dept-pill.active {
-    background: linear-gradient(135deg, #00a79d 0%, #008b84 100%) !important;
-    border-color: #00a79d !important;
+    background: linear-gradient(135deg, #2563eb 0%, #008b84 100%) !important;
+    border-color: #2563eb !important;
     color: #ffffff !important;
 }
 html.dark-mode .adm-dept-card {
@@ -597,11 +597,11 @@ html.dark-mode .adm-dept-card {
 }
 html.dark-mode .adm-dept-card:hover {
     background: rgba(0, 167, 157, 0.12) !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
 }
 html.dark-mode .adm-dept-card.active {
     background: rgba(0, 167, 157, 0.2) !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
 }
 html.dark-mode .adm-dept-card-icon {
     background-color: rgba(0, 167, 157, 0.2) !important;
@@ -609,7 +609,7 @@ html.dark-mode .adm-dept-card-icon {
 }
 html.dark-mode .adm-dept-card:hover .adm-dept-card-icon,
 html.dark-mode .adm-dept-card.active .adm-dept-card-icon {
-    background-color: #00a79d !important;
+    background-color: #2563eb !important;
     color: #ffffff !important;
 }
 html.dark-mode .adm-dept-card-name {
@@ -634,8 +634,8 @@ html.dark-mode .adm-dept-check-circle {
     border-color: #4b5563 !important;
 }
 html.dark-mode .adm-dept-card.active .adm-dept-check-circle {
-    background-color: #00a79d !important;
-    border-color: #00a79d !important;
+    background-color: #2563eb !important;
+    border-color: #2563eb !important;
     color: #ffffff !important;
 }
 
@@ -684,10 +684,10 @@ html.dark-mode span.adm-badge-neutral {
 /* ── Status Text Helpers in Dark Mode ── */
 html.dark-mode .btn-outline-teal {
     color: #2dd4bf !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
 }
 html.dark-mode .btn-outline-teal:hover {
-    background-color: #00a79d !important;
+    background-color: #2563eb !important;
     color: #ffffff !important;
 }
 html.dark-mode .text-success { color: #34d399 !important; }

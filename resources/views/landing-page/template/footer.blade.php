@@ -253,8 +253,8 @@
 
 <style>
     :root {
-        --primary: #00a79d;
-        --primary-gradient: linear-gradient(135deg, #00a79d 0%, #00c9b7 100%);
+        --primary: #2563eb;
+        --primary-gradient: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
         --font-primary: 'Inter', sans-serif;
     }
 
@@ -736,6 +736,6 @@
 
     /* ── Dark Mode ── */
     [data-theme="dark"] .footer-wave { background: transparent; }
-    [data-theme="dark"] .footer-logo { background: #252b3b; border-color: rgba(0,167,157,.35); }
+    [data-theme="dark"] .footer-logo { background: #252b3b; border-color: rgba(37,99,235,.35); }
 </style>
 

@@ -22,20 +22,20 @@
     gap: .5rem;                    /* space between icon and input */
     background: #ffffff;
     border-radius: 50px;
-    border: 2px solid rgba(0,167,157,.2);
-    box-shadow: 0 4px 20px rgba(0,167,157,.12), 0 1px 6px rgba(0,0,0,.05);
+    border: 2px solid rgba(37,99,235,.2);
+    box-shadow: 0 4px 20px rgba(37,99,235,.12), 0 1px 6px rgba(0,0,0,.05);
     transition: border-color .22s, box-shadow .22s;
     padding: 0 .5rem 0 1.1rem;    /* left pad starts the icon; right pad clears the × btn */
 }
 .sfb-field:focus-within {
-    border-color: #00a79d;
-    box-shadow: 0 4px 22px rgba(0,167,157,.22), 0 0 0 4px rgba(0,167,157,.09);
+    border-color: #2563eb;
+    box-shadow: 0 4px 22px rgba(37,99,235,.22), 0 0 0 4px rgba(37,99,235,.09);
 }
 
 /* Icon — regular flex child (NOT absolute), auto-centered by align-items */
 .sfb-search-icon {
     flex-shrink: 0;
-    color: #00a79d;
+    color: #2563eb;
     font-size: .95rem;
     pointer-events: none;
     user-select: none;
@@ -76,7 +76,7 @@
     width: 24px;
     height: 24px;
     cursor: pointer;
-    color: #00a79d;
+    color: #2563eb;
     font-size: .62rem;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@
     transition: background .2s, color .2s, transform .15s;
     flex-shrink: 0;
 }
-.sfb-clear:hover { background: #00a79d; color: white; transform: translateY(-50%) scale(1.1); }
+.sfb-clear:hover { background: #2563eb; color: white; transform: translateY(-50%) scale(1.1); }
 
 /* ── Actions group ───────────────────────────────────────────── */
 .sfb-actions {
@@ -131,7 +131,7 @@
     display: inline-flex;
     align-items: center;
     gap: .5rem;
-    background: linear-gradient(135deg, #00c4b8 0%, #00a79d 100%);
+    background: linear-gradient(135deg, #00c4b8 0%, #2563eb 100%);
     color: white;
     border: none;
     border-radius: 50px;
@@ -141,15 +141,15 @@
     white-space: nowrap;
     cursor: pointer;
     position: relative;
-    box-shadow: 0 4px 16px rgba(0,167,157,.4);
+    box-shadow: 0 4px 16px rgba(37,99,235,.4);
     transition: filter .22s, box-shadow .22s, transform .18s;
 }
 .sfb-filter-btn:hover {
     filter: brightness(1.08);
-    box-shadow: 0 6px 22px rgba(0,167,157,.52);
+    box-shadow: 0 6px 22px rgba(37,99,235,.52);
     transform: translateY(-1px);
 }
-.sfb-filter-btn:active { transform: translateY(0); box-shadow: 0 2px 8px rgba(0,167,157,.3); }
+.sfb-filter-btn:active { transform: translateY(0); box-shadow: 0 2px 8px rgba(37,99,235,.3); }
 
 /* Filter count badge */
 .sfb-badge {
@@ -174,8 +174,8 @@
     display: inline-flex;
     align-items: center;
     gap: .5rem;
-    border: 2px solid rgba(0,167,157,.28);
-    color: #00a79d;
+    border: 2px solid rgba(37,99,235,.28);
+    color: #2563eb;
     background: white;
     border-radius: 50px;
     padding: .73rem 1.25rem;
@@ -188,9 +188,9 @@
 }
 .sfb-sort-btn:hover,
 .sfb-sort-btn:focus {
-    border-color: #00a79d;
+    border-color: #2563eb;
     background: #f0fefd;
-    box-shadow: 0 4px 16px rgba(0,167,157,.18);
+    box-shadow: 0 4px 16px rgba(37,99,235,.18);
     transform: translateY(-1px);
     outline: none;
 }
@@ -199,9 +199,9 @@
 
 /* Sort dropdown menu — smooth open/close */
 .sfb-sort-menu {
-    border: 1.5px solid rgba(0,167,157,.22) !important;
+    border: 1.5px solid rgba(37,99,235,.22) !important;
     border-radius: 1rem !important;
-    box-shadow: 0 12px 40px rgba(0,0,0,.12), 0 2px 8px rgba(0,167,157,.08) !important;
+    box-shadow: 0 12px 40px rgba(0,0,0,.12), 0 2px 8px rgba(37,99,235,.08) !important;
     overflow: hidden;
     padding: .45rem 0 !important;
     min-width: 195px !important;
@@ -240,8 +240,8 @@
     flex-shrink: 0;
 }
 .sfb-sort-item > span { flex: 1; }
-.sfb-sort-item:hover { background: #f0fefd !important; color: #00a79d !important; }
-.sfb-sort-item:hover i:first-child { color: #00a79d; }
+.sfb-sort-item:hover { background: #f0fefd !important; color: #2563eb !important; }
+.sfb-sort-item:hover i:first-child { color: #2563eb; }
 .sfb-sort-item.active {
     background: linear-gradient(135deg, #eafaf8, #d4f5f2) !important;
     color: #007d76 !important;
@@ -253,7 +253,7 @@
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: .7rem;
-    color: #00a79d;
+    color: #2563eb;
 }
 
 /* ── Active Filter Pills ─────────────────────────────────────── */
@@ -273,10 +273,10 @@
     padding: .32rem .65rem .32rem 1rem;
     font-size: .78rem;
     font-weight: 600;
-    border: 1.5px solid rgba(0,167,157,.22);
+    border: 1.5px solid rgba(37,99,235,.22);
     cursor: default;
     user-select: none;
-    box-shadow: 0 1px 4px rgba(0,167,157,.08);
+    box-shadow: 0 1px 4px rgba(37,99,235,.08);
 }
 
 /* × circle — the only interactive part */
@@ -318,12 +318,12 @@
 /* ── Dark Mode ── */
 [data-theme="dark"] .sfb-field {
     background: #1a1f2e;
-    border-color: rgba(0,167,157,.3);
+    border-color: rgba(37,99,235,.3);
     box-shadow: 0 4px 16px rgba(0,0,0,.35);
 }
 [data-theme="dark"] .sfb-field:focus-within {
-    border-color: #00a79d;
-    box-shadow: 0 4px 16px rgba(0,0,0,.4), 0 0 0 4px rgba(0,167,157,.18);
+    border-color: #2563eb;
+    box-shadow: 0 4px 16px rgba(0,0,0,.4), 0 0 0 4px rgba(37,99,235,.18);
 }
 [data-theme="dark"] .sfb-field .sfb-input { background: transparent}
 [data-theme="dark"] .sfb-field .sfb-input::placeholder { color: #3d5a57; }
@@ -335,13 +335,13 @@
 [data-theme="dark"] .sfb-sort-btn {
     background: #1a1f2e;
     color: #00c4b8;
-    border-color: rgba(0,167,157,.35);
+    border-color: rgba(37,99,235,.35);
 }
 [data-theme="dark"] .sfb-sort-btn:hover,
 [data-theme="dark"] .sfb-sort-btn:focus { background: #1e2f2e; }
 [data-theme="dark"] .sfb-sort-menu {
     background: #1a1f2e !important;
-    border-color: rgba(0,167,157,.25) !important;
+    border-color: rgba(37,99,235,.25) !important;
 }
 [data-theme="dark"] .sfb-sort-item { color: #cbd5e0 !important; }
 [data-theme="dark"] .sfb-sort-item i:first-child { color: #4a6a68; }
@@ -352,8 +352,8 @@
 }
 [data-theme="dark"] .sfb-pill {
     background: #1e3a38;
-    color: #4dd9cf;
-    border-color: rgba(0,167,157,.3);
+    color: #60a5fa;
+    border-color: rgba(37,99,235,.3);
 }
 [data-theme="dark"] .sfb-badge { border-color: white; }
 </style>

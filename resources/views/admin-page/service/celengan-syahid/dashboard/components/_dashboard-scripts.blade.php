@@ -1,7 +1,7 @@
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script>
 $(document).ready(function() {
-    var tealPalette = ['#00a79d', '#00c9bd', '#008b84', '#33b8b0', '#006b63'];
+    var tealPalette = ['#2563eb', '#00c9bd', '#008b84', '#33b8b0', '#006b63'];
     var plotConfig = { responsive: true, displayModeBar: false };
 
     // Cache data for re-render on dark mode toggle
@@ -40,7 +40,7 @@ $(document).ready(function() {
             marker: { color: tealPalette, line: { color: '#fff', width: 1 } },
             text: counts.map(String), textposition: 'outside',
             hoverinfo: 'x+y',
-            hoverlabel: { bgcolor: c.hover_bg, bordercolor: '#00a79d', font: { color: c.hover_font } }
+            hoverlabel: { bgcolor: c.hover_bg, bordercolor: '#2563eb', font: { color: c.hover_font } }
         }], {
             title: { text: '' },
             xaxis: { title: 'Donation Category', tickangle: -15, color: c.font },
@@ -69,7 +69,7 @@ $(document).ready(function() {
             marker: { colors: tealPalette, line: { color: '#fff', width: 2 } },
             textinfo: 'percent+label', textfont: { size: 11, color: c.font },
             hoverinfo: 'label+value+percent',
-            hoverlabel: { bgcolor: c.hover_bg, bordercolor: '#00a79d', font: { color: c.hover_font } }
+            hoverlabel: { bgcolor: c.hover_bg, bordercolor: '#2563eb', font: { color: c.hover_font } }
         }], {
             title: { text: '' }, showlegend: true,
             legend: { orientation: 'h', y: -0.15, font: { size: 11, color: c.font } },
@@ -102,7 +102,7 @@ $(document).ready(function() {
             if (bar && bar.x.length > 0) {
                 bar.marker = { color: tealPalette[idx % tealPalette.length], line: { color: '#fff', width: 1 } };
                 bar.hoverinfo = 'name+y';
-                bar.hoverlabel = { bgcolor: c.hover_bg, bordercolor: '#00a79d', font: { color: c.hover_font } };
+                bar.hoverlabel = { bgcolor: c.hover_bg, bordercolor: '#2563eb', font: { color: c.hover_font } };
                 return bar;
             }
             return null;
@@ -111,7 +111,7 @@ $(document).ready(function() {
             barmode: 'group', title: { text: '' },
             xaxis: { title: 'Age Category', categoryorder: 'array', categoryarray: categoryOrder, automargin: true, tickangle: -15, color: c.font },
             yaxis: { title: 'Donor Count', gridcolor: c.grid, color: c.font },
-            legend: { title: { text: 'Donation Category', font: { size: 12, color: '#00a79d' } }, font: { size: 11, color: c.font } },
+            legend: { title: { text: 'Donation Category', font: { size: 12, color: '#2563eb' } }, font: { size: 11, color: c.font } },
             plot_bgcolor: 'rgba(0,0,0,0)', paper_bgcolor: 'rgba(0,0,0,0)',
             font: { family: 'inherit', color: c.font },
             margin: { t: 20, b: 100, l: 50, r: 50 }

@@ -41,7 +41,7 @@
 
                 {{-- Full-width Image --}}
                 <a href="{{ $article->getArticleUrl() }}" class="ar-card-img-wrap">
-                    <img src="https://lh3.googleusercontent.com/d/{{ $article->gdrive_id }}"
+                    <img src="/drive-media/{{ $article->gdrive_id }}"
                          alt="{{ $article->title }}"
                          class="ar-card-img" loading="lazy">
                     <div class="ar-card-date">
@@ -151,7 +151,7 @@
                  onclick="arOpenBottomSheet(this)">
 
                 <div class="ar-m-thumb">
-                    <img src="https://lh3.googleusercontent.com/d/{{ $article->gdrive_id }}"
+                    <img src="/drive-media/{{ $article->gdrive_id }}"
                          alt="{{ $article->title }}" loading="lazy">
                     <div class="ar-card-date">
                         <span class="ar-card-date-num">{{ \Carbon\Carbon::parse($article->dateevent)->format('d') }}</span>

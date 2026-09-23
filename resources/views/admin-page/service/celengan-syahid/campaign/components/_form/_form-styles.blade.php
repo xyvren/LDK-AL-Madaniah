@@ -4,7 +4,7 @@
         font-size: 1.65rem;
         font-weight: 600;
         text-align: center;
-        color: #00a79d;
+        color: #2563eb;
         margin: .75rem 0 1.5rem;
         position: relative;
         display: inline-block;
@@ -20,19 +20,19 @@
         width: 120px;
         margin: .35rem auto 0;
         border-radius: 3px;
-        background: linear-gradient(90deg,#00a79d 0%,#008b84 100%);
+        background: linear-gradient(90deg,#2563eb 0%,#008b84 100%);
     }
     .section-title {
         font-size: 1.1rem;
         font-weight: 600;
-        color: #00a79d;
+        color: #2563eb;
         padding-bottom: 0.5rem;
         border-bottom: 2px solid #e0f7f5;
     }
     .btn-custom-primary {
         color: #fff;
-        background-color: #00a79d;
-        border: 1px solid #00a79d;
+        background-color: #2563eb;
+        border: 1px solid #2563eb;
         transition: all 0.3s ease;
     }
     .btn-custom-primary:hover {
@@ -48,7 +48,7 @@
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
     .form-control:focus, .form-select:focus {
-        border-color: #00a79d;
+        border-color: #2563eb;
         box-shadow: 0 0 0 0.2rem rgba(0, 167, 157, 0.25);
     }
     .form-text { font-size: 0.8rem; color: #6c757d; }
@@ -64,7 +64,7 @@
         transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     }
     .pic-phone-group:focus-within {
-        border-color: #00a79d;
+        border-color: #2563eb;
         box-shadow: 0 0 0 0.2rem rgba(0, 167, 157, 0.25);
     }
     .pic-phone-group.is-invalid { border-color: #dc3545; }
@@ -116,7 +116,7 @@
        globally there — only this component's own wrapper border needs it. */
     html.dark-mode .pic-phone-group { border-color: #373b3e; }
     html.dark-mode .pic-phone-group.is-invalid { border-color: #ea868f; }
-    html.dark-mode .pic-phone-group:focus-within { border-color: #00a79d; }
+    html.dark-mode .pic-phone-group:focus-within { border-color: #2563eb; }
     .invalid-feedback { font-size: 0.85rem; }
     .form-control-plaintext {
         padding: 0.375rem 0;
@@ -145,7 +145,7 @@
         display: block;
     }
     .image-preview-container.has-image {
-        border-color: #00a79d;
+        border-color: #2563eb;
     }
     .form-label.fw-bold { color: #495057; font-weight: 600; }
 
@@ -181,7 +181,7 @@
         top: 0;
     }
     .select2-container--default .select2-selection--single .select2-selection__arrow b {
-        border-color: #00a79d transparent transparent transparent;
+        border-color: #2563eb transparent transparent transparent;
         border-width: 6px 5px 0 5px;
     }
     .select2-container--default .select2-selection--single .select2-selection__clear {
@@ -243,7 +243,7 @@
         border-bottom: none;
     }
     .select2-container--default .select2-results__option--highlighted[aria-selected] {
-        background-color: #00a79d !important;
+        background-color: #2563eb !important;
         color: #fff !important;
     }
     .select2-container--default .select2-results__option[aria-selected="true"] {

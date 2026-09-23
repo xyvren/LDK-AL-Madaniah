@@ -19,12 +19,12 @@
                 <div class="row g-3">
                     <div class="col-6 col-md-4">
                         <div class="cs-info-card p-3 d-flex align-items-center gap-3">
-                            <div class="cs-info-icon" style="background: linear-gradient(135deg, #00a79d, #008b84);">
+                            <div class="cs-info-icon" style="background: linear-gradient(135deg, #2563eb, #008b84);">
                                 <i class="fa fa-chart-bar"></i>
                             </div>
                             <div>
                                 <div class="fw-bold text-muted" style="font-size: 0.8rem;">Chart 1</div>
-                                <div class="fw-semibold" style="color: #00a79d;">Donation Class</div>
+                                <div class="fw-semibold" style="color: #2563eb;">Donation Class</div>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="cs-info-card p-3 d-flex align-items-center gap-3">
-                            <div class="cs-info-icon" style="background: linear-gradient(135deg, #00c9bd, #00a79d);">
+                            <div class="cs-info-icon" style="background: linear-gradient(135deg, #00c9bd, #2563eb);">
                                 <i class="fa fa-chart-area"></i>
                             </div>
                             <div>

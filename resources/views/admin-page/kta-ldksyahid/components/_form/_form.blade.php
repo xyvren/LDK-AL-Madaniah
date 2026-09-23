@@ -4,8 +4,8 @@
     $facultyModel = $facultyModel ?? collect();
     $generationModel = $generationModel ?? collect();
 
-    $defaultMaleImage = 'https://lh3.googleusercontent.com/d/1dpTivBD1VPetcmHj3psiz75si_n1PwTo';
-    $defaultFemaleImage = 'https://lh3.googleusercontent.com/d/1wssPqERqsehbQIrUsp9ntd9RHe8m77OQ';
+    $defaultMaleImage = '/drive-media/1dpTivBD1VPetcmHj3psiz75si_n1PwTo';
+    $defaultFemaleImage = '/drive-media/1wssPqERqsehbQIrUsp9ntd9RHe8m77OQ';
     $currentPhoto = null;
     if ($ktaData) {
         if ($ktaData->gdrive_id) {

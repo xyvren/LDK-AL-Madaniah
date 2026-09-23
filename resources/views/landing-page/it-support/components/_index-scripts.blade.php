@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var photo     = card.dataset.photo     || '';
         var instagram = card.dataset.instagram || '';
         var linkedin  = card.dataset.linkedin  || '';
-        var accent    = card.dataset.accent    || '#00a79d';
+        var accent    = card.dataset.accent    || '#2563eb';
 
         /* Gradient header */
         var hdrHtml =

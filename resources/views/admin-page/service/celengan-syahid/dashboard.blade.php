@@ -6,7 +6,7 @@
         font-size: 1.65rem;
         font-weight: 600;
         text-align: center;
-        color: #00a79d;
+        color: #2563eb;
         margin: .75rem 0 1.5rem;
         position: relative;
         display: inline-block;
@@ -22,12 +22,12 @@
         width: 120px;
         margin: .35rem auto 0;
         border-radius: 3px;
-        background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);
+        background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);
     }
     .cs-section-title {
         font-size: 1.1rem;
         font-weight: 600;
-        color: #00a79d;
+        color: #2563eb;
         padding-bottom: 0.5rem;
         border-bottom: 2px solid #e0f7f5;
     }
@@ -56,7 +56,7 @@
     .cs-info-card:hover {
         transform: translateY(-3px);
         box-shadow: 0 6px 16px rgba(0, 167, 157, 0.15);
-        border-color: #00a79d;
+        border-color: #2563eb;
     }
     .cs-info-icon {
         width: 48px;
@@ -86,7 +86,7 @@
         width: 40px;
         height: 40px;
         border: 4px solid #e0f7f5;
-        border-top: 4px solid #00a79d;
+        border-top: 4px solid #2563eb;
         border-radius: 50%;
         animation: cs-spin 0.8s linear infinite;
     }
@@ -117,7 +117,7 @@
     }
     html.dark-mode .cs-loading-spinner {
         border-color: #373b3e;
-        border-top-color: #00a79d;
+        border-top-color: #2563eb;
     }
 
     @media (max-width: 768px) {
@@ -154,12 +154,12 @@
                 <div class="row g-3">
                     <div class="col-6 col-md-4">
                         <div class="cs-info-card p-3 d-flex align-items-center gap-3">
-                            <div class="cs-info-icon" style="background: linear-gradient(135deg, #00a79d, #008b84);">
+                            <div class="cs-info-icon" style="background: linear-gradient(135deg, #2563eb, #008b84);">
                                 <i class="fa fa-chart-bar"></i>
                             </div>
                             <div>
                                 <div class="fw-bold text-muted" style="font-size: 0.8rem;">Chart 1</div>
-                                <div class="fw-semibold" style="color: #00a79d;">Donation Class</div>
+                                <div class="fw-semibold" style="color: #2563eb;">Donation Class</div>
                             </div>
                         </div>
                     </div>
@@ -176,7 +176,7 @@
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="cs-info-card p-3 d-flex align-items-center gap-3">
-                            <div class="cs-info-icon" style="background: linear-gradient(135deg, #00c9bd, #00a79d);">
+                            <div class="cs-info-icon" style="background: linear-gradient(135deg, #00c9bd, #2563eb);">
                                 <i class="fa fa-chart-area"></i>
                             </div>
                             <div>
@@ -250,7 +250,7 @@
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script>
 $(document).ready(function() {
-    var tealPalette = ['#00a79d', '#00c9bd', '#008b84', '#33b8b0', '#006b63'];
+    var tealPalette = ['#2563eb', '#00c9bd', '#008b84', '#33b8b0', '#006b63'];
     var plotConfig = { responsive: true, displayModeBar: false };
 
     // Cache data for re-render on dark mode toggle
@@ -289,7 +289,7 @@ $(document).ready(function() {
             marker: { color: tealPalette, line: { color: '#fff', width: 1 } },
             text: counts.map(String), textposition: 'outside',
             hoverinfo: 'x+y',
-            hoverlabel: { bgcolor: c.hover_bg, bordercolor: '#00a79d', font: { color: c.hover_font } }
+            hoverlabel: { bgcolor: c.hover_bg, bordercolor: '#2563eb', font: { color: c.hover_font } }
         }], {
             title: { text: '' },
             xaxis: { title: 'Donation Category', tickangle: -15, color: c.font },
@@ -318,7 +318,7 @@ $(document).ready(function() {
             marker: { colors: tealPalette, line: { color: '#fff', width: 2 } },
             textinfo: 'percent+label', textfont: { size: 11, color: c.font },
             hoverinfo: 'label+value+percent',
-            hoverlabel: { bgcolor: c.hover_bg, bordercolor: '#00a79d', font: { color: c.hover_font } }
+            hoverlabel: { bgcolor: c.hover_bg, bordercolor: '#2563eb', font: { color: c.hover_font } }
         }], {
             title: { text: '' }, showlegend: true,
             legend: { orientation: 'h', y: -0.15, font: { size: 11, color: c.font } },
@@ -351,7 +351,7 @@ $(document).ready(function() {
             if (bar && bar.x.length > 0) {
                 bar.marker = { color: tealPalette[idx % tealPalette.length], line: { color: '#fff', width: 1 } };
                 bar.hoverinfo = 'name+y';
-                bar.hoverlabel = { bgcolor: c.hover_bg, bordercolor: '#00a79d', font: { color: c.hover_font } };
+                bar.hoverlabel = { bgcolor: c.hover_bg, bordercolor: '#2563eb', font: { color: c.hover_font } };
                 return bar;
             }
             return null;
@@ -360,7 +360,7 @@ $(document).ready(function() {
             barmode: 'group', title: { text: '' },
             xaxis: { title: 'Age Category', categoryorder: 'array', categoryarray: categoryOrder, automargin: true, tickangle: -15, color: c.font },
             yaxis: { title: 'Donor Count', gridcolor: c.grid, color: c.font },
-            legend: { title: { text: 'Donation Category', font: { size: 12, color: '#00a79d' } }, font: { size: 11, color: c.font } },
+            legend: { title: { text: 'Donation Category', font: { size: 12, color: '#2563eb' } }, font: { size: 11, color: c.font } },
             plot_bgcolor: 'rgba(0,0,0,0)', paper_bgcolor: 'rgba(0,0,0,0)',
             font: { family: 'inherit', color: c.font },
             margin: { t: 20, b: 100, l: 50, r: 50 }

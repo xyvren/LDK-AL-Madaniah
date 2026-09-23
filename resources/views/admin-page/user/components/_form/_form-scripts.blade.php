@@ -27,7 +27,7 @@
                         title: 'Name Required!',
                         text: 'Please enter the user name.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     name.focus();
                     return;
@@ -40,7 +40,7 @@
                         title: 'Email Required!',
                         text: 'Please enter a valid email address.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     email.focus();
                     return;
@@ -54,7 +54,7 @@
                         title: 'Invalid Email!',
                         text: 'Please enter a valid email address.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     email.focus();
                     return;
@@ -68,7 +68,7 @@
                         title: 'Password Required!',
                         text: 'Please enter a password for the user.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     password.focus();
                     return;
@@ -81,7 +81,7 @@
                         title: 'Password Too Short!',
                         text: 'Password must be at least 6 characters.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     password.focus();
                     return;
@@ -94,7 +94,7 @@
                         title: 'Role Required!',
                         text: 'Please select a role for the user.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     return;
                 }
@@ -133,7 +133,7 @@
                 title: 'Error!',
                 text: '{{ session('error') }}',
                 icon: 'error',
-                confirmButtonColor: '#00a79d'
+                confirmButtonColor: '#2563eb'
             });
         @endif
     });

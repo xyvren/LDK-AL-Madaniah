@@ -4,7 +4,7 @@
         <div class="modal-content prs-modal-content rounded-4 border-0 shadow overflow-hidden">
 
             {{-- Top Teal Gradient Accent Line --}}
-            <div style="height: 4px; background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);"></div>
+            <div style="height: 4px; background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);"></div>
 
             {{-- Modal Header --}}
             <div class="modal-header prs-modal-header border-bottom">
@@ -13,7 +13,7 @@
                         <i class="fas fa-file-signature"></i>
                     </div>
                     <div>
-                        <span class="prs-modal-eyebrow d-block mb-1" style="font-size: 0.72rem; font-weight: 700; color: #00a79d; text-transform: uppercase; letter-spacing: 0.05em;">
+                        <span class="prs-modal-eyebrow d-block mb-1" style="font-size: 0.72rem; font-weight: 700; color: #2563eb; text-transform: uppercase; letter-spacing: 0.05em;">
                             <i class="fas fa-file-signature me-1"></i> Layanan Mandiri
                         </span>
                         <h5 class="modal-title prs-modal-title mb-0" id="modalChooseLetterLabel">Pilih Jenis Surat Resmi</h5>

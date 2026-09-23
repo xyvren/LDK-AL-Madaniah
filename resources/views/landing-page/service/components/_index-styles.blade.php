@@ -6,7 +6,7 @@
 /* ================================================================
    SERVICE PAGE  —  styles prefix: sv-
    Accent colors per service:
-     Call Kestari:       #00a79d
+     Call Kestari:       #2563eb
      Kalkulator Kestari: #6366f1
      Perpendek URL:      #f59e0b
      Celengan Al-Madaniah:    #10b981 (disabled)
@@ -27,18 +27,18 @@
 /* ─── Section Header ──────────────────────────────────────────── */
 .sv-section-badge {
     display: inline-flex; align-items: center; gap: .5rem;
-    background: #e0f7f5; color: #00a79d;
+    background: #e0f7f5; color: #2563eb;
     border-radius: 50px; padding: .4rem 1.2rem;
     font-size: .85rem; font-weight: 600;
 }
 .sv-badge-pulse {
-    width: 8px; height: 8px; background: #00a79d;
+    width: 8px; height: 8px; background: #2563eb;
     border-radius: 50%; flex-shrink: 0;
     animation: svPulse 2s ease infinite;
 }
 @keyframes svPulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(0,167,157,.4); }
-    50%       { box-shadow: 0 0 0 6px rgba(0,167,157,0); }
+    0%, 100% { box-shadow: 0 0 0 0 rgba(37,99,235,.4); }
+    50%       { box-shadow: 0 0 0 6px rgba(37,99,235,0); }
 }
 .sv-section-title { font-size: 2rem; font-weight: 700; color: var(--sv-dark); margin: 0; }
 .sv-section-sub   { color: var(--sv-gray); font-size: 1rem; margin: .5rem 0 0; }
@@ -58,7 +58,7 @@
 
 /* ─── Desktop Service Card ────────────────────────────────────── */
 .sv-card {
-    --sv-accent: #00a79d;
+    --sv-accent: #2563eb;
     background: white;
     border-radius: 24px;
     overflow: hidden;
@@ -198,7 +198,7 @@
 }
 
 .sv-m-card {
-    --sv-accent: #00a79d;
+    --sv-accent: #2563eb;
     display: flex; align-items: center; gap: .85rem;
     background: white; border-radius: 18px; overflow: hidden;
     box-shadow: 0 3px 14px rgba(0,0,0,.07);
@@ -271,11 +271,11 @@
     background: rgba(255,255,255,.95); border: none;
     width: 36px; height: 36px; border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
-    cursor: pointer; color: #00a79d; font-size: .9rem;
+    cursor: pointer; color: #2563eb; font-size: .9rem;
     box-shadow: 0 2px 12px rgba(0,0,0,.15);
     transition: background .2s, color .2s; z-index: 5;
 }
-.sv-bs-close:hover { background: #00a79d; color: white; }
+.sv-bs-close:hover { background: #2563eb; color: white; }
 .sv-bs-content { position: relative; }
 
 /* Image area in sheet */
@@ -341,11 +341,11 @@
 }
 .sv-bs-share-btn i { font-size: .8rem; }
 .sv-bs-share-copy {
-    background: rgba(0,167,157,.08); border-color: rgba(0,167,157,.22); color: #00a79d;
+    background: rgba(37,99,235,.08); border-color: rgba(37,99,235,.22); color: #2563eb;
 }
 .sv-bs-share-copy:hover {
-    background: #00a79d; color: white; border-color: #00a79d;
-    box-shadow: 0 4px 14px rgba(0,167,157,.30); transform: translateY(-1px);
+    background: #2563eb; color: white; border-color: #2563eb;
+    box-shadow: 0 4px 14px rgba(37,99,235,.30); transform: translateY(-1px);
 }
 .sv-bs-share-wa {
     background: rgba(37,211,102,.08); border-color: rgba(37,211,102,.28); color: #1da851;
@@ -393,28 +393,28 @@ body.sv-sheet-open .back-to-top {
 /* Section header */
 [data-theme="dark"] .sv-section-title  { color: #e2e8f0; }
 [data-theme="dark"] .sv-section-sub    { color: #9ca3af; }
-[data-theme="dark"] .sv-section-badge  { background: rgba(0,167,157,.15); color: #4dd9cf; }
+[data-theme="dark"] .sv-section-badge  { background: rgba(37,99,235,.15); color: #60a5fa; }
 /* Desktop card */
-[data-theme="dark"] .sv-card           { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
-[data-theme="dark"] .sv-card-img-wrap  { background: rgba(0,167,157,.08); }
-[data-theme="dark"] .sv-card:hover .sv-card-img-wrap { background: rgba(0,167,157,.14); }
+[data-theme="dark"] .sv-card           { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
+[data-theme="dark"] .sv-card-img-wrap  { background: rgba(37,99,235,.08); }
+[data-theme="dark"] .sv-card:hover .sv-card-img-wrap { background: rgba(37,99,235,.14); }
 [data-theme="dark"] .sv-card-title     { color: #e2e8f0; }
 [data-theme="dark"] .sv-card-desc      { color: #9ca3af; }
-[data-theme="dark"] .sv-card-footer    { border-top-color: rgba(0,167,157,.15); }
+[data-theme="dark"] .sv-card-footer    { border-top-color: rgba(37,99,235,.15); }
 [data-theme="dark"] .sv-badge-coming   { background: rgba(245,158,11,.15); color: #f59e0b; }
-[data-theme="dark"] .sv-card-cta-disabled { background: #252b3b; color: #9ca3af; border-color: rgba(0,167,157,.15); }
+[data-theme="dark"] .sv-card-cta-disabled { background: #252b3b; color: #9ca3af; border-color: rgba(37,99,235,.15); }
 /* Mobile list card (.sv-m-card — NOT .sv-mobile-card) */
-[data-theme="dark"] .sv-m-card         { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
-[data-theme="dark"] .sv-m-thumb        { background: rgba(0,167,157,.1); }
+[data-theme="dark"] .sv-m-card         { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
+[data-theme="dark"] .sv-m-thumb        { background: rgba(37,99,235,.1); }
 [data-theme="dark"] .sv-m-title        { color: #e2e8f0; }
 [data-theme="dark"] .sv-m-desc         { color: #9ca3af; }
-[data-theme="dark"] .sv-m-hint         { color: #4dd9cf; }
+[data-theme="dark"] .sv-m-hint         { color: #60a5fa; }
 [data-theme="dark"] .sv-m-arrow        { color: rgba(255,255,255,.15); }
 /* Bottom sheet */
 [data-theme="dark"] .sv-bottom-sheet   { background: #1a1f2e; }
-[data-theme="dark"] .sv-bs-close       { background: #252b3b; color: #4dd9cf; box-shadow: none; }
+[data-theme="dark"] .sv-bs-close       { background: #252b3b; color: #60a5fa; box-shadow: none; }
 [data-theme="dark"] .sv-bs-drag-handle { background: rgba(255,255,255,.15); }
-[data-theme="dark"] .sv-bs-img-wrap    { background: rgba(0,167,157,.08); }
+[data-theme="dark"] .sv-bs-img-wrap    { background: rgba(37,99,235,.08); }
 [data-theme="dark"] .sv-bs-title       { color: #e2e8f0; }
 [data-theme="dark"] .sv-bs-desc        { color: #9ca3af; }
 [data-theme="dark"] .sv-bs-share-label { color: #9ca3af; }

@@ -7,7 +7,7 @@
         font-size: 1.65rem;
         font-weight: 600;
         text-align: center;
-        color: #00a79d;
+        color: #2563eb;
         margin: .75rem 0 1.5rem;
         position: relative;
         display: inline-block;
@@ -23,12 +23,12 @@
         width: 120px;
         margin: .35rem auto 0;
         border-radius: 3px;
-        background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);
+        background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);
     }
     .section-title {
         font-size: 1.1rem;
         font-weight: 600;
-        color: #00a79d;
+        color: #2563eb;
         padding-bottom: 0.5rem;
         border-bottom: 2px solid #e0f7f5;
     }
@@ -39,7 +39,7 @@
 
     /* Greeting Header */
     .greeting-card {
-        background: linear-gradient(135deg, #00a79d 0%, #008b84 50%, #006b63 100%);
+        background: linear-gradient(135deg, #2563eb 0%, #008b84 50%, #006b63 100%);
         border-radius: 16px;
         color: #fff;
         padding: 1.5rem 2rem;
@@ -102,13 +102,13 @@
         justify-content: center;
         font-size: 1.4rem;
         color: #fff;
-        background: linear-gradient(135deg, #00a79d 0%, #008b84 100%);
+        background: linear-gradient(135deg, #2563eb 0%, #008b84 100%);
         flex-shrink: 0;
     }
     .widget-card .widget-count {
         font-size: 1.5rem;
         font-weight: 700;
-        color: #00a79d;
+        color: #2563eb;
         line-height: 1;
     }
     .widget-card .widget-label {
@@ -133,7 +133,7 @@
     .prayer-card:hover {
         transform: translateY(-3px);
         box-shadow: 0 6px 16px rgba(0, 167, 157, 0.15);
-        border-color: #00a79d;
+        border-color: #2563eb;
     }
     .prayer-card .prayer-icon {
         width: 42px;
@@ -142,7 +142,7 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(135deg, #00a79d 0%, #008b84 100%);
+        background: linear-gradient(135deg, #2563eb 0%, #008b84 100%);
         color: #fff;
         font-size: 1rem;
     }
@@ -154,7 +154,7 @@
     .prayer-card .prayer-time {
         font-size: 1rem;
         font-weight: 700;
-        color: #00a79d;
+        color: #2563eb;
     }
 
     /* Quick Actions */
@@ -173,9 +173,9 @@
         transition: all 0.3s ease;
     }
     .quick-action-btn:hover {
-        background: linear-gradient(135deg, #00a79d 0%, #008b84 100%);
+        background: linear-gradient(135deg, #2563eb 0%, #008b84 100%);
         color: #fff;
-        border-color: #00a79d;
+        border-color: #2563eb;
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 167, 157, 0.25);
         text-decoration: none;
@@ -189,7 +189,7 @@
         justify-content: center;
         font-size: 0.85rem;
         color: #fff;
-        background: linear-gradient(135deg, #00a79d 0%, #008b84 100%);
+        background: linear-gradient(135deg, #2563eb 0%, #008b84 100%);
         flex-shrink: 0;
         transition: all 0.3s ease;
     }
@@ -210,16 +210,16 @@
         color: #e4e6eb;
     }
     html.dark-mode .quick-action-btn:hover {
-        background: linear-gradient(135deg, #00a79d 0%, #008b84 100%);
+        background: linear-gradient(135deg, #2563eb 0%, #008b84 100%);
         color: #fff;
-        border-color: #00a79d;
+        border-color: #2563eb;
     }
     html.dark-mode .prayer-card {
         background: #2b2f33;
         border-color: #373b3e;
     }
     html.dark-mode .prayer-card:hover {
-        border-color: #00a79d;
+        border-color: #2563eb;
         box-shadow: 0 6px 16px rgba(0, 167, 157, 0.25);
     }
     html.dark-mode .prayer-card .prayer-name {
@@ -252,11 +252,11 @@
     }
     html.dark-mode .bootstrap-datetimepicker-widget table td.active,
     html.dark-mode .bootstrap-datetimepicker-widget table td.active:hover {
-        background: #00a79d !important;
+        background: #2563eb !important;
         color: #fff !important;
     }
     html.dark-mode .bootstrap-datetimepicker-widget table td.today::before {
-        border-bottom-color: #00a79d !important;
+        border-bottom-color: #2563eb !important;
     }
     html.dark-mode .bootstrap-datetimepicker-widget table td.old,
     html.dark-mode .bootstrap-datetimepicker-widget table td.new {
@@ -317,9 +317,9 @@
         display: inline-block;
     }
     /* Visitor Analytics range button */
-    .adm-va-range.active { background:#00a79d; border-color:#00a79d; color:#fff; }
+    .adm-va-range.active { background:#2563eb; border-color:#2563eb; color:#fff; }
     @keyframes adm-va-sh { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
-    .adm-va-sort-th:hover { color:#00a79d !important; }
+    .adm-va-sort-th:hover { color:#2563eb !important; }
 
     /* Visitor Analytics stat cards */
     .adm-va-stat-card { border-radius: 20px !important; }
@@ -334,26 +334,26 @@
 
     /* Visitor Analytics pagination */
     #adm-va-tp-pagination .pagination { margin-bottom:0; flex-wrap:wrap; gap:.25rem; }
-    #adm-va-tp-pagination .page-link { font-size:.8rem; padding:.3rem .55rem; color:#00a79d; border-radius:.375rem !important; min-width:2rem; text-align:center; }
-    #adm-va-tp-pagination .page-item.active .page-link { background:#00a79d; border-color:#00a79d; color:#fff; }
-    #adm-va-tp-pagination .page-link:focus { box-shadow:0 0 0 .15rem rgba(0,167,157,.25); }
+    #adm-va-tp-pagination .page-link { font-size:.8rem; padding:.3rem .55rem; color:#2563eb; border-radius:.375rem !important; min-width:2rem; text-align:center; }
+    #adm-va-tp-pagination .page-item.active .page-link { background:#2563eb; border-color:#2563eb; color:#fff; }
+    #adm-va-tp-pagination .page-link:focus { box-shadow:0 0 0 .15rem rgba(37,99,235,.25); }
     @media (max-width:575.98px) {
         #adm-va-tp-pagination .page-link { font-size:.75rem; padding:.25rem .45rem; min-width:1.8rem; }
     }
 
     html.dark-mode #adm-va-daterange { background-color:#2b2f33; border-color:#3a3e44; color:#dee2e6; }
     html.dark-mode #adm-va-daterange::placeholder { color:#6c757d; }
-    html.dark-mode #adm-va-refresh { color:#00a79d; border-color:#00a79d; }
+    html.dark-mode #adm-va-refresh { color:#2563eb; border-color:#2563eb; }
     html.dark-mode .adm-va-skel-div {
         background: linear-gradient(90deg, #2c2f33 25%, #3a3e44 50%, #2c2f33 75%);
         background-size:200% 100%;
     }
-    html.dark-mode #adm-va-tp-pagination .page-link { background-color:#2b2f33; border-color:#3a3e44; color:#00a79d; }
-    html.dark-mode #adm-va-tp-pagination .page-item.active .page-link { background:#00a79d; border-color:#00a79d; color:#fff; }
+    html.dark-mode #adm-va-tp-pagination .page-link { background-color:#2b2f33; border-color:#3a3e44; color:#2563eb; }
+    html.dark-mode #adm-va-tp-pagination .page-item.active .page-link { background:#2563eb; border-color:#2563eb; color:#fff; }
     html.dark-mode #adm-va-tp-pagination .page-item.disabled .page-link { background-color:#2b2f33; border-color:#3a3e44; color:#6c757d; }
     html.dark-mode #adm-va-tp-search { background-color:#2b2f33; border-color:#3a3e44; color:#dee2e6; }
     html.dark-mode #adm-va-tp-search::placeholder { color:#6c757d; }
-    html.dark-mode #adm-va-tp-search:focus { background-color:#2b2f33; border-color:#00a79d; color:#dee2e6; box-shadow:0 0 0 .15rem rgba(0,167,157,.25); }
+    html.dark-mode #adm-va-tp-search:focus { background-color:#2b2f33; border-color:#2563eb; color:#dee2e6; box-shadow:0 0 0 .15rem rgba(37,99,235,.25); }
     html.dark-mode #adm-va-tp-clear { color:#6c757d; }
     html.dark-mode #adm-va-tp-clear:hover { color:#dee2e6; }
 
@@ -498,11 +498,11 @@
                             <div class="d-flex align-items-center gap-2">
                                 <span class="text-muted small">
                                     Next content in
-                                    <span class="fw-semibold" style="color:#00a79d;" id="adm-hq-countdown">60</span>
+                                    <span class="fw-semibold" style="color:#2563eb;" id="adm-hq-countdown">60</span>
                                     seconds
                                 </span>
                                 <button id="adm-hq-refresh"
-                                    style="background:transparent; color:#00a79d; border:1px solid #00a79d; border-radius:6px; padding:2px 9px; cursor:pointer; line-height:1.5;"
+                                    style="background:transparent; color:#2563eb; border:1px solid #2563eb; border-radius:6px; padding:2px 9px; cursor:pointer; line-height:1.5;"
                                     data-bs-toggle="tooltip" title="Refresh Now">
                                     <i class="fas fa-sync-alt fa-xs"></i>
                                 </button>
@@ -510,7 +510,7 @@
                         </div>
                         <div class="d-flex align-items-center gap-2 mb-2">
                             <span class="adm-hq-fade" id="adm-hq-source"
-                                style="background:#00a79d; color:#fff; font-size:0.78rem; padding:3px 10px; border-radius:20px; white-space:nowrap;">
+                                style="background:#2563eb; color:#fff; font-size:0.78rem; padding:3px 10px; border-radius:20px; white-space:nowrap;">
                                 Loading...
                             </span>
                             <span class="text-muted small adm-hq-fade" id="adm-hq-number"></span>
@@ -520,7 +520,7 @@
                             <p class="adm-hq-text adm-hq-fade" id="adm-hq-text">Loading content...</p>
                         </div>
                         <button id="adm-hq-toggle"
-                            style="background:transparent; border:none; color:#00a79d; font-size:0.85rem; padding:0; margin-top:0.5rem; cursor:pointer; display:none;">
+                            style="background:transparent; border:none; color:#2563eb; font-size:0.85rem; padding:0; margin-top:0.5rem; cursor:pointer; display:none;">
                             <span id="adm-hq-toggle-text">Read More</span>
                             <i class="fas fa-chevron-down fa-xs ms-1" id="adm-hq-toggle-icon"></i>
                         </button>
@@ -543,10 +543,10 @@
                             <div class="d-flex align-items-center gap-2">
                                 <span class="text-muted small" style="white-space:nowrap;">
                                     Auto-refresh in
-                                    <span id="adm-va-countdown" class="fw-semibold" style="color:#00a79d;">15</span>s
+                                    <span id="adm-va-countdown" class="fw-semibold" style="color:#2563eb;">15</span>s
                                 </span>
                                 <button id="adm-va-refresh" type="button"
-                                    style="background:transparent;color:#00a79d;border:1px solid #00a79d;border-radius:6px;padding:2px 9px;cursor:pointer;line-height:1.5;"
+                                    style="background:transparent;color:#2563eb;border:1px solid #2563eb;border-radius:6px;padding:2px 9px;cursor:pointer;line-height:1.5;"
                                     data-bs-toggle="tooltip" title="Refresh now">
                                     <i class="fas fa-sync-alt fa-xs"></i>
                                 </button>
@@ -554,13 +554,13 @@
                         </div>
 
                         {{-- Summary Cards: Human Visitors --}}
-                        <p class="mb-2" style="font-size:.75rem;font-weight:600;color:#00a79d;">
+                        <p class="mb-2" style="font-size:.75rem;font-weight:600;color:#2563eb;">
                             <i class="fas fa-users fa-xs me-1"></i>Visitors
                         </p>
                         <div class="row g-3 mb-3">
                             <div class="col-6 col-md">
-                                <div class="p-3 rounded-4 text-center adm-va-stat-card" style="background:rgba(0,167,157,.08);">
-                                    <div class="fw-bold fs-4" style="color:#00a79d;" id="adm-va-stat-today">{{ number_format($visitorSummary['today']) }}</div>
+                                <div class="p-3 rounded-4 text-center adm-va-stat-card" style="background:rgba(37,99,235,.08);">
+                                    <div class="fw-bold fs-4" style="color:#2563eb;" id="adm-va-stat-today">{{ number_format($visitorSummary['today']) }}</div>
                                     <div class="small text-muted mt-1"><i class="fas fa-sun fa-xs me-1"></i>Today</div>
                                     <div style="font-size:.68rem;color:#adb5bd;margin-top:2px;">visitors</div>
                                 </div>
@@ -657,7 +657,7 @@
                         {{-- Charts Row --}}
                         <div class="row g-3 mb-4">
                             <div class="col-md-8">
-                                <p class="mb-1" style="font-size:.78rem;font-weight:600;color:#00a79d;">
+                                <p class="mb-1" style="font-size:.78rem;font-weight:600;color:#2563eb;">
                                     <i class="fas fa-chart-area fa-xs me-1"></i>Daily Visitor Trend
                                     <span class="text-muted fw-normal" style="font-size:.7rem;"> — visitors per day</span>
                                 </p>
@@ -666,7 +666,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <p class="mb-1" style="font-size:.78rem;font-weight:600;color:#00a79d;">
+                                <p class="mb-1" style="font-size:.78rem;font-weight:600;color:#2563eb;">
                                     <i class="fas fa-mobile-alt fa-xs me-1"></i>Device Breakdown
                                     <span class="text-muted fw-normal" style="font-size:.7rem;"> — mobile, desktop, tablet</span>
                                 </p>
@@ -677,7 +677,7 @@
                         </div>
 
                         {{-- Top Countries --}}
-                        <p class="mb-2" style="font-size:.78rem;font-weight:600;color:#00a79d;">
+                        <p class="mb-2" style="font-size:.78rem;font-weight:600;color:#2563eb;">
                             <i class="fas fa-globe fa-xs me-1"></i>Top Countries
                             <span class="text-muted fw-normal" style="font-size:.7rem;"> — visitors by country</span>
                         </p>
@@ -695,7 +695,7 @@
                         </div>
 
                         {{-- Top Pages header --}}
-                        <p class="mb-2" style="font-size:.78rem;font-weight:600;color:#00a79d;">
+                        <p class="mb-2" style="font-size:.78rem;font-weight:600;color:#2563eb;">
                             <i class="fas fa-file-alt fa-xs me-1"></i>Top Pages
                             <span class="text-muted fw-normal" style="font-size:.7rem;"> — most visited pages in the selected period</span>
                         </p>
@@ -729,7 +729,7 @@
                                             HITS
                                             <i class="fas fa-question-circle fa-xs ms-1 text-muted" style="cursor:default;"
                                                 data-bs-toggle="tooltip" title="Total page loads (hits). Repeat visits from the same person are counted separately."></i>
-                                            <span class="adm-va-sort-arrow" id="adm-va-arrow-hits" style="color:#00a79d;">↓</span>
+                                            <span class="adm-va-sort-arrow" id="adm-va-arrow-hits" style="color:#2563eb;">↓</span>
                                         </th>
                                         <th class="adm-va-sort-th text-end fw-normal" data-sort="uniques"
                                             style="font-size:.75rem;cursor:pointer;white-space:nowrap;">
@@ -1022,7 +1022,7 @@ $(document).ready(function() {
         {{ $financeReportCount }}
     ];
     var chartColors = [
-        '#00a79d', '#008b84', '#00c9bd', '#006b63', '#33b8b0',
+        '#2563eb', '#008b84', '#00c9bd', '#006b63', '#33b8b0',
         '#4dd0c8', '#00887f', '#26b5ab', '#1a9e95', '#0dbfb3',
         '#009688', '#00796b', '#00897b', '#4db6ac', '#80cbc4',
         '#b2dfdb', '#00bfa5', '#1de9b6', '#69f0ae'
@@ -1513,7 +1513,7 @@ $(document).ready(function() {
     function updateAdmSortArrows() {
         document.querySelectorAll('.adm-va-sort-arrow').forEach(function (el) { el.textContent = ''; el.style.color = '#adb5bd'; });
         var a = document.getElementById('adm-va-arrow-' + tp.sortBy);
-        if (a) { a.textContent = tp.sortOrder === 'asc' ? '↑' : '↓'; a.style.color = '#00a79d'; }
+        if (a) { a.textContent = tp.sortOrder === 'asc' ? '↑' : '↓'; a.style.color = '#2563eb'; }
     }
 
     // Sort headers
@@ -1602,8 +1602,8 @@ $(document).ready(function() {
                     {
                         label: 'Visitors',
                         data: chart.data,
-                        borderColor: '#00a79d',
-                        backgroundColor: 'rgba(0,167,157,.08)',
+                        borderColor: '#2563eb',
+                        backgroundColor: 'rgba(37,99,235,.08)',
                         borderWidth: 2,
                         pointRadius: 2,
                         fill: true,
@@ -1652,7 +1652,7 @@ $(document).ready(function() {
             type: 'doughnut',
             data: {
                 labels: ['Desktop', 'Mobile', 'Tablet', 'Bot'],
-                datasets: [{ data: [d.desktop, d.mobile, d.tablet, d.bot], backgroundColor: ['#6366f1','#00a79d','#f59e0b','#ef4444'], borderWidth: 2 }]
+                datasets: [{ data: [d.desktop, d.mobile, d.tablet, d.bot], backgroundColor: ['#6366f1','#2563eb','#f59e0b','#ef4444'], borderWidth: 2 }]
             },
             options: {
                 responsive: true,
@@ -1668,7 +1668,7 @@ $(document).ready(function() {
 
     function buildCountryRows(countries, max, barBg, valueKey, valueSuffix) {
         var html = '';
-        var barColor = valueSuffix === ' hits' ? '#ef4444' : '#00a79d';
+        var barColor = valueSuffix === ' hits' ? '#ef4444' : '#2563eb';
         var numWidth = valueSuffix ? '52px' : '36px';
         countries.forEach(function (c) {
             var flag = c.countryCode
@@ -1713,14 +1713,14 @@ $(document).ready(function() {
             return;
         }
         var isDark = document.documentElement.classList.contains('dark-mode');
-        var barBg  = isDark ? 'rgba(0,167,157,.2)' : 'rgba(0,167,157,.12)';
+        var barBg  = isDark ? 'rgba(37,99,235,.2)' : 'rgba(37,99,235,.12)';
         var max    = allCountries[0].visitors;
         var visible = allCountries.slice(0, COUNTRIES_LIMIT);
         var html = '<div id="adm-va-countries-rows" style="display:flex;flex-direction:column;gap:5px;">'
             + buildCountryRows(visible, max, barBg, 'visitors', '')
             + '</div>';
         if (allCountries.length > COUNTRIES_LIMIT) {
-            html += '<button id="adm-va-countries-toggle" style="background:transparent;border:none;color:#00a79d;font-size:.8rem;padding:6px 0 0;cursor:pointer;">'
+            html += '<button id="adm-va-countries-toggle" style="background:transparent;border:none;color:#2563eb;font-size:.8rem;padding:6px 0 0;cursor:pointer;">'
                 + '<i class="fas fa-chevron-down fa-xs me-1"></i>Show More (' + (allCountries.length - COUNTRIES_LIMIT) + ' more)'
                 + '</button>';
         }
@@ -1733,7 +1733,7 @@ $(document).ready(function() {
             var btn    = document.getElementById('adm-va-countries-toggle');
             var rows   = document.getElementById('adm-va-countries-rows');
             var isDark = document.documentElement.classList.contains('dark-mode');
-            var barBg  = isDark ? 'rgba(0,167,157,.2)' : 'rgba(0,167,157,.12)';
+            var barBg  = isDark ? 'rgba(37,99,235,.2)' : 'rgba(37,99,235,.12)';
             var max    = allCountries[0].visitors;
             countriesExpanded = !countriesExpanded;
             var visible = countriesExpanded ? allCountries : allCountries.slice(0, COUNTRIES_LIMIT);

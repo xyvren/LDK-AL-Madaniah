@@ -16,6 +16,10 @@ class ChangeCampaignsDeadlineToDatetime extends Migration
 {
     public function up(): void
     {
+        if (DB::getDriverName() === 'sqlite') {
+            return;
+        }
+
         DB::statement('ALTER TABLE campaigns MODIFY deadline DATETIME NULL');
     }
 

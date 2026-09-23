@@ -27,9 +27,9 @@
 <style>
 /* Table Base Styles */
 .{{ $tableClass }} thead th {
-    background-color: #00a79d !important;
+    background-color: #2563eb !important;
     color: #fff !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -42,7 +42,7 @@
     vertical-align: middle !important;
 }
 .{{ $tableClass }} a {
-    color: #00a79d;
+    color: #2563eb;
     text-decoration: none;
 }
 .{{ $tableClass }} a:hover {
@@ -86,13 +86,13 @@
 }
 .{{ $tableClass }} input[type="text"]:focus,
 .{{ $tableClass }} input[type="number"]:focus {
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     box-shadow: 0 0 0 0.15rem rgba(0, 167, 157, 0.25) !important;
     outline: none !important;
 }
 .{{ $tableClass }} input[type="text"]:hover,
 .{{ $tableClass }} input[type="number"]:hover {
-    border-color: #00a79d;
+    border-color: #2563eb;
 }
 .{{ $tableClass }} thead th .form-control-sm {
     padding: 0.25rem 0.5rem;
@@ -100,7 +100,7 @@
     height: calc(1.5em + 0.5rem + 2px);
 }
 .{{ $tableClass }} thead th .form-control-sm:focus {
-    border-color: #00a79d;
+    border-color: #2563eb;
     box-shadow: 0 0 0 0.2rem rgba(0, 167, 157, 0.25);
 }
 /* Native Select Styles in Table Header */
@@ -143,14 +143,14 @@
 
 /* Pagination Styles */
 .pagination .page-link {
-    color: #00a79d;
+    color: #2563eb;
 }
 .pagination .page-link:hover {
     background-color: #e0f7f5;
     color: #008b84;
 }
 .pagination .page-item.active .page-link {
-    background-color: #00a79d;
+    background-color: #2563eb;
     color: #fff;
 }
 .pagination .page-link:focus {
@@ -176,8 +176,8 @@
 /* Button Styles */
 .btn-custom-primary {
     color: #fff;
-    background-color: #00a79d;
-    border: 1px solid #00a79d;
+    background-color: #2563eb;
+    border: 1px solid #2563eb;
     transition: all 0.3s ease;
 }
 .btn-custom-primary:hover {
@@ -205,7 +205,7 @@
     font-size: 1.65rem;
     font-weight: 600;
     text-align: center;
-    color: #00a79d;
+    color: #2563eb;
     margin: .75rem 0 1.5rem;
     position: relative;
     display: inline-block;
@@ -221,7 +221,7 @@
     width: 120px;
     margin: .35rem auto 0;
     border-radius: 3px;
-    background: linear-gradient(90deg,#00a79d 0%,#008b84 100%);
+    background: linear-gradient(90deg,#2563eb 0%,#008b84 100%);
 }
 
 /* Text & Input Styles */
@@ -229,11 +229,11 @@
     color: #191C24 !important;
 }
 .text-custom {
-    color: #00a79d;
+    color: #2563eb;
 }
 .input-group input:focus {
     box-shadow: none !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     outline: none;
 }
 .form-control-sm {
@@ -331,7 +331,7 @@
 }
 .daterangepicker td.active,
 .daterangepicker td.active:hover {
-    background-color: #00a79d;
+    background-color: #2563eb;
 }
 .daterangepicker .drp-buttons .btn {
     padding: 5px 15px;
@@ -339,8 +339,8 @@
     font-size: 0.875rem;
 }
 .daterangepicker .drp-buttons .btn.applyBtn {
-    background-color: #00a79d;
-    border-color: #00a79d;
+    background-color: #2563eb;
+    border-color: #2563eb;
 }
 .daterangepicker .drp-buttons .btn.applyBtn:hover {
     background-color: #008b84;
@@ -399,7 +399,7 @@
     transition: all 0.2s ease !important;
 }
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-    background-color: #00a79d !important;
+    background-color: #2563eb !important;
     color: white !important;
 }
 .select2-container--default .select2-results__option[aria-selected="true"] {
@@ -418,7 +418,7 @@
     outline: none !important;
 }
 .select2-search--dropdown .select2-search__field:focus {
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     box-shadow: 0 0 0 0.15rem rgba(0, 167, 157, 0.25) !important;
 }
 .select2-container--default .select2-selection--single .select2-selection__clear {
@@ -503,7 +503,7 @@
     overflow: hidden;
 }
 .bg-gradient-primary {
-    background: linear-gradient(135deg, #00a79d 0%, #008b84 100%);
+    background: linear-gradient(135deg, #2563eb 0%, #008b84 100%);
     border-bottom: none;
 }
 .modal-header {

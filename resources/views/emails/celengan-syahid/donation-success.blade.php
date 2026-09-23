@@ -28,10 +28,10 @@
                 <!-- ── Header ── -->
                 <tr>
                     <td class="hdr-pad" align="center"
-                        style="background:linear-gradient(135deg,#00a79d 0%,#00c4b8 100%);padding:32px 40px;">
+                        style="background:linear-gradient(135deg,#2563eb 0%,#00c4b8 100%);padding:32px 40px;">
                         <table cellpadding="0" cellspacing="0" role="presentation" style="margin:0 auto 14px;">
                             <tr><td style="background:#ffffff;border-radius:18px;padding:8px;box-shadow:0 0 0 3px rgba(255,255,255,0.35);">
-                                <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
+                                <img src="/drive-media/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
                                      width="64" height="64" alt="LDK Al-Madaniah"
                                      style="border-radius:12px;display:block;" />
                             </td></tr>
@@ -64,7 +64,7 @@
                         </h1>
                         <p style="margin:0 0 8px;font-size:14px;color:#4a5568;line-height:1.65;">
                             Alhamdulillah, donasimu untuk campaign
-                            <strong style="color:#00a79d;">{{ $donation->campaign->judul }}</strong>
+                            <strong style="color:#2563eb;">{{ $donation->campaign->judul }}</strong>
                             telah berhasil dikonfirmasi.
                         </p>
                         <p style="margin:0 0 24px;font-size:14px;color:#4a5568;line-height:1.65;">
@@ -91,7 +91,7 @@
                                 <td style="padding:11px 14px;color:#718096;font-size:13px;border-bottom:1px solid #e2e8f0;">
                                     Jumlah Donasi
                                 </td>
-                                <td style="padding:11px 14px;color:#00a79d;font-weight:700;border-bottom:1px solid #e2e8f0;">
+                                <td style="padding:11px 14px;color:#2563eb;font-weight:700;border-bottom:1px solid #e2e8f0;">
                                     {{ $donationAmountFormatted }}
                                 </td>
                             </tr>

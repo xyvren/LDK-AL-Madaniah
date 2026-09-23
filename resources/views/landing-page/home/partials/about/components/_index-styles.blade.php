@@ -972,7 +972,7 @@
         padding: 2rem 3rem;
         text-align: center;
         position: relative;
-        border: 2px solid rgba(0,167,157,0.2);
+        border: 2px solid rgba(37,99,235,0.2);
         transition: var(--transition-bounce);
         display: inline-flex;
         flex-direction: column;
@@ -982,14 +982,14 @@
     }
 
     @keyframes klPusatGlow {
-        0%, 100% { box-shadow: 0 8px 30px rgba(0,167,157,0.12); }
-        50%       { box-shadow: 0 8px 40px rgba(0,167,157,0.28), 0 0 0 8px rgba(0,167,157,0.06); }
+        0%, 100% { box-shadow: 0 8px 30px rgba(37,99,235,0.12); }
+        50%       { box-shadow: 0 8px 40px rgba(37,99,235,0.28), 0 0 0 8px rgba(37,99,235,0.06); }
     }
 
     @media (hover: hover) {
         .kl-pusat-card:hover {
             transform: translateY(-6px) scale(1.02);
-            box-shadow: 0 16px 50px rgba(0,167,157,0.28), 0 0 0 10px rgba(0,167,157,0.07);
+            box-shadow: 0 16px 50px rgba(37,99,235,0.28), 0 0 0 10px rgba(37,99,235,0.07);
             animation-play-state: paused;
         }
     }
@@ -1060,7 +1060,7 @@
     .kl-connector-line {
         width: 3px;
         height: 28px;
-        background: linear-gradient(180deg, var(--primary) 0%, rgba(0,167,157,0.4) 100%);
+        background: linear-gradient(180deg, var(--primary) 0%, rgba(37,99,235,0.4) 100%);
         border-radius: 3px;
     }
 
@@ -1100,7 +1100,7 @@
         font-size: 0.85rem;
         padding: 0.45rem 1.25rem;
         border-radius: 50px;
-        border: 1px solid rgba(0,167,157,0.25);
+        border: 1px solid rgba(37,99,235,0.25);
     }
 
     /* Grid */
@@ -1117,7 +1117,7 @@
         border-radius: 18px;
         padding: 1.1rem 0.6rem 0.9rem;
         box-shadow: var(--shadow);
-        border: 1px solid rgba(0,167,157,0.08);
+        border: 1px solid rgba(37,99,235,0.08);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1133,8 +1133,8 @@
     @media (hover: hover) {
         .kl-card:hover {
             transform: translateY(-7px);
-            box-shadow: 0 14px 32px rgba(0,167,157,0.15), 0 0 0 2px rgba(0,167,157,0.25);
-            border-color: rgba(0,167,157,0.25);
+            box-shadow: 0 14px 32px rgba(37,99,235,0.15), 0 0 0 2px rgba(37,99,235,0.25);
+            border-color: rgba(37,99,235,0.25);
         }
     }
 
@@ -1152,7 +1152,7 @@
 
     @media (hover: hover) {
         .kl-card:hover .kl-img-wrap {
-            background: rgba(0,167,157,0.12);
+            background: rgba(37,99,235,0.12);
             transform: scale(1.08);
         }
     }
@@ -1277,21 +1277,21 @@
 [data-theme="dark"] .intro-card-cr,
 [data-theme="dark"] .history-card-cr,
 [data-theme="dark"] .vision-card-cr { background: #1a1f2e; }
-[data-theme="dark"] .badge-inner { background: #1e2d2c; color: #4dd9cf; border-color: rgba(0,167,157,.25); }
+[data-theme="dark"] .badge-inner { background: #1e2d2c; color: #60a5fa; border-color: rgba(37,99,235,.25); }
 [data-theme="dark"] .img-float-tag { background: #1a1f2e; color: #9ca3af; }
-[data-theme="dark"] .timeline-node { background: #1a1f2e; border-color: rgba(0,167,157,.4); }
+[data-theme="dark"] .timeline-node { background: #1a1f2e; border-color: rgba(37,99,235,.4); }
 [data-theme="dark"] .kl-pusat-card,
-[data-theme="dark"] .kl-card { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .kl-card { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .mc-front { background: #1a1f2e; }
-[data-theme="dark"] #tab-keluarga { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] #tab-keluarga { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .pillar-bottom-sheet { background: #1a1f2e; }
 [data-theme="dark"] .pbs-title { color: #e2e8f0; }
 [data-theme="dark"] .pbs-desc { color: #9ca3af; }
 [data-theme="dark"] .intro-title    { color: #e2e8f0; }
 [data-theme="dark"] .intro-subtitle { color: #9ca3af; }
 [data-theme="dark"] .intro-body p   { color: #cbd5e0; }
-[data-theme="dark"] .feature-cr     { background: rgba(0,167,157,.1); color: #e2e8f0; border-color: rgba(0,167,157,.15); }
-[data-theme="dark"] .pillar-hover-card { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .feature-cr     { background: rgba(37,99,235,.1); color: #e2e8f0; border-color: rgba(37,99,235,.15); }
+[data-theme="dark"] .pillar-hover-card { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .pillar-hover-card p { color: #9ca3af; }
 [data-theme="dark"] .pillar-hover-card::after { border-top-color: #1a1f2e; }
 [data-theme="dark"] .kl-pusat-card .h6,
@@ -1306,7 +1306,7 @@
 /* Misi card — front face */
 [data-theme="dark"] .mc-title          { color: #e2e8f0; }
 [data-theme="dark"] .mc-desc           { color: #9ca3af; }
-[data-theme="dark"] .mc-num            { color: #4dd9cf; background: rgba(0,167,157,.15); }
+[data-theme="dark"] .mc-num            { color: #60a5fa; background: rgba(37,99,235,.15); }
 
 /* Misi card — back face */
 [data-theme="dark"] .mc-back           { background: linear-gradient(135deg, #0d3b38 0%, #1a4a46 100%); }
@@ -1316,10 +1316,10 @@
 /* Keluarga section */
 [data-theme="dark"] .kl-pusat-sub      { color: #9ca3af; }
 [data-theme="dark"] .kl-name           { color: #e2e8f0; }
-[data-theme="dark"] .kl-fakultas-label span { background: rgba(0,167,157,.15); color: #4dd9cf; }
+[data-theme="dark"] .kl-fakultas-label span { background: rgba(37,99,235,.15); color: #60a5fa; }
 
 /* Mission/Keluarga badge */
-[data-theme="dark"] .mission-badge-cr  { background: rgba(0,167,157,.15); color: #4dd9cf; }
+[data-theme="dark"] .mission-badge-cr  { background: rgba(37,99,235,.15); color: #60a5fa; }
 [data-theme="dark"] .timeline-card-cr p { color: #e2e8f0; }
 [data-theme="dark"] .timeline-card-cr h5 { color: #e2e8f0; }
 [data-theme="dark"] .tab-btn-cr { color: #e2e8f0; }

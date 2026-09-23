@@ -18,7 +18,7 @@
     <x-hero-jumbotron type="hadith">
         <div class="hero-slide">
             <img class="hero-image"
-                 src="https://lh3.googleusercontent.com/d/1GmgV8Pussl5orvOXnVfVePWxXjH866_x"
+                 src="/drive-media/1GmgV8Pussl5orvOXnVfVePWxXjH866_x"
                  alt="Layanan LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
@@ -45,7 +45,7 @@
             {{-- ── Kalkulator Zakat ─────────────────────────────── --}}
             <div class="sv-card" style="--sv-accent: #22c55e;">
                 <div class="sv-card-img-wrap">
-                    <img src="https://lh3.googleusercontent.com/d/18YyQOsL76IgJ3vnsWtkmLzzQT_UCVQCy"
+                    <img src="/drive-media/18YyQOsL76IgJ3vnsWtkmLzzQT_UCVQCy"
                          alt="Kalkulator Zakat" class="sv-card-img" loading="lazy"
                          onerror="this.src='https://via.placeholder.com/400x200/22c55e/ffffff?text=Kalkulator+Zakat'">
                 </div>
@@ -78,9 +78,9 @@
             </div>
 
             {{-- ── Call Kestari ─────────────────────────────────── --}}
-            <div class="sv-card" style="--sv-accent: #00a79d;">
+            <div class="sv-card" style="--sv-accent: #2563eb;">
                 <div class="sv-card-img-wrap">
-                    <img src="https://lh3.googleusercontent.com/d/1q0rUVWPt2doB9_lgKOaKTDyHWbctHChX"
+                    <img src="/drive-media/1q0rUVWPt2doB9_lgKOaKTDyHWbctHChX"
                          alt="Call Kestari" class="sv-card-img" loading="lazy">
                 </div>
                 <div class="sv-card-body">
@@ -110,7 +110,7 @@
             {{-- ── Kalkulator Kestari ───────────────────────────── --}}
             <div class="sv-card" style="--sv-accent: #6366f1;">
                 <div class="sv-card-img-wrap">
-                    <img src="https://lh3.googleusercontent.com/d/1DZdc8rblfJUSkN5Q-Faxsur2iOnI_IYm"
+                    <img src="/drive-media/1DZdc8rblfJUSkN5Q-Faxsur2iOnI_IYm"
                          alt="Kalkulator Kestari" class="sv-card-img" loading="lazy">
                 </div>
                 <div class="sv-card-body">
@@ -140,7 +140,7 @@
             {{-- ── Perpendek URL ────────────────────────────────── --}}
             <div class="sv-card" style="--sv-accent: #f59e0b;">
                 <div class="sv-card-img-wrap">
-                    <img src="https://lh3.googleusercontent.com/d/1BoMYgj-B2HNblHjkebs1ZRiVUuVre5Wf"
+                    <img src="/drive-media/1BoMYgj-B2HNblHjkebs1ZRiVUuVre5Wf"
                          alt="Perpendek URL" class="sv-card-img" loading="lazy">
                 </div>
                 <div class="sv-card-body">
@@ -170,7 +170,7 @@
             {{-- ── Celengan Syahid ──────────────────────────────── --}}
             <div class="sv-card" style="--sv-accent: #10b981;">
                 <div class="sv-card-img-wrap">
-                    <img src="https://lh3.googleusercontent.com/d/1CynJ5fKVEumKQLxLxncZC99ALkEmf_4t"
+                    <img src="/drive-media/1CynJ5fKVEumKQLxLxncZC99ALkEmf_4t"
                          alt="Celengan Al-Madaniah" class="sv-card-img" loading="lazy">
                 </div>
                 <div class="sv-card-body">
@@ -199,7 +199,7 @@
 
             <div class="sv-card" style="--sv-accent: #0ea5e9;">
     <div class="sv-card-img-wrap">
-        <img src="https://lh3.googleusercontent.com/d/1nCOWbWIYhzZ59jR39Y_kYA3eKfJzJUkF"
+        <img src="/drive-media/1nCOWbWIYhzZ59jR39Y_kYA3eKfJzJUkF"
              alt="Layanan Persuratan" class="sv-card-img" loading="lazy"
              onerror="this.src='https://via.placeholder.com/400x200/0ea5e9/ffffff?text=Layanan+Persuratan'">
     </div>
@@ -251,7 +251,7 @@
                  data-label="Mulai"
                  data-disabled="0">
                 <div class="sv-m-thumb">
-                    <img src="https://lh3.googleusercontent.com/d/18YyQOsL76IgJ3vnsWtkmLzzQT_UCVQCy"
+                    <img src="/drive-media/18YyQOsL76IgJ3vnsWtkmLzzQT_UCVQCy"
                          alt="Kalkulator Zakat" loading="lazy"
                          onerror="this.src='https://via.placeholder.com/80x80/22c55e/ffffff?text=Z'">
                 </div>
@@ -274,7 +274,7 @@
      data-label="Mulai"
      data-disabled="0">
     <div class="sv-m-thumb">
-        <img src="https://lh3.googleusercontent.com/d/1nCOWbWIYhzZ59jR39Y_kYA3eKfJzJUkF"
+        <img src="/drive-media/1nCOWbWIYhzZ59jR39Y_kYA3eKfJzJUkF"
              alt="Layanan Persuratan" loading="lazy"
              onerror="this.src='https://via.placeholder.com/80x80/0ea5e9/ffffff?text=P'">
     </div>
@@ -289,17 +289,17 @@
 
             {{-- ── Call Kestari ─────────────────────────────────── --}}
             <div class="sv-m-card"
-                 style="--sv-accent: #00a79d;"
+                 style="--sv-accent: #2563eb;"
                  onclick="svOpenSheet(this)"
                  data-title="Call Kestari"
                  data-desc="Call Kestari merupakan tautan panggilan yang di dalamnya terdapat laman khusus berisi informasi penting untuk dibagikan kepada para Sekretaris Bidang/Biro, Sekretaris LDKSF dan Anggota LDK Al-Madaniah."
                  data-image="1q0rUVWPt2doB9_lgKOaKTDyHWbctHChX"
                  data-url="/callkestari"
-                 data-accent="#00a79d"
+                 data-accent="#2563eb"
                  data-label="Mulai"
                  data-disabled="0">
                 <div class="sv-m-thumb">
-                    <img src="https://lh3.googleusercontent.com/d/1q0rUVWPt2doB9_lgKOaKTDyHWbctHChX"
+                    <img src="/drive-media/1q0rUVWPt2doB9_lgKOaKTDyHWbctHChX"
                          alt="Call Kestari" loading="lazy">
                 </div>
                 <div class="sv-m-info">
@@ -322,7 +322,7 @@
                  data-label="Mulai"
                  data-disabled="0">
                 <div class="sv-m-thumb">
-                    <img src="https://lh3.googleusercontent.com/d/1DZdc8rblfJUSkN5Q-Faxsur2iOnI_IYm"
+                    <img src="/drive-media/1DZdc8rblfJUSkN5Q-Faxsur2iOnI_IYm"
                          alt="Kalkulator Kestari" loading="lazy">
                 </div>
                 <div class="sv-m-info">
@@ -345,7 +345,7 @@
                  data-label="Mulai"
                  data-disabled="0">
                 <div class="sv-m-thumb">
-                    <img src="https://lh3.googleusercontent.com/d/1BoMYgj-B2HNblHjkebs1ZRiVUuVre5Wf"
+                    <img src="/drive-media/1BoMYgj-B2HNblHjkebs1ZRiVUuVre5Wf"
                          alt="Perpendek URL" loading="lazy">
                 </div>
                 <div class="sv-m-info">
@@ -368,7 +368,7 @@
                  data-label="Mulai"
                  data-disabled="0">
                 <div class="sv-m-thumb">
-                    <img src="https://lh3.googleusercontent.com/d/1CynJ5fKVEumKQLxLxncZC99ALkEmf_4t"
+                    <img src="/drive-media/1CynJ5fKVEumKQLxLxncZC99ALkEmf_4t"
                          alt="Celengan Al-Madaniah" loading="lazy">
                 </div>
                 <div class="sv-m-info">

@@ -5,7 +5,7 @@
    ================================================================ */
 
 :root {
-    --nd-primary:       #00a79d;
+    --nd-primary:       #2563eb;
     --nd-primary-dark:  #008b82;
     --nd-primary-light: #e0f7f5;
     --nd-dark:          #1a1a2e;
@@ -13,7 +13,7 @@
     --nd-gray-100:      #f3f4f6;
     --nd-gray-200:      #e5e7eb;
     --nd-shadow-sm:     0 4px 20px rgba(0,0,0,.07);
-    --nd-shadow-hover:  0 14px 40px rgba(0,167,157,.15);
+    --nd-shadow-hover:  0 14px 40px rgba(37,99,235,.15);
     --nd-radius:        20px;
     --nd-transition:    all .3s cubic-bezier(.4,0,.2,1);
 }
@@ -144,12 +144,12 @@
     border-radius: 50px;
     transition: var(--nd-transition);
     margin-bottom: 1.75rem;
-    border: 1.5px solid rgba(0,167,157,.2);
+    border: 1.5px solid rgba(37,99,235,.2);
 }
 .nd-back-btn:hover {
     background: var(--nd-primary); color: white;
     transform: translateX(-4px);
-    box-shadow: 0 4px 18px rgba(0,167,157,.3);
+    box-shadow: 0 4px 18px rgba(37,99,235,.3);
 }
 .nd-back-btn i { font-size: .75rem; transition: transform .25s ease; }
 .nd-back-btn:hover i { transform: translateX(-3px); }
@@ -215,8 +215,8 @@
     animation: ndBulletGrow 2.8s ease-in-out infinite;
 }
 @keyframes ndBulletGrow {
-    0%,100% { transform: scale(1);   box-shadow: 0 0 0 0 rgba(0,167,157,.45); }
-    50%      { transform: scale(1.4); box-shadow: 0 0 0 5px rgba(0,167,157,0); }
+    0%,100% { transform: scale(1);   box-shadow: 0 0 0 0 rgba(37,99,235,.45); }
+    50%      { transform: scale(1.4); box-shadow: 0 0 0 5px rgba(37,99,235,0); }
 }
 
 .nd-body ol {
@@ -312,12 +312,12 @@
     border: 1.5px solid transparent; transition: var(--nd-transition);
 }
 .nd-share-copy {
-    background: var(--nd-primary-light); border-color: rgba(0,167,157,.2);
+    background: var(--nd-primary-light); border-color: rgba(37,99,235,.2);
     color: var(--nd-primary);
 }
 .nd-share-copy:hover {
     background: var(--nd-primary); color: white; border-color: var(--nd-primary);
-    box-shadow: 0 4px 14px rgba(0,167,157,.3); transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(37,99,235,.3); transform: translateY(-1px);
 }
 .nd-share-wa {
     background: rgba(37,211,102,.08); border-color: rgba(37,211,102,.28);
@@ -347,8 +347,8 @@
 }
 .nd-related-item:hover {
     background: linear-gradient(135deg, var(--nd-primary-light), #f8fffe 70%);
-    border-color: rgba(0,167,157,.15);
-    box-shadow: 0 2px 12px rgba(0,167,157,.1);
+    border-color: rgba(37,99,235,.15);
+    box-shadow: 0 2px 12px rgba(37,99,235,.1);
     transform: translateX(5px);
 }
 .nd-related-thumb {
@@ -382,7 +382,7 @@
 /* ─── Share section (at bottom of main col) ───────────────────── */
 .nd-share-section {
     background: linear-gradient(135deg, var(--nd-primary-light), white 70%);
-    border: 1px solid rgba(0,167,157,.12);
+    border: 1px solid rgba(37,99,235,.12);
     border-radius: var(--nd-radius); padding: 1.5rem 2rem;
     display: flex; align-items: center; gap: 1.25rem;
     flex-wrap: wrap; margin-top: 1.5rem;
@@ -400,12 +400,12 @@
     text-decoration: none;
 }
 .nd-share-full-btn.nd-share-copy {
-    background: white; border-color: rgba(0,167,157,.25);
+    background: white; border-color: rgba(37,99,235,.25);
     color: var(--nd-primary); box-shadow: 0 2px 10px rgba(0,0,0,.05);
 }
 .nd-share-full-btn.nd-share-copy:hover {
     background: var(--nd-primary); color: white;
-    box-shadow: 0 4px 18px rgba(0,167,157,.35); transform: translateY(-1px);
+    box-shadow: 0 4px 18px rgba(37,99,235,.35); transform: translateY(-1px);
 }
 .nd-share-full-btn.nd-share-wa {
     background: white; border-color: rgba(37,211,102,.3);
@@ -470,7 +470,7 @@
     }
     .nd-related-item:hover {
         transform: translateY(-4px);
-        box-shadow: 0 8px 22px rgba(0,167,157,.16);
+        box-shadow: 0 8px 22px rgba(37,99,235,.16);
         background: white;
     }
     .nd-related-thumb { width: 100%; height: 100px; border-radius: 0; }
@@ -499,7 +499,7 @@
 
 /* ── Dark Mode ──────────────────────────────────────────── */
 /* Body & content card */
-[data-theme="dark"] .nd-body-card     { background: #1a1f2e; border-color: rgba(0,167,157,.15); }
+[data-theme="dark"] .nd-body-card     { background: #1a1f2e; border-color: rgba(37,99,235,.15); }
 [data-theme="dark"] .nd-body          { color: #e2e8f0 !important; }
 [data-theme="dark"] .nd-body *        { color: #e2e8f0 !important; }
 [data-theme="dark"] .nd-body p        { color: #e2e8f0 !important; }
@@ -508,34 +508,34 @@
 [data-theme="dark"] .nd-body h2,
 [data-theme="dark"] .nd-body h3,
 [data-theme="dark"] .nd-body h4       { color: #e2e8f0 !important; }
-[data-theme="dark"] .nd-body a        { color: #4dd9cf !important; }
-[data-theme="dark"] .nd-body blockquote { background: rgba(0,167,157,.1); border-left-color: rgba(0,167,157,.6); color: #cbd5e0 !important; }
-[data-theme="dark"] .nd-body table td { border-bottom-color: rgba(0,167,157,.15); color: #cbd5e0 !important; }
+[data-theme="dark"] .nd-body a        { color: #60a5fa !important; }
+[data-theme="dark"] .nd-body blockquote { background: rgba(37,99,235,.1); border-left-color: rgba(37,99,235,.6); color: #cbd5e0 !important; }
+[data-theme="dark"] .nd-body table td { border-bottom-color: rgba(37,99,235,.15); color: #cbd5e0 !important; }
 [data-theme="dark"] .nd-body table tr:nth-child(even) td { background: #252b3b; }
 [data-theme="dark"] .nd-img-caption   { color: #9ca3af !important; }
 /* Back btn */
-[data-theme="dark"] .nd-back-btn      { background: #1e2535; border-color: rgba(0,167,157,.25); color: #4dd9cf; }
+[data-theme="dark"] .nd-back-btn      { background: #1e2535; border-color: rgba(37,99,235,.25); color: #60a5fa; }
 /* Sidebar — fix wrong class name: nd-sidebar-card → nd-card-box */
-[data-theme="dark"] .nd-card-box       { background: #1a1f2e; border-color: rgba(0,167,157,.15); }
+[data-theme="dark"] .nd-card-box       { background: #1a1f2e; border-color: rgba(37,99,235,.15); }
 [data-theme="dark"] .nd-meta-value     { color: #e2e8f0; }
 [data-theme="dark"] .nd-meta-label     { color: #9ca3af; }
-[data-theme="dark"] .nd-meta-item      { border-bottom-color: rgba(0,167,157,.15); }
+[data-theme="dark"] .nd-meta-item      { border-bottom-color: rgba(37,99,235,.15); }
 /* Share buttons (sidebar) */
-[data-theme="dark"] .nd-share-btn      { background: #1e2535; border-color: rgba(0,167,157,.25); color: #e2e8f0; }
+[data-theme="dark"] .nd-share-btn      { background: #1e2535; border-color: rgba(37,99,235,.25); color: #e2e8f0; }
 /* Related news (desktop list) */
 [data-theme="dark"] .nd-related-title  { color: #e2e8f0; }
 [data-theme="dark"] .nd-related-date   { color: #9ca3af; }
-[data-theme="dark"] .nd-related-item:hover { background: rgba(0,167,157,.1); border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .nd-related-item:hover { background: rgba(37,99,235,.1); border-color: rgba(37,99,235,.2); }
 /* Related news (mobile card) */
-[data-theme="dark"] .nd-related-item   { background: #252b3b; border-color: rgba(0,167,157,.15); }
-[data-theme="dark"] .nd-related-info   { border-top-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .nd-related-item   { background: #252b3b; border-color: rgba(37,99,235,.15); }
+[data-theme="dark"] .nd-related-info   { border-top-color: rgba(37,99,235,.2); }
 /* Share section at bottom */
-[data-theme="dark"] .nd-share-section  { background: rgba(0,167,157,.06); border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .nd-share-section  { background: rgba(37,99,235,.06); border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .nd-share-section-label { color: #9ca3af; }
-[data-theme="dark"] .nd-share-full-btn.nd-share-copy { background: #1e2535; border-color: rgba(0,167,157,.3); color: #4dd9cf; }
+[data-theme="dark"] .nd-share-full-btn.nd-share-copy { background: #1e2535; border-color: rgba(37,99,235,.3); color: #60a5fa; }
 [data-theme="dark"] .nd-share-full-btn.nd-share-wa   { background: #1e2535; border-color: rgba(37,211,102,.25); }
 /* Comments */
-[data-theme="dark"] .nd-comments-section { background: #1a1f2e; border-color: rgba(0,167,157,.15); }
+[data-theme="dark"] .nd-comments-section { background: #1a1f2e; border-color: rgba(37,99,235,.15); }
 [data-theme="dark"] .nd-comments-title   { color: #e2e8f0; }
 </style>
 @endverbatim

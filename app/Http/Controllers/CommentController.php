@@ -179,7 +179,7 @@ class CommentController extends Controller
             $type   = ($ext === 'gif') ? 'gif' : 'image';
 
             return response()->json([
-                'url'       => 'https://lh3.googleusercontent.com/d/' . $result['gdriveID'],
+                'url'       => url('/drive-media/' . $result['gdriveID']),
                 'type'      => $type,
                 'gdriveId'  => $result['gdriveID'],
             ]);
@@ -503,7 +503,7 @@ class CommentController extends Controller
         $profile = isset($user->profile) ? $user->profile : null;
 
         if ($profile && $profile->profilepicture) {
-            $avatar = 'https://lh3.googleusercontent.com/d/' . $profile->gdrive_id;
+            $avatar = url('/drive-media/' . $profile->gdrive_id);
         } elseif ($profile && $profile->googleAvatar) {
             $avatar = $profile->googleAvatar;
         } else {

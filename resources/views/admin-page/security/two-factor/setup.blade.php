@@ -114,9 +114,9 @@
                     </div>
                     @endif
 
-                    <div class="mt-4 p-3 rounded" style="background:rgba(0,167,157,.05);border:1px solid rgba(0,167,157,.15)">
+                    <div class="mt-4 p-3 rounded" style="background:rgba(37,99,235,.05);border:1px solid rgba(37,99,235,.15)">
                         <p class="small text-muted mb-0">
-                            <i class="fas fa-info-circle me-1" style="color:#00a79d"></i>
+                            <i class="fas fa-info-circle me-1" style="color:#2563eb"></i>
                             Your authenticator app is required each time you perform a sensitive action. Keep it accessible.
                         </p>
                     </div>

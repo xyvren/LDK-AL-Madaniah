@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
         jQuery('#artSheetImg').attr('src', data.img).attr('alt', data.title);
         jQuery('#artSheetTheme').text(data.theme).css({
             '--theme-color': data.accent || 'var(--primary)',
-            'background': 'color-mix(in srgb, ' + (data.accent || '#00a79d') + ' 12%, transparent)',
+            'background': 'color-mix(in srgb, ' + (data.accent || '#2563eb') + ' 12%, transparent)',
             'color': data.accent || 'var(--primary)'
         });
         jQuery('#artSheetTitle').text(data.title);

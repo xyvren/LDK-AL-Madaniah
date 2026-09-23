@@ -3,7 +3,7 @@
    DETAIL PAGE VARIABLES
    ================================================================ */
 :root {
-    --cd-primary:     #00a79d;
+    --cd-primary:     #2563eb;
     --cd-primary-dk:  #008a82;
     --cd-primary-lt:  #e0f7f5;
     --cd-dark:        #1a2332;
@@ -138,7 +138,7 @@
     font-size: .95rem; font-weight: 700;
     padding: .85rem 1.5rem; border-radius: 30px;
     text-decoration: none; transition: var(--cd-transition);
-    box-shadow: 0 4px 14px rgba(0,167,157,.3);
+    box-shadow: 0 4px 14px rgba(37,99,235,.3);
 }
 .cd-btn-donate:hover { color: #fff; filter: brightness(.9); transform: translateY(-1px); }
 .cd-btn-ended {
@@ -253,7 +253,7 @@
 .cd-donor-loadmore {
     display: inline-flex; align-items: center; gap: .5rem;
     background: transparent;
-    border: 1.5px solid rgba(0,167,157,.35);
+    border: 1.5px solid rgba(37,99,235,.35);
     border-radius: 50rem;
     padding: .55rem 1.5rem;
     font-size: .82rem; font-weight: 600;
@@ -262,7 +262,7 @@
     transition: all .2s ease;
 }
 .cd-donor-loadmore:hover {
-    background: rgba(0,167,157,.08);
+    background: rgba(37,99,235,.08);
     border-color: var(--cd-primary);
 }
 .cd-donor-loadmore i {
@@ -314,7 +314,7 @@
     width: 50px; height: 50px; flex-shrink: 0;
     display: flex; align-items: center; justify-content: center;
     background: var(--cd-primary-lt); color: var(--cd-primary);
-    border: 1.5px solid rgba(0,167,157,.3);
+    border: 1.5px solid rgba(37,99,235,.3);
     border-radius: 50%;
     font-size: 1rem; text-decoration: none;
     transition: var(--cd-transition);
@@ -327,7 +327,7 @@
     font-size: .95rem; font-weight: 700;
     padding: .85rem; border-radius: 30px;
     text-decoration: none;
-    box-shadow: 0 4px 14px rgba(0,167,157,.3);
+    box-shadow: 0 4px 14px rgba(37,99,235,.3);
 }
 .cd-mobile-donate-btn:hover { color: #fff; filter: brightness(.9); }
 
@@ -360,7 +360,7 @@
     border-color: var(--cd-primary);
     background: var(--cd-primary-lt);
     transform: translateX(-3px);
-    box-shadow: 0 4px 14px rgba(0,167,157,.15);
+    box-shadow: 0 4px 14px rgba(37,99,235,.15);
 }
 .cd-back-link:hover .cd-back-icon {
     background: var(--cd-primary); color: #fff;
@@ -407,29 +407,29 @@
 /* ── Dark Mode ──────────────────────────────────────────── */
 /* Info panel */
 [data-theme="dark"] .cd-info-panel     { background: #1a1f2e; }
-[data-theme="dark"] .cd-cat-badge      { background: rgba(0,167,157,.15); color: #4dd9cf; }
+[data-theme="dark"] .cd-cat-badge      { background: rgba(37,99,235,.15); color: #60a5fa; }
 [data-theme="dark"] .cd-title          { color: #e2e8f0; }
 [data-theme="dark"] .cd-org-row        { background: #252b3b; }
 [data-theme="dark"] .cd-org-name       { color: #e2e8f0; }
-[data-theme="dark"] .cd-amount         { color: #4dd9cf; }
+[data-theme="dark"] .cd-amount         { color: #60a5fa; }
 [data-theme="dark"] .cd-donor-chip     { background: #252b3b; color: #9ca3af; }
 [data-theme="dark"] .cd-progress-track { background: #252b3b; }
 [data-theme="dark"] .cd-progress-meta  { color: #9ca3af; }
 [data-theme="dark"] .cd-deadline-row   { color: #9ca3af; }
-[data-theme="dark"] .cd-days-badge     { background: rgba(0,167,157,.15); color: #4dd9cf; }
-[data-theme="dark"] .cd-share-btn      { background: #1e2535; border-color: rgba(0,167,157,.25); color: #e2e8f0; }
-[data-theme="dark"] .cd-back-link      { background: #1a1f2e; border-color: rgba(0,167,157,.25); color: #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
-[data-theme="dark"] .cd-back-link:hover { background: rgba(0,167,157,.15); border-color: #4dd9cf; color: #4dd9cf; }
-[data-theme="dark"] .cd-back-icon      { background: rgba(0,167,157,.15); color: #4dd9cf; }
-[data-theme="dark"] .cd-back-link:hover .cd-back-icon { background: #00a79d; color: #fff; }
-[data-theme="dark"] .cd-mobile-back-btn { background: rgba(0,167,157,.15); border-color: rgba(0,167,157,.3); color: #4dd9cf; }
+[data-theme="dark"] .cd-days-badge     { background: rgba(37,99,235,.15); color: #60a5fa; }
+[data-theme="dark"] .cd-share-btn      { background: #1e2535; border-color: rgba(37,99,235,.25); color: #e2e8f0; }
+[data-theme="dark"] .cd-back-link      { background: #1a1f2e; border-color: rgba(37,99,235,.25); color: #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+[data-theme="dark"] .cd-back-link:hover { background: rgba(37,99,235,.15); border-color: #60a5fa; color: #60a5fa; }
+[data-theme="dark"] .cd-back-icon      { background: rgba(37,99,235,.15); color: #60a5fa; }
+[data-theme="dark"] .cd-back-link:hover .cd-back-icon { background: #2563eb; color: #fff; }
+[data-theme="dark"] .cd-mobile-back-btn { background: rgba(37,99,235,.15); border-color: rgba(37,99,235,.3); color: #60a5fa; }
 /* Tabs */
 [data-theme="dark"] .cd-tab-pane       { background: transparent; }
 [data-theme="dark"] .cd-tabs-wrap      { background: #1a1f2e; }
-[data-theme="dark"] .cd-tabs-nav       { background: #252b3b; border-bottom-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .cd-tabs-nav       { background: #252b3b; border-bottom-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .cd-tab            { color: #9ca3af; }
-[data-theme="dark"] .cd-tab.active     { color: #4dd9cf; }
-[data-theme="dark"] .cd-tab-badge      { background: rgba(0,167,157,.15); color: #4dd9cf; }
+[data-theme="dark"] .cd-tab.active     { color: #60a5fa; }
+[data-theme="dark"] .cd-tab-badge      { background: rgba(37,99,235,.15); color: #60a5fa; }
 [data-theme="dark"] .cd-tab-body       { background: #1a1f2e; }
 [data-theme="dark"] .cd-story-content  { color: #9ca3af; }
 [data-theme="dark"] .cd-updates-content { color: #9ca3af; }
@@ -437,9 +437,9 @@
 [data-theme="dark"] .cd-no-donors      { color: #9ca3af; }
 /* Donors */
 [data-theme="dark"] .cd-donor-item      { background: #252b3b; }
-[data-theme="dark"] .cd-donor-loadmore { border-color: rgba(0,167,157,.3); color: #4dd9cf; }
-[data-theme="dark"] .cd-donor-loadmore:hover { background: rgba(0,167,157,.1); }
-[data-theme="dark"] .cd-donor-avatar   { background: rgba(0,167,157,.15); }
+[data-theme="dark"] .cd-donor-loadmore { border-color: rgba(37,99,235,.3); color: #60a5fa; }
+[data-theme="dark"] .cd-donor-loadmore:hover { background: rgba(37,99,235,.1); }
+[data-theme="dark"] .cd-donor-avatar   { background: rgba(37,99,235,.15); }
 [data-theme="dark"] .cd-donor-name     { color: #e2e8f0; }
 [data-theme="dark"] p                  { color: #e2e8f0 !important; }
 [data-theme="dark"] .cd-donor-msg      { color: #9ca3af; }

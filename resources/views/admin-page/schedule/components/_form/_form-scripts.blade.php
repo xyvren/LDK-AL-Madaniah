@@ -17,7 +17,7 @@
                             title: 'Invalid File Type!',
                             text: 'Please upload only JPG, JPEG, or PNG images.',
                             icon: 'error',
-                            confirmButtonColor: '#00a79d'
+                            confirmButtonColor: '#2563eb'
                         });
                         this.value = '';
                         return;
@@ -29,7 +29,7 @@
                             title: 'File Too Large!',
                             text: 'Image must be less than 5MB.',
                             icon: 'error',
-                            confirmButtonColor: '#00a79d'
+                            confirmButtonColor: '#2563eb'
                         });
                         this.value = '';
                         return;
@@ -68,7 +68,7 @@
                         title: 'Title Required!',
                         text: 'Please enter a title for the schedule.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     title.focus();
                     return;
@@ -81,7 +81,7 @@
                         title: 'Month Required!',
                         text: 'Please enter a month.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     month.focus();
                     return;
@@ -94,7 +94,7 @@
                         title: 'Year Required!',
                         text: 'Please enter a year.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     year.focus();
                     return;
@@ -107,7 +107,7 @@
                         title: 'Picture Required!',
                         text: 'Please upload a schedule image.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     picture.focus();
                     return;
@@ -147,7 +147,7 @@
                 title: 'Error!',
                 text: '{{ session('error') }}',
                 icon: 'error',
-                confirmButtonColor: '#00a79d'
+                confirmButtonColor: '#2563eb'
             });
         @endif
     });

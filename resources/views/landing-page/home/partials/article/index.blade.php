@@ -34,7 +34,7 @@
             @endphp
             <div class="art-card" style="--card-accent: {{ $accent }}">
                 <div class="art-card__img-wrap">
-                    <img src="https://lh3.googleusercontent.com/d/{{ $article->gdrive_id }}"
+                    <img src="/drive-media/{{ $article->gdrive_id }}"
                          alt="{{ $article->title }}"
                          class="art-card__img"
                          loading="lazy">
@@ -100,12 +100,12 @@
                      data-article-theme="{{ $article->theme ?? 'Artikel' }}"
                      data-article-writer="{{ $article->writer }}"
                      data-article-date="{{ \Carbon\Carbon::parse($article->dateevent)->isoFormat('D MMMM YYYY') }}"
-                     data-article-img="https://lh3.googleusercontent.com/d/{{ $article->gdrive_id }}"
+                     data-article-img="/drive-media/{{ $article->gdrive_id }}"
                      data-article-editor="{{ $article->editor }}"
                      data-article-url="{{ $article->getArticleUrl() }}"
                      data-article-accent="{{ $accent }}">
                     <div class="art-card__img-wrap">
-                        <img src="https://lh3.googleusercontent.com/d/{{ $article->gdrive_id }}"
+                        <img src="/drive-media/{{ $article->gdrive_id }}"
                              alt="{{ $article->title }}"
                              class="art-card__img"
                              loading="lazy">

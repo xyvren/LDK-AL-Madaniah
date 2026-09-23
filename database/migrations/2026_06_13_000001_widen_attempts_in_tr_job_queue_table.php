@@ -15,6 +15,10 @@ class WidenAttemptsInTrJobQueueTable extends Migration
      */
     public function up(): void
     {
+        if (DB::getDriverName() === 'sqlite') {
+            return;
+        }
+
         if (Schema::hasColumn('tr_job_queue', 'attempts')) {
             DB::statement('ALTER TABLE `tr_job_queue` MODIFY `attempts` INT UNSIGNED NOT NULL DEFAULT 0');
         }

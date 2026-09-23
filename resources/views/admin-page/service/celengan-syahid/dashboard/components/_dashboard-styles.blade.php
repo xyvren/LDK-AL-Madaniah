@@ -3,7 +3,7 @@
         font-size: 1.65rem;
         font-weight: 600;
         text-align: center;
-        color: #00a79d;
+        color: #2563eb;
         margin: .75rem 0 1.5rem;
         position: relative;
         display: inline-block;
@@ -19,12 +19,12 @@
         width: 120px;
         margin: .35rem auto 0;
         border-radius: 3px;
-        background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);
+        background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);
     }
     .cs-section-title {
         font-size: 1.1rem;
         font-weight: 600;
-        color: #00a79d;
+        color: #2563eb;
         padding-bottom: 0.5rem;
         border-bottom: 2px solid #e0f7f5;
     }
@@ -53,7 +53,7 @@
     .cs-info-card:hover {
         transform: translateY(-3px);
         box-shadow: 0 6px 16px rgba(0, 167, 157, 0.15);
-        border-color: #00a79d;
+        border-color: #2563eb;
     }
     .cs-info-icon {
         width: 48px;
@@ -83,7 +83,7 @@
         width: 40px;
         height: 40px;
         border: 4px solid #e0f7f5;
-        border-top: 4px solid #00a79d;
+        border-top: 4px solid #2563eb;
         border-radius: 50%;
         animation: cs-spin 0.8s linear infinite;
     }
@@ -101,15 +101,15 @@
     .cs-campaign-table { font-size: .875rem; }
     .cs-campaign-table thead th {
         font-weight: 600;
-        color: #00a79d;
+        color: #2563eb;
         border-bottom: 2px solid #e0f7f5;
         white-space: nowrap;
         padding: .7rem .75rem;
-        background: rgba(0,167,157,.04);
+        background: rgba(37,99,235,.04);
     }
     .cs-campaign-table tbody td { padding: .75rem .75rem; vertical-align: middle; }
     .cs-campaign-table tbody tr { border-bottom: 1px solid #f0f0f0; transition: background .15s; }
-    .cs-campaign-table tbody tr:hover { background: rgba(0,167,157,.04); }
+    .cs-campaign-table tbody tr:hover { background: rgba(37,99,235,.04); }
     .cs-campaign-table tbody tr:last-child { border-bottom: none; }
     .cs-campaign-table tfoot td { border-top: 2px solid #e0f7f5; padding-top: .85rem; }
     .cs-row-expired { opacity: .75; }
@@ -148,7 +148,7 @@
     .cs-cat-default { background: #e0f7f5; color: #008b84; }
 
     /* Collected / available */
-    .cs-amount-collected { font-weight: 700; color: #00a79d; font-size: .9rem; }
+    .cs-amount-collected { font-weight: 700; color: #2563eb; font-size: .9rem; }
     .cs-avail-badge {
         display: inline-block;
         background: rgba(25,135,84,.1);
@@ -174,8 +174,8 @@
         border-radius: 5px;
         transition: width .5s ease;
     }
-    .cs-bar-full  { background: linear-gradient(90deg, #00a79d, #198754); }
-    .cs-bar-good  { background: linear-gradient(90deg, #00c9bd, #00a79d); }
+    .cs-bar-full  { background: linear-gradient(90deg, #2563eb, #198754); }
+    .cs-bar-good  { background: linear-gradient(90deg, #00c9bd, #2563eb); }
     .cs-bar-mid   { background: linear-gradient(90deg, #fbbf24, #f59e0b); }
     .cs-bar-low   { background: linear-gradient(90deg, #f87171, #ef4444); }
     .cs-pct-label { font-size: .78rem; font-weight: 700; color: #6c757d; }
@@ -196,8 +196,8 @@
     /* Buttons */
     .cs-btn-finance {
         color: #fff;
-        background-color: #00a79d;
-        border-color: #00a79d;
+        background-color: #2563eb;
+        border-color: #2563eb;
         padding: .25rem .55rem;
         border-radius: 6px;
     }
@@ -205,15 +205,15 @@
     .cs-btn-all {
         font-size: .8rem;
         font-weight: 600;
-        color: #00a79d;
-        border: 1px solid #00a79d;
+        color: #2563eb;
+        border: 1px solid #2563eb;
         border-radius: 6px;
         padding: .25rem .75rem;
         text-decoration: none;
         transition: all .2s;
         white-space: nowrap;
     }
-    .cs-btn-all:hover { background: #00a79d; color: #fff; text-decoration: none; }
+    .cs-btn-all:hover { background: #2563eb; color: #fff; text-decoration: none; }
 
     /* Dark Mode */
     html.dark-mode .cs-info-card {
@@ -232,7 +232,7 @@
     }
     html.dark-mode .cs-loading-spinner {
         border-color: #373b3e;
-        border-top-color: #00a79d;
+        border-top-color: #2563eb;
     }
 
     html.dark-mode .cs-campaign-table thead th { color: #2dd4bf; border-bottom-color: rgba(45,212,191,.15); background: rgba(45,212,191,.04); }
@@ -250,11 +250,11 @@
     html.dark-mode .cs-cat-hum     { background: rgba(194,65,12,.15); color: #fdba74; }
     html.dark-mode .cs-cat-env     { background: rgba(22,163,74,.15); color: #86efac; }
     html.dark-mode .cs-cat-hlt     { background: rgba(225,29,72,.15); color: #fda4af; }
-    html.dark-mode .cs-cat-default { background: rgba(0,167,157,.15); color: #2dd4bf; }
+    html.dark-mode .cs-cat-default { background: rgba(37,99,235,.15); color: #2dd4bf; }
 
     html.dark-mode .cs-tag-soon    { background: rgba(234,179,8,.1); color: #fde68a; border-color: rgba(234,179,8,.2); }
 
-    html.dark-mode .cs-btn-finance { background-color: #00a79d; border-color: #00a79d; }
+    html.dark-mode .cs-btn-finance { background-color: #2563eb; border-color: #2563eb; }
     html.dark-mode .cs-btn-finance:hover { background-color: #008b84; border-color: #008b84; }
     html.dark-mode .cs-btn-all { color: #2dd4bf; border-color: #2dd4bf; }
     html.dark-mode .cs-btn-all:hover { background: #008b84; border-color: #008b84; color: #fff; }
@@ -274,8 +274,8 @@
     html.dark-mode .cs-table-pagination { border-top-color: rgba(255,255,255,.08); }
     .cs-pg-btn { font-size: .78rem !important; padding: .22rem .6rem !important; border-radius: 6px !important; min-width: 32px; }
     .cs-pg-btn.active {
-        background: #00a79d !important;
-        border-color: #00a79d !important;
+        background: #2563eb !important;
+        border-color: #2563eb !important;
         color: #fff !important;
         font-weight: 700;
     }

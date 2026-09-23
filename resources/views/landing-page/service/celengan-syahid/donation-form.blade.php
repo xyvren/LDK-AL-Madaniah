@@ -2,10 +2,10 @@
 
 @php
     $coverSrc = $data->gdrive_id
-                    ? 'https://lh3.googleusercontent.com/d/' . $data->gdrive_id
-                    : 'https://lh3.googleusercontent.com/d/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O';
+                    ? '/drive-media/' . $data->gdrive_id
+                    : '/drive-media/13hUNUJ_oQhmBGMRx37dj380dOhlsKm7O';
     $logoSrc  = $data->gdrive_id_1
-                    ? 'https://lh3.googleusercontent.com/d/' . $data->gdrive_id_1
+                    ? '/drive-media/' . $data->gdrive_id_1
                     : '/landing-page-ext-rsrc/img/ldk-logo.png';
     $orgName          = $data->nama_organisasi ?: (($data->nama_pj && $data->link_pj) ? $data->nama_pj : 'UKM LDK Al-Madaniah');
     $rawLink          = ($data->nama_pj && $data->link_pj) ? $data->link_pj : 'https://ubb.ac.id';

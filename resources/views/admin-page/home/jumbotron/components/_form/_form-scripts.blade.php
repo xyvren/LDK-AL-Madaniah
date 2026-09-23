@@ -27,7 +27,7 @@
                             title: 'Invalid File Type!',
                             text: 'Please upload only JPG, JPEG, or PNG images.',
                             icon: 'error',
-                            confirmButtonColor: '#00a79d'
+                            confirmButtonColor: '#2563eb'
                         });
                         this.value = '';
                         return;
@@ -39,7 +39,7 @@
                             title: 'File Too Large!',
                             text: 'Image must be less than 5MB.',
                             icon: 'error',
-                            confirmButtonColor: '#00a79d'
+                            confirmButtonColor: '#2563eb'
                         });
                         this.value = '';
                         return;
@@ -76,7 +76,7 @@
                         title: 'Title Required!',
                         text: 'Please enter a title for the jumbotron.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     title.focus();
                     return;
@@ -89,7 +89,7 @@
                         title: 'Picture Required!',
                         text: 'Please upload a picture for the jumbotron.',
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     picture.focus();
                     return;
@@ -129,7 +129,7 @@
                 title: 'Error!',
                 text: '{{ session('error') }}',
                 icon: 'error',
-                confirmButtonColor: '#00a79d'
+                confirmButtonColor: '#2563eb'
             });
         @endif
     });

@@ -15,7 +15,7 @@
                     <div class="testimony-card__quote">"</div>
                     <div class="testimony-card__profile">
                         <div class="profile__avatar-wrap">
-                            <img src="https://lh3.googleusercontent.com/d/{{ $testimony->gdrive_id }}"
+                            <img src="/drive-media/{{ $testimony->gdrive_id }}"
                                  alt="{{ $testimony->name }}"
                                  class="profile__avatar">
                             <div class="profile__status"></div>
@@ -141,7 +141,7 @@
                     <div class="testimony-card-mobile" data-index="{{ $key }}">
                         <div class="testimony-card-mobile__header">
                             <div class="testimony-card-mobile__avatar-wrapper">
-                                <img src="https://lh3.googleusercontent.com/d/{{ $testimony->gdrive_id }}"
+                                <img src="/drive-media/{{ $testimony->gdrive_id }}"
                                      alt="{{ $testimony->name }}"
                                      class="testimony-card-mobile__avatar">
                             </div>
@@ -153,7 +153,7 @@
                         <button class="testimony-card-mobile__btn"
                                 data-name="{{ $testimony->name }}"
                                 data-role="{{ $testimony->profession }}"
-                                data-img="https://lh3.googleusercontent.com/d/{{ $testimony->gdrive_id }}"
+                                data-img="/drive-media/{{ $testimony->gdrive_id }}"
                                 data-text="{{ $testimony->testimony }}">
                             Baca Testimoni 💬
                         </button>

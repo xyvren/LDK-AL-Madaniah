@@ -23,7 +23,7 @@
         <div class="d-flex align-items-center ms-4 mb-4">
             <div class="position-relative">
                 @if (Auth::User()->profile != null && Auth::User()->profile->profilepicture != null)
-                    <img class="rounded-circle" src="https://lh3.googleusercontent.com/d/{{Auth::User()->profile->gdrive_id}}" alt="{{Auth::User()->profile->namapanggilan}}" style="width: 40px; height: 40px;">
+                    <img class="rounded-circle" src="/drive-media/{{Auth::User()->profile->gdrive_id}}" alt="{{Auth::User()->profile->namapanggilan}}" style="width: 40px; height: 40px;">
                 @elseif (Auth::User()->profile != null && Auth::User()->profile->googleAvatar)
                     <img class="rounded-circle" src="{{ Auth::User()->profile->googleAvatar }}" alt="{{ Auth::user()->name }}" style="width: 40px; height: 40px;">
                 @else
@@ -332,8 +332,8 @@ html.dark-mode .sidebar .navbar .dropdown-item.active:hover,
 html.dark-mode .sidebar .navbar .dropdown-item.active:focus,
 html.dark-mode .sidebar .navbar .dropdown-item.active:active,
 html.dark-mode .sidebar .navbar .dropdown-item:active {
-    background-color: rgba(0,167,157,0.15) !important;
-    color: #00a79d !important;
+    background-color: rgba(37,99,235,0.15) !important;
+    color: #2563eb !important;
 }
 </style>
 

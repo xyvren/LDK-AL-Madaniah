@@ -39,7 +39,7 @@
     $user    = $comment->user;
     $profile = $user->profile ?? null;
     if ($profile && $profile->profilepicture) {
-        $avatarSrc = 'https://lh3.googleusercontent.com/d/' . $profile->gdrive_id;
+        $avatarSrc = '/drive-media/' . $profile->gdrive_id;
     } elseif ($profile && $profile->googleAvatar) {
         $avatarSrc = $profile->googleAvatar;
     } else {
@@ -81,7 +81,7 @@
                                                 <img src="{{ $avatarSrc }}" alt="{{ $user->name }}"
                                                      style="width:32px;height:32px;border-radius:50%;object-fit:cover;flex-shrink:0;">
                                             @else
-                                                <div style="width:32px;height:32px;border-radius:50%;background:#00a79d;color:#fff;
+                                                <div style="width:32px;height:32px;border-radius:50%;background:#2563eb;color:#fff;
                                                             display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">
                                                     {{ mb_strtoupper(mb_substr($user->name, 0, 1)) }}
                                                 </div>
@@ -209,7 +209,7 @@
                             $rUser    = $reply->user;
                             $rProfile = $rUser->profile ?? null;
                             if ($rProfile && $rProfile->profilepicture) {
-                                $rAvatar = 'https://lh3.googleusercontent.com/d/' . $rProfile->gdrive_id;
+                                $rAvatar = '/drive-media/' . $rProfile->gdrive_id;
                             } elseif ($rProfile && $rProfile->googleAvatar) {
                                 $rAvatar = $rProfile->googleAvatar;
                             } else {
@@ -226,7 +226,7 @@
                                     <img src="{{ $rAvatar }}" alt="{{ $rUser->name }}"
                                          style="width:30px;height:30px;border-radius:50%;object-fit:cover;flex-shrink:0;">
                                 @else
-                                    <div style="width:30px;height:30px;border-radius:50%;background:#00a79d;color:#fff;
+                                    <div style="width:30px;height:30px;border-radius:50%;background:#2563eb;color:#fff;
                                                 display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.75rem;flex-shrink:0;">
                                         {{ mb_strtoupper(mb_substr($rUser->name, 0, 1)) }}
                                     </div>
@@ -267,7 +267,7 @@
                                     $dUser    = $deep->user;
                                     $dProfile = $dUser->profile ?? null;
                                     if ($dProfile && $dProfile->profilepicture) {
-                                        $dAvatar = 'https://lh3.googleusercontent.com/d/' . $dProfile->gdrive_id;
+                                        $dAvatar = '/drive-media/' . $dProfile->gdrive_id;
                                     } elseif ($dProfile && $dProfile->googleAvatar) {
                                         $dAvatar = $dProfile->googleAvatar;
                                     } else {

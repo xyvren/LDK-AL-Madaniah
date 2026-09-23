@@ -3,9 +3,9 @@
    TESTIMONY SECTION — Modern & Elegant
    ═══════════════════════════════════════════════ */
 :root {
-    --primary: #00a79d;
+    --primary: #2563eb;
     --primary-light: rgba(0, 167, 157, 0.1);
-    --primary-gradient: linear-gradient(135deg, #00a79d 0%, #00d4c4 100%);
+    --primary-gradient: linear-gradient(135deg, #2563eb 0%, #00d4c4 100%);
     --secondary: #6c757d;
     --dark: #2d3e50;
     --font-primary: 'Poppins', sans-serif;
@@ -1062,7 +1062,7 @@ body.testimony-sheet-open {
 .testi-load-more-line {
     flex: 1;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(0,167,157,0.18), transparent);
+    background: linear-gradient(90deg, transparent, rgba(37,99,235,0.18), transparent);
 }
 
 .testi-load-more-btn {
@@ -1071,7 +1071,7 @@ body.testimony-sheet-open {
     gap: 0.55rem;
     padding: 0.7rem 1.6rem;
     background: white;
-    border: 1.5px solid rgba(0,167,157,0.22);
+    border: 1.5px solid rgba(37,99,235,0.22);
     border-radius: 50px;
     color: var(--primary);
     font-size: 0.88rem;
@@ -1079,7 +1079,7 @@ body.testimony-sheet-open {
     cursor: pointer;
     white-space: nowrap;
     transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
-    box-shadow: 0 3px 14px rgba(0,167,157,0.1);
+    box-shadow: 0 3px 14px rgba(37,99,235,0.1);
     position: relative;
     overflow: hidden;
 }
@@ -1097,7 +1097,7 @@ body.testimony-sheet-open {
     border-color: transparent;
     color: white;
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0,167,157,0.28);
+    box-shadow: 0 8px 24px rgba(37,99,235,0.28);
 }
 
 .testi-load-more-btn:hover::before { opacity: 1; }
@@ -1113,7 +1113,7 @@ body.testimony-sheet-open {
     width: 26px;
     height: 26px;
     border-radius: 50%;
-    background: rgba(0,167,157,0.1);
+    background: rgba(37,99,235,0.1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1160,13 +1160,13 @@ body.testimony-sheet-open {
 }
 
 /* Dark mode */
-[data-theme="dark"] .testi-load-more-btn { background: #1a1f2e; border-color: rgba(0,167,157,.25); }
+[data-theme="dark"] .testi-load-more-btn { background: #1a1f2e; border-color: rgba(37,99,235,.25); }
 [data-theme="dark"] .testi-load-more-btn:hover { border-color: transparent; }
-[data-theme="dark"] .testi-load-more-line { background: linear-gradient(90deg, transparent, rgba(0,167,157,.12), transparent); }
+[data-theme="dark"] .testi-load-more-line { background: linear-gradient(90deg, transparent, rgba(37,99,235,.12), transparent); }
 
 /* ── Dark Mode ── */
-[data-theme="dark"] .stat-card { background: #1a1f2e; border-color: rgba(0,167,157,.1); }
-[data-theme="dark"] .testimony-card { background: #1a1f2e; border-color: rgba(0,167,157,.1); }
+[data-theme="dark"] .stat-card { background: #1a1f2e; border-color: rgba(37,99,235,.1); }
+[data-theme="dark"] .testimony-card { background: #1a1f2e; border-color: rgba(37,99,235,.1); }
 [data-theme="dark"] .testimony-card__text { color: #9ca3af; }
 [data-theme="dark"] .testimony-card__name { color: #e2e8f0; }
 [data-theme="dark"] .testimony-card__role { color: #9ca3af; }
@@ -1174,8 +1174,8 @@ body.testimony-sheet-open {
 [data-theme="dark"] .testimony-sheet             { background: #1a1f2e; }
 [data-theme="dark"] .testimony-sheet__header      { background: #1a1f2e; }
 [data-theme="dark"] .testimony-sheet__handle      { background: rgba(255,255,255,.15); }
-[data-theme="dark"] .testimony-sheet__content     { background: linear-gradient(to bottom, #1a1f2e 0%, rgba(0,167,157,.03) 100%); }
-[data-theme="dark"] .testimony-sheet__name        { color: #4dd9cf; }
+[data-theme="dark"] .testimony-sheet__content     { background: linear-gradient(to bottom, #1a1f2e 0%, rgba(37,99,235,.03) 100%); }
+[data-theme="dark"] .testimony-sheet__name        { color: #60a5fa; }
 [data-theme="dark"] .testimony-sheet__role        { color: #9ca3af; }
 [data-theme="dark"] .testimony-sheet__text        { color: #cbd5e0; }
 [data-theme="dark"] .testimony-heading              { color: #e2e8f0; }
@@ -1183,7 +1183,7 @@ body.testimony-sheet-open {
 [data-theme="dark"] .testimony-subtitle             { color: #9ca3af; }
 [data-theme="dark"] .testimony-subtitle-mobile      { color: #9ca3af; }
 [data-theme="dark"] .stat-card__label               { color: #9ca3af; }
-[data-theme="dark"] .testimony-card-mobile          { background: rgba(26,31,46,.92); border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .testimony-card-mobile          { background: rgba(26,31,46,.92); border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .testimony-card-mobile__name    { color: #e2e8f0; }
 [data-theme="dark"] .profile__role    { color: #e2e8f0; }
 [data-theme="dark"] .testimony-sheet__role    { color: #e2e8f0; }

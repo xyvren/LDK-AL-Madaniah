@@ -8,7 +8,7 @@
        ================================================================ */
 
     :root {
-        --primary:       #00a79d;
+        --primary:       #2563eb;
         --primary-dark:  #008b82;
         --primary-light: #e0f7f5;
         --dark:          #2c3e50;
@@ -122,9 +122,9 @@
 
     .cu-mobile-card { cursor: pointer; }
 
-    .cu-card--primary { background: linear-gradient(135deg, #00a79d 0%, #00c4b8 100%); color: white; }
-    .cu-card--green   { background: linear-gradient(135deg, #00b894 0%, #00a79d 100%); color: white; }
-    .cu-card--teal    { background: linear-gradient(135deg, #20c997 0%, #00a79d 100%); color: white; }
+    .cu-card--primary { background: linear-gradient(135deg, #2563eb 0%, #00c4b8 100%); color: white; }
+    .cu-card--green   { background: linear-gradient(135deg, #00b894 0%, #2563eb 100%); color: white; }
+    .cu-card--teal    { background: linear-gradient(135deg, #20c997 0%, #2563eb 100%); color: white; }
     .cu-card--info    { background: linear-gradient(135deg, #0dcaf0 0%, #17a2b8 100%); color: white; }
 
     .cu-info-card:hover {
@@ -959,46 +959,46 @@
 
 
 /* ── Dark Mode ──────────────────────────────────────────── */
-[data-theme="dark"] .cu-section-badge { background: rgba(0,167,157,.15); color: #4dd9cf; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .cu-section-badge { background: rgba(37,99,235,.15); color: #60a5fa; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .cu-section-title { color: #e2e8f0; }
 [data-theme="dark"] .cu-section-sub   { color: #9ca3af; }
 [data-theme="dark"] .cu-loc-chip {
     background: #1a1f2e;
-    border-color: rgba(0,167,157,.25);
+    border-color: rgba(37,99,235,.25);
     color: #e2e8f0;
 }
 [data-theme="dark"] .cu-loc-ico { filter: brightness(1.3); }
 [data-theme="dark"] .cu-map-open-btn {
     background: #1e2535;
-    border-color: rgba(0,167,157,.3);
+    border-color: rgba(37,99,235,.3);
     color: #e2e8f0;
 }
 [data-theme="dark"] .cu-form-input,
 [data-theme="dark"] .cu-form-textarea {
     background: #1e2535;
-    border-color: rgba(0,167,157,.25);
+    border-color: rgba(37,99,235,.25);
     color: #e2e8f0;
 }
 [data-theme="dark"] .cu-form-input:focus,
 [data-theme="dark"] .cu-form-textarea:focus {
     background: #252b3b;
-    border-color: #00a79d;
+    border-color: #2563eb;
 }
 [data-theme="dark"] .cu-form-input::placeholder,
 [data-theme="dark"] .cu-form-textarea::placeholder { color: rgba(226,232,240,.35); }
 [data-theme="dark"] .cu-bottom-sheet {
     background: #1a1f2e;
-    border-color: rgba(0,167,157,.25);
+    border-color: rgba(37,99,235,.25);
 }
 [data-theme="dark"] .cu-form-card {
     background: #1a1f2e;
-    border-color: rgba(0,167,157,.2);
+    border-color: rgba(37,99,235,.2);
 }
 [data-theme="dark"] .cu-loc-label  { color: #9ca3af; }
 [data-theme="dark"] .cu-loc-val    { color: #e2e8f0; }
 [data-theme="dark"] .cu-form-label { color: #e2e8f0; }
 [data-theme="dark"] .cu-bs-close   { background: #252b3b; color: #9ca3af; }
-[data-theme="dark"] .cu-bs-close:hover { background: #1e2535; color: #4dd9cf; }
+[data-theme="dark"] .cu-bs-close:hover { background: #1e2535; color: #60a5fa; }
 [data-theme="dark"] .cu-bs-content .cu-bs-title { color: #e2e8f0; }
 [data-theme="dark"] .cu-bs-content .cu-bs-body  { color: #9ca3af; }
 [data-theme="dark"] .cu-bs-content .cu-bs-social-item {
@@ -1006,12 +1006,12 @@
     color: #e2e8f0;
 }
 [data-theme="dark"] .cu-bs-content .cu-bs-social-item:hover {
-    background: rgba(0,167,157,.15);
-    color: #4dd9cf;
+    background: rgba(37,99,235,.15);
+    color: #60a5fa;
 }
 [data-theme="dark"] .cu-subscribe-glass {
     background: #1a1f2e;
-    border-color: rgba(0,167,157,.2);
+    border-color: rgba(37,99,235,.2);
 }
 [data-theme="dark"] .cu-subscribe-title      { color: #e2e8f0; }
 [data-theme="dark"] .cu-subscribe-sub        { color: #9ca3af; }
@@ -1019,26 +1019,26 @@
 [data-theme="dark"] .cu-subscribe-form-sub   { color: #9ca3af; }
 [data-theme="dark"] .cu-subscribe-label      { color: #e2e8f0; }
 [data-theme="dark"] .cu-subscribe-icon-wrap {
-    background: rgba(0,167,157,.12);
-    border-color: rgba(0,167,157,.25);
+    background: rgba(37,99,235,.12);
+    border-color: rgba(37,99,235,.25);
 }
 [data-theme="dark"] .cu-benefit-icon {
-    background: rgba(0,167,157,.1);
-    border-color: rgba(0,167,157,.2);
+    background: rgba(37,99,235,.1);
+    border-color: rgba(37,99,235,.2);
 }
 [data-theme="dark"] .cu-benefit-title { color: #e2e8f0; }
 [data-theme="dark"] .cu-benefit-desc  { color: #6b7280; }
 [data-theme="dark"] .cu-subscribe-divider {
-    background: linear-gradient(to bottom, transparent, rgba(0,167,157,.2) 30%, rgba(0,167,157,.2) 70%, transparent);
+    background: linear-gradient(to bottom, transparent, rgba(37,99,235,.2) 30%, rgba(37,99,235,.2) 70%, transparent);
 }
 [data-theme="dark"] .cu-subscribe-input {
     background: #1e2535;
-    border-color: rgba(0,167,157,.25);
+    border-color: rgba(37,99,235,.25);
     color: #e2e8f0;
 }
 [data-theme="dark"] .cu-subscribe-input:focus {
     background: #252b3b;
-    border-color: #00a79d;
+    border-color: #2563eb;
 }
 [data-theme="dark"] .cu-subscribe-input::placeholder { color: rgba(226,232,240,0.35); }
 [data-theme="dark"] .cu-subscribe-note { color: #6b7280; }

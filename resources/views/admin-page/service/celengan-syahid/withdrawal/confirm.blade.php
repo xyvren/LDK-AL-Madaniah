@@ -66,15 +66,15 @@ html.dark-mode .cf-info-value { color: #e5e7eb; }
 
 /* ── Amount breakdown ───────────────────────────────── */
 .cf-breakdown {
-    background: rgba(0,167,157,.05);
-    border: 1px solid rgba(0,167,157,.15);
+    background: rgba(37,99,235,.05);
+    border: 1px solid rgba(37,99,235,.15);
     border-radius: 10px;
     padding: .85rem 1rem;
 }
-html.dark-mode .cf-breakdown { background: rgba(0,167,157,.08); border-color: rgba(0,167,157,.2); }
+html.dark-mode .cf-breakdown { background: rgba(37,99,235,.08); border-color: rgba(37,99,235,.2); }
 .cf-breakdown-row { display: flex; justify-content: space-between; align-items: center; padding: .3rem 0; font-size: .875rem; }
 .cf-breakdown-row.total {
-    border-top: 2px dashed rgba(0,167,157,.25);
+    border-top: 2px dashed rgba(37,99,235,.25);
     margin-top: .35rem;
     padding-top: .55rem;
     font-weight: 700;
@@ -146,12 +146,12 @@ html.dark-mode .cf-danger-banner { background: rgba(248,113,113,.1); border-colo
 
 /* ── 2FA card ───────────────────────────────────────── */
 .cf-2fa-card {
-    background: linear-gradient(135deg, rgba(0,167,157,.04) 0%, rgba(0,139,132,.02) 100%);
-    border: 1px solid rgba(0,167,157,.15);
+    background: linear-gradient(135deg, rgba(37,99,235,.04) 0%, rgba(0,139,132,.02) 100%);
+    border: 1px solid rgba(37,99,235,.15);
     border-radius: 12px;
     padding: 1.25rem;
 }
-html.dark-mode .cf-2fa-card { background: rgba(0,167,157,.06); border-color: rgba(0,167,157,.2); }
+html.dark-mode .cf-2fa-card { background: rgba(37,99,235,.06); border-color: rgba(37,99,235,.2); }
 
 /* ── Execute button ─────────────────────────────────── */
 .btn-execute {
@@ -355,11 +355,11 @@ html.dark-mode .cf-net { color: #4ade80 !important; }
             @if(auth()->user()->google2fa_enabled)
             <div class="cf-2fa-card">
                 <div class="d-flex align-items-center gap-2 mb-3">
-                    <div style="width:36px;height:36px;border-radius:8px;background:rgba(0,167,157,.12);display:flex;align-items:center;justify-content:center;color:#00a79d;font-size:1rem;flex-shrink:0">
+                    <div style="width:36px;height:36px;border-radius:8px;background:rgba(37,99,235,.12);display:flex;align-items:center;justify-content:center;color:#2563eb;font-size:1rem;flex-shrink:0">
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <div>
-                        <div class="fw-bold" style="font-size:.9rem;color:#00a79d">Two-Factor Authentication Required</div>
+                        <div class="fw-bold" style="font-size:.9rem;color:#2563eb">Two-Factor Authentication Required</div>
                         <div class="small text-muted">Enter the 6-digit code from your authenticator app</div>
                     </div>
                 </div>

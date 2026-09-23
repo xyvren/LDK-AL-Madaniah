@@ -14,7 +14,7 @@
    ================================================================ */
 
 :root {
-    --primary:       #00a79d;
+    --primary:       #2563eb;
     --primary-dark:  #008b82;
     --primary-light: #e0f7f5;
     --dark:          #2c3e50;
@@ -38,8 +38,8 @@
     animation: glPulse 2s ease infinite;
 }
 @keyframes glPulse {
-    0%,100% { box-shadow: 0 0 0 0 rgba(0,167,157,.4); }
-    50%      { box-shadow: 0 0 0 6px rgba(0,167,157,0); }
+    0%,100% { box-shadow: 0 0 0 0 rgba(37,99,235,.4); }
+    50%      { box-shadow: 0 0 0 6px rgba(37,99,235,0); }
 }
 .gl-section-title { font-size: 2rem; font-weight: 700; color: var(--dark); margin: 0; }
 .gl-section-sub   { color: var(--gray); font-size: 1rem; margin: .5rem 0 0; }
@@ -56,7 +56,7 @@
     position: relative;
 }
 .gl-event-card:hover {
-    box-shadow: 0 14px 40px rgba(0,167,157,.15), 0 2px 8px rgba(0,0,0,.05);
+    box-shadow: 0 14px 40px rgba(37,99,235,.15), 0 2px 8px rgba(0,0,0,.05);
     transform: translateY(-4px);
 }
 
@@ -213,7 +213,7 @@
 }
 .gl-mobile-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(0,167,157,.14), 0 2px 8px rgba(0,0,0,.06);
+    box-shadow: 0 12px 32px rgba(37,99,235,.14), 0 2px 8px rgba(0,0,0,.06);
 }
 
 /* Thumbnail with gradient overlay */
@@ -237,7 +237,7 @@
     display: flex; justify-content: space-between; align-items: flex-end; gap: .4rem;
 }
 .gl-m-tag-img {
-    background: rgba(0,167,157,.88); color: white;
+    background: rgba(37,99,235,.88); color: white;
     border-radius: 50px; padding: .22rem .8rem;
     font-size: .72rem; font-weight: 700; letter-spacing: .2px;
     backdrop-filter: blur(4px); max-width: 62%;
@@ -407,7 +407,7 @@ body.gl-sheet-open { overflow: hidden !important; touch-action: none; }
     content: '';
     display: block;
     width: 40px; height: 4px;
-    background: rgba(0,167,157,.45);
+    background: rgba(37,99,235,.45);
     border-radius: 2px;
     margin: .85rem auto .4rem;
     position: sticky;
@@ -428,7 +428,7 @@ body.gl-sheet-open { overflow: hidden !important; touch-action: none; }
     content: '';
     position: absolute; top: -10px; right: -1.1rem;
     width: 100px; height: 100px; border-radius: 50%;
-    background: rgba(0,167,157,.07); pointer-events: none;
+    background: rgba(37,99,235,.07); pointer-events: none;
 }
 .gl-bs-meta { display: flex; align-items: center; gap: .5rem; margin-bottom: .5rem; position: relative; z-index: 1; }
 .gl-bs-tag {
@@ -473,7 +473,7 @@ body.gl-sheet-open { overflow: hidden !important; touch-action: none; }
 }
 
 /* ── Dark Mode ──────────────────────────────────────────── */
-[data-theme="dark"] .gl-section-badge { background: rgba(0,167,157,.15); color: #4dd9cf; }
+[data-theme="dark"] .gl-section-badge { background: rgba(37,99,235,.15); color: #60a5fa; }
 [data-theme="dark"] .gl-section-title { color: #e2e8f0; }
 [data-theme="dark"] .gl-section-sub   { color: #9ca3af; }
 
@@ -482,7 +482,7 @@ body.gl-sheet-open { overflow: hidden !important; touch-action: none; }
 [data-theme="dark"] .gl-card-body     { background: linear-gradient(to bottom, #1e2535 0%, #1a1f2e 60px); }
 [data-theme="dark"] .gl-card-title    { color: #e2e8f0; }
 [data-theme="dark"] .gl-card-desc     { color: #9ca3af; }
-[data-theme="dark"] .gl-card-footer   { border-top-color: rgba(0,167,157,.15); }
+[data-theme="dark"] .gl-card-footer   { border-top-color: rgba(37,99,235,.15); }
 [data-theme="dark"] .gl-video-label   { color: #9ca3af; }
 [data-theme="dark"] .gl-event-title   { color: #e2e8f0; }
 [data-theme="dark"] .gl-event-meta    { color: #9ca3af; }
@@ -499,9 +499,9 @@ body.gl-sheet-open { overflow: hidden !important; touch-action: none; }
 /* Bottom sheet */
 [data-theme="dark"] .gl-bottom-sheet   { background: #1a1f2e; }
 [data-theme="dark"] .gl-bs-content     { background: linear-gradient(to bottom, #1a1f2e 0%, #1a1f2e 200px); }
-[data-theme="dark"] .gl-bs-content::before { background: rgba(0,167,157,.35); }
+[data-theme="dark"] .gl-bs-content::before { background: rgba(37,99,235,.35); }
 [data-theme="dark"] .gl-bs-close       { background: rgba(255,255,255,.08); color: #e2e8f0; }
-[data-theme="dark"] .gl-bs-header      { border-bottom-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .gl-bs-header      { border-bottom-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .gl-bs-title       { color: #e2e8f0; }
 [data-theme="dark"] .gl-bs-desc        { color: #9ca3af; }
 [data-theme="dark"] .gl-bs-video-label { color: #9ca3af; }

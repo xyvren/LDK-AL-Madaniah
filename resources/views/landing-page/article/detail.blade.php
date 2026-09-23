@@ -145,7 +145,7 @@
                     @foreach($relatedArticles as $i => $article)
                     <a href="{{ $article->getArticleUrl() }}" class="ad-related-card">
                         <div class="ad-related-img-wrap">
-                            <img src="https://lh3.googleusercontent.com/d/{{ $article->gdrive_id }}"
+                            <img src="/drive-media/{{ $article->gdrive_id }}"
                                  alt="{{ $article->title }}" loading="lazy">
                             <div class="ad-related-overlay"></div>
                         </div>
@@ -218,7 +218,7 @@
         @foreach($relatedArticles as $i => $article)
         <a href="{{ $article->getArticleUrl() }}" class="ad-rj-item">
             <div class="ad-rj-item-img">
-                <img src="https://lh3.googleusercontent.com/d/{{ $article->gdrive_id }}"
+                <img src="/drive-media/{{ $article->gdrive_id }}"
                      alt="{{ $article->title }}" loading="lazy">
                 <div class="ad-rj-item-overlay"></div>
             </div>

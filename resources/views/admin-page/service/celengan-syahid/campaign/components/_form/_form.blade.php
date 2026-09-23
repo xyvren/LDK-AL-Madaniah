@@ -5,8 +5,8 @@
     $data = $data ?? null;
     $provinces = $provinces ?? collect();
 
-    $currentPoster = ($data && $data->gdrive_id) ? 'https://lh3.googleusercontent.com/d/' . $data->gdrive_id : null;
-    $currentLogo = ($data && $data->gdrive_id_1) ? 'https://lh3.googleusercontent.com/d/' . $data->gdrive_id_1 : null;
+    $currentPoster = ($data && $data->gdrive_id) ? '/drive-media/' . $data->gdrive_id : null;
+    $currentLogo = ($data && $data->gdrive_id_1) ? '/drive-media/' . $data->gdrive_id_1 : null;
 
     // nama_pj is now always set (required PIC Name field, see Media &
     // Contact below) — it's no longer a signal that this campaign belongs

@@ -766,7 +766,7 @@ body.art-sheet-open .back-to-top {
 [data-theme="dark"] .art-card { background: #1a1f2e; }
 [data-theme="dark"] .art-card__title a { color: #e2e8f0; }
 [data-theme="dark"] .art-card__meta { color: #9ca3af; }
-[data-theme="dark"] .art-btn-all { background: #1a1f2e; color: #00c4b8; border-color: rgba(0,167,157,.4); }
+[data-theme="dark"] .art-btn-all { background: #1a1f2e; color: #00c4b8; border-color: rgba(37,99,235,.4); }
 [data-theme="dark"] .art-empty { background: #1a1f2e; color: #9ca3af; }
 [data-theme="dark"] .art-sheet { background: #1a1f2e; }
 [data-theme="dark"] .art-sheet__img-gradient { background: linear-gradient(to bottom, transparent, #1a1f2e); }
@@ -774,18 +774,18 @@ body.art-sheet-open .back-to-top {
 [data-theme="dark"] .art-sheet__meta { color: #9ca3af; }
 [data-theme="dark"] .art-sheet__body { color: #cbd5e0; }
 [data-theme="dark"] .art-heading            { color: #e2e8f0; }
-[data-theme="dark"] .art-heading__highlight { color: #4dd9cf; }
+[data-theme="dark"] .art-heading__highlight { color: #60a5fa; }
 [data-theme="dark"] .art-card__title                        { color: #e2e8f0; }
 [data-theme="dark"] .art-card__people-card                  { background: #252b3b; }
 [data-theme="dark"] .art-card:hover .art-card__people-card  { background: #2d3548; }
 [data-theme="dark"] .art-card__meta-name                    { color: #e2e8f0; }
 [data-theme="dark"] .art-card:hover .art-card__meta-name    { color: #e2e8f0; }
 [data-theme="dark"] .art-card__meta-label                   { color: #9ca3af; }
-[data-theme="dark"] .art-card__theme                        { background: rgba(0,167,157,.15); color: #4dd9cf; }
-[data-theme="dark"] .art-card__read                         { background: rgba(0,167,157,.15); color: #4dd9cf; }
+[data-theme="dark"] .art-card__theme                        { background: rgba(37,99,235,.15); color: #60a5fa; }
+[data-theme="dark"] .art-card__read                         { background: rgba(37,99,235,.15); color: #60a5fa; }
 [data-theme="dark"] .art-card__tap-hint     { background: rgba(26,31,46,.92); color: #e2e8f0; }
 [data-theme="dark"] .art-sheet__meta-item   { color: #9ca3af; }
-[data-theme="dark"] .art-sheet__meta-icon   { background: rgba(0,167,157,.15); }
+[data-theme="dark"] .art-sheet__meta-icon   { background: rgba(37,99,235,.15); }
 [data-theme="dark"] .art-sheet__meta-text span:not(.art-sheet__meta-label) { color: #e2e8f0; }
 [data-theme="dark"] .art-sheet__meta-label { color: #e2e8f0; }
 </style>

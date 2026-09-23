@@ -44,13 +44,13 @@
 @include('landing-page.service.celengan-syahid.components._payment-status._payment-status-styles')
 <style>
     .ds-qris-card { background:#fff; border:1px solid #e6eef0; border-radius:18px; padding:1.5rem; text-align:center; margin-bottom:1.25rem; box-shadow:0 6px 20px rgba(0,0,0,.06); }
-    .ds-qris-title { font-weight:700; color:#00a79d; margin-bottom:1rem; }
+    .ds-qris-title { font-weight:700; color:#2563eb; margin-bottom:1rem; }
     .ds-qris-box { display:inline-flex; align-items:center; justify-content:center; min-height:240px; background:#fff; padding:14px; border-radius:14px; }
     .ds-qris-box img, .ds-qris-box canvas { width:240px; height:240px; max-width:100%; background:#fff; filter:none !important; image-rendering:pixelated; }
-    .ds-qris-amount { font-size:1.4rem; font-weight:800; color:#00a79d; margin-top:1rem; }
+    .ds-qris-amount { font-size:1.4rem; font-weight:800; color:#2563eb; margin-top:1rem; }
     .ds-qris-hint { font-size:.85rem; color:#6c757d; margin:.5rem 0 0; }
     .ds-qris-expiry { font-size:.82rem; color:#6c757d; margin-top:.5rem; }
-    .ds-qris-dl-btn { display:inline-flex; align-items:center; gap:.45rem; margin-top:1rem; padding:.6rem 1.4rem; background:#00a79d; color:#fff; border:none; border-radius:50px; font-size:.875rem; font-weight:600; cursor:pointer; text-decoration:none; transition:background .2s; }
+    .ds-qris-dl-btn { display:inline-flex; align-items:center; gap:.45rem; margin-top:1rem; padding:.6rem 1.4rem; background:#2563eb; color:#fff; border:none; border-radius:50px; font-size:.875rem; font-weight:600; cursor:pointer; text-decoration:none; transition:background .2s; }
     .ds-qris-dl-btn:hover { background:#008f86; color:#fff; }
     .ds-qris-dl-btn:active { background:#007a72; }
     .ds-qris-provider { display:inline-flex; align-items:center; gap:.4rem; margin-bottom:1rem; padding:.35rem .85rem; background:#f4f7f8; border:1px solid #e6eef0; border-radius:30px; font-size:.72rem; color:#6c757d; }

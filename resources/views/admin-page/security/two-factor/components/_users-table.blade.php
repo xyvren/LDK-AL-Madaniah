@@ -4,7 +4,7 @@
     <td>
         <div class="fw-semibold" style="font-size:.875rem">{{ $u->name }}</div>
         @if($u->id === auth()->id())
-            <span style="font-size:.68rem;font-weight:700;color:#00a79d;text-transform:uppercase;letter-spacing:.04em">You</span>
+            <span style="font-size:.68rem;font-weight:700;color:#2563eb;text-transform:uppercase;letter-spacing:.04em">You</span>
         @endif
     </td>
     <td class="small text-muted">{{ $u->email }}</td>

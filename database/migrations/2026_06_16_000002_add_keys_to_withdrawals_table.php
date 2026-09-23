@@ -9,6 +9,10 @@ class AddKeysToWithdrawalsTable extends Migration
 {
     public function up(): void
     {
+        if (DB::getDriverName() === 'sqlite') {
+            return;
+        }
+
         Schema::table('withdrawals', function (Blueprint $table) {
             // Primary key
             if (!$this->hasPrimaryKey('withdrawals')) {

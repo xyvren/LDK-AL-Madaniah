@@ -21,7 +21,7 @@
     <x-hero-jumbotron type="quran">
         <div class="hero-slide">
             <img class="hero-image"
-                 src="https://lh3.googleusercontent.com/d/1hDEx-QFNqCTduumn6IvJ6iOf8qmTp-P_"
+                 src="/drive-media/1hDEx-QFNqCTduumn6IvJ6iOf8qmTp-P_"
                  alt="Artikel LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>

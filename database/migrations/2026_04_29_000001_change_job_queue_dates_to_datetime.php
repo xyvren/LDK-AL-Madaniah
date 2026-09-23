@@ -14,6 +14,10 @@ class ChangeJobQueueDatesToDatetime extends Migration
 {
     public function up(): void
     {
+        if (DB::getDriverName() === 'sqlite') {
+            return;
+        }
+
         // Bersihkan job lama agar konversi tipe tidak merusak data
         DB::table('tr_job_queue')->truncate();
 

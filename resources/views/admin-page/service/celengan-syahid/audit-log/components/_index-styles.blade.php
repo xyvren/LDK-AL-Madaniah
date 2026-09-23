@@ -3,12 +3,12 @@
 /* ── Page Title ── */
 .page-title {
     font-size: 1.65rem; font-weight: 600;
-    color: #00a79d; margin: .75rem 0 .25rem; position: relative; display: inline-block;
+    color: #2563eb; margin: .75rem 0 .25rem; position: relative; display: inline-block;
 }
 .page-title::after {
     content: ''; display: block; height: 4px; width: 120px;
     margin: .35rem 0 0; border-radius: 3px;
-    background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);
+    background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);
 }
 .btn-rounded { border-radius: 8px !important; }
 
@@ -26,7 +26,7 @@
     display: flex; align-items: center; justify-content: center;
     font-size: 1.2rem; flex-shrink: 0;
 }
-.stat-icon-total  { background: rgba(0,167,157,0.12); color: #00a79d; }
+.stat-icon-total  { background: rgba(37,99,235,0.12); color: #2563eb; }
 .stat-icon-create { background: rgba(40,167,69,0.12);  color: #28a745; }
 .stat-icon-update { background: rgba(255,193,7,0.15);  color: #d39e00; }
 .stat-icon-delete { background: rgba(220,53,69,0.12);  color: #dc3545; }
@@ -50,8 +50,8 @@
     transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 .filter-bar .form-control:focus, .filter-bar .form-select:focus {
-    border-color: #00a79d !important;
-    box-shadow: 0 0 0 0.2rem rgba(0,167,157,0.25) !important;
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 0.2rem rgba(37,99,235,0.25) !important;
 }
 
 /* ── Select2 in Filter Bar (match Job Queue Log) ── */
@@ -68,8 +68,8 @@
 .filter-bar .select2-container .select2-selection--single .select2-selection__arrow { height: 29px; right: 10px; }
 .filter-bar .select2-container--open .select2-selection--single,
 .filter-bar .select2-container--focus .select2-selection--single {
-    border-color: #00a79d !important;
-    box-shadow: 0 0 0 0.2rem rgba(0,167,157,0.25) !important; outline: none;
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 0.2rem rgba(37,99,235,0.25) !important; outline: none;
 }
 .select2-container--default .select2-results__option {
     padding: 8px 14px; font-size: 0.875rem; color: #333;
@@ -77,13 +77,13 @@
 }
 .select2-container--default .select2-results__option--highlighted[aria-selected],
 .select2-container--default .select2-results__option--highlighted {
-    background-color: #00a79d !important; color: #fff !important;
+    background-color: #2563eb !important; color: #fff !important;
 }
 .select2-container--default .select2-results__option[aria-selected="true"] {
     background-color: #e0f7f5 !important; color: #008b84 !important; font-weight: 600;
 }
 .select2-container--default .select2-selection__arrow b {
-    border-color: #00a79d transparent transparent transparent;
+    border-color: #2563eb transparent transparent transparent;
 }
 .select2-dropdown {
     border-radius: 8px !important; border: 1px solid #00bfa6 !important;
@@ -115,8 +115,8 @@
 }
 .audit-pg-btn { font-size: .78rem !important; padding: .22rem .6rem !important; border-radius: 6px !important; min-width: 32px; }
 .audit-pg-btn.active {
-    background: #00a79d !important;
-    border-color: #00a79d !important;
+    background: #2563eb !important;
+    border-color: #2563eb !important;
     color: #fff !important;
     font-weight: 700;
 }
@@ -141,7 +141,7 @@ html.dark-mode .audit-pg-btn.active { background: #008b84 !important; border-col
 .badge-entity {
     display: inline-block; font-size: 0.72rem; font-weight: 600;
     padding: 2px 9px; border-radius: 6px;
-    background: rgba(0,167,157,0.1); color: #008b84; border: 1px solid rgba(0,167,157,0.2);
+    background: rgba(37,99,235,0.1); color: #008b84; border: 1px solid rgba(37,99,235,0.2);
 }
 .entity-id { font-size: 0.7rem; color: #adb5bd; margin-top: 2px; font-family: monospace; }
 
@@ -197,7 +197,7 @@ html.dark-mode .filter-bar .select2-container .select2-selection--single .select
 }
 html.dark-mode .filter-bar .select2-container--open .select2-selection--single,
 html.dark-mode .filter-bar .select2-container--focus .select2-selection--single {
-    border-color: #00a79d !important; box-shadow: 0 0 0 0.2rem rgba(0,167,157,0.25) !important;
+    border-color: #2563eb !important; box-shadow: 0 0 0 0.2rem rgba(37,99,235,0.25) !important;
 }
 html.dark-mode .select2-dropdown { background-color: #2b2f33 !important; border-color: #373b3e !important; }
 html.dark-mode .select2-container--default .select2-results__option { color: #e4e6eb !important; }

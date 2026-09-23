@@ -144,7 +144,7 @@
                 if (file) {
                     const validTypes = ['image/jpeg', 'image/png', 'image/jpg'];
                     if (!validTypes.includes(file.type)) {
-                        Swal.fire({ title: 'Invalid File Type!', text: 'Please upload only JPG, JPEG, or PNG images.', icon: 'error', confirmButtonColor: '#00a79d' });
+                        Swal.fire({ title: 'Invalid File Type!', text: 'Please upload only JPG, JPEG, or PNG images.', icon: 'error', confirmButtonColor: '#2563eb' });
                         e.target.value = '';
                         return;
                     }

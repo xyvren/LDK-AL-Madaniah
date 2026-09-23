@@ -32,11 +32,11 @@
         max-height: 90vh;
         overflow-y: auto;
         text-align: center;
-        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.18), 0 8px 30px rgba(0,167,157,0.12);
-        border: 1px solid rgba(0,167,157,0.1);
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.18), 0 8px 30px rgba(37,99,235,0.12);
+        border: 1px solid rgba(37,99,235,0.1);
         animation: vepmSlideIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
         scrollbar-width: thin;
-        scrollbar-color: rgba(0,167,157,0.2) transparent;
+        scrollbar-color: rgba(37,99,235,0.2) transparent;
     }
 
     .vepm-box::before {
@@ -44,7 +44,7 @@
         position: absolute;
         top: 0; left: 10%; right: 10%;
         height: 2px;
-        background: linear-gradient(90deg, transparent 0%, rgba(0,167,157,0.4) 30%, rgba(0,167,157,0.4) 70%, transparent 100%);
+        background: linear-gradient(90deg, transparent 0%, rgba(37,99,235,0.4) 30%, rgba(37,99,235,0.4) 70%, transparent 100%);
         filter: blur(1px);
     }
 
@@ -85,7 +85,7 @@
         align-items: center;
         gap: 0.5rem;
         background: var(--primary-light);
-        border: 1px solid rgba(0,167,157,0.2);
+        border: 1px solid rgba(37,99,235,0.2);
         border-radius: 50px;
         padding: 0.4rem 1.1rem;
         margin-bottom: 1.5rem;
@@ -126,7 +126,7 @@
     .vepm-ring {
         position: absolute;
         border-radius: 50%;
-        border: 2px solid rgba(0,167,157,0.12);
+        border: 2px solid rgba(37,99,235,0.12);
         top: 50%; left: 50%;
         animation: veRingExpand 3s ease-out infinite;
     }
@@ -170,7 +170,7 @@
         align-items: center;
         gap: 0.45rem;
         background: var(--primary-light);
-        border: 1px solid rgba(0,167,157,0.2);
+        border: 1px solid rgba(37,99,235,0.2);
         border-radius: 50px;
         padding: 0.45rem 1.1rem;
         font-weight: 600;
@@ -211,12 +211,12 @@
         align-items: center;
         justify-content: center;
         font-size: 1.35rem;
-        border: 1px solid rgba(0,167,157,0.12);
+        border: 1px solid rgba(37,99,235,0.12);
         transition: var(--transition-bounce);
     }
     .vepm-step:hover .vepm-step-icon {
         transform: translateY(-4px);
-        box-shadow: 0 6px 16px rgba(0,167,157,0.14);
+        box-shadow: 0 6px 16px rgba(37,99,235,0.14);
     }
     .vepm-step span {
         font-size: 0.68rem;
@@ -224,7 +224,7 @@
         color: var(--secondary);
     }
     .vepm-step-arrow {
-        color: rgba(0,167,157,0.35);
+        color: rgba(37,99,235,0.35);
         font-size: 0.75rem;
         margin-top: -12px;
     }
@@ -232,7 +232,7 @@
     /* Divider */
     .vepm-divider {
         width: 100%; height: 1px;
-        background: linear-gradient(90deg, transparent, rgba(0,167,157,0.15), transparent);
+        background: linear-gradient(90deg, transparent, rgba(37,99,235,0.15), transparent);
         margin: 0 0 1.25rem;
     }
 
@@ -283,7 +283,7 @@
     @media (hover: hover) {
         .vepm-resend-btn:hover {
             transform: translateY(-3px) scale(1.02);
-            box-shadow: 0 12px 28px rgba(0,167,157,0.3);
+            box-shadow: 0 12px 28px rgba(37,99,235,0.3);
         }
         .vepm-resend-btn:hover .vepm-btn-icon { transform: rotate(-20deg) scale(1.1); }
         .vepm-resend-btn:hover .vepm-btn-shine { left: 100%; }
@@ -295,7 +295,7 @@
         align-items: center;
         gap: 0.65rem;
         background: linear-gradient(135deg, #e8fdf5, #d0faf0);
-        border: 1px solid rgba(0,167,157,0.2);
+        border: 1px solid rgba(37,99,235,0.2);
         border-radius: 12px;
         padding: 0.85rem 1rem;
         margin-top: 1rem;
@@ -336,7 +336,7 @@
     }
     .vepm-message.success {
         background: linear-gradient(135deg, #e8fdf5, #d0faf0);
-        border: 1px solid rgba(0,167,157,0.2);
+        border: 1px solid rgba(37,99,235,0.2);
         color: var(--dark);
     }
     .vepm-message.error {
@@ -365,10 +365,10 @@
     [data-theme="dark"] .vepm-title { color: #e2e8f0; }
     [data-theme="dark"] .vepm-desc { color: #9ca3af; }
     [data-theme="dark"] .vepm-step-label { color: #9ca3af; }
-    [data-theme="dark"] .vepm-email-chip { background: #252b3b; color: #4dd9cf; border-color: rgba(0,167,157,.3); }
-    [data-theme="dark"] .vepm-note { background: #1e2d2c; color: #9ca3af; border-color: rgba(0,167,157,.2); }
+    [data-theme="dark"] .vepm-email-chip { background: #252b3b; color: #60a5fa; border-color: rgba(37,99,235,.3); }
+    [data-theme="dark"] .vepm-note { background: #1e2d2c; color: #9ca3af; border-color: rgba(37,99,235,.2); }
     [data-theme="dark"] .vepm-close { background: #252b3b; color: #9ca3af; }
-    [data-theme="dark"] .vepm-close:hover { background: rgba(0,167,157,.15); color: #4dd9cf; }
+    [data-theme="dark"] .vepm-close:hover { background: rgba(37,99,235,.15); color: #60a5fa; }
 </style>
 
 <style>

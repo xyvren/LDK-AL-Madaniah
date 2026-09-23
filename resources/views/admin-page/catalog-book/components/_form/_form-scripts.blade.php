@@ -116,7 +116,7 @@
                     title: 'Error!',
                     text: 'Title is required',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 return;
             }
@@ -131,7 +131,7 @@
                         title: 'Error!',
                         text: `${select.previousElementSibling?.textContent?.replace('*', '').trim()} is required`,
                         icon: 'error',
-                        confirmButtonColor: '#00a79d'
+                        confirmButtonColor: '#2563eb'
                     });
                     select.focus();
                     return;
@@ -149,7 +149,7 @@
                     title: 'Error!',
                     text: 'Purchase Link is required for this availability type',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 $('#purchaseLink').focus();
                 return;
@@ -161,7 +161,7 @@
                     title: 'Error!',
                     text: 'Borrow Link is required for this availability type',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 $('#borrowLink').focus();
                 return;
@@ -183,7 +183,7 @@
                     title: 'Invalid Reader Link!',
                     text: 'Please enter a valid AnyFlip URL or path (e.g., https://anyflip.com/ueiyz/goae/ or ueiyz/goae)',
                     icon: 'error',
-                    confirmButtonColor: '#00a79d'
+                    confirmButtonColor: '#2563eb'
                 });
                 $('#readerLink').focus();
                 return;

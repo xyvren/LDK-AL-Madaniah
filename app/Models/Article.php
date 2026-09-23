@@ -291,12 +291,12 @@ class Article extends Model
     }
 
     /**
-     * Get poster URL from Google Drive
+     * Get poster URL from Google Drive or local storage
      */
     public function getPosterUrl(): ?string
     {
         if ($this->gdrive_id) {
-            return "https://lh3.googleusercontent.com/d/{$this->gdrive_id}";
+            return url('/drive-media/' . $this->gdrive_id);
         }
         return null;
     }

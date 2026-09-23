@@ -20,7 +20,7 @@
     <x-hero-jumbotron type="quran">
         <div class="hero-slide">
             <img class="hero-image"
-                 src="https://lh3.googleusercontent.com/d/1wOvUz3jq66UwdPduMGiW4RUML9JMV-nC"
+                 src="/drive-media/1wOvUz3jq66UwdPduMGiW4RUML9JMV-nC"
                  alt="Laporan Keuangan LDK Al-Madaniah" />
         </div>
     </x-hero-jumbotron>
@@ -121,7 +121,7 @@
                     <div class="fr-acc-left">
                         <div class="fr-acc-logo">
                             @if($ldkData['logo'])
-                                <img src="https://lh3.googleusercontent.com/d/{{ $ldkData['logo'] }}"
+                                <img src="/drive-media/{{ $ldkData['logo'] }}"
                                      alt="{{ $ldkData['name'] }}" loading="lazy">
                             @else
                                 <i class="fas fa-university"></i>

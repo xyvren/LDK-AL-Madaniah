@@ -12,7 +12,7 @@
     align-items: center;
     gap: 0.5rem;
     background: var(--primary-light);
-    border: 1px solid rgba(0,167,157,0.2);
+    border: 1px solid rgba(37,99,235,0.2);
     border-radius: var(--radius-pill);
     padding: 0.45rem 1.2rem;
     margin-bottom: 1rem;
@@ -55,7 +55,7 @@
     background: var(--white);
     border-radius: var(--radius-xl);
     box-shadow: var(--shadow);
-    border: 1px solid rgba(0,167,157,0.08);
+    border: 1px solid rgba(37,99,235,0.08);
     overflow: hidden;
     transition: transform 0.38s cubic-bezier(0.4,0,0.2,1),
                 box-shadow 0.38s cubic-bezier(0.4,0,0.2,1);
@@ -63,7 +63,7 @@
 
 .ms-di-card:hover {
     transform: scale(1.003);
-    box-shadow: 0 16px 48px rgba(0,0,0,0.1), 0 4px 16px rgba(0,167,157,0.1);
+    box-shadow: 0 16px 48px rgba(0,0,0,0.1), 0 4px 16px rgba(37,99,235,0.1);
 }
 
 /* ── ATAS: gradient hero — foto kiri, info+deskripsi kanan ── */
@@ -195,7 +195,7 @@
 .ms-di-right {
     display: flex;
     flex-direction: column;
-    border-top: 3px solid rgba(0,167,157,0.18);
+    border-top: 3px solid rgba(37,99,235,0.18);
     background: var(--white);
 }
 
@@ -418,7 +418,7 @@
     background: var(--white);
     border-radius: var(--radius-xl);
     box-shadow: var(--shadow);
-    border: 1px solid rgba(0,167,157,0.08);
+    border: 1px solid rgba(37,99,235,0.08);
     overflow: hidden;
     width: 100%;
     box-sizing: border-box;
@@ -541,7 +541,7 @@
     background: var(--primary-light);
     color: var(--primary);
     border: none;
-    border-top: 1px solid rgba(0,167,157,0.1);
+    border-top: 1px solid rgba(37,99,235,0.1);
     font-size: 0.82rem;
     font-weight: 600;
     cursor: pointer;
@@ -629,7 +629,7 @@
     width: 26px;
     border-radius: var(--radius-pill);
     background: var(--primary-gradient);
-    box-shadow: 0 2px 8px rgba(0,167,157,0.35);
+    box-shadow: 0 2px 8px rgba(37,99,235,0.35);
 }
 
 /* ============================================================
@@ -904,26 +904,26 @@ body.ms-modal-open .back-to-top {
 
 /* ── Dark Mode ──────────────────────────────────────────── */
 [data-theme="dark"] .ms-lb-overlay  { background: rgba(0,0,0,.88); }
-[data-theme="dark"] .ms-lb-content  { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
-[data-theme="dark"] .ms-lb-header   { background: #1a1f2e; border-bottom-color: rgba(0,167,157,.15); }
+[data-theme="dark"] .ms-lb-content  { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
+[data-theme="dark"] .ms-lb-header   { background: #1a1f2e; border-bottom-color: rgba(37,99,235,.15); }
 [data-theme="dark"] .ms-lb-name     { color: #e2e8f0; }
 [data-theme="dark"] .ms-lb-position { color: #9ca3af; }
 [data-theme="dark"] .ms-lb-body     { background: #1a1f2e; }
-[data-theme="dark"] .ms-photo-frame { background: #252b3b; border-color: rgba(0,167,157,.2); }
-[data-theme="dark"] .ms-card        { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .ms-photo-frame { background: #252b3b; border-color: rgba(37,99,235,.2); }
+[data-theme="dark"] .ms-card        { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .ms-card-name   { color: #e2e8f0; }
 [data-theme="dark"] .ms-card-pos      { color: #9ca3af; }
 [data-theme="dark"] .ms-section-title { color: #e2e8f0; }
 [data-theme="dark"] .ms-mob-hname     { color: #e2e8f0; }
 [data-theme="dark"] .ms-dm-name       { color: #e2e8f0; }
 [data-theme="dark"] .ms-di-chart-toggle-label       { color: #e2e8f0; }
-[data-theme="dark"] .ms-lb-close      { color: #e2e8f0; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .ms-lb-close      { color: #e2e8f0; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .ms-dm-sheet      { background: #1a1f2e; }
-[data-theme="dark"] .ms-dm-photo-wrap { background: linear-gradient(135deg, rgba(0,167,157,.08) 0%, rgba(26,31,46,.6) 100%); }
-[data-theme="dark"] .ms-dm-desc-wrap  { border-top-color: rgba(0,167,157,.1); }
+[data-theme="dark"] .ms-dm-photo-wrap { background: linear-gradient(135deg, rgba(37,99,235,.08) 0%, rgba(26,31,46,.6) 100%); }
+[data-theme="dark"] .ms-dm-desc-wrap  { border-top-color: rgba(37,99,235,.1); }
 [data-theme="dark"] .ms-dm-desc-label { color: #9ca3af; }
 [data-theme="dark"] .ms-dm-desc-wrap p { color: #cbd5e0; }
-[data-theme="dark"] .ms-dm-chart-section { border-top-color: rgba(0,167,157,.1); }
+[data-theme="dark"] .ms-dm-chart-section { border-top-color: rgba(37,99,235,.1); }
 [data-theme="dark"] .ms-dm-chart-label { color: #9ca3af; }
 
 </style>

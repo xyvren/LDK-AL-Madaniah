@@ -19,19 +19,19 @@
     }
     .ve-blob-1 {
         width: 400px; height: 400px;
-        background: radial-gradient(circle, rgba(0,167,157,0.12) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(37,99,235,0.12) 0%, transparent 70%);
         top: -100px; right: -80px;
         animation: veBlobFloat 10s ease-in-out infinite;
     }
     .ve-blob-2 {
         width: 300px; height: 300px;
-        background: radial-gradient(circle, rgba(0,167,157,0.08) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(37,99,235,0.08) 0%, transparent 70%);
         bottom: 0; left: -60px;
         animation: veBlobFloat 14s ease-in-out infinite reverse;
     }
     .ve-blob-3 {
         width: 200px; height: 200px;
-        background: radial-gradient(circle, rgba(0,167,157,0.06) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(37,99,235,0.06) 0%, transparent 70%);
         top: 40%; left: 30%;
         animation: veBlobFloat 18s ease-in-out infinite 3s;
     }
@@ -46,9 +46,9 @@
         background: white;
         border-radius: 28px;
         padding: 3rem 2.5rem 2.5rem;
-        box-shadow: 0 20px 60px rgba(0,167,157,0.12), 0 4px 20px rgba(0,0,0,0.05);
+        box-shadow: 0 20px 60px rgba(37,99,235,0.12), 0 4px 20px rgba(0,0,0,0.05);
         text-align: center;
-        border: 1px solid rgba(0,167,157,0.1);
+        border: 1px solid rgba(37,99,235,0.1);
         z-index: 1;
         overflow: hidden;
     }
@@ -58,7 +58,7 @@
         position: absolute;
         top: 0; left: 10%; right: 10%;
         height: 2px;
-        background: linear-gradient(90deg, transparent 0%, rgba(0,167,157,0.35) 30%, rgba(0,167,157,0.35) 70%, transparent 100%);
+        background: linear-gradient(90deg, transparent 0%, rgba(37,99,235,0.35) 30%, rgba(37,99,235,0.35) 70%, transparent 100%);
         border-radius: 0 0 4px 4px;
         filter: blur(1px);
     }
@@ -69,7 +69,7 @@
         align-items: center;
         gap: 0.5rem;
         background: var(--primary-light);
-        border: 1px solid rgba(0,167,157,0.2);
+        border: 1px solid rgba(37,99,235,0.2);
         border-radius: 50px;
         padding: 0.45rem 1.2rem;
         margin-bottom: 2rem;
@@ -116,7 +116,7 @@
     .ve-icon-ring {
         position: absolute;
         border-radius: 50%;
-        border: 2px solid rgba(0,167,157,0.15);
+        border: 2px solid rgba(37,99,235,0.15);
         top: 50%; left: 50%;
         transform: translate(-50%, -50%) scale(0);
         animation: veRingExpand 3s ease-out infinite;
@@ -167,7 +167,7 @@
         align-items: center;
         gap: 0.5rem;
         background: var(--primary-light);
-        border: 1px solid rgba(0,167,157,0.25);
+        border: 1px solid rgba(37,99,235,0.25);
         border-radius: 50px;
         padding: 0.5rem 1.25rem;
         font-weight: 600;
@@ -214,12 +214,12 @@
         justify-content: center;
         font-size: 1.5rem;
         transition: var(--transition-bounce);
-        border: 1px solid rgba(0,167,157,0.15);
+        border: 1px solid rgba(37,99,235,0.15);
     }
 
     .ve-step:hover .ve-step-icon {
         transform: translateY(-4px);
-        box-shadow: 0 8px 20px rgba(0,167,157,0.15);
+        box-shadow: 0 8px 20px rgba(37,99,235,0.15);
     }
 
     .ve-step span {
@@ -229,7 +229,7 @@
     }
 
     .ve-step-arrow {
-        color: rgba(0,167,157,0.4);
+        color: rgba(37,99,235,0.4);
         font-size: 0.8rem;
         margin-top: -14px;
     }
@@ -237,7 +237,7 @@
     /* Divider */
     .ve-divider {
         width: 100%; height: 1px;
-        background: linear-gradient(90deg, transparent 0%, rgba(0,167,157,0.15) 50%, transparent 100%);
+        background: linear-gradient(90deg, transparent 0%, rgba(37,99,235,0.15) 50%, transparent 100%);
         margin: 0 0 1.5rem;
     }
 
@@ -290,7 +290,7 @@
     @media (hover: hover) {
         .ve-resend-btn:hover {
             transform: translateY(-3px) scale(1.02);
-            box-shadow: 0 12px 30px rgba(0,167,157,0.3);
+            box-shadow: 0 12px 30px rgba(37,99,235,0.3);
         }
         .ve-resend-btn:hover .ve-btn-icon {
             transform: rotate(-20deg) scale(1.1);
@@ -304,7 +304,7 @@
         align-items: center;
         gap: 0.75rem;
         background: linear-gradient(135deg, #e8fdf5, #d0faf0);
-        border: 1px solid rgba(0,167,157,0.25);
+        border: 1px solid rgba(37,99,235,0.25);
         border-radius: 14px;
         padding: 1rem 1.25rem;
         margin-top: 1.25rem;

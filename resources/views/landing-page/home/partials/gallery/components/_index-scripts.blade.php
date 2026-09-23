@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function renderZoom() {
         var img = document.getElementById('hgl-zoom-img');
         var ctr = document.getElementById('hgl-zoom-counter');
-        if (img) img.src = 'https://lh3.googleusercontent.com/d/' + zoomPhotos[zoomIdx];
+        if (img) img.src = '/drive-media/' + zoomPhotos[zoomIdx];
         if (ctr) ctr.textContent = (zoomIdx + 1) + ' / ' + zoomPhotos.length;
     }
 
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function () {
             html += '<div class="gl-bs-photo-grid">';
             data.photos.forEach(function (pid, i) {
                 html += '<div class="gl-bs-photo" data-photo-idx="' + i + '">'
-                     +  '<img src="https://lh3.googleusercontent.com/d/' + escHtml(pid) + '" alt="Foto ' + (i + 1) + '" loading="lazy">'
+                     +  '<img src="/drive-media/' + escHtml(pid) + '" alt="Foto ' + (i + 1) + '" loading="lazy">'
                      +  '</div>';
             });
             html += '</div>';

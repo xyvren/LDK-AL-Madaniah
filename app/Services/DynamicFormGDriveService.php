@@ -104,6 +104,30 @@ class DynamicFormGDriveService
         array  $spreadsheetHeaders = [],
         array  $imageFieldLabels = []
     ): array {
+        $refreshToken = env('GOOGLE_DRIVE_REFRESH_TOKEN');
+        if (empty($refreshToken)) {
+            $mockId = 'local_form_' . \Illuminate\Support\Str::random(12);
+            $fieldFolders = [];
+            foreach ($fileFieldLabels as $label) {
+                $fieldFolders[] = [
+                    'label'                      => $label,
+                    'gdriveFolderID'             => $mockId . '_' . \Illuminate\Support\Str::slug($label),
+                    'gdriveAttachmentsFolderUrl' => '#',
+                ];
+            }
+            return [
+                'gdriveFolderID'             => $mockId,
+                'gdriveFolderUrl'            => '#',
+                'gdriveSpreadsheetID'        => $mockId . '_sheet',
+                'gdriveSpreadsheetUrl'       => '#',
+                'gdriveAttachmentsFolderID'  => $mockId . '_attachments',
+                'gdriveAttachmentsFolderUrl' => '#',
+                'gdriveAssetsFolderID'       => $mockId . '_assets',
+                'gdriveAssetsFolderUrl'      => '#',
+                'fieldFolders'               => $fieldFolders,
+            ];
+        }
+
         // 0. Restrict the root folder first.
         //    The root folder's anyoneWithLink permission propagates to every child
         //    created inside it. Child items inherit it from the root, so trying to
@@ -245,6 +269,22 @@ class DynamicFormGDriveService
         $storedName   = "submission_{$submissionID}_{$originalName}";
         $mimeType     = $file->getMimeType() ?? 'application/octet-stream';
         $fileSizeKB   = (int) ceil($file->getSize() / 1024);
+
+        $refreshToken = env('GOOGLE_DRIVE_REFRESH_TOKEN');
+        if (empty($refreshToken)) {
+            $destDir = public_path('uploads/dynamic_forms');
+            if (!\Illuminate\Support\Facades\File::isDirectory($destDir)) {
+                \Illuminate\Support\Facades\File::makeDirectory($destDir, 0777, true, true);
+            }
+            $file->move($destDir, $storedName);
+            return [
+                'gdriveFileID'     => 'dynamic_forms/' . $storedName,
+                'gdriveFileUrl'    => url('/drive-media/dynamic_forms/' . $storedName),
+                'originalFileName' => $originalName,
+                'mimeType'         => $mimeType,
+                'fileSizeKB'       => $fileSizeKB,
+            ];
+        }
 
         $driveFile = new Google_Service_Drive_DriveFile([
             'name'    => $storedName,
@@ -777,6 +817,19 @@ class DynamicFormGDriveService
         $originalName = $file->getClientOriginalName();
         $storedName   = $fieldLabel . '_' . time() . '_' . $originalName;
         $mimeType     = $file->getMimeType() ?? 'image/jpeg';
+
+        $refreshToken = env('GOOGLE_DRIVE_REFRESH_TOKEN');
+        if (empty($refreshToken)) {
+            $destDir = public_path('uploads/dynamic_forms');
+            if (!\Illuminate\Support\Facades\File::isDirectory($destDir)) {
+                \Illuminate\Support\Facades\File::makeDirectory($destDir, 0777, true, true);
+            }
+            $file->move($destDir, $storedName);
+            return [
+                'gdriveFileID' => 'dynamic_forms/' . $storedName,
+                'publicUrl'    => url('/drive-media/dynamic_forms/' . $storedName),
+            ];
+        }
 
         $driveFile = new Google_Service_Drive_DriveFile([
             'name'    => $storedName,

@@ -15,7 +15,7 @@
      ══════════════════════════════════════════════════ --}}
 @section('content')
 @php
-    $accentColors = ['#00a79d', '#6366f1', '#10b981', '#f59e0b', '#0ea5e9', '#8b5cf6', '#ef4444', '#ec4899'];
+    $accentColors = ['#2563eb', '#6366f1', '#10b981', '#f59e0b', '#0ea5e9', '#8b5cf6', '#ef4444', '#ec4899'];
 @endphp
 
 <section class="its-section">
@@ -54,7 +54,7 @@
                 @php
                     $accent  = $accentColors[$loop->index % count($accentColors)];
                     $isNew   = $member->created_at && $member->created_at->gte(\Carbon\Carbon::now()->subDays(30));
-                    $photo   = 'https://lh3.googleusercontent.com/d/' . $member->gdrive_id;
+                    $photo   = '/drive-media/' . $member->gdrive_id;
                     $delay   = '0.' . ($loop->index % 4 + 1) . 's';
                 @endphp
                 <div class="its-card wow fadeInUp"
@@ -139,7 +139,7 @@
                 @php
                     $accent = $accentColors[$loop->index % count($accentColors)];
                     $isNew  = $member->created_at && $member->created_at->gte(\Carbon\Carbon::now()->subDays(30));
-                    $photo  = 'https://lh3.googleusercontent.com/d/' . $member->gdrive_id;
+                    $photo  = '/drive-media/' . $member->gdrive_id;
                 @endphp
                 <div class="its-mobile-card"
                      style="--its-accent: {{ $accent }}"

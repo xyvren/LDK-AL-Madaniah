@@ -109,7 +109,7 @@
     $extraStyles = '
         /* Modal Styles */
         .bg-gradient-primary {
-            background: linear-gradient(135deg, #00a79d 0%, #008b84 100%);
+            background: linear-gradient(135deg, #2563eb 0%, #008b84 100%);
         }
     ';
 @endphp

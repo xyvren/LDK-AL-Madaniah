@@ -76,7 +76,7 @@
         /* Header gradient */
         var hH   = 108;
         var grad = ctx.createLinearGradient(0, 0, W, 0);
-        grad.addColorStop(0, '#00a79d');
+        grad.addColorStop(0, '#2563eb');
         grad.addColorStop(1, '#00c4b8');
         ctx.fillStyle = grad;
         ctx.fillRect(0, 0, W, hH);
@@ -140,7 +140,7 @@
             var afterCard = cardY + cardSize;
 
             /* Amount */
-            ctx.fillStyle = '#00a79d';
+            ctx.fillStyle = '#2563eb';
             ctx.font      = 'bold 28px Arial, sans-serif';
             ctx.textAlign = 'center';
             ctx.fillText(opts.amount, W / 2, afterCard + 48);

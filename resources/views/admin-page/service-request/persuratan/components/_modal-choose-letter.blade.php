@@ -42,7 +42,7 @@
                     <div class="col-md-6 col-12 mb-2 adm-modal-item" data-cat="all" data-name="all letter types">
                         <a href="{{ route('admin.persuratan.index', request()->except('jenis', 'page')) }}"
                            class="adm-letter-filter-item {{ !request('jenis') ? 'active' : '' }}">
-                            <div class="rounded-circle p-2 d-flex align-items-center justify-content-center" style="width:36px;height:36px; min-width:36px; background-color:#e0f7f5; color:#00a79d;">
+                            <div class="rounded-circle p-2 d-flex align-items-center justify-content-center" style="width:36px;height:36px; min-width:36px; background-color:#e0f7f5; color:#2563eb;">
                                 <i class="fas fa-layer-group"></i>
                             </div>
                             <div class="flex-grow-1 min-width-0">
@@ -61,7 +61,7 @@
                              data-name="{{ strtolower($surat['label']) }} {{ strtolower($surat['badge'] ?? '') }}">
                             <a href="{{ route('admin.persuratan.index', array_merge(request()->except('page'), ['jenis' => $key])) }}"
                                class="adm-letter-filter-item {{ request('jenis') === $key ? 'active' : '' }}">
-                                <div class="rounded-circle p-2 d-flex align-items-center justify-content-center" style="width:36px;height:36px; min-width:36px; background-color:#e0f7f5; color:#00a79d;">
+                                <div class="rounded-circle p-2 d-flex align-items-center justify-content-center" style="width:36px;height:36px; min-width:36px; background-color:#e0f7f5; color:#2563eb;">
                                     <i class="fas {{ $surat['icon'] ?? 'fa-file-alt' }}"></i>
                                 </div>
                                 <div class="flex-grow-1 min-width-0">

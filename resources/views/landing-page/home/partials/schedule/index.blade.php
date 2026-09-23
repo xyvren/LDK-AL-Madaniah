@@ -31,7 +31,7 @@
                 {{-- Image Side --}}
                 @if(!empty($schedule->gdrive_id))
                 <div class="schedule-image-wrapper">
-                    <img src="https://lh3.googleusercontent.com/d/{{ $schedule->gdrive_id }}"
+                    <img src="/drive-media/{{ $schedule->gdrive_id }}"
                          alt="{{ $schedule->month }} {{ $schedule->year }}"
                          class="schedule-img">
                     <div class="schedule-image-gradient"></div>

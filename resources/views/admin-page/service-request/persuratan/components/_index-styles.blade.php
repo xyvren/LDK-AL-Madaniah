@@ -9,7 +9,7 @@
     font-size: 1.65rem;
     font-weight: 600;
     text-align: center;
-    color: #00a79d;
+    color: #2563eb;
     margin: .75rem 0 1.5rem;
     position: relative;
     display: inline-block;
@@ -25,18 +25,18 @@
     width: 120px;
     margin: .35rem auto 0;
     border-radius: 3px;
-    background: linear-gradient(90deg, #00a79d 0%, #008b84 100%);
+    background: linear-gradient(90deg, #2563eb 0%, #008b84 100%);
 }
 
 .text-custom {
-    color: #00a79d !important;
+    color: #2563eb !important;
 }
 
 /* ── Custom Primary Button ───────────────────────────────── */
 .btn-custom-primary {
     color: #fff !important;
-    background-color: #00a79d;
-    border: 1px solid #00a79d;
+    background-color: #2563eb;
+    border: 1px solid #2563eb;
     transition: all 0.3s ease;
 }
 .btn-custom-primary:hover {
@@ -79,7 +79,7 @@
     justify-content: center;
     font-size: 1.25rem;
 }
-.adm-kpi-icon.primary   { background: #e0f7f5; color: #00a79d; }
+.adm-kpi-icon.primary   { background: #e0f7f5; color: #2563eb; }
 .adm-kpi-icon.warning   { background: #fef3c7; color: #d97706; }
 .adm-kpi-icon.success   { background: #d1fae5; color: #059669; }
 .adm-kpi-icon.danger    { background: #fee2e2; color: #dc2626; }
@@ -131,13 +131,13 @@
 }
 .adm-status-pill:hover {
     background: #e0f7f5;
-    border-color: #00a79d;
+    border-color: #2563eb;
     color: #008b84 !important;
     transform: translateY(-1px);
 }
 .adm-status-pill.active {
-    background: linear-gradient(135deg, #00a79d 0%, #008b84 100%);
-    border-color: #00a79d;
+    background: linear-gradient(135deg, #2563eb 0%, #008b84 100%);
+    border-color: #2563eb;
     color: #ffffff !important;
     box-shadow: 0 4px 14px rgba(0, 167, 157, 0.35);
 }
@@ -178,13 +178,13 @@
     width: 100%;
 }
 .adm-type-picker-btn:hover {
-    border-color: #00a79d;
+    border-color: #2563eb;
     background: #e0f7f5;
     color: #008b84;
 }
 .adm-type-picker-btn.has-filter {
     background: #e0f7f5;
-    border-color: #00a79d;
+    border-color: #2563eb;
     font-weight: 700;
     color: #008b84;
 }
@@ -226,7 +226,7 @@
     min-width: 36px;
     border-radius: 50%;
     background-color: #e0f7f5;
-    color: #00a79d;
+    color: #2563eb;
     font-weight: 700;
     font-size: 0.9rem;
     display: flex;
@@ -290,12 +290,12 @@
 }
 .adm-modal-cat-pill:hover {
     background: #e0f7f5;
-    border-color: #00a79d;
+    border-color: #2563eb;
     color: #008b84;
 }
 .adm-modal-cat-pill.active {
-    background: #00a79d;
-    border-color: #00a79d;
+    background: #2563eb;
+    border-color: #2563eb;
     color: #ffffff !important;
 }
 
@@ -314,13 +314,13 @@
     height: 100%;
 }
 .adm-letter-filter-item:hover {
-    border-color: #00a79d;
+    border-color: #2563eb;
     background: #e0f7f5;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 167, 157, 0.15);
 }
 .adm-letter-filter-item.active {
-    border-color: #00a79d;
+    border-color: #2563eb;
     background: #e0f7f5;
     font-weight: 700;
 }
@@ -341,7 +341,7 @@
     justify-content: center;
     font-size: 1.05rem;
 }
-.adm-header-icon.primary { background-color: #e0f7f5; color: #00a79d; }
+.adm-header-icon.primary { background-color: #e0f7f5; color: #2563eb; }
 .adm-header-icon.success { background-color: #d1fae5; color: #059669; }
 .adm-header-icon.danger  { background-color: #fee2e2; color: #dc2626; }
 .adm-header-icon.warning { background-color: #fef3c7; color: #d97706; }
@@ -388,7 +388,7 @@ html.dark-mode .adm-status-pill {
 }
 html.dark-mode .adm-status-pill:hover {
     background: #252b3b !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     color: #2dd4bf !important;
 }
 
@@ -400,7 +400,7 @@ html.dark-mode .adm-type-picker-btn {
 }
 html.dark-mode .adm-type-picker-btn.has-filter {
     background: rgba(0, 167, 157, 0.18) !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     color: #2dd4bf !important;
 }
 
@@ -436,12 +436,12 @@ html.dark-mode .adm-letter-filter-item {
 }
 html.dark-mode .adm-letter-filter-item:hover {
     background: rgba(0, 167, 157, 0.15) !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     color: #2dd4bf !important;
 }
 html.dark-mode .adm-letter-filter-item.active {
     background: rgba(0, 167, 157, 0.25) !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     color: #2dd4bf !important;
 }
 
@@ -451,8 +451,8 @@ html.dark-mode .adm-modal-cat-pill {
     color: #94a3b8 !important;
 }
 html.dark-mode .adm-modal-cat-pill.active {
-    background: #00a79d !important;
-    border-color: #00a79d !important;
+    background: #2563eb !important;
+    border-color: #2563eb !important;
     color: #ffffff !important;
 }
 
@@ -532,7 +532,7 @@ html.dark-mode a.adm-status-pill.expired {
 html.dark-mode .adm-status-pill:hover,
 html.dark-mode a.adm-status-pill:hover {
     background: #252b3b !important;
-    border-color: #00a79d !important;
+    border-color: #2563eb !important;
     color: #2dd4bf !important;
 }
 html.dark-mode .adm-status-pill.pending:hover,
@@ -557,8 +557,8 @@ html.dark-mode a.adm-status-pill.rejected:hover {
 /* Active State in Dark Mode */
 html.dark-mode .adm-status-pill.active,
 html.dark-mode a.adm-status-pill.active {
-    background: linear-gradient(135deg, #00a79d 0%, #008b84 100%) !important;
-    border-color: #00a79d !important;
+    background: linear-gradient(135deg, #2563eb 0%, #008b84 100%) !important;
+    border-color: #2563eb !important;
     color: #ffffff !important;
     box-shadow: 0 4px 14px rgba(0, 167, 157, 0.45) !important;
 }

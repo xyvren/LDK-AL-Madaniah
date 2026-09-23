@@ -44,9 +44,9 @@ html.dark-mode .cw-bal-value-pend { color: #fbbf24; }
     font-weight: 700;
     letter-spacing: .06em;
     text-transform: uppercase;
-    background: rgba(0,167,157,.1);
-    color: #00a79d;
-    border: 1px solid rgba(0,167,157,.2);
+    background: rgba(37,99,235,.1);
+    color: #2563eb;
+    border: 1px solid rgba(37,99,235,.2);
     border-radius: 50px;
     padding: .18em .7em;
     margin-bottom: .75rem;
@@ -73,16 +73,16 @@ html.dark-mode .cw-inquiry-field-val { color: #e5e7eb; }
 
 /* Net breakdown */
 .cw-breakdown {
-    background: rgba(0,167,157,.05);
-    border: 1px solid rgba(0,167,157,.15);
+    background: rgba(37,99,235,.05);
+    border: 1px solid rgba(37,99,235,.15);
     border-radius: 10px;
     padding: .85rem 1rem;
     font-size: .875rem;
 }
-html.dark-mode .cw-breakdown { background: rgba(0,167,157,.08); border-color: rgba(0,167,157,.2); }
+html.dark-mode .cw-breakdown { background: rgba(37,99,235,.08); border-color: rgba(37,99,235,.2); }
 .cw-bd-row { display: flex; justify-content: space-between; align-items: center; padding: .28rem 0; }
 .cw-bd-row.total {
-    border-top: 2px dashed rgba(0,167,157,.25);
+    border-top: 2px dashed rgba(37,99,235,.25);
     margin-top: .35rem;
     padding-top: .55rem;
     font-weight: 700;
@@ -107,24 +107,24 @@ html.dark-mode .cw-breakdown { background: rgba(0,167,157,.08); border-color: rg
 html.dark-mode .cw-campaign-card { background: #2b2f33; }
 .cw-campaign-icon {
     width: 56px; height: 56px; border-radius: 14px;
-    background: rgba(0,167,157,.1); color: #00a79d;
+    background: rgba(37,99,235,.1); color: #2563eb;
     display: flex; align-items: center; justify-content: center;
     font-size: 1.4rem; margin: 0 auto .85rem;
 }
 
 /* Submit button */
 .btn-cw-submit {
-    background: linear-gradient(135deg, #00a79d, #008b84);
+    background: linear-gradient(135deg, #2563eb, #008b84);
     border: none; color: #fff;
     padding: .6rem 1.75rem;
     font-weight: 700; border-radius: 8px; font-size: .95rem;
     transition: all .25s;
-    box-shadow: 0 4px 12px rgba(0,167,157,.35);
+    box-shadow: 0 4px 12px rgba(37,99,235,.35);
 }
 .btn-cw-submit:hover {
     background: linear-gradient(135deg, #008b84, #006f6a);
     color: #fff;
-    box-shadow: 0 6px 16px rgba(0,167,157,.45);
+    box-shadow: 0 6px 16px rgba(37,99,235,.45);
     transform: translateY(-1px);
 }
 .btn-cw-submit:disabled { background: #9ca3af; box-shadow: none; transform: none; }
@@ -176,7 +176,7 @@ html.dark-mode .cw-campaign-card { background: #2b2f33; }
         <div class="col-12 mb-4">
             <div class="cw-campaign-card">
                 <div class="cw-campaign-icon"><i class="fas fa-hand-holding-heart"></i></div>
-                <h5 class="fw-bold mb-1" style="color:#00a79d">Select a Campaign</h5>
+                <h5 class="fw-bold mb-1" style="color:#2563eb">Select a Campaign</h5>
                 <p class="text-muted small mb-3">Choose the campaign you want to withdraw funds from.</p>
                 <div class="col-md-6 mx-auto">
                     <select name="campaign_id" class="form-select" required

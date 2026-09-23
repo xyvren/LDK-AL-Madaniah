@@ -313,7 +313,7 @@ class Gallery extends Model
     public function getGroupPhotoUrl(): ?string
     {
         if ($this->gdrive_id) {
-            return "https://lh3.googleusercontent.com/d/{$this->gdrive_id}";
+            return url('/drive-media/' . $this->gdrive_id);
         }
         return null;
     }
@@ -325,7 +325,7 @@ class Gallery extends Model
     {
         $gdriveKey = 'gdrive_id_' . $index;
         if ($this->$gdriveKey) {
-            return "https://lh3.googleusercontent.com/d/{$this->$gdriveKey}";
+            return url('/drive-media/' . $this->$gdriveKey);
         }
         return null;
     }

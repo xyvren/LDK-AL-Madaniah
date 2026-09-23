@@ -6,7 +6,7 @@
 /* ============================================================
    SCH — Schedule Page Styles
    Palette dari global style-v1.0.0.css:
-     --primary: #00a79d  --primary-dark: #008f86
+     --primary: #2563eb  --primary-dark: #008f86
      --primary-light: #e0f7f5  --warning: #ffc107
      --dark: #282d30  --secondary: #8d9297
    prefix: sch-
@@ -30,7 +30,7 @@
     align-items: center;
     gap: 0.5rem;
     background: #e0f7f5;
-    color: #00a79d;
+    color: #2563eb;
     border-radius: 50px;
     padding: 0.4rem 1.2rem;
     font-size: 0.85rem;
@@ -42,14 +42,14 @@
 .sch-badge-pulse {
     width: 8px;
     height: 8px;
-    background: #00a79d;
+    background: #2563eb;
     border-radius: 50%;
     flex-shrink: 0;
     animation: schBadgePulse 2s ease infinite;
 }
 @keyframes schBadgePulse {
-    0%,  100% { box-shadow: 0 0 0 0   rgba(0,167,157,0.4); }
-    50%        { box-shadow: 0 0 0 6px rgba(0,167,157,0);   }
+    0%,  100% { box-shadow: 0 0 0 0   rgba(37,99,235,0.4); }
+    50%        { box-shadow: 0 0 0 6px rgba(37,99,235,0);   }
 }
 
 .sch-section-title {
@@ -71,13 +71,13 @@
 .sch-card {
     background: #fff;
     border-radius: 24px;
-    box-shadow: 0 4px 24px rgba(0,167,157,0.08);
+    box-shadow: 0 4px 24px rgba(37,99,235,0.08);
     margin-bottom: 1.25rem;
     overflow: hidden;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 .sch-card:hover {
-    box-shadow: 0 14px 44px rgba(0,167,157,0.14);
+    box-shadow: 0 14px 44px rgba(37,99,235,0.14);
     transform: translateY(-2px);
 }
 
@@ -94,10 +94,10 @@
     outline: none;
 }
 .sch-card-header:hover {
-    background: rgba(0,167,157,0.04);
+    background: rgba(37,99,235,0.04);
 }
 .sch-card-header[aria-expanded="true"] {
-    background: rgba(0,167,157,0.04);
+    background: rgba(37,99,235,0.04);
 }
 
 .sch-card-meta { flex: 1; min-width: 0; }
@@ -115,7 +115,7 @@
     align-items: center;
     gap: 0.45rem;
     background: #e0f7f5;
-    color: #00a79d;
+    color: #2563eb;
     font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -179,7 +179,7 @@
     pointer-events: none; /* header handles click */
 }
 .sch-card-header[aria-expanded="true"] .sch-toggle-btn {
-    background: #00a79d;
+    background: #2563eb;
     color: #fff;
 }
 .sch-toggle-icon {
@@ -217,7 +217,7 @@
     padding: 4.5rem 2rem;
     background: #fff;
     border-radius: 24px;
-    box-shadow: 0 4px 24px rgba(0,167,157,0.08);
+    box-shadow: 0 4px 24px rgba(37,99,235,0.08);
 }
 .sch-empty-icon {
     font-size: 4rem;
@@ -247,7 +247,7 @@
 .sch-mob-card {
     background: #fff;
     border-radius: 22px;
-    box-shadow: 0 6px 28px rgba(0,167,157,0.1);
+    box-shadow: 0 6px 28px rgba(37,99,235,0.1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -267,7 +267,7 @@
     align-items: center;
     gap: 0.4rem;
     background: #e0f7f5;
-    color: #00a79d;
+    color: #2563eb;
     font-size: 0.74rem;
     font-weight: 700;
     padding: 0.28rem 0.78rem;
@@ -324,7 +324,7 @@
     gap: 0.55rem;
     margin: 0.85rem 1.1rem 1.1rem;
     padding: 0.7rem 1rem;
-    background: linear-gradient(135deg, #00a79d, #008f86);
+    background: linear-gradient(135deg, #2563eb, #008f86);
     color: #fff;
     border: none;
     border-radius: 50rem;
@@ -332,11 +332,11 @@
     font-weight: 700;
     cursor: pointer;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
-    box-shadow: 0 4px 16px rgba(0,167,157,0.28);
+    box-shadow: 0 4px 16px rgba(37,99,235,0.28);
 }
 .sch-mob-expand-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0,167,157,0.38);
+    box-shadow: 0 8px 24px rgba(37,99,235,0.38);
 }
 
 /* Mobile empty card */
@@ -345,7 +345,7 @@
     padding: 3rem 1.5rem;
     background: #fff;
     border-radius: 22px;
-    box-shadow: 0 4px 20px rgba(0,167,157,0.08);
+    box-shadow: 0 4px 20px rgba(37,99,235,0.08);
 }
 
 /* ── Carousel nav (prev/next + counter) ── */
@@ -361,7 +361,7 @@
     height: 38px;
     border-radius: 50%;
     background: #e0f7f5;
-    color: #00a79d;
+    color: #2563eb;
     border: none;
     display: flex;
     align-items: center;
@@ -372,7 +372,7 @@
     flex-shrink: 0;
 }
 .sch-mob-nav-btn:hover {
-    background: #00a79d;
+    background: #2563eb;
     color: #fff;
     transform: scale(1.08);
 }
@@ -456,7 +456,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: #00a79d;
+    color: #2563eb;
     margin-bottom: 0.2rem;
 }
 .sch-bs-title {
@@ -514,15 +514,15 @@ body.sch-modal-open { overflow: hidden; }
 }
 
 /* ── Dark Mode ──────────────────────────────────────────── */
-[data-theme="dark"] .sch-section-badge   { background: rgba(0,167,157,.15); color: #4dd9cf; }
+[data-theme="dark"] .sch-section-badge   { background: rgba(37,99,235,.15); color: #60a5fa; }
 [data-theme="dark"] .sch-section-title   { color: #e2e8f0; }
 [data-theme="dark"] .sch-section-sub     { color: #9ca3af; }
 [data-theme="dark"] .sch-card            { background: #1a1f2e; }
 [data-theme="dark"] .sch-card-header:hover,
-[data-theme="dark"] .sch-card-header[aria-expanded="true"] { background: rgba(0,167,157,.08); }
+[data-theme="dark"] .sch-card-header[aria-expanded="true"] { background: rgba(37,99,235,.08); }
 [data-theme="dark"] .sch-card-title-text { color: #e2e8f0; }
-[data-theme="dark"] .sch-toggle-btn      { background: #252b3b; color: #4dd9cf; }
-[data-theme="dark"] .sch-card-header[aria-expanded="true"] .sch-toggle-btn { background: #00a79d; color: #fff; }
+[data-theme="dark"] .sch-toggle-btn      { background: #252b3b; color: #60a5fa; }
+[data-theme="dark"] .sch-card-header[aria-expanded="true"] .sch-toggle-btn { background: #2563eb; color: #fff; }
 [data-theme="dark"] .sch-empty-state     { background: #1a1f2e; }
 [data-theme="dark"] .sch-empty-title     { color: #e2e8f0; }
 [data-theme="dark"] .sch-empty-desc      { color: #9ca3af; }

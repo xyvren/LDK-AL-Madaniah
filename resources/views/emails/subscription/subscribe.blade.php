@@ -27,10 +27,10 @@
                 <!-- ── Header ── -->
                 <tr>
                     <td class="hdr-pad" align="center"
-                        style="background:linear-gradient(135deg,#00a79d 0%,#00c4b8 100%);padding:32px 40px;">
+                        style="background:linear-gradient(135deg,#2563eb 0%,#00c4b8 100%);padding:32px 40px;">
                         <table cellpadding="0" cellspacing="0" role="presentation" style="margin:0 auto 14px;">
                             <tr><td style="background:#ffffff;border-radius:18px;padding:8px;box-shadow:0 0 0 3px rgba(255,255,255,0.35);">
-                                <img src="https://lh3.googleusercontent.com/d/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
+                                <img src="/drive-media/1a0T3LKmzN9mow39mWYwFPGqTpmSXjNk1"
                                      width="64" height="64" alt="LDK Al-Madaniah"
                                      style="border-radius:12px;display:block;" />
                             </td></tr>
@@ -47,7 +47,7 @@
                 <!-- ── Badge row ── -->
                 <tr>
                     <td align="center" style="background:#f0fffe;padding:12px 16px;border-bottom:1px solid #e2e8f0;">
-                        <span style="display:inline-block;background:#00a79d;color:#ffffff;font-size:12px;font-weight:600;padding:4px 16px;border-radius:50px;letter-spacing:0.4px;">
+                        <span style="display:inline-block;background:#2563eb;color:#ffffff;font-size:12px;font-weight:600;padding:4px 16px;border-radius:50px;letter-spacing:0.4px;">
                             🎉 &nbsp;{{ $isResubscribe ? 'Selamat Datang Kembali!' : 'Kamu Berhasil Berlangganan!' }}
                         </span>
                     </td>
@@ -63,7 +63,7 @@
                         </h1>
                         @if($isResubscribe)
                         <p style="margin:0 0 16px;font-size:14px;color:#4a5568;line-height:1.65;">
-                            Marhaban! Senang melihatmu kembali! Email <strong style="color:#00a79d;">{{ $email }}</strong>
+                            Marhaban! Senang melihatmu kembali! Email <strong style="color:#2563eb;">{{ $email }}</strong>
                             kamu telah berhasil didaftarkan <strong>kembali</strong> ke daftar pelanggan LDK Al-Madaniah.
                         </p>
                         <p style="margin:0 0 28px;font-size:14px;color:#4a5568;line-height:1.65;">
@@ -72,7 +72,7 @@
                         </p>
                         @else
                         <p style="margin:0 0 16px;font-size:14px;color:#4a5568;line-height:1.65;">
-                            Jazakallahu Khairan Katsiiran! Email <strong style="color:#00a79d;">{{ $email }}</strong>
+                            Jazakallahu Khairan Katsiiran! Email <strong style="color:#2563eb;">{{ $email }}</strong>
                             kamu telah berhasil didaftarkan ke daftar pelanggan LDK Al-Madaniah.
                         </p>
                         <p style="margin:0 0 28px;font-size:14px;color:#4a5568;line-height:1.65;">
@@ -86,7 +86,7 @@
                                style="background:#f0fffe;border:1px solid #b2f5ea;border-radius:10px;margin-bottom:28px;">
                             <tr>
                                 <td style="padding:16px 20px;">
-                                    <p style="margin:0 0 6px;font-size:13px;font-weight:600;color:#00a79d;">
+                                    <p style="margin:0 0 6px;font-size:13px;font-weight:600;color:#2563eb;">
                                         📬 Apa yang akan kamu dapatkan?
                                     </p>
                                     <ul style="margin:0;padding-left:18px;font-size:13px;color:#4a5568;line-height:1.8;">
@@ -103,7 +103,7 @@
                         <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0 0 24px;">
                             <tr><td align="center">
                                 <a href="{{ config('app.url') }}" target="_blank" rel="noopener"
-                                   style="display:inline-block;background:#00a79d;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;padding:13px 36px;border-radius:50px;letter-spacing:0.2px;mso-padding-alt:0;border-top:13px solid #00a79d;border-bottom:13px solid #00a79d;border-left:36px solid #00a79d;border-right:36px solid #00a79d;">
+                                   style="display:inline-block;background:#2563eb;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;padding:13px 36px;border-radius:50px;letter-spacing:0.2px;mso-padding-alt:0;border-top:13px solid #2563eb;border-bottom:13px solid #2563eb;border-left:36px solid #2563eb;border-right:36px solid #2563eb;">
                                     🌐&nbsp;&nbsp;Kunjungi Website Kami
                                 </a>
                             </td></tr>

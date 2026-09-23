@@ -3,7 +3,7 @@
 /* ============================================================
    PRF — Profile Page Styles
    Warna mengikuti global style-v1.0.0.css:
-     --primary      : #00a79d
+     --primary      : #2563eb
      --primary-dark : #008f86
      --primary-light: #e0f7f5
      --warning      : #ffc107
@@ -177,7 +177,7 @@
 .prf-bio-divider {
     width: 48px;
     height: 4px;
-    background: linear-gradient(90deg, #00a79d 0%, #008f86 100%);
+    background: linear-gradient(90deg, #2563eb 0%, #008f86 100%);
     border-radius: 50rem;
     margin: 1rem 0;
 }
@@ -234,7 +234,7 @@
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #00a79d;
+    color: #2563eb;
     margin-bottom: 1.25rem;
     position: relative;
     z-index: 1;
@@ -269,7 +269,7 @@
     height: 9px;
     min-width: 9px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #00a79d 0%, #6dd5c7 100%);
+    background: linear-gradient(135deg, #2563eb 0%, #6dd5c7 100%);
     margin-top: 0.35rem;
     box-shadow: 0 0 0 2px rgba(0, 167, 157, 0.2);
     animation: prfGrow 2.4s ease-in-out infinite;
@@ -345,7 +345,7 @@
 
 /* Edit */
 .prf-btn-edit {
-    background: linear-gradient(135deg, #00a79d 0%, #008f86 100%);
+    background: linear-gradient(135deg, #2563eb 0%, #008f86 100%);
     color: #fff;
     box-shadow: 0 4px 16px rgba(0, 167, 157, 0.28);
 }
@@ -384,7 +384,7 @@
 [data-theme="dark"] .prf-name         { color: #e2e8f0; }
 [data-theme="dark"] .prf-fullname     { color: #9ca3af; }
 [data-theme="dark"] .prf-tentang      { color: #cbd5e0; }
-[data-theme="dark"] .prf-info-card    { background: #1a1f2e; border-color: rgba(0,167,157,.2); }
+[data-theme="dark"] .prf-info-card    { background: #1a1f2e; border-color: rgba(37,99,235,.2); }
 [data-theme="dark"] .prf-item-label   { color: #9ca3af; }
 [data-theme="dark"] .prf-item-value   { color: #e2e8f0; }
 [data-theme="dark"] .prf-btn-back     { background: #252b3b; color: #9ca3af; }

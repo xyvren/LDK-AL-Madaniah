@@ -22,7 +22,7 @@
                 @forelse($postnews as $key => $news)
                 <div class="news-card {{ $key === 0 ? 'news-card--featured' : '' }} news-card-animate" style="--anim-delay: {{ $key * 0.1 }}s">
                     <div class="news-card__img-wrap">
-                        <img src="https://lh3.googleusercontent.com/d/{{ $news->gdrive_id }}"
+                        <img src="/drive-media/{{ $news->gdrive_id }}"
                              alt="{{ $news->title }}"
                              class="news-card__img"
                              loading="lazy">
@@ -91,11 +91,11 @@
                      data-news-reporter="{{ $news->reporter }}"
                      data-news-editor="{{ $news->editor }}"
                      data-news-date="{{ \Carbon\Carbon::parse($news->datepublish)->isoFormat('D MMMM YYYY') }}"
-                     data-news-img="https://lh3.googleusercontent.com/d/{{ $news->gdrive_id }}"
+                     data-news-img="/drive-media/{{ $news->gdrive_id }}"
                      data-news-excerpt="{!! substr(strip_tags($news->body), 0, 200) !!}..."
                      data-news-url="{{ $news->getNewsUrl() }}">
                     <div class="news-card__img-wrap">
-                        <img src="https://lh3.googleusercontent.com/d/{{ $news->gdrive_id }}"
+                        <img src="/drive-media/{{ $news->gdrive_id }}"
                              alt="{{ $news->title }}"
                              class="news-card__img"
                              loading="lazy">
